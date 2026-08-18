@@ -498,6 +498,7 @@ function goHome() {
   state.introConcluida = false; // reset completo: a próxima entrada no shell repete a sequência de introdução
   state.mirantesVisitados = new Set();
   document.documentElement.removeAttribute("dir");
+  document.documentElement.setAttribute("lang", "pt-BR");
   // Bug reportado pelo CEO 17/08: applyLanguage() escreve o texto traduzido direto no textContent
   // dos elementos [data-i18n] — não existe um "desfazer" automático, então depois de escolher um
   // idioma de escrita não-ocidental (ex. 中文/日本語/العربية) e voltar pro Home, o rodapé (e qualquer
@@ -566,6 +567,7 @@ function buildLanguageGrid() {
 async function selectLanguage(l) {
   state.lang = l;
   document.documentElement.setAttribute("dir", l.dir || "ltr"); // árabe (ar-ma) é a única variante RTL do roster
+  document.documentElement.setAttribute("lang", l.code); // leitor de tela deve pronunciar no idioma certo, não travado em pt-BR
   await loadI18N();
   applyLanguage(l);
   $("#lang-current-flag").innerHTML = FLAG_SVG[l.code];
