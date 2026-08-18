@@ -1,0 +1,244 @@
+:root{
+  --bg:#faf7f2; --surface:#ffffff; --text:#20242b; --text-muted:#5b6270;
+  --accent:#c9822a; --accent-dark:#9c5f18; --accent-2:#2e5266; --border:#e7e1d8;
+  --warn-bg:#fdf2df; --warn-border:#d99a2b; --warn-text:#6b4409;
+  --note-bg:#eef4f6; --note-border:#4f7f95; --note-text:#20424f;
+  --ok-bg:#eef6ee; --ok-border:#4a8f52; --ok-text:#1f4a24;
+  --shadow: 0 1px 3px rgba(30,20,5,0.08), 0 8px 24px rgba(30,20,5,0.06);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#171512; --surface:#211e1a; --text:#efe9de; --text-muted:#b3aa9c;
+    --accent:#e2a24f; --accent-dark:#f0b96e; --accent-2:#7fb2c9; --border:#3a352c;
+    --warn-bg:#3a2c10; --warn-border:#e2a24f; --warn-text:#f5d99a;
+    --note-bg:#132a33; --note-border:#4f95ae; --note-text:#bfe3ef;
+    --ok-bg:#123018; --ok-border:#4a8f52; --ok-text:#b7e6bd;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.35);
+  }
+}
+*{box-sizing:border-box;}
+html,body{height:100%;}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:"Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  line-height:1.5;
+}
+/* Build 2026-08-17 (pedido do CEO): moldura de smartphone, formato 9:16 — #app é a "tela" fixa do
+   aparelho (não cresce com o conteúdo); quem rola é só o #app-screens interno, exatamente como um
+   app de celular de verdade. */
+body{ display:flex; align-items:center; justify-content:center; padding:24px 12px; }
+#app{ height:min(844px, 92vh); max-width:92vw; aspect-ratio:9/16; margin:0 auto; background:var(--surface); box-shadow:var(--shadow); border-radius:40px; border:10px solid #131313; display:flex; flex-direction:column; position:relative; overflow:hidden; }
+#app-screens{ flex:1; min-height:0; overflow-y:auto; position:relative; display:flex; flex-direction:column; }
+.screen{ display:none; flex:1; flex-direction:column; padding:20px 18px 20px; }
+.screen.active{ display:flex; }
+/* Build 2026-08-17: só screen-main/vista precisam de folga extra embaixo — é a única clearance
+   pra sticky tabbar não tampar o fim do conteúdo ao rolar. As demais telas não têm tabbar, e o
+   rodapé global não é mais overlay (virou linha normal no fluxo, ver .global-footer) — folga
+   grande de sobra em toda tela era resquício do rodapé antigo em position:fixed. */
+#screen-main, #screen-vista{ padding-bottom:64px; }
+
+/* Build 2026-08-17 (bug reportado pelo CEO): em tela sensível ao toque, tocar um card/botão
+   dispara o `:hover` do CSS mas não existe "mouse saindo" pra desligar — o destaque (borda colorida,
+   fundo) fica "preso" visualmente até o visitante tocar em outro elemento, dando a falsa impressão
+   de que a seleção anterior (idioma, plano básico/premium etc.) continua marcada mesmo depois de
+   Home resetar o estado de verdade (state.lang/state.plano já viram null em goHome() — o problema
+   era só visual). `(hover:hover) and (pointer:fine)` só é verdadeiro em dispositivo com mouse de
+   verdade, então no toque o destaque de :hover nunca chega a aparecer/ficar preso. Todos os
+   `:hover` do app ficam centralizados aqui — não espalhar `:hover` de volta nas regras originais. */
+@media (hover:hover) and (pointer:fine){
+  .btn:hover{ filter:brightness(1.06); }
+  .lang-card:hover{ border-color:var(--accent); }
+  .lang-card.disabled:hover{ border-color:var(--border); }
+  .footer-btn:hover{ background:rgba(255,255,255,.08); }
+  .plano-card:hover{ border-color:var(--accent);}
+  .plano-card.premium:hover{ border-color:var(--accent-2);}
+  .payment-option:hover{ background:rgba(255,255,255,.18);}
+  .mapa-hotspot:hover .hotspot-dot{ box-shadow:0 0 0 4px rgba(201,130,42,.28); }
+  .mapa-legend-item:hover{ background:rgba(0,0,0,.06); }
+  .card.clickable:hover{ border-color:var(--accent); }
+  .view-list li:hover{ border-color:var(--accent); }
+}
+
+/* topbar */
+.topbar{ display:flex; align-items:center; justify-content:space-between; padding:12px 16px; border-bottom:1px solid var(--border); background:var(--surface); position:sticky; top:0; z-index:20;}
+.topbar .brand{ font-weight:700; font-size:.92rem; color:var(--accent-dark);}
+.topbar .presenter-toggle{ font-size:.7rem; color:var(--text-muted); cursor:pointer; border:1px solid var(--border); border-radius:999px; padding:3px 10px; background:transparent;}
+
+.hero-entry{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:18px; padding:20px;}
+.hero-entry h1{ font-size:1.5rem; margin:0;}
+.hero-entry p{ color:var(--text-muted); font-size:.92rem; max-width:320px;}
+
+.btn{ display:inline-flex; align-items:center; justify-content:center; gap:8px; border:none; border-radius:10px; padding:13px 20px; font-size:.95rem; font-weight:600; cursor:pointer; background:var(--accent); color:#241505; box-shadow:var(--shadow); }
+.btn.secondary{ background:var(--surface); color:var(--text); border:1px solid var(--border);}
+.btn.block{ width:100%; }
+.btn.small{ padding:8px 14px; font-size:.82rem; }
+
+/* Build 2026-08-17 (pedido do CEO): card compacto (flag + nome lado a lado, sem selo "áudio
+   disponível" — os 14 idiomas do roster já têm áudio, o selo virou redundante) pra caber as 14
+   bandeiras numa tela só, sem rolagem. */
+/* Build 2026-08-17: os cards compactos deixam o bloco (título+grade) bem mais baixo que a tela —
+   centraliza verticalmente em vez de grudar no topo com uma sobra grande de branco embaixo. */
+#screen-lang{ justify-content:center; }
+.lang-grid{ display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-top:12px;}
+/* Build 2026-08-17 (pedido do CEO): card em coluna, altura dobrada — proporção fixa 2/3 bandeira,
+   1/3 nome abaixo (flex 2:1 dentro da altura fixa do card). */
+.lang-card{ height:84px; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:6px 8px; text-align:center; cursor:pointer; box-shadow:var(--shadow); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; }
+.lang-card .flag{ display:flex; align-items:center; justify-content:center; flex:2; min-height:0; }
+.lang-card .flag svg{ height:100%; width:auto; max-width:100%; border-radius:3px; box-shadow:0 0 0 1px rgba(0,0,0,.12); }
+#lang-current-flag{ display:inline-flex; vertical-align:middle; }
+#lang-current-flag svg{ width:20px; height:auto; border-radius:2px; box-shadow:0 0 0 1px rgba(0,0,0,.12); }
+.lang-card .name{ flex:1; display:flex; align-items:center; justify-content:center; font-size:.74rem; line-height:1.15; }
+.lang-card.no-audio .tag{ color:var(--text-muted); }
+.lang-card.disabled{ opacity:.45; cursor:not-allowed; }
+.lang-notice{ min-height:0; text-align:center; font-size:.8rem; color:var(--warn-text); margin-top:8px; }
+
+.entry-audio-indicator{ font-size:.78rem; color:var(--text-muted); background:var(--note-bg); border:1px solid var(--note-border); border-radius:999px; padding:6px 14px; }
+.entry-illustrations{ display:flex; gap:10px; width:100%; justify-content:center; margin-top:6px; }
+.entry-illustration{ width:calc(50% - 5px); max-width:180px; height:200px; object-fit:cover; border-radius:14px; box-shadow:var(--shadow); }
+
+/* Build 2026-08-17: dentro da moldura de celular, quem rola é #app-screens — a tabbar gruda no
+   fundo DESSA área rolável (position:sticky, não mais fixed relativo à janela do navegador). */
+.tabbar{ position:sticky; bottom:0; width:100%; display:flex; border-top:1px solid var(--border); background:var(--surface); z-index:30;}
+.tabbar button{ flex:1; background:none; border:none; padding:12px 4px 10px; font-size:.72rem; color:var(--text-muted); cursor:pointer; display:flex; flex-direction:column; align-items:center; gap:3px;}
+.tabbar button .ic{ font-size:1.15rem; }
+.tabbar button.active{ color:var(--accent-dark); font-weight:700;}
+
+/* rodapé global — Voltar / Home / Sair, sempre visível em toda tela. Fica FORA de #app-screens
+   (não rola com o conteúdo) — linha própria no rodapé da moldura do celular. */
+.global-footer{ flex-shrink:0; width:100%; height:42px; display:flex; border-top:1px solid var(--border); background:var(--table-head); z-index:31;}
+.footer-btn{ flex:1; background:none; border:none; color:var(--table-head-text); font-size:.76rem; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:6px;}
+.footer-btn .ic{ font-size:.95rem; }
+
+/* tela de escolha de plano */
+.plano-cards{ display:flex; flex-direction:column; gap:14px; margin-top:20px;}
+.plano-card{ background:var(--surface); border:2px solid var(--border); border-radius:14px; padding:22px 18px; text-align:center; cursor:pointer; box-shadow:var(--shadow); display:flex; flex-direction:column; justify-content:center;}
+.plano-card .plano-icon{ font-size:2rem; display:block; margin-bottom:8px;}
+.plano-card h3{ margin:0 0 6px; font-size:1.05rem;}
+.plano-card p{ margin:0; font-size:.84rem; color:var(--text-muted);}
+
+/* Build 2026-08-17 (pedido do CEO): tela "tipo de narração" reaproveita .plano-card, mas o 2º
+   texto (PCD) é bem mais longo que o 1º (Turística) e deixava os cards com alturas diferentes —
+   grid de 2 linhas iguais (1fr 1fr) força os dois na altura do maior, só nesta tela (screen-plano,
+   com Básico/Premium, já tinha alturas parecidas e não precisa disso). Sem título/subtítulo agora,
+   centraliza o bloco verticalmente (mesmo padrão da tela de idioma). */
+#screen-modo-narracao{ justify-content:center; }
+#screen-modo-narracao .plano-cards{ display:grid; grid-template-rows:1fr 1fr; }
+
+/* tela de espaço comercial (anúncio simulado) */
+.ad-timer{ width:56px; height:56px; border-radius:50%; border:3px solid var(--accent); display:flex; align-items:center; justify-content:center; font-size:1.4rem; font-weight:800; color:var(--accent-dark);}
+
+/* tela de pagamento simulado */
+.payment-card{ flex:1; display:flex; flex-direction:column; background:linear-gradient(160deg, var(--accent-2), #1fa088); color:#fff; border-radius:16px; padding:28px 22px; margin:6px 0;}
+.payment-kicker{ margin:0; font-size:1.1rem; opacity:.85; font-weight:300;}
+.payment-title{ margin:0 0 12px; font-size:1.8rem; font-weight:800;}
+.payment-valor{ margin:0 0 20px; font-size:.88rem; background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.3); border-radius:10px; padding:10px 14px; }
+.payment-option{ display:flex; align-items:center; gap:14px; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.4); border-radius:12px; padding:14px 16px; margin-bottom:12px; cursor:pointer; font-weight:600;}
+.payment-icon{ font-size:1.4rem; width:40px; height:40px; border-radius:50%; border:1px solid rgba(255,255,255,.5); display:flex; align-items:center; justify-content:center; flex-shrink:0;}
+.payment-disclaimer{ font-size:.72rem; opacity:.85; margin-top:auto; padding-top:14px;}
+.payment-status{ text-align:center; font-weight:700; margin-top:10px;}
+
+/* tela de vista individual — imagem/vídeo em cima, legenda embaixo (reutilizável) */
+.vista-media{ width:100%; aspect-ratio:1/1; max-height:42vh; border-radius:14px; overflow:hidden; background:linear-gradient(160deg, #2e5266 0%, #c9822a 100%); display:flex; flex-direction:column; align-items:center; justify-content:center; color:#fff; text-align:center; margin-bottom:14px; position:relative; padding:16px;}
+.vista-media .icon{ font-size:3rem;}
+.vista-media .label{ font-size:.92rem; margin-top:8px; font-weight:700; position:relative; z-index:1; text-shadow:0 1px 4px rgba(0,0,0,.55);}
+.vista-media .note{ position:absolute; bottom:8px; left:8px; right:8px; font-size:.6rem; opacity:.9; background:rgba(0,0,0,.35); border-radius:6px; padding:5px 8px;}
+.vista-lower{ background:#14181f; color:#f1eee6; border-radius:12px; padding:16px;}
+.vista-lower audio{ width:100%; margin-top:8px;}
+
+/* Descrição sensorial (Íris) abaixo da foto — só português do Brasil nesta fase (texto ainda
+   pendente de revisão antes de virar áudio, ver relatorio-fotos.md). Distinta do .caption-box,
+   que sincroniza com a narração já gravada quando ela existe. */
+.vista-media-caption{ background:var(--note-bg); border:1px solid var(--note-border); color:var(--note-text); border-radius:10px; padding:11px 13px; margin-bottom:14px; font-size:.85rem; font-style:italic; }
+.vista-media-caption .caption-tag{ display:block; font-size:.62rem; font-style:normal; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--text-muted); margin-bottom:4px; }
+
+.tab-panel{ display:none; }
+.tab-panel.active{ display:block; }
+
+/* Mapa dos 14 mirantes (aba Percurso) — imagem responsiva + hotspots clicáveis sobrepostos por % */
+.mapa-wrap{ position:relative; width:100%; border-radius:12px; overflow:hidden; box-shadow:var(--shadow); margin:14px 0; line-height:0; }
+.mapa-img{ display:block; width:100%; height:auto; }
+.mapa-hotspots{ position:absolute; inset:0; }
+/* Build 2026-08-17 (pedido do CEO): o botão é a ÁREA clicável (maior, mais fácil de acertar no
+   toque) — só o anel fino centralizado dentro dela é visível, do tamanho do círculo cinza já
+   desenhado na própria imagem do mapa, pra não tampar o número nem o desenho com um blob sólido. */
+.mapa-hotspot{ position:absolute; transform:translate(-50%,-50%); width:38px; height:38px; padding:0; margin:0; border:none; background:none; cursor:pointer; }
+.mapa-hotspot .hotspot-dot{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:19px; height:19px; border-radius:50%; border:2.5px solid transparent; background:transparent; box-sizing:border-box; transition:border-color .12s, box-shadow .12s; }
+
+/* Tela de transição segurança → história: mapa do complexo, toque em qualquer ponto para avançar */
+.mapa-clicavel{ display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px; flex:1; cursor:pointer; }
+.mapa-imagem{ display:block; width:100%; max-height:64vh; object-fit:contain; border-radius:12px; box-shadow:var(--shadow); background:var(--surface); }
+.mapa-instrucao{ font-size:.9rem; font-weight:600; color:var(--text-muted); text-align:center; animation:mapa-pulso 1.8s ease-in-out infinite; }
+@keyframes mapa-pulso{ 0%,100%{ opacity:.6; } 50%{ opacity:1; } }
+.mapa-hotspot .hotspot-badge{ position:absolute; top:-2px; right:-2px; font-size:.6rem; line-height:1; }
+/* Build 2026-08-17 (pedido do CEO): verde = ponto ainda não aberto nesta sessão, vermelho = já
+   aberto — só a cor da borda do anel muda, sem preenchimento, pra deixar o desenho do mapa visível
+   por dentro. ".visitado" tem que vir depois de ".funcional"/".preview" no CSS pra sobrepor a cor default. */
+.mapa-hotspot.funcional .hotspot-dot{ border-color:#3f9a4d; }
+.mapa-hotspot.preview .hotspot-dot{ border-color:var(--accent); }
+.mapa-hotspot.visitado .hotspot-dot{ border-color:#d1453a; }
+
+/* Build 2026-08-17 (pedido do CEO): a imagem base do mapa (mapa_mirantes.png) tem 3 rótulos de
+   marco e a legenda dos 14 mirantes gravados em pixel, só em português — estes cards cobrem esse
+   texto com fundo opaco e mostram a tradução no idioma ativo (ver renderMapaLabels() em app.js,
+   chamada em applyLang()). Posições calibradas visualmente contra a imagem (582×380px original). */
+.mapa-landmark-card{ position:absolute; max-width:38%; padding:2px 5px; background:#fdfdfdee; color:#1a1a1a;
+  font-weight:800; font-size:.64rem; line-height:1.15; text-align:center; border-radius:3px; letter-spacing:.01em; }
+.mapa-landmark-praia{ left:.8%; top:15.5%; max-width:34%; text-align:left; }
+.mapa-landmark-urca{ left:43%; top:2%; max-width:32%; }
+.mapa-landmark-acucar{ left:76%; top:2%; max-width:24%; text-align:right; }
+.mapa-legend-cover{ position:absolute; left:14%; top:50%; width:86%; height:47%; background:#fdfdfdf5; }
+.mapa-legend-grid{ position:absolute; inset:0; display:grid; grid-template-columns:1fr 1fr; column-gap:6px;
+  row-gap:0; align-content:space-evenly; padding:2px 3%; box-sizing:border-box; }
+.mapa-legend-item{ display:flex; align-items:center; gap:5px; font-size:.56rem; line-height:1.1; color:#333; overflow:hidden;
+  border:none; padding:2px 1px; margin:0; background:none; font-family:inherit; text-align:left; cursor:pointer; border-radius:4px; }
+.mapa-legend-item:focus-visible{ background:rgba(0,0,0,.06); }
+.mapa-legend-item .legend-num{ flex:none; width:15px; height:15px; border-radius:50%; background:#3f9a4d; color:#fff;
+  font-size:.5rem; font-weight:700; display:flex; align-items:center; justify-content:center; transition:background .12s; }
+.mapa-legend-item.visitado .legend-num{ background:#d1453a; }
+.mapa-legend-item .legend-nome{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+[dir="rtl"] .mapa-legend-item{ direction:rtl; text-align:right; }
+
+.card{ background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin-bottom:14px; box-shadow:var(--shadow); }
+.card h3{ margin:0 0 6px; font-size:.98rem; }
+.card p{ margin:4px 0; font-size:.86rem; color:var(--text-muted); }
+.card.clickable{ cursor:pointer; }
+
+.alert{ border-radius:10px; padding:12px 14px; margin:12px 0; border:1px solid; font-size:.84rem;}
+.alert-warning{ background:var(--warn-bg); border-color:var(--warn-border); color:var(--warn-text);}
+.alert-note{ background:var(--note-bg); border-color:var(--note-border); color:var(--note-text);}
+.alert-ok{ background:var(--ok-bg); border-color:var(--ok-border); color:var(--ok-text);}
+
+.badge{ display:inline-block; font-size:.66rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em; padding:3px 9px; border-radius:999px; margin-bottom:8px;}
+.badge.real{ background:var(--ok-bg); color:var(--ok-text); border:1px solid var(--ok-border);}
+.badge.stub{ background:var(--warn-bg); color:var(--warn-text); border:1px solid var(--warn-border);}
+.badge.sim{ background:var(--note-bg); color:var(--note-text); border:1px solid var(--note-border);}
+
+.caption-box{ background:rgba(0,0,0,.55); color:#fff; border-radius:8px; padding:10px 12px; margin-top:10px; font-size:.86rem; min-height:44px; display:flex; align-items:center;}
+
+.view-list{ list-style:none; padding:0; margin:0; }
+.view-list li{ background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:11px 14px; margin-bottom:8px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; font-size:.88rem;}
+.view-list li .dot{ font-size:.65rem; }
+
+.settings-item{ display:flex; align-items:center; justify-content:space-between; padding:12px 4px; border-bottom:1px solid var(--border); font-size:.9rem; cursor:pointer;}
+.settings-item:last-child{ border-bottom:none; }
+.toggle{ width:40px; height:22px; border-radius:999px; background:var(--border); position:relative; cursor:pointer; flex-shrink:0; }
+.toggle.on{ background:var(--accent);}
+.toggle .knob{ position:absolute; top:2px; left:2px; width:18px; height:18px; border-radius:50%; background:#fff; transition:left .15s; }
+.toggle.on .knob{ left:20px; }
+
+.modal-overlay{ position:absolute; inset:0; background:rgba(10,8,5,.5); display:none; align-items:center; justify-content:center; z-index:100; padding:20px; border-radius:inherit; }
+.modal-overlay.show{ display:flex; }
+.modal-box{ background:var(--surface); border-radius:14px; padding:22px 20px; max-width:360px; box-shadow:var(--shadow); text-align:center;}
+.modal-box .big{ font-size:1.6rem; margin-bottom:6px;}
+.modal-box h4{ margin:0 0 8px; font-size:1.02rem;}
+.modal-box p{ font-size:.86rem; color:var(--text-muted); margin:0 0 16px;}
+
+.brinde-flow{ text-align:center; padding:10px 0;}
+.brinde-flow img{ max-width:100%; border-radius:10px; box-shadow:var(--shadow); margin:14px 0;}
+.spinner{ width:34px; height:34px; border:3px solid var(--border); border-top-color:var(--accent); border-radius:50%; margin:20px auto; animation:spin 1s linear infinite;}
+@keyframes spin{ to{ transform:rotate(360deg); } }
+
+h2.screen-title{ font-size:1.1rem; margin:0 0 4px;}
+p.screen-sub{ font-size:.8rem; color:var(--text-muted); margin:0 0 14px;}
+
+[dir="rtl"]{ direction:rtl; }

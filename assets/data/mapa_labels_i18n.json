@@ -1,0 +1,107 @@
+{
+  "_nota": "Traduções dos rótulos gravados na imagem assets/img/mapa_mirantes.png (3 marcos + legenda de 14 mirantes), usadas pelos cards de sobreposição no mapa (Percurso). Feitas diretamente por Segunda-feira em 2026-08-17 (texto curto de UI, mesma regra do projeto para não acionar agente) — landmarks (praia_vermelha/morro_urca/pao_acucar) reaproveitam os termos já validados pelos especialistas na expansão multilíngue dos roteiros; os 14 nomes de mirante são construção direta, não passaram por calibração de locucao-xx. Chaves de idioma = mesmo i18nKey usado em i18n.json/captions.json.",
+  "praia_vermelha": {
+    "pt": "Praia Vermelha", "pt-pt": "Praia Vermelha", "en": "Praia Vermelha", "en-gb": "Praia Vermelha",
+    "es": "Praia Vermelha", "es-ar": "Praia Vermelha", "fr": "Praia Vermelha", "de-de": "Praia Vermelha",
+    "it": "Praia Vermelha", "zh-cn": "红海滩", "zh-tw": "紅灘", "ja-jp": "ヴェルメーリャ浜",
+    "ru-ru": "Красный пляж", "ar-ma": "الشاطئ الأحمر"
+  },
+  "morro_urca": {
+    "pt": "Morro da Urca", "pt-pt": "Morro da Urca", "en": "Morro da Urca", "en-gb": "Morro da Urca",
+    "es": "Morro da Urca", "es-ar": "Morro da Urca", "fr": "Morro da Urca", "de-de": "Morro da Urca",
+    "it": "Morro da Urca", "zh-cn": "乌尔卡山", "zh-tw": "烏爾卡山", "ja-jp": "ウルカ山",
+    "ru-ru": "Морру-да-Урка", "ar-ma": "تلة أوركا"
+  },
+  "pao_acucar": {
+    "pt": "Pão de Açúcar", "pt-pt": "Pão de Açúcar", "en": "Pão de Açúcar", "en-gb": "Pão de Açúcar",
+    "es": "Pão de Açúcar", "es-ar": "Pão de Açúcar", "fr": "Pão de Açúcar", "de-de": "Pão de Açúcar",
+    "it": "Pão de Açúcar", "zh-cn": "甜面包山", "zh-tw": "糖麵包山", "ja-jp": "ポン・ジ・アスーカル",
+    "ru-ru": "Сахарная голова", "ar-ma": "جبل رغيف السكر"
+  },
+  "mirantes": {
+    "1": {
+      "pt": "Mirante Despertar", "pt-pt": "Mirante Despertar", "en": "Awakening Lookout", "en-gb": "Awakening Viewpoint",
+      "es": "Mirador Despertar", "es-ar": "Mirador Despertar", "fr": "Belvédère Éveil", "de-de": "Aussichtspunkt Erwachen",
+      "it": "Belvedere Risveglio", "zh-cn": "苏醒观景台", "zh-tw": "甦醒觀景台", "ja-jp": "目覚め展望台",
+      "ru-ru": "Смотровая площадка «Пробуждение»", "ar-ma": "مرصد الصحوة"
+    },
+    "2": {
+      "pt": "Mirante Santuário Marinho", "pt-pt": "Mirante Santuário Marinho", "en": "Marine Sanctuary Lookout", "en-gb": "Marine Sanctuary Viewpoint",
+      "es": "Mirador Santuario Marino", "es-ar": "Mirador Santuario Marino", "fr": "Belvédère Sanctuaire Marin", "de-de": "Aussichtspunkt Meeresschutzgebiet",
+      "it": "Belvedere Santuario Marino", "zh-cn": "海洋保护区观景台", "zh-tw": "海洋保護區觀景台", "ja-jp": "海洋保護区展望台",
+      "ru-ru": "Смотровая площадка «Морской заповедник»", "ar-ma": "مرصد المحمية البحرية"
+    },
+    "3": {
+      "pt": "Mirante dos Pioneiros", "pt-pt": "Mirante dos Pioneiros", "en": "Pioneers' Lookout", "en-gb": "Pioneers' Viewpoint",
+      "es": "Mirador de los Pioneros", "es-ar": "Mirador de los Pioneros", "fr": "Belvédère des Pionniers", "de-de": "Aussichtspunkt der Pioniere",
+      "it": "Belvedere dei Pionieri", "zh-cn": "先驱观景台", "zh-tw": "先驅觀景台", "ja-jp": "パイオニア展望台",
+      "ru-ru": "Смотровая площадка «Первопроходцев»", "ar-ma": "مرصد الرواد"
+    },
+    "4": {
+      "pt": "Mirante dos Navegadores", "pt-pt": "Mirante dos Navegadores", "en": "Navigators' Lookout", "en-gb": "Navigators' Viewpoint",
+      "es": "Mirador de los Navegantes", "es-ar": "Mirador de los Navegantes", "fr": "Belvédère des Navigateurs", "de-de": "Aussichtspunkt der Seefahrer",
+      "it": "Belvedere dei Navigatori", "zh-cn": "航海家观景台", "zh-tw": "航海家觀景台", "ja-jp": "航海者展望台",
+      "ru-ru": "Смотровая площадка «Мореплавателей»", "ar-ma": "مرصد الملاحين"
+    },
+    "5": {
+      "pt": "Mirante Fortaleza de S. João", "pt-pt": "Mirante Fortaleza de S. João", "en": "St. John's Fortress Lookout", "en-gb": "St. John's Fortress Viewpoint",
+      "es": "Mirador Fortaleza de San Juan", "es-ar": "Mirador Fortaleza de San Juan", "fr": "Belvédère Fort Saint-Jean", "de-de": "Aussichtspunkt Festung São João",
+      "it": "Belvedere Forte di San Giovanni", "zh-cn": "圣若昂堡观景台", "zh-tw": "聖若昂堡觀景台", "ja-jp": "サン・ジョアン要塞展望台",
+      "ru-ru": "Смотровая площадка «Крепость Сан-Жуан»", "ar-ma": "مرصد قلعة القديس جوان"
+    },
+    "6": {
+      "pt": "Mirante Guardião da Pedra", "pt-pt": "Mirante Guardião da Pedra", "en": "Rock Guardian Lookout", "en-gb": "Rock Guardian Viewpoint",
+      "es": "Mirador Guardián de la Piedra", "es-ar": "Mirador Guardián de la Piedra", "fr": "Belvédère Gardien de la Pierre", "de-de": "Aussichtspunkt Wächter des Felsens",
+      "it": "Belvedere Guardiano della Roccia", "zh-cn": "岩石守护者观景台", "zh-tw": "岩石守護者觀景台", "ja-jp": "岩の守護者展望台",
+      "ru-ru": "Смотровая площадка «Страж Скалы»", "ar-ma": "مرصد حارس الصخرة"
+    },
+    "7": {
+      "pt": "Mirante das Mulheres", "pt-pt": "Mirante das Mulheres", "en": "Women's Lookout", "en-gb": "Women's Viewpoint",
+      "es": "Mirador de las Mujeres", "es-ar": "Mirador de las Mujeres", "fr": "Belvédère des Femmes", "de-de": "Aussichtspunkt der Frauen",
+      "it": "Belvedere delle Donne", "zh-cn": "女性观景台", "zh-tw": "女性觀景台", "ja-jp": "女性展望台",
+      "ru-ru": "Смотровая площадка «Женщин»", "ar-ma": "مرصد النساء"
+    },
+    "8": {
+      "pt": "Mirante da Biodiversidade", "pt-pt": "Mirante da Biodiversidade", "en": "Biodiversity Lookout", "en-gb": "Biodiversity Viewpoint",
+      "es": "Mirador de la Biodiversidad", "es-ar": "Mirador de la Biodiversidad", "fr": "Belvédère de la Biodiversité", "de-de": "Aussichtspunkt der Biodiversität",
+      "it": "Belvedere della Biodiversità", "zh-cn": "生物多样性观景台", "zh-tw": "生物多樣性觀景台", "ja-jp": "生物多様性展望台",
+      "ru-ru": "Смотровая площадка «Биоразнообразия»", "ar-ma": "مرصد التنوع البيولوجي"
+    },
+    "9": {
+      "pt": "Mirante Bossa Nova", "pt-pt": "Mirante Bossa Nova", "en": "Bossa Nova Lookout", "en-gb": "Bossa Nova Viewpoint",
+      "es": "Mirador Bossa Nova", "es-ar": "Mirador Bossa Nova", "fr": "Belvédère Bossa Nova", "de-de": "Aussichtspunkt Bossa Nova",
+      "it": "Belvedere Bossa Nova", "zh-cn": "波萨诺瓦观景台", "zh-tw": "波薩諾瓦觀景台", "ja-jp": "ボサノヴァ展望台",
+      "ru-ru": "Смотровая площадка «Босса-нова»", "ar-ma": "مرصد بوسا نوفا"
+    },
+    "10": {
+      "pt": "Mirante dos Escaladores", "pt-pt": "Mirante dos Escaladores", "en": "Climbers' Lookout", "en-gb": "Climbers' Viewpoint",
+      "es": "Mirador de los Escaladores", "es-ar": "Mirador de los Escaladores", "fr": "Belvédère des Grimpeurs", "de-de": "Aussichtspunkt der Kletterer",
+      "it": "Belvedere degli Scalatori", "zh-cn": "攀登者观景台", "zh-tw": "攀登者觀景台", "ja-jp": "クライマー展望台",
+      "ru-ru": "Смотровая площадка «Скалолазов»", "ar-ma": "مرصد المتسلقين"
+    },
+    "11": {
+      "pt": "Mirante Pq. Bondinho do Pão de Açúcar", "pt-pt": "Mirante Pq. Teleférico do Pão de Açúcar", "en": "Pão de Açúcar Cable Car Park", "en-gb": "Pão de Açúcar Cable Car Park",
+      "es": "Parque Teleférico Pão de Açúcar", "es-ar": "Parque Teleférico Pão de Açúcar", "fr": "Parc du Téléphérique Pão de Açúcar", "de-de": "Seilbahnpark Pão de Açúcar",
+      "it": "Parco della Funivia Pão de Açúcar", "zh-cn": "甜面包山缆车公园", "zh-tw": "糖麵包山纜車樂園", "ja-jp": "ポン・ジ・アスーカル・ロープウェイパーク",
+      "ru-ru": "Парк канатной дороги «Сахарная Голова»", "ar-ma": "حديقة التلفريك جبل رغيف السكر"
+    },
+    "12": {
+      "pt": "Mirante dos 400", "pt-pt": "Mirante dos 400", "en": "400th Anniversary Lookout", "en-gb": "400th Anniversary Viewpoint",
+      "es": "Mirador de los 400", "es-ar": "Mirador de los 400", "fr": "Belvédère des 400 ans", "de-de": "Aussichtspunkt der 400 Jahre",
+      "it": "Belvedere dei 400 anni", "zh-cn": "400周年观景台", "zh-tw": "400週年觀景台", "ja-jp": "400周年展望台",
+      "ru-ru": "Смотровая площадка «400-летия»", "ar-ma": "مرصد الـ400"
+    },
+    "13": {
+      "pt": "Mirante do Gigante", "pt-pt": "Mirante do Gigante", "en": "Giant's Lookout", "en-gb": "Giant's Viewpoint",
+      "es": "Mirador del Gigante", "es-ar": "Mirador del Gigante", "fr": "Belvédère du Géant", "de-de": "Aussichtspunkt des Riesen",
+      "it": "Belvedere del Gigante", "zh-cn": "巨人观景台", "zh-tw": "巨人觀景台", "ja-jp": "巨人展望台",
+      "ru-ru": "Смотровая площадка «Великана»", "ar-ma": "مرصد العملاق"
+    },
+    "14": {
+      "pt": "Mirante Fortaleza de Santa Cruz", "pt-pt": "Mirante Fortaleza de Santa Cruz", "en": "Santa Cruz Fortress Lookout", "en-gb": "Santa Cruz Fortress Viewpoint",
+      "es": "Mirador Fortaleza de Santa Cruz", "es-ar": "Mirador Fortaleza de Santa Cruz", "fr": "Belvédère Fort Santa Cruz", "de-de": "Aussichtspunkt Festung Santa Cruz",
+      "it": "Belvedere Forte di Santa Cruz", "zh-cn": "圣克鲁斯堡观景台", "zh-tw": "聖克魯斯堡觀景台", "ja-jp": "サンタ・クルス要塞展望台",
+      "ru-ru": "Смотровая площадка «Крепость Санта-Круз»", "ar-ma": "مرصد قلعة سانتا كروز"
+    }
+  }
+}

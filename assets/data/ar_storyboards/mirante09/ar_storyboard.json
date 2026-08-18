@@ -1,0 +1,1860 @@
+{
+ "mirante_id": "mirante09",
+ "base_image": "prototipo/assets/img/mirantes/mirante09_bossanova.jpg",
+ "image_size": [
+  1181,
+  477
+ ],
+ "crop_source_lang": "pt",
+ "timing_nota": "Os crops (crop_px) sao os mesmos para todos os idiomas — calibrados uma unica vez em pt. O tempo (start/end) de pt vem do timing real por frase (captions.json); os demais 13 idiomas sao recalculados proporcionalmente pela duracao real do audio daquele idioma, mantendo a mesma ordem e a mesma proporcao relativa de cada shot — aproximacao deliberada, nao um realinhamento frase-a-frase por idioma.",
+ "langs": {
+  "pt": {
+   "duration_total": 98.14,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 28.86,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 28.86,
+     "end": 31.86,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 31.86,
+     "end": 55.63,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 55.63,
+     "end": 58.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 58.63,
+     "end": 69.74,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 69.74,
+     "end": 72.74,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 72.74,
+     "end": 87.49,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 87.49,
+     "end": 90.49,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 90.49,
+     "end": 98.14,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "pt-pt": {
+   "duration_total": 110.18,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 32.4,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 32.4,
+     "end": 35.77,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 35.77,
+     "end": 62.45,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 62.45,
+     "end": 65.82,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 65.82,
+     "end": 78.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 78.3,
+     "end": 81.66,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 81.66,
+     "end": 98.22,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 98.22,
+     "end": 101.59,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 101.59,
+     "end": 110.18,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "en": {
+   "duration_total": 104.98,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 30.87,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.87,
+     "end": 34.08,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 34.08,
+     "end": 59.51,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 59.51,
+     "end": 62.72,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 62.72,
+     "end": 74.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 74.6,
+     "end": 77.81,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 77.81,
+     "end": 93.59,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 93.59,
+     "end": 96.8,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 96.8,
+     "end": 104.98,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "en-gb": {
+   "duration_total": 105.84,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 31.12,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 31.12,
+     "end": 34.36,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 34.36,
+     "end": 59.99,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 59.99,
+     "end": 63.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 63.23,
+     "end": 75.21,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 75.21,
+     "end": 78.45,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 78.45,
+     "end": 94.35,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 94.35,
+     "end": 97.59,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 97.59,
+     "end": 105.84,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "es": {
+   "duration_total": 102.7,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 30.2,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.2,
+     "end": 33.34,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 33.34,
+     "end": 58.21,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 58.21,
+     "end": 61.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 61.35,
+     "end": 72.98,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 72.98,
+     "end": 76.12,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 76.12,
+     "end": 91.56,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 91.56,
+     "end": 94.69,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 94.69,
+     "end": 102.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration_total": 111.62,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 32.82,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 32.82,
+     "end": 36.24,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 36.24,
+     "end": 63.27,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 63.27,
+     "end": 66.68,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 66.68,
+     "end": 79.32,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 79.32,
+     "end": 82.73,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 82.73,
+     "end": 99.51,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 99.51,
+     "end": 102.92,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 102.92,
+     "end": 111.62,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "fr": {
+   "duration_total": 107.4,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 31.58,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 31.58,
+     "end": 34.87,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 34.87,
+     "end": 60.88,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 60.88,
+     "end": 64.16,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 64.16,
+     "end": 76.32,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 76.32,
+     "end": 79.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 79.6,
+     "end": 95.75,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 95.75,
+     "end": 99.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 99.03,
+     "end": 107.4,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "de-de": {
+   "duration_total": 128.9,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 37.91,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 37.91,
+     "end": 41.85,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 41.85,
+     "end": 73.07,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 73.07,
+     "end": 77.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 77.01,
+     "end": 91.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 91.6,
+     "end": 95.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 95.54,
+     "end": 114.91,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 114.91,
+     "end": 118.85,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 118.85,
+     "end": 128.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "it": {
+   "duration_total": 113.81,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 33.47,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 33.47,
+     "end": 36.95,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 36.95,
+     "end": 64.51,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 64.51,
+     "end": 67.99,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 67.99,
+     "end": 80.88,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 80.88,
+     "end": 84.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 84.35,
+     "end": 101.46,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 101.46,
+     "end": 104.94,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 104.94,
+     "end": 113.81,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration_total": 112.3,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 33.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 33.02,
+     "end": 36.46,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 36.46,
+     "end": 63.66,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 63.66,
+     "end": 67.09,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 67.09,
+     "end": 79.8,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 79.8,
+     "end": 83.24,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 83.24,
+     "end": 100.11,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 100.11,
+     "end": 103.55,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 103.55,
+     "end": 112.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "zh-tw": {
+   "duration_total": 126.38,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 37.16,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 37.16,
+     "end": 41.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 41.03,
+     "end": 71.64,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 71.64,
+     "end": 75.5,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 75.5,
+     "end": 89.81,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 89.81,
+     "end": 93.67,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 93.67,
+     "end": 112.67,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 112.67,
+     "end": 116.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 116.53,
+     "end": 126.38,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "ja-jp": {
+   "duration_total": 132.6,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 38.99,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.99,
+     "end": 43.05,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 43.05,
+     "end": 75.16,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 75.16,
+     "end": 79.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 79.22,
+     "end": 94.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 94.23,
+     "end": 98.28,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 98.28,
+     "end": 118.21,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 118.21,
+     "end": 122.26,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 122.26,
+     "end": 132.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "ru-ru": {
+   "duration_total": 118.75,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 34.92,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 34.92,
+     "end": 38.55,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 38.55,
+     "end": 67.31,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 67.31,
+     "end": 70.94,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 70.94,
+     "end": 84.39,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 84.39,
+     "end": 88.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 88.02,
+     "end": 105.86,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 105.86,
+     "end": 109.49,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 109.49,
+     "end": 118.75,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  },
+  "ar-ma": {
+   "duration_total": 140.57,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena — mar aberto em direção a Copacabana (plano geral completo)",
+     "secao_roteiro": "1. Abertura — identificação do mirante",
+     "start": 0.0,
+     "end": 41.34,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — cobre a abertura ('o mar se abre em direção a Copacabana'), o batismo do nome em 2021 (Circuito Histórico dos Mirantes/IPHAN) e a menção de que a bossa nova nasceu 'nessa mesma paisagem'."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 41.34,
+     "end": 45.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "copacabana",
+     "marco": "Copacabana (praia em curva e orla urbanizada)",
+     "secao_roteiro": "2. Contexto histórico — nascimento da bossa nova",
+     "start": 45.63,
+     "end": 79.68,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      560,
+      55,
+      1181,
+      240
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "O roteiro cita 'apartamentos e bares de Copacabana e Ipanema'; só a orla de Copacabana é visível nesta foto (Ipanema fica atrás do morro à direita, fora do enquadramento) — recorte referencia apenas a porção de fato visível. Praia em curva é estruturalmente alongada — varredura reforça o arco da orla."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_copacabana_00_planogeral_ressalva",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 79.68,
+     "end": 83.98,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_ressalva",
+     "marco": "Paisagem do Pão de Açúcar (plano geral, reforço — ressalva histórica)",
+     "secao_roteiro": "3. Ressalva — sem registro de show/composição aqui",
+     "start": 83.98,
+     "end": 99.89,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — o roteiro reforça que o elo deste trecho é 'de paisagem e de época', não uma cena específica deste alto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_ressalva_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 99.89,
+     "end": 104.19,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (elo mais recente — estreia de \"O Bondinho\", 2022)",
+     "secao_roteiro": "4. Elo com o morro — Roberto Menescal e \"O Bondinho\"",
+     "start": 104.19,
+     "end": 125.32,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      260,
+      160,
+      860,
+      477
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Promontório florestado em primeiro plano identificado por posição geográfica (base do bondinho, 'logo abaixo deste mirante') como Morro da Urca — o anfiteatro citado no roteiro não é distinguível nesta resolução/distância, então o recorte é o morro como um todo, não a estrutura do anfiteatro. Cluster de dois picos sem linearidade clara — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 125.32,
+     "end": 129.61,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_final",
+     "marco": "Plano geral (encerramento — \"acorde de violão: suave, aberto, genuinamente carioca\")",
+     "secao_roteiro": "5. Encerramento",
+     "start": 129.61,
+     "end": 140.57,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura, fechando a sequência no mesmo plano geral."
+    }
+   ]
+  }
+ }
+}

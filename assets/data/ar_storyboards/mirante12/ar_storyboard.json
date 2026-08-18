@@ -1,0 +1,1860 @@
+{
+ "mirante_id": "mirante12",
+ "base_image": "assets/img/mirantes/mirante12_400.jpg",
+ "image_size": [
+  1140,
+  517
+ ],
+ "crop_source_lang": "pt",
+ "timing_nota": "Os crops (crop_px) sao os mesmos para todos os idiomas — calibrados uma unica vez em pt. O tempo (start/end) de pt vem do timing real por frase (captions.json); os demais 13 idiomas sao recalculados proporcionalmente pela duracao real do audio daquele idioma, mantendo a mesma ordem e a mesma proporcao relativa de cada shot — aproximacao deliberada, nao um realinhamento frase-a-frase por idioma.",
+ "langs": {
+  "pt": {
+   "duration_total": 98.35,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 38.05,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.05,
+     "end": 41.05,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 41.05,
+     "end": 49.06,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 49.06,
+     "end": 52.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 52.06,
+     "end": 78.59,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 78.59,
+     "end": 81.59,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 81.59,
+     "end": 88.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 88.35,
+     "end": 91.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 91.35,
+     "end": 98.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "pt-pt": {
+   "duration_total": 110.54,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 42.77,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 42.77,
+     "end": 46.14,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 46.14,
+     "end": 55.14,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 55.14,
+     "end": 58.51,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 58.51,
+     "end": 88.33,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 88.33,
+     "end": 91.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 91.7,
+     "end": 99.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 99.3,
+     "end": 102.67,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 102.67,
+     "end": 110.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "en": {
+   "duration_total": 103.42,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 40.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 40.01,
+     "end": 43.17,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 43.17,
+     "end": 51.59,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 51.59,
+     "end": 54.74,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 54.74,
+     "end": 82.64,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 82.64,
+     "end": 85.8,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 85.8,
+     "end": 92.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 92.9,
+     "end": 96.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 96.06,
+     "end": 103.42,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "en-gb": {
+   "duration_total": 100.39,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 38.84,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.84,
+     "end": 41.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 41.9,
+     "end": 50.08,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 50.08,
+     "end": 53.14,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 53.14,
+     "end": 80.22,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 80.22,
+     "end": 83.28,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 83.28,
+     "end": 90.18,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 90.18,
+     "end": 93.24,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 93.24,
+     "end": 100.39,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "es": {
+   "duration_total": 106.03,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 41.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 41.02,
+     "end": 44.26,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 44.26,
+     "end": 52.89,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 52.89,
+     "end": 56.13,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 56.13,
+     "end": 84.73,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 84.73,
+     "end": 87.96,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 87.96,
+     "end": 95.25,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 95.25,
+     "end": 98.48,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 98.48,
+     "end": 106.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "fr": {
+   "duration_total": 106.44,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 41.18,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 41.18,
+     "end": 44.43,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 44.43,
+     "end": 53.1,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 53.1,
+     "end": 56.34,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 56.34,
+     "end": 85.05,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 85.05,
+     "end": 88.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 88.3,
+     "end": 95.62,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 95.62,
+     "end": 98.86,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 98.86,
+     "end": 106.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration_total": 113.88,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 44.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 44.06,
+     "end": 47.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 47.53,
+     "end": 56.81,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 56.81,
+     "end": 60.28,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 60.28,
+     "end": 91.0,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 91.0,
+     "end": 94.47,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 94.47,
+     "end": 102.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 102.3,
+     "end": 105.77,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 105.77,
+     "end": 113.88,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "de-de": {
+   "duration_total": 122.9,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 47.55,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 47.55,
+     "end": 51.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 51.3,
+     "end": 61.31,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 61.31,
+     "end": 65.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 65.06,
+     "end": 98.21,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 98.21,
+     "end": 101.96,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 101.96,
+     "end": 110.4,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 110.4,
+     "end": 114.15,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 114.15,
+     "end": 122.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "it": {
+   "duration_total": 115.85,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 44.82,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 44.82,
+     "end": 48.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 48.35,
+     "end": 57.79,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 57.79,
+     "end": 61.32,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 61.32,
+     "end": 92.57,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 92.57,
+     "end": 96.11,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 96.11,
+     "end": 104.07,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 104.07,
+     "end": 107.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 107.6,
+     "end": 115.85,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration_total": 103.78,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 40.15,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 40.15,
+     "end": 43.32,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 43.32,
+     "end": 51.77,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 51.77,
+     "end": 54.93,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 54.93,
+     "end": 82.93,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 82.93,
+     "end": 86.09,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 86.09,
+     "end": 93.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 93.23,
+     "end": 96.39,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 96.39,
+     "end": 103.78,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "zh-tw": {
+   "duration_total": 115.34,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 44.62,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 44.62,
+     "end": 48.14,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 48.14,
+     "end": 57.54,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 57.54,
+     "end": 61.05,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 61.05,
+     "end": 92.17,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 92.17,
+     "end": 95.68,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 95.68,
+     "end": 103.61,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 103.61,
+     "end": 107.13,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 107.13,
+     "end": 115.34,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "ar-ma": {
+   "duration_total": 125.3,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 48.48,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 48.48,
+     "end": 52.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 52.3,
+     "end": 62.5,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 62.5,
+     "end": 66.33,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 66.33,
+     "end": 100.13,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 100.13,
+     "end": 103.95,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 103.95,
+     "end": 112.56,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 112.56,
+     "end": 116.38,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 116.38,
+     "end": 125.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "ja-jp": {
+   "duration_total": 121.49,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 47.0,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 47.0,
+     "end": 50.71,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 50.71,
+     "end": 60.6,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 60.6,
+     "end": 64.31,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 64.31,
+     "end": 97.08,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 97.08,
+     "end": 100.79,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 100.79,
+     "end": 109.14,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 109.14,
+     "end": 112.84,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 112.84,
+     "end": 121.49,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  },
+  "ru-ru": {
+   "duration_total": 112.63,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo) — origem do nome \"dos 400\"",
+     "secao_roteiro": "1. Abertura / origem do nome",
+     "start": 0.0,
+     "end": 43.57,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Trecho fala da origem incerta do nome do mirante (altitude do Pão de Açúcar / 400 anos do Rio), sem marco específico visível nesta foto (o Pão de Açúcar está atrás do ponto de observação, fora de quadro) — plano geral com pan contínuo em vez de recorte parado."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_praiavermelha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 43.57,
+     "end": 47.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "praiavermelha",
+     "marco": "Praia Vermelha (enseada entre Pão de Açúcar e Morro do Leme)",
+     "secao_roteiro": "2. Vista revelada — Praia Vermelha",
+     "start": 47.01,
+     "end": 56.18,
+     "file": "praiavermelha.jpg",
+     "crop_px": [
+      600,
+      200,
+      1060,
+      510
+     ],
+     "pan": "micro",
+     "confidence": "média",
+     "nota": "Enseada verde-turquesa com barcos ancorados entre os dois costões florestados em primeiro plano — corresponde à descrição do roteiro (\"enseada entre o Pão de Açúcar e o Morro do Leme\"), mas a foto não permite confirmar com certeza absoluta qual dos dois costões é qual morro (ver hedge equivalente no roteiro-fonte). Cluster compacto (headlands + enseada), não uma faixa linear longa — varredura discreta (micro), não plena."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_praiavermelha_copacabana",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 56.18,
+     "end": 59.62,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "copacabana",
+     "marco": "Curva de Copacabana (praia, orla e história do nome/bairro)",
+     "secao_roteiro": "2. Vista revelada — Copacabana",
+     "start": 59.62,
+     "end": 90.0,
+     "file": "copacabana.jpg",
+     "crop_px": [
+      460,
+      110,
+      970,
+      300
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Curva de praia claramente identificável, batendo com descricaoIris (\"a praia de Copacabana traça uma longa curva clara entre a água azul-acinzentada e a fileira de prédios da orla\"). Cobre os 4 segmentos consecutivos sobre Copacabana (curva/extensão, origem quéchua do nome, capela/Forte de Copacabana, incorporação à cidade em 1892) — mesmo enquadramento ao longo de toda a menção ao bairro, sem trocar de recorte a cada frase. Curva de litoral é estruturalmente alongada e o áudio descreve explicitamente a extensão (\"se estende até o horizonte\") — varredura reforça o texto."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_copacabana_planogeral_litoral",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 90.0,
+     "end": 93.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_litoral",
+     "marco": "Litoral inteiro num só olhar (reforço, plano geral)",
+     "secao_roteiro": "3. Síntese",
+     "start": 93.44,
+     "end": 101.18,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. O texto descreve explicitamente o litoral inteiro num só olhar (curva da areia, costões verdes, barcos parados) — plano geral com pan corresponde ao próprio conteúdo da frase, não é reuso arbitrário."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_litoral_planogeral_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 101.18,
+     "end": 104.61,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_final",
+     "marco": "Fechamento (plano geral completo)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 104.61,
+     "end": 112.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot '00_planogeral'. Fechamento genérico sobre o nome sem origem confirmada e gancho para o próximo mirante — sem marco novo, plano geral completo."
+    }
+   ]
+  }
+ }
+}

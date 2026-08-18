@@ -1,0 +1,16 @@
+# Storyboard AR — mirante13
+
+Imagem-fonte: `assets/img/mirantes/mirante13_gigante.jpg` (1183x465px)
+Áudio de referência: pt-br, duração 67.49s (real, de `captions.json`)
+
+**Aviso:** todo arquivo `.jpg` listado abaixo é um recorte digital (zoom) da própria foto de referência — placeholder de sequência/timing, não a foto definitiva do marco. Substituir pela foto real do local mantendo o mesmo nome de arquivo (a app não precisa mudar).
+
+| # | Marco | Seção do roteiro | Início | Fim | Duração | Arquivo | Confiança | Nota |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Identificação da cena (plano geral completo) | 1. Identificação da cena | 0.0s | 8.92s | 8.92s | `00_planogeral.jpg` | alta | Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados). |
+| 2 | Transição (plano geral) | Transição | 8.92s | 11.92s | 3.0s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 3 | Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa) | 2. Nota proêmia / contexto geológico | 11.92s | 27.67s | 15.75s | `monolitodegranito.jpg` | alta | O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo. |
+| 4 | Transição (plano geral) | Transição | 27.67s | 30.67s | 3.0s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 5 | Cristo Redentor / Corcovado | 3. Plano geral | 30.67s | 30.87s | 0.2s | `cristoredentor.jpg` | alta | Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito. |
+| 6 | Transição (plano geral) | Transição | 30.87s | 33.57s | 2.7s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 7 | Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — "gigante adormecido" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo) | 4. Plano intermediário / encerramento | 33.57s | 67.49s | 33.92s | `perfildosmorros.jpg` | média | A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu'). |

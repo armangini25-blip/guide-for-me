@@ -1,0 +1,1860 @@
+{
+ "mirante_id": "mirante02",
+ "base_image": "prototipo/assets/img/mirantes/mirante02_santuariomarinho.jpg",
+ "image_size": [
+  1042,
+  493
+ ],
+ "crop_source_lang": "pt",
+ "timing_nota": "Os crops (crop_px) sao os mesmos para todos os idiomas — calibrados uma unica vez em pt. O tempo (start/end) de pt vem do timing real por frase (captions.json); os demais idiomas sao recalculados proporcionalmente pela duracao real do audio daquele idioma, mantendo a mesma ordem e a mesma proporcao relativa de cada shot — aproximacao deliberada, nao um realinhamento frase-a-frase por idioma.",
+ "langs": {
+  "pt": {
+   "duration_total": 68.64,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 12.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.01,
+     "end": 15.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 15.01,
+     "end": 34.89,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 34.89,
+     "end": 37.89,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 37.89,
+     "end": 53.24,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 53.24,
+     "end": 56.24,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 56.24,
+     "end": 62.22,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 62.22,
+     "end": 65.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 65.22,
+     "end": 68.64,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "pt-pt": {
+   "duration_total": 75.79,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 13.26,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.26,
+     "end": 16.57,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 16.57,
+     "end": 38.52,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.52,
+     "end": 41.84,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 41.84,
+     "end": 58.79,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 58.79,
+     "end": 62.1,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 62.1,
+     "end": 68.7,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 68.7,
+     "end": 72.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 72.01,
+     "end": 75.79,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "en": {
+   "duration_total": 76.06,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 13.31,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.31,
+     "end": 16.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 16.63,
+     "end": 38.66,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.66,
+     "end": 41.99,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 41.99,
+     "end": 59.0,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 59.0,
+     "end": 62.32,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 62.32,
+     "end": 68.95,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 68.95,
+     "end": 72.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 72.27,
+     "end": 76.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "en-gb": {
+   "duration_total": 78.62,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 13.76,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.76,
+     "end": 17.19,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 17.19,
+     "end": 39.96,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 39.96,
+     "end": 43.4,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 43.4,
+     "end": 60.98,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 60.98,
+     "end": 64.42,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 64.42,
+     "end": 71.27,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 71.27,
+     "end": 74.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 74.7,
+     "end": 78.62,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "es": {
+   "duration_total": 73.7,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 12.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.9,
+     "end": 16.12,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 16.12,
+     "end": 37.46,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 37.46,
+     "end": 40.68,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 40.68,
+     "end": 57.16,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 57.16,
+     "end": 60.39,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 60.39,
+     "end": 66.81,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 66.81,
+     "end": 70.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 70.03,
+     "end": 73.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration_total": 79.22,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 13.86,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.86,
+     "end": 17.32,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 17.32,
+     "end": 40.27,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 40.27,
+     "end": 43.73,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 43.73,
+     "end": 61.45,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 61.45,
+     "end": 64.91,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 64.91,
+     "end": 71.81,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 71.81,
+     "end": 75.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 75.27,
+     "end": 79.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "fr": {
+   "duration_total": 76.39,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 13.37,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.37,
+     "end": 16.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 16.7,
+     "end": 38.83,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.83,
+     "end": 42.17,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 42.17,
+     "end": 59.25,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 59.25,
+     "end": 62.59,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 62.59,
+     "end": 69.25,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 69.25,
+     "end": 72.58,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 72.58,
+     "end": 76.39,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "de-de": {
+   "duration_total": 85.18,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 14.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 14.9,
+     "end": 18.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 18.63,
+     "end": 43.3,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 43.3,
+     "end": 47.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 47.02,
+     "end": 66.07,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 66.07,
+     "end": 69.79,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 69.79,
+     "end": 77.21,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 77.21,
+     "end": 80.94,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 80.94,
+     "end": 85.18,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "it": {
+   "duration_total": 79.9,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 13.98,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.98,
+     "end": 17.47,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 17.47,
+     "end": 40.61,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 40.61,
+     "end": 44.11,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 44.11,
+     "end": 61.97,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 61.97,
+     "end": 65.47,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 65.47,
+     "end": 72.43,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 72.43,
+     "end": 75.92,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 75.92,
+     "end": 79.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration_total": 64.78,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 11.33,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.33,
+     "end": 14.17,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 14.17,
+     "end": 32.93,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 32.93,
+     "end": 35.76,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 35.76,
+     "end": 50.25,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 50.25,
+     "end": 53.08,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 53.08,
+     "end": 58.72,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 58.72,
+     "end": 61.55,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 61.55,
+     "end": 64.78,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "zh-tw": {
+   "duration_total": 75.7,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 13.25,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.25,
+     "end": 16.55,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 16.55,
+     "end": 38.48,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.48,
+     "end": 41.79,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 41.79,
+     "end": 58.72,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 58.72,
+     "end": 62.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 62.02,
+     "end": 68.62,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 68.62,
+     "end": 71.93,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 71.93,
+     "end": 75.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "ja-jp": {
+   "duration_total": 84.12,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 14.72,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 14.72,
+     "end": 18.4,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 18.4,
+     "end": 42.76,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 42.76,
+     "end": 46.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 46.44,
+     "end": 65.25,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.25,
+     "end": 68.92,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 68.92,
+     "end": 76.25,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 76.25,
+     "end": 79.93,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 79.93,
+     "end": 84.12,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "ru-ru": {
+   "duration_total": 82.44,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 14.42,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 14.42,
+     "end": 18.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 18.03,
+     "end": 41.9,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 41.9,
+     "end": 45.51,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 45.51,
+     "end": 63.94,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 63.94,
+     "end": 67.55,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 67.55,
+     "end": 74.73,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 74.73,
+     "end": 78.33,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 78.33,
+     "end": 82.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  },
+  "ar-ma": {
+   "duration_total": 97.27,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena / nome do mirante",
+     "start": 0.0,
+     "end": 17.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. A frase nomeia Praia Vermelha, Morro da Urca e Escola Naval juntos na mesma oração (esquerda→centro→direita, ver descricaoIris de app.js); não há como isolar cada um em crop próprio sem subdividir o segmento (kind 'split', não usado nesta vista) — o pan ltr percorre os três."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_costaorochoso",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 17.02,
+     "end": 21.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "costaorochoso",
+     "marco": "Mar da enseada e costão rochoso (área do decreto de proteção)",
+     "secao_roteiro": "2. Criação do Santuário Marinho / decreto",
+     "start": 21.27,
+     "end": 49.44,
+     "file": "costaorochoso.jpg",
+     "crop_px": [
+      0,
+      180,
+      470,
+      493
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Frase cita explicitamente o 'costão rochoso' protegido pelo decreto (seg. 3) — elemento visualmente identificável à esquerda da foto (mar azul-turquesa, veleiros/lanchas e costa de pedra escura, conforme descricaoIris). Estrutura alongada (faixa de costa) — varredura reforça a extensão da área protegida citada no texto."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_costaorochoso_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 49.44,
+     "end": 53.69,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "00_planogeral_2",
+     "marco": "Plano geral (reforço — tartaruga-verde, escala do santuário)",
+     "secao_roteiro": "2. Espécie símbolo e escala da proteção",
+     "start": 53.69,
+     "end": 75.45,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. A tartaruga-verde e a 'escala do mapa' não são elementos visualmente identificáveis nesta foto (a espécie não aparece na imagem) — por instrução explícita do CEO, não se força um crop artificial aqui; mantém-se o plano geral em vez de inventar uma coordenada sem base visual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_00_planogeral_2_morrodaurca",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 75.45,
+     "end": 79.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "morrodaurca",
+     "marco": "Morro da Urca (Monumento Natural dos Morros do Pão de Açúcar e da Urca)",
+     "secao_roteiro": "3. Camada adicional de proteção (Monumento Natural)",
+     "start": 79.7,
+     "end": 88.17,
+     "file": "morrodaurca.jpg",
+     "crop_px": [
+      60,
+      0,
+      500,
+      340
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Morro da Urca claramente identificável no centro da foto, com a estação do bondinho visível no topo achatado (conforme descricaoIris). Elemento pontual nomeado no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, mesma lógica já aplicada a elementos pontuais no mirante06)."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_morrodaurca_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 88.17,
+     "end": 92.42,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Plano geral (fechamento)",
+     "secao_roteiro": "4. Fechamento",
+     "start": 92.42,
+     "end": 97.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral'. Fechamento genérico ('Três leis. Uma única baía. No próximo mirante, a vista muda. A água é a mesma.') sem elemento novo a nomear — retorna ao plano geral em vez de forçar um recorte."
+    }
+   ]
+  }
+ }
+}

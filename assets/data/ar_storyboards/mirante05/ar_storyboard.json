@@ -1,0 +1,1496 @@
+{
+ "mirante_id": "mirante05",
+ "base_image": "prototipo/assets/img/mirantes/mirante05_fortalezasaojoao.jpg",
+ "image_size": [
+  407,
+  302
+ ],
+ "crop_source_lang": "pt",
+ "timing_nota": "Os crops (crop_px) sao os mesmos para todos os idiomas — calibrados uma unica vez em pt. O tempo (start/end) de pt vem do timing real por frase (captions.json). Por enquanto so o idioma pt foi gerado nesta vista (mirante05) — os demais 13 idiomas do roster serao recalculados proporcionalmente pela duracao real do audio de cada idioma quando os MP3/captions.json correspondentes existirem, reaproveitando a mesma sequencia e os mesmos crop_px (ver rescale_timeline_proportional).",
+ "langs": {
+  "pt": {
+   "duration_total": 52.78,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 4.67,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.67,
+     "end": 7.67,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 7.67,
+     "end": 27.73,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 27.73,
+     "end": 30.73,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 30.73,
+     "end": 38.52,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.52,
+     "end": 41.52,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 41.52,
+     "end": 52.78,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "pt-pt": {
+   "duration_total": 52.92,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 4.68,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.68,
+     "end": 7.69,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 7.69,
+     "end": 27.8,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 27.8,
+     "end": 30.81,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 30.81,
+     "end": 38.62,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.62,
+     "end": 41.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 41.63,
+     "end": 52.92,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "en": {
+   "duration_total": 55.46,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 4.91,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.91,
+     "end": 8.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 8.06,
+     "end": 29.14,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 29.14,
+     "end": 32.29,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 32.29,
+     "end": 40.48,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 40.48,
+     "end": 43.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 43.63,
+     "end": 55.46,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "en-gb": {
+   "duration_total": 53.57,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 4.74,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.74,
+     "end": 7.78,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 7.78,
+     "end": 28.15,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 28.15,
+     "end": 31.19,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 31.19,
+     "end": 39.1,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 39.1,
+     "end": 42.14,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 42.14,
+     "end": 53.57,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "es": {
+   "duration_total": 52.7,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 4.66,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.66,
+     "end": 7.66,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 7.66,
+     "end": 27.69,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 27.69,
+     "end": 30.68,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 30.68,
+     "end": 38.46,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.46,
+     "end": 41.46,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 41.46,
+     "end": 52.7,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "fr": {
+   "duration_total": 51.79,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 4.58,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.58,
+     "end": 7.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 7.53,
+     "end": 27.21,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 27.21,
+     "end": 30.15,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 30.15,
+     "end": 37.8,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 37.8,
+     "end": 40.74,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 40.74,
+     "end": 51.79,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration_total": 56.33,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 4.98,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.98,
+     "end": 8.19,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 8.19,
+     "end": 29.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 29.6,
+     "end": 32.8,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 32.8,
+     "end": 41.11,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 41.11,
+     "end": 44.31,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 44.31,
+     "end": 56.33,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "de-de": {
+   "duration_total": 63.84,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 5.65,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 5.65,
+     "end": 9.28,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 9.28,
+     "end": 33.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 33.54,
+     "end": 37.17,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 37.17,
+     "end": 46.59,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 46.59,
+     "end": 50.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 50.22,
+     "end": 63.84,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "it": {
+   "duration_total": 56.59,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 5.01,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 5.01,
+     "end": 8.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 8.22,
+     "end": 29.73,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 29.73,
+     "end": 32.95,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 32.95,
+     "end": 41.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 41.3,
+     "end": 44.52,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 44.52,
+     "end": 56.59,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration_total": 49.42,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 4.37,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.37,
+     "end": 7.18,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 7.18,
+     "end": 25.96,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 25.96,
+     "end": 28.77,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 28.77,
+     "end": 36.07,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 36.07,
+     "end": 38.88,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 38.88,
+     "end": 49.42,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "zh-tw": {
+   "duration_total": 57.7,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 5.11,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 5.11,
+     "end": 8.38,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 8.38,
+     "end": 30.31,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.31,
+     "end": 33.59,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 33.59,
+     "end": 42.11,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 42.11,
+     "end": 45.39,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 45.39,
+     "end": 57.7,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "ar-ma": {
+   "duration_total": 68.3,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 6.04,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 6.04,
+     "end": 9.93,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 9.93,
+     "end": 35.88,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 35.88,
+     "end": 39.77,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 39.77,
+     "end": 49.85,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 49.85,
+     "end": 53.73,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 53.73,
+     "end": 68.3,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "ja-jp": {
+   "duration_total": 58.9,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 5.21,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 5.21,
+     "end": 8.56,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 8.56,
+     "end": 30.95,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.95,
+     "end": 34.29,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 34.29,
+     "end": 42.99,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 42.99,
+     "end": 46.33,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 46.33,
+     "end": 58.9,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  },
+  "ru-ru": {
+   "duration_total": 52.73,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "fortaleza_abertura",
+     "marco": "Fortaleza de São João (identificação)",
+     "secao_roteiro": "1. Localização e identificação",
+     "start": 0.0,
+     "end": 4.67,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Península da Fortaleza com muros de pedra amarelada e telhados vermelhos claramente identificável na foto de referência (confere com descricaoIris do app.js). Elemento pontual nomeado durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito (indicação de Íris, Core Principle 10)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_fortaleza_abertura_planogeral_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.67,
+     "end": 7.66,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "planogeral_fundacao",
+     "marco": "Plano geral da baía (fundação da cidade, 1565)",
+     "secao_roteiro": "2. Fundação da cidade de São Sebastião do Rio de Janeiro",
+     "start": 7.66,
+     "end": 27.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Trecho narra o desembarque de Estácio de Sá e o Reduto de São Martinho — eventos históricos sem elemento visual pontual distinguível nesta foto (o reduto original não existe mais como estrutura separada). Plano geral com varredura suave da baía/costa (elemento estruturalmente alongado), sem apontar para um objeto específico."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_planogeral_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 27.7,
+     "end": 30.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Plano geral da baía (expansão dos redutos, 1572–1618)",
+     "secao_roteiro": "3. Expansão dos redutos (São Teodósio, São José, São Diogo)",
+     "start": 30.7,
+     "end": 38.48,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'planogeral_fundacao'. Os redutos citados (São Teodósio, São José, São Diogo) não são distinguíveis individualmente na foto — hoje integrados ao conjunto único da Fortaleza — por isso plano geral, não crop pontual."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortaleza_final",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.48,
+     "end": 41.48,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortaleza_final",
+     "marco": "Fortaleza de São João da Barra (consolidação, 1618)",
+     "secao_roteiro": "4. Consolidação da Fortaleza de São João da Barra",
+     "start": 41.48,
+     "end": 52.73,
+     "file": "fortalezasaojoao.jpg",
+     "crop_px": [
+      130,
+      145,
+      270,
+      215
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo/crop do shot 'fortaleza_abertura' — mesmo enquadramento, a frase nomeia explicitamente a Fortaleza de São João da Barra já consolidada (não é um novo elemento visual). Elemento pontual nomeado — sem varredura."
+    }
+   ]
+  }
+ }
+}

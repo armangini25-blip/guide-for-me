@@ -1,0 +1,15 @@
+[
+  { "file": "tipo1_01_planogeral.jpg", "fracaoInicio": 0.0 },
+  { "file": "tipo1_02_matadetalhe.jpg", "fracaoInicio": 0.0553 },
+  { "file": "tipo1_03_baiadourada.jpg", "fracaoInicio": 0.1863 },
+  { "file": "tipo1_04_orlacopacabana.jpg", "fracaoInicio": 0.2517 },
+  { "file": "tipo1_05_ceupordosol.jpg", "fracaoInicio": 0.2985 },
+  { "file": "tipo1_06_barcosbaia.jpg", "fracaoInicio": 0.3962 },
+  { "file": "tipo1_07_pontenoturi.jpg", "fracaoInicio": 0.4345 },
+  { "file": "tipo1_08_serramar.jpg", "fracaoInicio": 0.4979 },
+  { "file": "tipo1_09_corcovado.jpg", "fracaoInicio": 0.6843 },
+  { "file": "tipo1_10_cabinebondinho.jpg", "fracaoInicio": 0.7396 },
+  { "file": "tipo1_11_contemplacao.jpg", "fracaoInicio": 0.7982 },
+  { "file": "tipo1_12_soltocaoceano.jpg", "fracaoInicio": 0.8784 },
+  { "file": "tipo1_13_rionoturno.jpg", "fracaoInicio": 0.9247 }
+]

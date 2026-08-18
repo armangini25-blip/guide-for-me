@@ -1,0 +1,1860 @@
+{
+ "mirante_id": "mirante14",
+ "base_image": "prototipo/assets/img/mirantes/mirante14_fortalezasantacruz.jpg",
+ "image_size": [
+  1912,
+  576
+ ],
+ "crop_source_lang": "pt",
+ "timing_nota": "Os crops (crop_px) sao os mesmos para todos os idiomas — calibrados uma unica vez em pt. O tempo (start/end) de pt vem do timing real por frase (captions.json); os demais 13 idiomas sao recalculados proporcionalmente pela duracao real do audio daquele idioma, mantendo a mesma ordem e a mesma proporcao relativa de cada shot — aproximacao deliberada, nao um realinhamento frase-a-frase por idioma.",
+ "langs": {
+  "pt": {
+   "duration_total": 107.59,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 11.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.53,
+     "end": 14.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 14.53,
+     "end": 50.29,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 50.29,
+     "end": 53.29,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 53.29,
+     "end": 78.26,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 78.26,
+     "end": 81.26,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 81.26,
+     "end": 92.54,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 92.54,
+     "end": 95.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 95.54,
+     "end": 107.59,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "pt-pt": {
+   "duration_total": 115.06,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 12.33,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.33,
+     "end": 15.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 15.54,
+     "end": 53.78,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 53.78,
+     "end": 56.99,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 56.99,
+     "end": 83.69,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 83.69,
+     "end": 86.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 86.9,
+     "end": 98.97,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 98.97,
+     "end": 102.17,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 102.17,
+     "end": 115.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "en": {
+   "duration_total": 115.78,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 12.41,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.41,
+     "end": 15.64,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 15.64,
+     "end": 54.12,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 54.12,
+     "end": 57.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 57.35,
+     "end": 84.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 84.22,
+     "end": 87.45,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 87.45,
+     "end": 99.58,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 99.58,
+     "end": 102.81,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 102.81,
+     "end": 115.78,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "en-gb": {
+   "duration_total": 110.4,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 11.83,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.83,
+     "end": 14.91,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 14.91,
+     "end": 51.6,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 51.6,
+     "end": 54.68,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 54.68,
+     "end": 80.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 80.3,
+     "end": 83.38,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 83.38,
+     "end": 94.96,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 94.96,
+     "end": 98.04,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 98.04,
+     "end": 110.4,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "es": {
+   "duration_total": 109.03,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 11.68,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.68,
+     "end": 14.72,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 14.72,
+     "end": 50.96,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 50.96,
+     "end": 54.0,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 54.0,
+     "end": 79.31,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 79.31,
+     "end": 82.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 82.35,
+     "end": 93.78,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 93.78,
+     "end": 96.82,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 96.82,
+     "end": 109.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "fr": {
+   "duration_total": 106.78,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 11.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.44,
+     "end": 14.42,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 14.42,
+     "end": 49.91,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 49.91,
+     "end": 52.89,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 52.89,
+     "end": 77.67,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 77.67,
+     "end": 80.65,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 80.65,
+     "end": 91.84,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 91.84,
+     "end": 94.82,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 94.82,
+     "end": 106.78,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration_total": 116.95,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 12.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.53,
+     "end": 15.79,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 15.79,
+     "end": 54.67,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 54.67,
+     "end": 57.93,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 57.93,
+     "end": 85.07,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 85.07,
+     "end": 88.33,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 88.33,
+     "end": 100.59,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 100.59,
+     "end": 103.85,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 103.85,
+     "end": 116.95,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "de-de": {
+   "duration_total": 135.22,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 14.49,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 14.49,
+     "end": 18.26,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 18.26,
+     "end": 63.2,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 63.2,
+     "end": 66.98,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 66.98,
+     "end": 98.36,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 98.36,
+     "end": 102.13,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 102.13,
+     "end": 116.31,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 116.31,
+     "end": 120.08,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 120.08,
+     "end": 135.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "it": {
+   "duration_total": 122.42,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 13.12,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.12,
+     "end": 16.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 16.53,
+     "end": 57.22,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 57.22,
+     "end": 60.64,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 60.64,
+     "end": 89.05,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 89.05,
+     "end": 92.46,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 92.46,
+     "end": 105.3,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 105.3,
+     "end": 108.71,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 108.71,
+     "end": 122.42,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration_total": 107.42,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 11.51,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.51,
+     "end": 14.51,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 14.51,
+     "end": 50.21,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 50.21,
+     "end": 53.21,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 53.21,
+     "end": 78.14,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 78.14,
+     "end": 81.13,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 81.13,
+     "end": 92.39,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 92.39,
+     "end": 95.39,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 95.39,
+     "end": 107.42,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "zh-tw": {
+   "duration_total": 119.23,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 12.78,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.78,
+     "end": 16.1,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 16.1,
+     "end": 55.73,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 55.73,
+     "end": 59.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 59.06,
+     "end": 86.73,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 86.73,
+     "end": 90.05,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 90.05,
+     "end": 102.55,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 102.55,
+     "end": 105.88,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 105.88,
+     "end": 119.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "ar-ma": {
+   "duration_total": 146.23,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 15.67,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 15.67,
+     "end": 19.75,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 19.75,
+     "end": 68.35,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 68.35,
+     "end": 72.43,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 72.43,
+     "end": 106.37,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 106.37,
+     "end": 110.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 110.44,
+     "end": 125.77,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 125.77,
+     "end": 129.85,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 129.85,
+     "end": 146.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "ja-jp": {
+   "duration_total": 130.1,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 13.94,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.94,
+     "end": 17.57,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 17.57,
+     "end": 60.81,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 60.81,
+     "end": 64.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 64.44,
+     "end": 94.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 94.63,
+     "end": 98.26,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 98.26,
+     "end": 111.9,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 111.9,
+     "end": 115.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 115.53,
+     "end": 130.1,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  },
+  "ru-ru": {
+   "duration_total": 120.22,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Identificação da cena",
+     "start": 0.0,
+     "end": 12.88,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência: faixa de areia de Icaraí à esquerda, morro de dois picos com a Fortaleza na base ao centro, morros esmaecidos à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_fortalezasantacruz_fundacao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.88,
+     "end": 16.24,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "fortalezasantacruz_fundacao",
+     "marco": "Fortaleza de Santa Cruz da Barra (muralhas — fundação e primeiros séculos)",
+     "secao_roteiro": "História — fundação (1555-1612)",
+     "start": 16.24,
+     "end": 56.19,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Elemento central e claramente identificável na foto-fonte — muralha baixa/bastiões na base do morro de dois picos, na entrada da barra (crop de verificação confirmou nitidez). Pontual e nomeado ao longo de toda a narração histórica — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_fortalezasantacruz_fundacao_planogeral_expansao",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 56.19,
+     "end": 59.55,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "planogeral_expansao",
+     "marco": "Entrada da baía / fortes vizinhos e complexo de fortificações (plano geral, reforço)",
+     "secao_roteiro": "História — expansão e tombamento (séc. XVIII–2024)",
+     "start": 59.55,
+     "end": 87.45,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — o texto passa a mencionar os fortes vizinhos (alcance cruzado de canhões) e o complexo de fortificações de Niterói (Praia de Fora, Imbuí), não identificáveis individualmente nesta foto; a varredura do plano geral mantém o contexto da entrada da baía como um todo."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_planogeral_expansao_fortalezasantacruz_hoje",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 87.45,
+     "end": 90.8,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "fortalezasantacruz_hoje",
+     "marco": "Fortaleza de Santa Cruz da Barra (museu militar hoje)",
+     "secao_roteiro": "Uso atual e patrimônio",
+     "start": 90.8,
+     "end": 103.4,
+     "file": "fortalezasantacruz.jpg",
+     "crop_px": [
+      880,
+      355,
+      1170,
+      445
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'fortalezasantacruz_fundacao' — o texto volta a descrever a fortaleza diretamente (museu militar, acervo de canhões, candidatura à Patrimônio Mundial da UNESCO). Elemento pontual — sem varredura."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_fortalezasantacruz_hoje_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 103.4,
+     "end": 106.76,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Linha de pedra entre o mar e o morro (plano geral, fechamento)",
+     "secao_roteiro": "Encerramento reflexivo",
+     "start": 106.76,
+     "end": 120.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot 'plano geral' — fechamento reflexivo menciona mar e morro juntos ('entre o mar e o morro, guardando a mesma passagem'), voltando à vista panorâmica completa."
+    }
+   ]
+  }
+ }
+}

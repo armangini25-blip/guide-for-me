@@ -1,0 +1,1930 @@
+{
+ "mirante_id": "mirante08",
+ "base_image": "prototipo/assets/img/mirantes/mirante08_biodiversidade.jpg",
+ "image_size": [
+  931,
+  673
+ ],
+ "crop_source_lang": "pt",
+ "timing_nota": "Os crops (crop_px) sao os mesmos para todos os idiomas — calibrados uma unica vez em pt. O tempo (start/end) de pt vem do timing real por frase (captions.json); os demais idiomas sao recalculados proporcionalmente pela duracao real do audio daquele idioma, mantendo a mesma ordem e a mesma proporcao relativa de cada shot — aproximacao deliberada, nao um realinhamento frase-a-frase por idioma.",
+ "langs": {
+  "pt": {
+   "duration_total": 84.86,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 17.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 17.23,
+     "end": 20.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 20.23,
+     "end": 30.11,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.11,
+     "end": 33.11,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 33.11,
+     "end": 60.34,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 60.34,
+     "end": 63.34,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 63.34,
+     "end": 78.08,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 78.08,
+     "end": 81.08,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 81.08,
+     "end": 84.86,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "pt-pt": {
+   "duration_total": 101.74,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 20.66,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 20.66,
+     "end": 24.25,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 24.25,
+     "end": 36.1,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 36.1,
+     "end": 39.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 39.7,
+     "end": 72.34,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 72.34,
+     "end": 75.94,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 75.94,
+     "end": 93.61,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 93.61,
+     "end": 97.21,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 97.21,
+     "end": 101.74,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "en": {
+   "duration_total": 96.62,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 19.62,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 19.62,
+     "end": 23.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 23.03,
+     "end": 34.28,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 34.28,
+     "end": 37.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 37.7,
+     "end": 68.7,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 68.7,
+     "end": 72.12,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 72.12,
+     "end": 88.9,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 88.9,
+     "end": 92.32,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 92.32,
+     "end": 96.62,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "en-gb": {
+   "duration_total": 92.23,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 18.73,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 18.73,
+     "end": 21.99,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 21.99,
+     "end": 32.73,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 32.73,
+     "end": 35.99,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 35.99,
+     "end": 65.58,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.58,
+     "end": 68.84,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 68.84,
+     "end": 84.86,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 84.86,
+     "end": 88.12,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 88.12,
+     "end": 92.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "es": {
+   "duration_total": 92.42,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 18.76,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 18.76,
+     "end": 22.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 22.03,
+     "end": 32.79,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 32.79,
+     "end": 36.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 36.06,
+     "end": 65.72,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.72,
+     "end": 68.98,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 68.98,
+     "end": 85.04,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 85.04,
+     "end": 88.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 88.3,
+     "end": 92.42,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "fr": {
+   "duration_total": 92.38,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 18.76,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 18.76,
+     "end": 22.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 22.02,
+     "end": 32.78,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 32.78,
+     "end": 36.04,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 36.04,
+     "end": 65.69,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.69,
+     "end": 68.95,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 68.95,
+     "end": 85.0,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 85.0,
+     "end": 88.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 88.27,
+     "end": 92.38,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration_total": 98.54,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 20.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 20.01,
+     "end": 23.49,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 23.49,
+     "end": 34.96,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 34.96,
+     "end": 38.45,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 38.45,
+     "end": 70.07,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 70.07,
+     "end": 73.55,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 73.55,
+     "end": 90.67,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 90.67,
+     "end": 94.15,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 94.15,
+     "end": 98.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "de-de": {
+   "duration_total": 104.47,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 21.21,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 21.21,
+     "end": 24.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 24.9,
+     "end": 37.07,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 37.07,
+     "end": 40.76,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 40.76,
+     "end": 74.28,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 74.28,
+     "end": 77.98,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 77.98,
+     "end": 96.12,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 96.12,
+     "end": 99.82,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 99.82,
+     "end": 104.47,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "it": {
+   "duration_total": 99.72,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 20.25,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 20.25,
+     "end": 23.77,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 23.77,
+     "end": 35.38,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 35.38,
+     "end": 38.91,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 38.91,
+     "end": 70.91,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 70.91,
+     "end": 74.43,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 74.43,
+     "end": 91.75,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 91.75,
+     "end": 95.28,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 95.28,
+     "end": 99.72,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration_total": 93.79,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 19.04,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 19.04,
+     "end": 22.36,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 22.36,
+     "end": 33.28,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 33.28,
+     "end": 36.59,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 36.59,
+     "end": 66.69,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 66.69,
+     "end": 70.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 70.01,
+     "end": 86.3,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 86.3,
+     "end": 89.61,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 89.61,
+     "end": 93.79,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "zh-tw": {
+   "duration_total": 101.93,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 20.7,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 20.7,
+     "end": 24.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 24.3,
+     "end": 36.17,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 36.17,
+     "end": 39.77,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 39.77,
+     "end": 72.48,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 72.48,
+     "end": 76.08,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 76.08,
+     "end": 93.79,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 93.79,
+     "end": 97.39,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 97.39,
+     "end": 101.93,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "ar-ma": {
+   "duration_total": 117.31,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 23.82,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 23.82,
+     "end": 27.97,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 27.97,
+     "end": 41.62,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 41.62,
+     "end": 45.77,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 45.77,
+     "end": 83.41,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 83.41,
+     "end": 87.56,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 87.56,
+     "end": 107.94,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 107.94,
+     "end": 112.08,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 112.08,
+     "end": 117.31,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "ja-jp": {
+   "duration_total": 108.79,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 22.09,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 22.09,
+     "end": 25.93,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 25.93,
+     "end": 38.6,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.6,
+     "end": 42.45,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 42.45,
+     "end": 77.36,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 77.36,
+     "end": 81.2,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 81.2,
+     "end": 100.1,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 100.1,
+     "end": 103.94,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 103.94,
+     "end": 108.79,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  },
+  "ru-ru": {
+   "duration_total": 104.74,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo — paredão de granito e Monumento Natural)",
+     "secao_roteiro": "Abertura / Monumento Natural (91ha de Mata Atlântica)",
+     "start": 0.0,
+     "end": 21.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — placeholder de sequência/timing (foto de referência real, não uma foto adicional de produção). Abertura da sequência: paredão de granito à esquerda, mata cobrindo a encosta, mar à direita."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaoderocha",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 21.27,
+     "end": 24.97,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaoderocha",
+     "marco": "Face de rocha do Pão de Açúcar (habitat de orquídeas nas fendas)",
+     "secao_roteiro": "Micro-habitats / orquídeas na face sul",
+     "start": 24.97,
+     "end": 37.16,
+     "file": "paredaoderocha.jpg",
+     "crop_px": [
+      150,
+      15,
+      420,
+      345
+     ],
+     "pan": "ttb",
+     "confidence": "baixa",
+     "nota": "A foto mostra a face de rocha em si, mas nenhuma das onze espécies de orquídeas citadas no áudio é individualmente identificável nesta resolução/distância — recorte ilustra o paredão descrito, não confirma a presença visual das plantas. Rocha é elemento verticalmente alongado — varredura de cima para baixo acompanha a 'fenda da rocha' descrita."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaoderocha_matadensa",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 37.16,
+     "end": 40.87,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "matadensa",
+     "marco": "Mata Atlântica sobre a encosta (fauna diversa — aves, répteis, mamíferos, anfíbios)",
+     "secao_roteiro": "Vida selvagem / lógica de adaptação",
+     "start": 40.87,
+     "end": 74.48,
+     "file": "matadensa.jpg",
+     "crop_px": [
+      0,
+      340,
+      650,
+      673
+     ],
+     "pan": "micro",
+     "confidence": "baixa",
+     "nota": "Segmento agrupa 5 frases (aves, répteis nas pedras, mamíferos noturnos, anfíbios entre bromélias) — nenhuma espécie é visível individualmente na foto-fonte; o recorte mostra a mata densa como pano de fundo ilustrativo geral enquanto o áudio narra a biodiversidade, não uma identificação de nenhum animal específico. Cluster de vegetação sem linearidade clara — varredura discreta (micro), nunca plena."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_matadensa_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 74.48,
+     "end": 78.18,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "cabosteleferico",
+     "marco": "Cabos e estação do teleférico (contexto dos micos e do cabo de aço)",
+     "secao_roteiro": "Micos / proibição de alimentar / cabo de aço",
+     "start": 78.18,
+     "end": 96.37,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      0,
+      420,
+      673
+     ],
+     "pan": "ttb",
+     "confidence": "média",
+     "nota": "A estrutura do teleférico (estação no cume, cabos, torre) está claramente visível e é o ponto de referência espacial citado no áudio ('perto das estações do teleférico', 'cabo de aço'); os micos em si não aparecem na foto — recorte ilustra o local, não confirma avistamento. Cabos descem em diagonal de cima para baixo — varredura vertical acompanha esse movimento."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_cabosteleferico_planogeral_fechamento",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 96.37,
+     "end": 100.07,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "planogeral_fechamento",
+     "marco": "Duas paisagens no mesmo morro (engenharia x natureza — fechamento)",
+     "secao_roteiro": "Encerramento / síntese",
+     "start": 100.07,
+     "end": 104.74,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — mesmo enquadramento, plano geral completo, adequado ao contraste final do texto entre 'a engenharia que subiu' (teleférico) e 'a natureza que nunca desceu' (mata)."
+    }
+   ]
+  }
+ }
+}

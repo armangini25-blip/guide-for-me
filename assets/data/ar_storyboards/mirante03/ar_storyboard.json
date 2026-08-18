@@ -1,0 +1,1930 @@
+{
+ "mirante_id": "mirante03",
+ "base_image": "assets/img/mirantes/mirante03_pioneiros.jpg",
+ "image_size": [
+  1192,
+  648
+ ],
+ "crop_source_lang": "pt",
+ "timing_nota": "Os crops (crop_px) sao os mesmos para todos os idiomas — calibrados uma unica vez em pt. O tempo (start/end) de pt vem do timing real por frase (captions.json); os demais idiomas ja disponiveis em captions.json sao recalculados proporcionalmente pela duracao real do audio daquele idioma, mantendo a mesma ordem e a mesma proporcao relativa de cada shot — aproximacao deliberada, nao um realinhamento frase-a-frase por idioma. Idiomas ainda sem audio gerado para esta vista nao aparecem em 'langs' — rodar *recalcular-idioma quando existirem.",
+ "langs": {
+  "pt": {
+   "duration_total": 76.44,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.15,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.15,
+     "end": 7.15,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 7.15,
+     "end": 26.79,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 26.79,
+     "end": 29.79,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 29.79,
+     "end": 57.81,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 57.81,
+     "end": 60.81,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 60.81,
+     "end": 68.76,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 68.76,
+     "end": 71.76,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 71.76,
+     "end": 76.44,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "pt-pt": {
+   "duration_total": 79.99,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.34,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.34,
+     "end": 7.48,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 7.48,
+     "end": 28.03,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 28.03,
+     "end": 31.17,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 31.17,
+     "end": 60.49,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 60.49,
+     "end": 63.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 63.63,
+     "end": 71.95,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 71.95,
+     "end": 75.09,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 75.09,
+     "end": 79.99,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "en": {
+   "duration_total": 83.66,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.54,
+     "end": 7.83,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 7.83,
+     "end": 29.32,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 29.32,
+     "end": 32.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 32.6,
+     "end": 63.27,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 63.27,
+     "end": 66.55,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 66.55,
+     "end": 75.25,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 75.25,
+     "end": 78.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 78.54,
+     "end": 83.66,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "en-gb": {
+   "duration_total": 81.79,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.44,
+     "end": 7.65,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 7.65,
+     "end": 28.67,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 28.67,
+     "end": 31.87,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 31.87,
+     "end": 61.86,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 61.86,
+     "end": 65.07,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 65.07,
+     "end": 73.57,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 73.57,
+     "end": 76.78,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 76.78,
+     "end": 81.79,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "es": {
+   "duration_total": 79.22,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.3,
+     "end": 7.41,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 7.41,
+     "end": 27.76,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 27.76,
+     "end": 30.87,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 30.87,
+     "end": 59.91,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 59.91,
+     "end": 63.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 63.02,
+     "end": 71.26,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 71.26,
+     "end": 74.37,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 74.37,
+     "end": 79.22,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "fr": {
+   "duration_total": 79.44,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.31,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.31,
+     "end": 7.43,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 7.43,
+     "end": 27.84,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 27.84,
+     "end": 30.96,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 30.96,
+     "end": 60.08,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 60.08,
+     "end": 63.2,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 63.2,
+     "end": 71.46,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 71.46,
+     "end": 74.58,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 74.58,
+     "end": 79.44,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration_total": 86.4,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.69,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.69,
+     "end": 8.08,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 8.08,
+     "end": 30.28,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.28,
+     "end": 33.67,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 33.67,
+     "end": 65.34,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.34,
+     "end": 68.73,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 68.73,
+     "end": 77.72,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 77.72,
+     "end": 81.11,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 81.11,
+     "end": 86.4,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "de-de": {
+   "duration_total": 92.52,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 5.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 5.02,
+     "end": 8.65,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 8.65,
+     "end": 32.43,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 32.43,
+     "end": 36.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 36.06,
+     "end": 69.97,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 69.97,
+     "end": 73.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 73.6,
+     "end": 83.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 83.22,
+     "end": 86.86,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 86.86,
+     "end": 92.52,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "it": {
+   "duration_total": 86.18,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.68,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.68,
+     "end": 8.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 8.06,
+     "end": 30.2,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.2,
+     "end": 33.59,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 33.59,
+     "end": 65.18,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.18,
+     "end": 68.56,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 68.56,
+     "end": 77.52,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 77.52,
+     "end": 80.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 80.9,
+     "end": 86.18,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration_total": 75.89,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.12,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.12,
+     "end": 7.1,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 7.1,
+     "end": 26.6,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 26.6,
+     "end": 29.58,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 29.58,
+     "end": 57.39,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 57.39,
+     "end": 60.37,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 60.37,
+     "end": 68.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 68.27,
+     "end": 71.24,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 71.24,
+     "end": 75.89,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "zh-tw": {
+   "duration_total": 85.63,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.65,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.65,
+     "end": 8.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 8.01,
+     "end": 30.01,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.01,
+     "end": 33.37,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 33.37,
+     "end": 64.76,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 64.76,
+     "end": 68.12,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 68.12,
+     "end": 77.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 77.03,
+     "end": 80.39,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 80.39,
+     "end": 85.63,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "ar-ma": {
+   "duration_total": 102.26,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 5.55,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 5.55,
+     "end": 9.57,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 9.57,
+     "end": 35.84,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 35.84,
+     "end": 39.85,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 39.85,
+     "end": 77.34,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 77.34,
+     "end": 81.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 81.35,
+     "end": 91.99,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 91.99,
+     "end": 96.0,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 96.0,
+     "end": 102.26,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "ja-jp": {
+   "duration_total": 95.83,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 5.2,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 5.2,
+     "end": 8.96,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 8.96,
+     "end": 33.59,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 33.59,
+     "end": 37.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 37.35,
+     "end": 72.47,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 72.47,
+     "end": 76.24,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 76.24,
+     "end": 86.2,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 86.2,
+     "end": 89.96,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 89.96,
+     "end": 95.83,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  },
+  "ru-ru": {
+   "duration_total": 86.3,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "Abertura",
+     "start": 0.0,
+     "end": 4.69,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. \"Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido\" enquadra a vista inteira antes de a narrativa focar em elementos específicos."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaogranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 4.69,
+     "end": 8.07,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaogranito",
+     "marco": "Paredão de granito (face de escalada, topo dos 396m)",
+     "secao_roteiro": "Escalada de Henrietta Carstairs (1817) e lenda do soldado português",
+     "start": 8.07,
+     "end": 30.25,
+     "file": "paredaogranito.jpg",
+     "crop_px": [
+      380,
+      140,
+      950,
+      520
+     ],
+     "pan": "ttb",
+     "confidence": "alta",
+     "nota": "Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaogranito_cabosteleferico",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.25,
+     "end": 33.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cabosteleferico",
+     "marco": "Cabos do teleférico (primeiro plano)",
+     "secao_roteiro": "Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial",
+     "start": 33.63,
+     "end": 65.27,
+     "file": "cabosteleferico.jpg",
+     "crop_px": [
+      0,
+      370,
+      260,
+      520
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de \"terceiro do mundo, maior dos três\") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cabosteleferico_planogeral_sintese",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.27,
+     "end": 68.65,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "planogeral_sintese",
+     "marco": "Síntese (plano geral, reforço)",
+     "secao_roteiro": "Síntese dos dois pioneiros",
+     "start": 68.65,
+     "end": 77.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva (\"celebra dois tipos de pioneiro\"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_planogeral_sintese_botafogoedoisirmaos",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 77.63,
+     "end": 81.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "botafogoedoisirmaos",
+     "marco": "Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos",
+     "secao_roteiro": "Fechamento (\"a mesma vista que todos eles vieram buscar\")",
+     "start": 81.02,
+     "end": 86.3,
+     "file": "botafogoedoisirmaos.jpg",
+     "crop_px": [
+      0,
+      120,
+      1192,
+      648
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece \"azulado na neblina\" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto \"se estende até os Dois Irmãos\"."
+    }
+   ]
+  }
+ }
+}

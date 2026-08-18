@@ -1,0 +1,18 @@
+# Storyboard AR — mirante07
+
+Imagem-fonte: `prototipo/assets/img/mirantes/mirante07_mulheres.jpg` (1868x622px)
+Áudio de referência: pt-br, duração 89.35s (real, de `captions.json`)
+
+**Aviso:** todo arquivo `.jpg` listado abaixo é um recorte digital (zoom) da própria foto de referência — placeholder de sequência/timing, não a foto definitiva do marco. Substituir pela foto real do local mantendo o mesmo nome de arquivo (a app não precisa mudar).
+
+| # | Marco | Seção do roteiro | Início | Fim | Duração | Arquivo | Confiança | Nota |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Paredão do Pão de Açúcar (identificação da cena e lenda não confirmada da escalada de 1817) | 1. Identificação da cena / lenda da escalada | 0.0s | 32.27s | 32.27s | `00_planogeral.jpg` | alta | Imagem inteira, sem recorte — abertura da sequência. A lenda da escalada (Henrietta Carstairs) não tem correspondência visual identificável na foto (não há como apontar 'a face leste' com segurança nesta resolução/ângulo), por isso o shot cobre o plano geral em vez de um recorte específico. |
+| 2 | Transição (plano geral) | Transição | 32.27s | 35.27s | 3.0s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 3 | Teleférico e cabo de aço do Pão de Açúcar (fato histórico confirmado: inaugurado em 1912) | 2. Fato histórico confirmado | 35.27s | 46.48s | 11.21s | `teleferico_cabo.jpg` | alta | Único recorte pontual desta vista além do bondinho — a frase nomeia explicitamente o teleférico ('o teleférico que corta o ar agora') e o recorte mostra estação no topo + cabos + o próprio paredão que os trabalhadores escalaram. Elemento nomeado no instante — sem varredura. |
+| 4 | Transição (plano geral) | Transição | 46.48s | 49.48s | 3.0s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 5 | Nome do mirante e lacuna documental sobre sua origem | 3. Reflexão sobre a lacuna documental | 49.48s | 65.22s | 15.74s | `00_planogeral.jpg` | alta | Reaproveita o mesmo arquivo do shot '00_planogeral' — o texto reflete sobre a ausência de documentação do nome do mirante, sem apontar para nenhum elemento visual novo na foto. |
+| 6 | Transição (plano geral) | Transição | 65.22s | 68.22s | 3.0s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 7 | Bondinho atravessando o cabo de aço sobre a Baía de Guanabara (dado concreto, em trânsito) | 4. Dado concreto — bondinho em trânsito | 68.22s | 78.36s | 10.14s | `bondinho_cabo.jpg` | alta | Frase aponta diretamente para o bondinho ('um bondinho atravessa, neste instante, a mesma rota') — recorte fechado na cabine e nos cabos, com a Baía de Guanabara ao fundo. Elemento pontual sendo descrito no exato instante do shot — sem varredura, para não deslocar o assunto do centro. |
+| 8 | Transição (plano geral) | Transição | 78.36s | 81.36s | 3.0s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 9 | Reflexão final (honestidade documental) e transição para a próxima parada | 5. Fechamento | 81.36s | 89.35s | 7.99s | `00_planogeral.jpg` | alta | Reaproveita o mesmo arquivo do shot '00_planogeral' — fechamento simétrico com a abertura, sem novo elemento visual a apontar; o texto já sinaliza a transição para o próximo mirante. |

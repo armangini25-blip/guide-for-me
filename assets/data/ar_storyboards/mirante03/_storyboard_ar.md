@@ -1,0 +1,18 @@
+# Storyboard AR — mirante03
+
+Imagem-fonte: `assets/img/mirantes/mirante03_pioneiros.jpg` (1192x648px)
+Áudio de referência: pt-br, duração 76.44s (real, de `captions.json`)
+
+**Aviso:** todo arquivo `.jpg` listado abaixo é um recorte digital (zoom) da própria foto de referência — placeholder de sequência/timing, não a foto definitiva do marco. Substituir pela foto real do local mantendo o mesmo nome de arquivo (a app não precisa mudar).
+
+| # | Marco | Seção do roteiro | Início | Fim | Duração | Arquivo | Confiança | Nota |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Identificação da cena (plano geral completo) | Abertura | 0.0s | 4.15s | 4.15s | `00_planogeral.jpg` | alta | Imagem inteira, sem recorte — abertura da sequência. "Antes de existir qualquer cabo de aço, este paredão de granito já havia sido vencido" enquadra a vista inteira antes de a narrativa focar em elementos específicos. |
+| 2 | Transição (plano geral) | Transição | 4.15s | 7.15s | 3.0s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 3 | Paredão de granito (face de escalada, topo dos 396m) | Escalada de Henrietta Carstairs (1817) e lenda do soldado português | 7.15s | 26.79s | 19.64s | `paredaogranito.jpg` | alta | Face de granito claramente dominante e inconfundível no quadro — o mesmo paredão descrito como escalado por Henrietta Carstairs em 1817. Pan vertical (ttb) proposto para acompanhar tematicamente a ideia de ascensão (subir a pedra) — pendente de co-validação com Íris. |
+| 4 | Transição (plano geral) | Transição | 26.79s | 29.79s | 3.0s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 5 | Cabos do teleférico (primeiro plano) | Augusto Ferreira Ramos, construção do teleférico (1908–1913) e recorde mundial | 29.79s | 57.81s | 28.02s | `cabosteleferico.jpg` | alta | Cabos de aço em primeiro plano, elemento visualmente inconfundível na foto-fonte. Cobre 4 frases seguidas (fundação da empresa, inauguração dos dois trechos, recorde de "terceiro do mundo, maior dos três") porque nenhuma delas aponta a um elemento visual novo — todas narram a história do mesmo teleférico. |
+| 6 | Transição (plano geral) | Transição | 57.81s | 60.81s | 3.0s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 7 | Síntese (plano geral, reforço) | Síntese dos dois pioneiros | 60.81s | 68.76s | 7.95s | `00_planogeral.jpg` | alta | Reaproveita o mesmo arquivo do shot de abertura ('00_planogeral') — a frase é abstrata/conclusiva ("celebra dois tipos de pioneiro"), sem elemento visual novo para apontar; volta ao plano geral que sintetiza a cena inteira. |
+| 8 | Transição (plano geral) | Transição | 68.76s | 71.76s | 3.0s | `00_planogeral.jpg` | alta | Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. |
+| 9 | Botafogo (bairro aos pés do morro) até o Morro Dois Irmãos | Fechamento ("a mesma vista que todos eles vieram buscar") | 71.76s | 76.44s | 4.68s | `botafogoedoisirmaos.jpg` | média | Botafogo (prédios ao pé do morro, incluindo o Colégio Naval) está claramente visível com alta confiança; o Morro Dois Irmãos, ao fundo à direita, aparece "azulado na neblina" segundo a própria descricaoIris — identificação plausível mas atenuada pela névoa/distância, por isso confidence média para o shot como um todo. Pan da esquerda (Botafogo) para a direita (Dois Irmãos) acompanha o texto "se estende até os Dois Irmãos". |

@@ -1,0 +1,1566 @@
+{
+ "mirante_id": "mirante13",
+ "base_image": "assets/img/mirantes/mirante13_gigante.jpg",
+ "image_size": [
+  1183,
+  465
+ ],
+ "crop_source_lang": "pt",
+ "timing_nota": "Os crops (crop_px) sao os mesmos para todos os idiomas — calibrados uma unica vez em pt. O tempo (start/end) de pt vem do timing real por frase (captions.json); os demais idiomas, quando existirem, serao recalculados proporcionalmente pela duracao real do audio daquele idioma, mantendo a mesma ordem e a mesma proporcao relativa de cada shot — aproximacao deliberada, nao um realinhamento frase-a-frase por idioma. Ate o momento so pt tem audio gerado para esta vista (mirante13).",
+ "langs": {
+  "pt": {
+   "duration_total": 67.49,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 8.92,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 8.92,
+     "end": 11.92,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 11.92,
+     "end": 27.67,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 27.67,
+     "end": 30.67,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 30.67,
+     "end": 30.87,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.87,
+     "end": 33.57,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 33.57,
+     "end": 67.49,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "pt-pt": {
+   "duration_total": 76.01,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 10.05,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 10.05,
+     "end": 13.42,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 13.42,
+     "end": 31.16,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 31.16,
+     "end": 34.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 34.54,
+     "end": 34.77,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 34.77,
+     "end": 37.81,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 37.81,
+     "end": 76.01,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "en": {
+   "duration_total": 75.31,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 9.95,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 9.95,
+     "end": 13.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 13.3,
+     "end": 30.88,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.88,
+     "end": 34.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 34.22,
+     "end": 34.45,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 34.45,
+     "end": 37.46,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 37.46,
+     "end": 75.31,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "en-gb": {
+   "duration_total": 74.86,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 9.89,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 9.89,
+     "end": 13.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 13.22,
+     "end": 30.69,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.69,
+     "end": 34.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 34.02,
+     "end": 34.24,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 34.24,
+     "end": 37.24,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 37.24,
+     "end": 74.86,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "es": {
+   "duration_total": 70.92,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 9.37,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 9.37,
+     "end": 12.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 12.53,
+     "end": 29.08,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 29.08,
+     "end": 32.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 32.23,
+     "end": 32.44,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 32.44,
+     "end": 35.28,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 35.28,
+     "end": 70.92,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "fr": {
+   "duration_total": 75.0,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 9.91,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 9.91,
+     "end": 13.25,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 13.25,
+     "end": 30.75,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.75,
+     "end": 34.08,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 34.08,
+     "end": 34.31,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 34.31,
+     "end": 37.31,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 37.31,
+     "end": 75.0,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration_total": 73.73,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 9.74,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 9.74,
+     "end": 13.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 13.02,
+     "end": 30.23,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 30.23,
+     "end": 33.51,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 33.51,
+     "end": 33.72,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 33.72,
+     "end": 36.67,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 36.67,
+     "end": 73.73,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "de-de": {
+   "duration_total": 85.94,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 11.36,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.36,
+     "end": 15.18,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 15.18,
+     "end": 35.23,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 35.23,
+     "end": 39.05,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 39.05,
+     "end": 39.31,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 39.31,
+     "end": 42.75,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 42.75,
+     "end": 85.94,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "it": {
+   "duration_total": 82.92,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 10.96,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 10.96,
+     "end": 14.65,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 14.65,
+     "end": 34.0,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 34.0,
+     "end": 37.68,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 37.68,
+     "end": 37.93,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 37.93,
+     "end": 41.24,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 41.24,
+     "end": 82.92,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration_total": 78.07,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 10.32,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 10.32,
+     "end": 13.79,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 13.79,
+     "end": 32.01,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 32.01,
+     "end": 35.48,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 35.48,
+     "end": 35.71,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 35.71,
+     "end": 38.83,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 38.83,
+     "end": 78.07,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "zh-tw": {
+   "duration_total": 85.87,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 11.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.35,
+     "end": 15.17,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 15.17,
+     "end": 35.21,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 35.21,
+     "end": 39.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 39.02,
+     "end": 39.28,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 39.28,
+     "end": 42.71,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 42.71,
+     "end": 85.87,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "ar-ma": {
+   "duration_total": 92.76,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 12.26,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.26,
+     "end": 16.38,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 16.38,
+     "end": 38.03,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.03,
+     "end": 42.15,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 42.15,
+     "end": 42.43,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 42.43,
+     "end": 46.14,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 46.14,
+     "end": 92.76,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "ja-jp": {
+   "duration_total": 93.07,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 12.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.3,
+     "end": 16.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 16.44,
+     "end": 38.16,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 38.16,
+     "end": 42.29,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 42.29,
+     "end": 42.57,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 42.57,
+     "end": 46.29,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 46.29,
+     "end": 93.07,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  },
+  "ru-ru": {
+   "duration_total": 85.27,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Identificação da cena (plano geral completo)",
+     "secao_roteiro": "1. Identificação da cena",
+     "start": 0.0,
+     "end": 11.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência (mar aberto, ilha em silhueta, praia e cidade entre morros florestados)."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_monolitodegranito",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.27,
+     "end": 15.06,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "monolitodegranito",
+     "marco": "Monólito de granito (o próprio Pão de Açúcar, sob os pés de quem observa)",
+     "secao_roteiro": "2. Nota proêmia / contexto geológico",
+     "start": 15.06,
+     "end": 34.96,
+     "file": "monolitodegranito.jpg",
+     "crop_px": [
+      0,
+      240,
+      1183,
+      465
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "O roteiro descreve o granito 'debaixo dos pés' — não é algo que a câmera, apontada para o horizonte, possa mostrar de cima. O recorte usa a faixa inferior da foto (face granítica exposta e mata do próprio maciço em primeiro plano) como a referência visual mais próxima disponível desta vista. Faixa alongada — varredura acompanha o relevo."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_monolitodegranito_cristoredentor",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 34.96,
+     "end": 38.75,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "cristoredentor",
+     "marco": "Cristo Redentor / Corcovado",
+     "secao_roteiro": "3. Plano geral",
+     "start": 38.75,
+     "end": 39.0,
+     "file": "cristoredentor.jpg",
+     "crop_px": [
+      980,
+      100,
+      1140,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Silhueta do Cristo Redentor (braços abertos) claramente identificável no topo do Corcovado nesta foto, mesmo em contraluz — confirmado por inspeção visual direta do recorte. Elemento pontual nomeado explicitamente no áudio durante todo o shot — sem varredura, para não deslocar o assunto do centro enquanto é descrito."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_cristoredentor_perfildosmorros",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 39.0,
+     "end": 42.41,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "perfildosmorros",
+     "marco": "Perfil dos morros cariocas (skyline entre o Corcovado e o Pão de Açúcar — \"gigante adormecido\" da tradição oral; também cobre o fecho sobre o teleférico/Unesco e a descida do cabo)",
+     "secao_roteiro": "4. Plano intermediário / encerramento",
+     "start": 42.41,
+     "end": 85.27,
+     "file": "perfildosmorros.jpg",
+     "crop_px": [
+      0,
+      60,
+      1183,
+      280
+     ],
+     "pan": "ltr",
+     "confidence": "média",
+     "nota": "A leitura de um 'gigante adormecido' no contorno dos morros é uma interpretação de silhueta, não a identificação de um marco único — o próprio roteiro-fonte já qualifica isso como 'tradição oral carioca, sem confirmação histórica'; o recorte propaga a mesma cautela. Faixa de skyline estruturalmente alongada (inclui Corcovado, Dois Irmãos/Gávea ao fundo e o próprio maciço do Pão de Açúcar) — varredura reforça o texto ('o perfil... recorta o céu')."
+    }
+   ]
+  }
+ }
+}

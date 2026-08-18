@@ -1,0 +1,1861 @@
+{
+ "mirante_id": "mirante01",
+ "base_image": "assets/img/mirantes/mirante01_despertar.jpg",
+ "image_size": [
+  1712,
+  503
+ ],
+ "crop_source_lang": "pt",
+ "timing_nota": "Os crops (crop_px) sao os mesmos para todos os idiomas — calibrados uma unica vez em pt. O tempo (start/end) de pt vem do timing real por frase (captions.json); os demais idiomas, quando existirem, serao recalculados proporcionalmente pela duracao real do audio daquele idioma, mantendo a mesma ordem e a mesma proporcao relativa de cada shot.",
+ "idiomas_pendentes_nota": "",
+ "langs": {
+  "pt": {
+   "duration_total": 70.44,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 11.1,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.1,
+     "end": 14.1,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 14.1,
+     "end": 37.22,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 37.22,
+     "end": 40.22,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 40.22,
+     "end": 48.56,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 48.56,
+     "end": 51.56,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 51.56,
+     "end": 61.68,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 61.68,
+     "end": 64.68,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 64.68,
+     "end": 70.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "pt-pt": {
+   "duration_total": 75.17,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 11.85,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.85,
+     "end": 15.05,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 15.05,
+     "end": 39.72,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 39.72,
+     "end": 42.92,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 42.92,
+     "end": 51.82,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 51.82,
+     "end": 55.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 55.02,
+     "end": 65.82,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.82,
+     "end": 69.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 69.02,
+     "end": 75.17,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "en": {
+   "duration_total": 79.73,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 12.56,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.56,
+     "end": 15.96,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 15.96,
+     "end": 42.13,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 42.13,
+     "end": 45.52,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 45.52,
+     "end": 54.96,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 54.96,
+     "end": 58.36,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 58.36,
+     "end": 69.81,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 69.81,
+     "end": 73.21,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 73.21,
+     "end": 79.73,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "en-gb": {
+   "duration_total": 76.37,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 12.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.03,
+     "end": 15.29,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 15.29,
+     "end": 40.35,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 40.35,
+     "end": 43.61,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 43.61,
+     "end": 52.65,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 52.65,
+     "end": 55.9,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 55.9,
+     "end": 66.87,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 66.87,
+     "end": 70.13,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 70.13,
+     "end": 76.37,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "es": {
+   "duration_total": 74.54,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 11.75,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.75,
+     "end": 14.92,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 14.92,
+     "end": 39.39,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 39.39,
+     "end": 42.56,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 42.56,
+     "end": 51.39,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 51.39,
+     "end": 54.56,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 54.56,
+     "end": 65.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.27,
+     "end": 68.44,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 68.44,
+     "end": 74.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration_total": 79.97,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 12.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.6,
+     "end": 16.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 16.01,
+     "end": 42.26,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 42.26,
+     "end": 45.66,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 45.66,
+     "end": 55.13,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 55.13,
+     "end": 58.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 58.54,
+     "end": 70.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 70.02,
+     "end": 73.43,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 73.43,
+     "end": 79.97,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "fr": {
+   "duration_total": 74.35,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 11.72,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.72,
+     "end": 14.88,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 14.88,
+     "end": 39.29,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 39.29,
+     "end": 42.45,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 42.45,
+     "end": 51.26,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 51.26,
+     "end": 54.42,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 54.42,
+     "end": 65.1,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.1,
+     "end": 68.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 68.27,
+     "end": 74.35,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "de-de": {
+   "duration_total": 92.18,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 14.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 14.53,
+     "end": 18.45,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 18.45,
+     "end": 48.71,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 48.71,
+     "end": 52.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 52.63,
+     "end": 63.55,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 63.55,
+     "end": 67.47,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 67.47,
+     "end": 80.72,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 80.72,
+     "end": 84.64,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 84.64,
+     "end": 92.18,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "it": {
+   "duration_total": 84.53,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 13.32,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.32,
+     "end": 16.92,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 16.92,
+     "end": 44.67,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 44.67,
+     "end": 48.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 48.27,
+     "end": 58.27,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 58.27,
+     "end": 61.87,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 61.87,
+     "end": 74.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 74.02,
+     "end": 77.62,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 77.62,
+     "end": 84.53,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration_total": 71.11,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 11.21,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 11.21,
+     "end": 14.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 14.23,
+     "end": 37.57,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 37.57,
+     "end": 40.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 40.6,
+     "end": 49.02,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 49.02,
+     "end": 52.05,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 52.05,
+     "end": 62.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 62.27,
+     "end": 65.3,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 65.3,
+     "end": 71.11,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "zh-tw": {
+   "duration_total": 79.97,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 12.6,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 12.6,
+     "end": 16.01,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 16.01,
+     "end": 42.26,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 42.26,
+     "end": 45.66,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 45.66,
+     "end": 55.13,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 55.13,
+     "end": 58.54,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 58.54,
+     "end": 70.02,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 70.02,
+     "end": 73.43,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 73.43,
+     "end": 79.97,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "ja-jp": {
+   "duration_total": 94.63,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 14.91,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 14.91,
+     "end": 18.94,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 18.94,
+     "end": 50.0,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 50.0,
+     "end": 54.03,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 54.03,
+     "end": 65.24,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 65.24,
+     "end": 69.27,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 69.27,
+     "end": 82.86,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 82.86,
+     "end": 86.89,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 86.89,
+     "end": 94.63,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "ru-ru": {
+   "duration_total": 82.49,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 13.0,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 13.0,
+     "end": 16.51,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 16.51,
+     "end": 43.59,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 43.59,
+     "end": 47.1,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 47.1,
+     "end": 56.87,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 56.87,
+     "end": 60.38,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 60.38,
+     "end": 72.23,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 72.23,
+     "end": 75.74,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 75.74,
+     "end": 82.49,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  },
+  "ar-ma": {
+   "duration_total": 95.78,
+   "shots": [
+    {
+     "seq": 1,
+     "id": "00_planogeral",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (plano geral)",
+     "secao_roteiro": "1. Abertura — contexto de 1908",
+     "start": 0.0,
+     "end": 15.09,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Imagem inteira, sem recorte — abertura da sequência. Texto (localização + Exposição Nacional de 1908) não descreve nenhum elemento específico da foto além do pátio como um todo."
+    },
+    {
+     "seq": 2,
+     "id": "transicao_00_planogeral_paredaomorro",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 15.09,
+     "end": 19.17,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 3,
+     "id": "paredaomorro",
+     "marco": "Paredão de pedra / encosta arborizada ao fundo (Morro da Urca)",
+     "secao_roteiro": "2. A ideia do engenheiro e o início da obra (1909-1910)",
+     "start": 19.17,
+     "end": 50.61,
+     "file": "paredaomorro.jpg",
+     "crop_px": [
+      480,
+      0,
+      900,
+      210
+     ],
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Texto cita explicitamente 'olhando para o morro' e 'enfrentando a rocha a pulso e coragem' — elemento visualmente identificável e coerente com descricaoIris ('paredão de pedra coberto de mata verde-escura' ao fundo). Encosta estruturalmente alongada na horizontal — varredura reforça a extensão do relevo sendo descrito."
+    },
+    {
+     "seq": 4,
+     "id": "transicao_paredaomorro_estacaoinferior",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 50.61,
+     "end": 54.69,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 5,
+     "id": "estacaoinferior",
+     "marco": "Estação inferior do Bondinho (estrutura curva esverdeada)",
+     "secao_roteiro": "3. Abertura dos trechos (1912-1913)",
+     "start": 54.69,
+     "end": 66.03,
+     "file": "estacaoinferior.jpg",
+     "crop_px": [
+      140,
+      10,
+      500,
+      230
+     ],
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Texto descreve a abertura do 1º e 2º trechos do teleférico — a estação inferior visível na foto é o ponto de partida literal desses trechos. Estrutura pontual nomeada durante a narração — sem varredura, para não deslocar o assunto do centro (indicação de Íris)."
+    },
+    {
+     "seq": 6,
+     "id": "transicao_estacaoinferior_00_planogeral_2",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 66.03,
+     "end": 70.11,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 7,
+     "id": "00_planogeral_2",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (reforço, plano geral)",
+     "secao_roteiro": "4. Comparação mundial e origem do nome 'Despertar'",
+     "start": 70.11,
+     "end": 83.87,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "micro",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura (mesmo enquadramento, sem recorte). Texto (comparação com os dois teleféricos mais antigos do mundo + origem do nome 'Despertar') é histórico/factual, sem elemento novo da foto para apontar — forçar um crop aqui seria artificial."
+    },
+    {
+     "seq": 8,
+     "id": "transicao_00_planogeral_2_00_planogeral_3",
+     "marco": "Transição (plano geral)",
+     "secao_roteiro": "Transição",
+     "start": 83.87,
+     "end": 87.95,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "none",
+     "confidence": "alta",
+     "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+    },
+    {
+     "seq": 9,
+     "id": "00_planogeral_3",
+     "marco": "Pátio de acesso ao Bondinho Pão de Açúcar (fechamento, plano geral)",
+     "secao_roteiro": "5. Fechamento",
+     "start": 87.95,
+     "end": 95.78,
+     "file": "00_planogeral.jpg",
+     "crop_px": null,
+     "pan": "ltr",
+     "confidence": "alta",
+     "nota": "Reaproveita o mesmo arquivo do shot de abertura — fechamento em plano geral, simetria com a abertura da sequência ('aqui tudo recomeça')."
+    }
+   ]
+  }
+ }
+}
