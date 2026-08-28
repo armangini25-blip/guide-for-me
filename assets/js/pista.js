@@ -67,7 +67,14 @@ const AUDIO_IRIS_LANGS_PRONTOS = new Set(["pt-br", "pt-pt", "en-us", "en-gb", "e
 // ponto, não mais este objeto direto.
 const AUDIO_SEGURANCA_LANGS_PRONTOS = {
   pista_p10: new Set(["pt-br", "pt-pt", "en-us", "en-gb", "es-es", "es-ar", "fr-fr", "de-de", "it-it", "zh-cn", "zh-tw", "ja-jp", "ru-ru", "ar-ma"]),
-  default: new Set(["pt-br"]), // P1-P9: só pt-br por enquanto, ver PENDENCIAS.md
+  // Build 2026-08-28 (Auditoria 05, achado do @advogado-do-diabo): os 14 áudios de pista_p2_seguranca_*
+  // já estavam gravados e publicados desde a reformulação da Praia Vermelha, mas este objeto nunca
+  // foi atualizado — pista_p2 caía no "default" (só pt-br), então visitantes PCD em qualquer outro
+  // idioma nunca ouviam o aviso de rampas/escadas/ausência de corrimão da Praia Vermelha, mesmo com
+  // o áudio pronto. Mesma classe de bug do gate global corrigido em 27/08 pro Ponto 10, reencontrada
+  // aqui por não ter sido generalizada na hora.
+  pista_p2: new Set(["pt-br", "pt-pt", "en-us", "en-gb", "es-es", "es-ar", "fr-fr", "de-de", "it-it", "zh-cn", "zh-tw", "ja-jp", "ru-ru", "ar-ma"]),
+  default: new Set(["pt-br"]), // P1, P3-P9: só pt-br por enquanto, ver PENDENCIAS.md
 };
 function segurancaProntaPara(ponto) {
   return (AUDIO_SEGURANCA_LANGS_PRONTOS[ponto.tipo] || AUDIO_SEGURANCA_LANGS_PRONTOS.default).has(state.lang.code);
