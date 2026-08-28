@@ -27002,132 +27002,107 @@
    ]
   },
   "it": {
-   "duration": 179.78,
+   "duration": 102.98,
    "segments": [
     {
      "start": 0.0,
-     "end": 15.68,
-     "text": "Lei si trova davanti a Praia Vermelha, ai piedi delle colline di Urca — uno dei punti più privilegiati dell'imbocco della Baia di Guanabara: dall'altra parte delle acque si distingue la costa di Niterói, con il paesaggio che si estende fino a Itaipu."
+     "end": 11.17,
+     "text": "Lei si trova davanti a Praia Vermelha, ai piedi delle colline di Urca — uno dei punti più privilegiati dell'imbocco della Baia di Guanabara, con vista su Niterói e Itaipu."
     },
     {
-     "start": 15.68,
-     "end": 25.08,
+     "start": 11.17,
+     "end": 20.98,
      "text": "Molto prima dell'arrivo dei portoghesi, questa spiaggia faceva già parte della vita quotidiana dei popoli Tupinambá, che abitavano le rive della baia."
     },
     {
-     "start": 25.08,
-     "end": 30.92,
-     "text": "L'urbanizzazione di questo paesaggio iniziò all'inizio del Novecento, con due opere distinte."
+     "start": 20.98,
+     "end": 37.38,
+     "text": "All'inizio del Novecento fu oggetto di bonifica e urbanizzazione per ospitare l'Esposizione Nazionale Commemorativa del Centenario dell'Apertura dei Porti del Brasile, nel 1908 — un evento durato pochi mesi, che accolse oltre un milione di visitatori."
     },
     {
-     "start": 30.92,
-     "end": 51.04,
-     "text": "Nel 1908 la stessa Praia Vermelha fu oggetto di bonifica, contenimento e urbanizzazione per ospitare l'Esposizione Nazionale Commemorativa del Centenario dell'Apertura dei Porti del Brasile — un evento durato pochi mesi, ma che accolse oltre un milione di visitatori, con costruzioni che non hanno quasi lasciato traccia."
+     "start": 37.38,
+     "end": 51.43,
+     "text": "Fu proprio qui, il 7 settembre 1922, che una stazione della Western Electric trasmise in diretta il discorso del presidente Epitácio Pessoa: considerata la prima grande trasmissione pubblica radiofonica del Brasile."
     },
     {
-     "start": 51.04,
-     "end": 75.38,
-     "text": "La nascita del quartiere di Urca, poco più in là, venne invece da un'altra bonifica: a partire dal 1921 l'ingegnere Oscar de Almeida Gama fece avanzare un terrapieno dal litorale fino ai piedi del Morro da Urca, utilizzando la terra prelevata dalla collina stessa; il piano stradale fu approvato nel 1922 e le prime costruzioni furono erette tra la fine di quell'anno e l'inizio del 1923."
-    },
-    {
-     "start": 75.38,
-     "end": 86.04,
-     "text": "Fu proprio quest'opera a innalzare il muro di contenimento che i cariocas chiamano oggi, con affetto, Mureta da Urca — punto d'incontro classico per ammirare il tramonto."
-    },
-    {
-     "start": 86.04,
-     "end": 105.47,
-     "text": "E fu proprio qui, sulla sabbia di Praia Vermelha, il 7 settembre 1922 — anno delle celebrazioni del Centenario dell'Indipendenza —, che una stazione radio della Western Electric trasmise in diretta il discorso del presidente Epitácio Pessoa: la prima trasmissione radiofonica pubblica della storia del Brasile."
-    },
-    {
-     "start": 105.47,
-     "end": 111.49,
+     "start": 51.43,
+     "end": 57.7,
      "text": "Fu in questo tratto di sabbia, e non in nessuno studio, che nacque la radiodiffusione nel paese."
     },
     {
-     "start": 111.49,
-     "end": 133.51,
-     "text": "Decenni più tardi, la spiaggia conquistò anche un posto nella musica popolare carioca: Tim Maia la citò per nome in una delle sue canzoni più conosciute sul litorale di Rio — e si racconta, senza conferma documentale, che lo stesso cantante si sia esibito una volta sul Morro da Urca, la collina coperta di foresta che Lei vede proprio di fronte a sé."
+     "start": 57.7,
+     "end": 73.91,
+     "text": "Decenni più tardi, la spiaggia entrò nella musica popolare carioca, citata per nome da Tim Maia — ed esiste un resoconto documentato, dello stesso produttore dello spettacolo \"Noites Cariocas\" (1978), secondo cui il cantante salì sul Morro da Urca."
     },
     {
-     "start": 133.51,
-     "end": 150.06,
-     "text": "Oggi Praia Vermelha vive un ritmo tranquillo: al mattino è comune trovare lezioni di nuoto; durante il giorno residenti e visitatori nuotano, si riposano e contemplano il paesaggio, e in estate compaiono le tavole da stand up paddle che scivolano sull'acqua calma."
+     "start": 73.91,
+     "end": 82.66,
+     "text": "Oggi la spiaggia vive un ritmo tranquillo: al mattino si tengono lezioni di nuoto, e in estate compaiono le tavole da stand up paddle."
     },
     {
-     "start": 150.06,
-     "end": 169.06,
-     "text": "Chi preferisce restare sulla sabbia trova noleggio di sedie e ombrelloni, oltre a bevande per prolungare il pomeriggio in riva al mare; e c'è anche chi arriva fin qui direttamente dal mare, su barche e imbarcazioni, per ammirare questa stessa spiaggia da un'angolazione che dalla sabbia non si vede mai."
+     "start": 82.66,
+     "end": 92.72,
+     "text": "Chi resta sulla sabbia trova noleggio di sedie e ombrelloni, e c'è anche chi arriva in barca per ammirare questo stesso paesaggio da un'altra angolazione."
     },
     {
-     "start": 169.06,
-     "end": 179.78,
-     "text": "In una giornata di sole, difficilmente esiste una combinazione migliore di spiaggia, natura, tranquillità e una delle viste più belle dell'imbocco della Baia di Guanabara."
+     "start": 92.72,
+     "end": 102.98,
+     "text": "In una giornata di sole, difficilmente esiste una combinazione migliore di spiaggia, natura e una delle viste più belle dell'imbocco della Baia di Guanabara."
     }
    ]
   },
   "zh-cn": {
-   "duration": 165.02,
+   "duration": 96.22,
    "segments": [
     {
      "start": 0.0,
-     "end": 13.16,
-     "text": "您现在正站在红滩，乌尔卡山群脚下——这里是瓜纳巴拉湾入口处景致最好的地点之一：隔海相望，可以看到尼泰罗伊的海岸线，风景一直延伸到伊泰普。"
+     "end": 12.12,
+     "text": "您现在正站在红滩，乌尔卡山群脚下——这里是瓜纳巴拉湾入口处景致最好的地点之一，隔海相望可以看到尼泰罗伊，风景一直延伸到伊泰普。"
     },
     {
-     "start": 13.16,
-     "end": 21.86,
+     "start": 12.12,
+     "end": 20.78,
      "text": "早在葡萄牙人到来之前，这片沙滩就已经是图皮南巴人日常生活的一部分，他们世代居住在海湾沿岸。"
     },
     {
-     "start": 21.86,
-     "end": 28.25,
-     "text": "这片风景的城市化进程始于二十世纪初，由两项各自独立的工程共同推动。"
+     "start": 20.78,
+     "end": 35.98,
+     "text": "二十世纪初，为了举办1908年巴西港口开放百年纪念全国博览会，这片沙滩经过填海造地与城市化改造——这场展览虽然只持续了短短几个月，却吸引了超过一百万人次参观。"
     },
     {
-     "start": 28.25,
-     "end": 47.79,
-     "text": "1908年，红滩本身经过填海造地、护岸加固与城市化改造，为举办巴西港口开放百年纪念全国博览会做好准备——这场展览虽然只持续了短短几个月，却吸引了超过一百万人次参观，而当年搭建的建筑，如今几乎已不留痕迹。"
+     "start": 35.98,
+     "end": 49.46,
+     "text": "就在这里，1922年9月7日，西方电气公司的一座广播电台现场直播了总统埃皮塔西奥·佩索阿的演讲——这被认为是巴西历史上第一次公开的广播直播。"
     },
     {
-     "start": 47.79,
-     "end": 72.16,
-     "text": "而不远处的乌尔卡街区，则诞生于另一项填海工程：从1921年起，工程师奥斯卡·德·阿尔梅达·伽马主持填海，将海岸线一直向前推进到乌尔卡山山脚，所用的土方正是取自乌尔卡山本身；街区规划于1922年获得批准，最早的建筑则在当年年底至1923年初之间相继落成。"
-    },
-    {
-     "start": 72.16,
-     "end": 81.25,
-     "text": "正是这项工程筑起了那道护岸矮墙——里约人如今亲切地称它为乌尔卡矮墙，是观赏日落的经典聚会地点。"
-    },
-    {
-     "start": 81.25,
-     "end": 97.51,
-     "text": "就在这里，红滩的沙滩上，1922年9月7日，正值巴西独立百年纪念，西方电气公司的一座广播电台现场直播了总统埃皮塔西奥·佩索阿的演讲：这是巴西历史上第一次公开的广播直播。"
-    },
-    {
-     "start": 97.51,
-     "end": 103.7,
+     "start": 49.46,
+     "end": 55.61,
      "text": "巴西的广播事业，正是诞生在这片沙滩上，而不是在任何一间演播室里。"
     },
     {
-     "start": 103.7,
-     "end": 126.72,
-     "text": "几十年后，这片海滩也在里约的流行音乐中留下了印记：蒂姆·马亚在他一首描写里约海岸线的知名歌曲中，直接提到了这个地名——民间还流传着一种说法，虽然没有文献确证，说这位歌手本人曾在乌尔卡山，也就是您眼前这座覆盖着茂密植被的山，举办过一场演出。"
+     "start": 55.61,
+     "end": 64.27,
+     "text": "几十年后，这片海滩也走进了里约本地的流行音乐——蒂姆·马亚曾在一首歌曲中直接提到这个地名。"
     },
     {
-     "start": 126.72,
-     "end": 139.49,
-     "text": "如今的红滩节奏悠闲：清晨，这里常有游泳课在进行；白天，居民和游客在这里游泳、休息、欣赏风景，夏天则能看到立式桨板缓缓划过平静的水面。"
+     "start": 64.27,
+     "end": 71.97,
+     "text": "据1978年演出《卡里奥卡之夜》制作人本人的记录，蒂姆·马亚确实曾登上乌尔卡山。"
     },
     {
-     "start": 139.49,
-     "end": 155.35,
-     "text": "喜欢留在沙滩上的人，可以租到躺椅和遮阳伞，还能买到饮品，把这个午后悠闲地留在海边；也有人索性从海上而来，乘着帆船或快艇，从沙滩永远无法呈现的角度，欣赏这同一片海滩。"
+     "start": 71.97,
+     "end": 79.28,
+     "text": "如今，这片海滩的节奏悠闲：清晨常有游泳课，夏天则能看到立式桨板缓缓划过水面。"
     },
     {
-     "start": 155.35,
-     "end": 165.02,
-     "text": "在阳光灿烂的日子里，很难找到比这更完美的组合：海滩、自然、宁静，还有瓜纳巴拉湾入口处最美的景色之一。"
+     "start": 79.28,
+     "end": 87.36,
+     "text": "留在沙滩上的人可以租到沙滩椅和遮阳篷，也有人乘船而来，从另一个角度欣赏这同一片风景。"
+    },
+    {
+     "start": 87.36,
+     "end": 96.22,
+     "text": "在阳光灿烂的日子里，很难找到比这更好的组合：海滩、自然，以及瓜纳巴拉湾入口处最美的景色之一。"
     }
    ]
   },
@@ -30206,22 +30181,22 @@
    ]
   },
   "it": {
-   "duration": 15.34,
+   "duration": 15.02,
    "segments": [
     {
      "start": 0.0,
-     "end": 15.34,
-     "text": "Il cammino pavimentato si apre in una curva dolce sotto il tetto verde della foresta; a sinistra, panchine di tronco e pietra segnano un piccolo punto di sosta tra felci e arbusti; a destra, la vegetazione si chiude fitta fino al bordo del cammino."
+     "end": 15.02,
+     "text": "Il cammino pavimentato si apre in una curva dolce sotto il tetto verde della foresta; a destra, panchine di tronco e pietra segnano un piccolo punto di sosta tra gli arbusti; a sinistra, la vegetazione si chiude fitta fino al bordo del cammino."
     }
    ]
   },
   "zh-cn": {
-   "duration": 16.01,
+   "duration": 15.84,
    "segments": [
     {
      "start": 0.0,
-     "end": 16.01,
-     "text": "铺砌的步道在茂密树林形成的绿色天棚下转出一道平缓的弯道；左侧，原木与石块搭成的长椅，在蕨类与灌木之间标示出一处小小的休憩点；右侧，茂密的植被一直延伸到步道边缘。"
+     "end": 15.84,
+     "text": "铺砌的步道在茂密树林形成的绿色天棚下，转出一道平缓的弯道；右侧，原木与石块搭成的长椅，在灌木之间标示出一处小小的休憩点；左侧，茂密的植被一直延伸到步道边缘。"
     }
    ]
   },
@@ -31164,6 +31139,66 @@
      "text": "Vergrößern Sie den Schwenkbereich Ihres Langstocks, bevor Sie weitergehen."
     }
    ]
+  },
+  "it": {
+   "duration": 59.23,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.44,
+     "text": "Lei si trova esattamente all'accesso all'ingresso della Pista Cláudio Coutinho, nel punto in cui inizia la salita di accesso, con pendenza moderata."
+    },
+    {
+     "start": 9.44,
+     "end": 24.93,
+     "text": "Sotto il bastone bianco, la pavimentazione inizia con cubetti di granito irregolari, con fessure tra loro e, in alcuni tratti, un cordolo basso — non c'è pavimentazione tattile di allerta né direzionale che segnali il percorso in nessun punto."
+    },
+    {
+     "start": 24.93,
+     "end": 33.28,
+     "text": "Il cammino compie una curva a destra proprio davanti a Lei; è presente un cancello che potrebbe ridurre la larghezza del passaggio."
+    },
+    {
+     "start": 33.28,
+     "end": 56.11,
+     "text": "Sul lato destro, il lato del mare, si trovano sia i cartelli di segnaletica su piedistallo — privi di scrittura in rilievo — a meno di un passo, circa mezzo metro, dalla corsia di passaggio (dopo la transizione dalla pista all'asfalto ha inizio la pista di atletica), sia un muretto basso, all'incirca all'altezza dello stinco, che segna questo stesso bordo."
+    },
+    {
+     "start": 56.11,
+     "end": 59.23,
+     "text": "Apra la scansione del bastone prima di procedere."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration": 48.6,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 7.88,
+     "text": "您现在正处在克劳迪奥·科蒂尼奥步道入口的接入处，从这里开始是一段坡度适中的上坡通道。"
+    },
+    {
+     "start": 7.88,
+     "end": 19.89,
+     "text": "导盲杖探到的路面，最初是不规则的花岗岩石板路，石板之间留有缝隙，部分路段还设有一道低矮的路缘——沿途没有任何警示或导向触感铺面。"
+    },
+    {
+     "start": 19.89,
+     "end": 25.89,
+     "text": "前方不远处，道路向右转弯；那里有一道大门，可能会缩窄通行的宽度。"
+    },
+    {
+     "start": 25.89,
+     "end": 45.03,
+     "text": "在右侧，也就是靠海的一侧，立柱式指示牌——牌面没有凸起文字——距离通行带不到一步、约半米，此外还有一道大约与小腿同高的矮墙，同样标示着这同一条边线；这条通行带在路面过渡为柏油路面之后，便是田径跑道的起点。"
+    },
+    {
+     "start": 45.03,
+     "end": 48.6,
+     "text": "请在继续前进之前，先展开导盲杖的扫动。"
+    }
+   ]
   }
  },
  "pista_p2_seguranca": {
@@ -32008,106 +32043,121 @@
    ]
   },
   "it": {
-   "duration": 166.06,
+   "duration": 211.97,
    "segments": [
     {
      "start": 0.0,
-     "end": 5.77,
-     "text": "Lei si trova ora sul lungomare pedonale di accesso a Praia Vermelha, nel quartiere di Urca."
+     "end": 11.09,
+     "text": "Lei si trova ora sul lungomare pedonale di accesso a Praia Vermelha, nel quartiere di Urca — arrivando dalla strada, di fronte al mare, unico modo per raggiungere questo punto."
     },
     {
-     "start": 5.77,
-     "end": 15.59,
+     "start": 11.09,
+     "end": 17.39,
+     "text": "Tutti i riferimenti di destra e sinistra che seguono sono sempre in questo senso: di fronte al mare."
+    },
+    {
+     "start": 17.39,
+     "end": 27.16,
      "text": "Non si tratta più del tratto di sentiero all'interno della foresta: ora è un percorso pavimentato, con una superficie più regolare sotto il bastone bianco."
     },
     {
-     "start": 15.59,
-     "end": 24.27,
+     "start": 27.16,
+     "end": 35.79,
      "text": "In questo tratto del lungomare ci sono due rampe che scendono direttamente fino al livello della sabbia — una su ciascun lato del tratto."
     },
     {
-     "start": 24.27,
-     "end": 28.65,
+     "start": 35.79,
+     "end": 40.14,
      "text": "Non sono pianerottoli intermedi: arrivano proprio fino alla spiaggia."
     },
     {
-     "start": 28.65,
-     "end": 35.37,
+     "start": 40.14,
+     "end": 46.82,
      "text": "Tra le due rampe, nel mezzo del tratto, ci sono tre scalinate separate, anch'esse con accesso alla sabbia."
     },
     {
-     "start": 35.37,
-     "end": 46.58,
+     "start": 46.82,
+     "end": 57.97,
      "text": "Si tratta di due tipi diversi di transizione del piano di calpestio — rampa e scala — non li confonda tra loro basandosi solo sulla sensazione trasmessa dalla punta del bastone."
     },
     {
-     "start": 46.58,
-     "end": 51.02,
+     "start": 57.97,
+     "end": 62.38,
      "text": "Utilizzi la tecnica del tocco e scivolamento lungo tutto il lungomare."
     },
     {
-     "start": 51.02,
-     "end": 65.54,
-     "text": "Sia l'inizio di una rampa sia il primo gradino di una delle tre scalinate tendono ad annunciarsi come un cambiamento di inclinazione o di livello sotto la punta del bastone, percepibile poco prima che la transizione abbia inizio."
+     "start": 62.38,
+     "end": 77.19,
+     "text": "Sia l'inizio di una delle rampe sia il primo gradino di una delle tre scalinate tendono ad annunciarsi come un cambiamento di inclinazione o di livello sotto la punta del bastone, percepibile poco prima che la transizione abbia inizio."
     },
     {
-     "start": 65.54,
-     "end": 69.21,
-     "text": "Rallenti il passo non appena percepisce questa variazione."
+     "start": 77.19,
+     "end": 98.49,
+     "text": "Rallenti il passo non appena percepisce questa variazione, si fermi e verifichi con il bastone in posizione diagonale, effettuando una scansione molto vicina al corpo: una pavimentazione continua che prosegue in discesa è una rampa; uno spigolo unico e definito, seguito da una nuova superficie piana, è il primo gradino di una scalinata."
     },
     {
-     "start": 69.21,
-     "end": 80.87,
+     "start": 98.49,
+     "end": 103.34,
+     "text": "Avanzi soltanto dopo aver individuato quale delle due si trova davanti a Lei."
+    },
+    {
+     "start": 103.34,
+     "end": 114.93,
      "text": "Sul lato destro di questo tratto, l'accesso alla sabbia è diretto, senza rampa e senza scala: lungomare e spiaggia si trovano alla stessa altezza, senza alcun dislivello in quel punto."
     },
     {
-     "start": 80.87,
-     "end": 88.23,
+     "start": 114.93,
+     "end": 122.24,
      "text": "È confermato che non esiste corrimano né parapetto — né sulle due rampe, né sulle tre scalinate di questo lungomare."
     },
     {
-     "start": 88.23,
-     "end": 90.38,
+     "start": 122.24,
+     "end": 124.38,
      "text": "Non conti su un appoggio laterale."
     },
     {
-     "start": 90.38,
-     "end": 101.15,
+     "start": 124.38,
+     "end": 135.09,
      "text": "È inoltre confermato che non c'è pavimentazione tattile di allerta o direzionale in nessun punto del lungomare, a segnalare l'avvicinarsi di una rampa o di una scalinata."
     },
     {
-     "start": 101.15,
-     "end": 109.39,
+     "start": 135.09,
+     "end": 143.29,
      "text": "Il bastone bianco, con la tecnica del tocco e scivolamento, è l'unico modo per percepire questi cambiamenti prima di raggiungerli."
     },
     {
-     "start": 109.39,
-     "end": 124.67,
+     "start": 143.29,
+     "end": 158.47,
      "text": "Se preferisce proseguire verso sinistra, l'ingresso vero e proprio della Pista Cláudio Coutinho — il sentiero pianeggiante degli altri punti di questo percorso — si trova nel punto più a sinistra che riesce a raggiungere su questo lungomare."
     },
     {
-     "start": 124.67,
-     "end": 135.51,
-     "text": "Non esiste alcuna segnaletica tattile, visiva o sonora che indichi questo ingresso, ma non esiste nemmeno nessun altro percorso in quella zona che possa creare confusione."
+     "start": 158.47,
+     "end": 163.7,
+     "text": "Non esiste alcuna segnaletica tattile, visiva o sonora che indichi questo ingresso."
     },
     {
-     "start": 135.51,
-     "end": 140.83,
-     "text": "Arrivando al limite più a sinistra del lungomare, non può che essere quell'ingresso."
+     "start": 163.7,
+     "end": 175.48,
+     "text": "Alla data di questo rilevamento non c'era nessun altro percorso nella zona che potesse creare confusione, ma si tratta di un lungomare di spiaggia molto frequentato, che cambia nel tempo."
     },
     {
-     "start": 140.83,
-     "end": 146.66,
-     "text": "Si trova vicino a qui, ma è un accesso fisicamente separato da questo lungomare di spiaggia."
+     "start": 175.48,
+     "end": 186.2,
+     "text": "Se percepisce un passaggio, una struttura o un ostacolo che questa descrizione non ha previsto, si fermi e chieda conferma a qualcuno nelle vicinanze prima di proseguire."
     },
     {
-     "start": 146.66,
-     "end": 160.03,
+     "start": 186.2,
+     "end": 192.69,
+     "text": "L'ingresso si trova vicino a qui, ma è un accesso fisicamente separato da questo lungomare di spiaggia."
+    },
+    {
+     "start": 192.69,
+     "end": 205.98,
      "text": "Trattandosi di un lungomare di accesso alla spiaggia, si aspetti anche una forte circolazione di persone e possibili oggetti temporanei — sedie, ombrelloni, casse acustiche — che invadono la corsia di passaggio."
     },
     {
-     "start": 160.03,
-     "end": 166.06,
+     "start": 205.98,
+     "end": 211.97,
      "text": "Mantenga la scansione del bastone più ampia di quanto farebbe in un tratto isolato di sentiero."
     }
    ]
@@ -32233,106 +32283,121 @@
    ]
   },
   "zh-cn": {
-   "duration": 130.9,
+   "duration": 169.15,
    "segments": [
     {
      "start": 0.0,
-     "end": 4.78,
-     "text": "您现在正走在通往红滩的滨海步道上，位于乌尔卡街区。"
+     "end": 9.78,
+     "text": "您现在正走在通往红滩的滨海步道上，位于乌尔卡街区——由马路一侧进入，面朝大海，这是抵达这里的唯一方式。"
     },
     {
-     "start": 4.78,
-     "end": 12.82,
-     "text": "这里已经不再是林中步道的路段：脚下是一段铺装平整的步道，导盲杖感受到的路面更加规则。"
+     "start": 9.78,
+     "end": 14.0,
+     "text": "以下所有左右方向的说法，都是以面朝大海为准。"
     },
     {
-     "start": 12.82,
-     "end": 18.18,
+     "start": 14.0,
+     "end": 21.86,
+     "text": "这里已经不是林中步道的路段：脚下是一段铺装平整的步道，导盲杖感受到的路面更加规则。"
+    },
+    {
+     "start": 21.86,
+     "end": 27.23,
      "text": "这段步道上有两条坡道，直接通向沙滩，分别位于步道的两侧。"
     },
     {
-     "start": 18.18,
-     "end": 22.39,
+     "start": 27.23,
+     "end": 31.45,
      "text": "它们不是中途的平台，而是一路延伸到沙滩本身。"
     },
     {
-     "start": 22.39,
-     "end": 30.24,
-     "text": "在两条坡道之间，也就是这段步道的中部，另设有三段互相独立的台阶，同样可以通往沙滩。"
+     "start": 31.45,
+     "end": 38.93,
+     "text": "在两条坡道之间，也就是这段步道的中部，另设有三段互相独立的台阶，同样通往沙滩。"
     },
     {
-     "start": 30.24,
-     "end": 36.93,
+     "start": 38.93,
+     "end": 45.64,
      "text": "坡道与台阶是两种不同的路面过渡方式——请不要仅凭杖尖的触感把两者混淆。"
     },
     {
-     "start": 36.93,
-     "end": 39.8,
+     "start": 45.64,
+     "end": 48.52,
      "text": "请在整段步道上使用触摸滑动法。"
     },
     {
-     "start": 39.8,
-     "end": 50.52,
+     "start": 48.52,
+     "end": 59.26,
      "text": "无论是某条坡道的起点，还是三段台阶中某一段的第一级台阶，通常都会在过渡开始之前，先让杖尖感受到坡度或高度的变化。"
     },
     {
-     "start": 50.52,
-     "end": 53.77,
-     "text": "一感受到这种变化，请立即放慢脚步。"
+     "start": 59.26,
+     "end": 78.44,
+     "text": "一感受到这种变化，请立即放慢脚步，停下并将导盲杖调整为斜向姿势，在贴近身体的范围内仔细扫动加以确认：如果路面持续向下延伸，是坡道；如果是一道单一、明确的棱角，紧接着又是一段新的平面，则是台阶的第一级。"
     },
     {
-     "start": 53.77,
-     "end": 63.73,
+     "start": 78.44,
+     "end": 81.32,
+     "text": "请先确认是哪一种，再继续前进。"
+    },
+    {
+     "start": 81.32,
+     "end": 91.29,
      "text": "这段步道的右侧，通往沙滩的路是直接的，没有坡道，也没有台阶：步道与沙滩处于同一高度，那里没有任何高低差。"
     },
     {
-     "start": 63.73,
-     "end": 70.04,
+     "start": 91.29,
+     "end": 97.62,
      "text": "已经确认：这里没有扶手，也没有护栏——两条坡道和三段台阶都是如此。"
     },
     {
-     "start": 70.04,
-     "end": 72.15,
+     "start": 97.62,
+     "end": 99.73,
      "text": "请不要指望有侧向扶靠。"
     },
     {
-     "start": 72.15,
-     "end": 79.04,
-     "text": "同样已经确认：整段步道上没有任何警示或导向盲道，来提示坡道或台阶的临近。"
+     "start": 99.73,
+     "end": 107.01,
+     "text": "同样已经确认：整段步道上没有任何警示或导向触感铺面，来提示坡道或台阶的临近。"
     },
     {
-     "start": 79.04,
-     "end": 85.73,
+     "start": 107.01,
+     "end": 113.73,
      "text": "导盲杖配合触摸滑动法，是您在到达这些变化之前，唯一能够察觉它们的方式。"
     },
     {
-     "start": 85.73,
-     "end": 98.55,
+     "start": 113.73,
+     "end": 126.58,
      "text": "如果您选择继续向左走，克劳迪奥·科蒂尼奥步道真正的入口——也就是本导览路线其余各点所在的那段平坦步道——就在这段步道您能到达的最左端。"
     },
     {
-     "start": 98.55,
-     "end": 105.83,
-     "text": "这个入口没有任何触觉、视觉或声音标识，但那一带也没有其他容易让人混淆的路径。"
+     "start": 126.58,
+     "end": 130.22,
+     "text": "这个入口没有任何触觉、视觉或声音标识。"
     },
     {
-     "start": 105.83,
-     "end": 110.42,
-     "text": "只要走到这段步道的最左端，那里就一定是那个入口。"
+     "start": 130.22,
+     "end": 139.43,
+     "text": "截至本次调查时，那一带并没有其他容易混淆的路径，但这是一段人流较大的海滩步道，情况会随时间变化。"
     },
     {
-     "start": 110.42,
-     "end": 116.16,
-     "text": "它距离这里不远，但在物理上是与这段海滨步道分开的另一处入口。"
+     "start": 139.43,
+     "end": 148.06,
+     "text": "如果您感觉到任何本描述未曾提及的通道、结构或障碍物，请先停下，向附近的人确认后再继续前进。"
     },
     {
-     "start": 116.16,
-     "end": 125.92,
+     "start": 148.06,
+     "end": 154.38,
+     "text": "那个入口距离这里不远，但在物理上是与这段海滨步道分开的另一处入口。"
+    },
+    {
+     "start": 154.38,
+     "end": 164.17,
      "text": "由于这是一段通往沙滩的步道，也请留意人流较大，还可能有临时物品——躺椅、遮阳伞、音箱——占用通行区域。"
     },
     {
-     "start": 125.92,
-     "end": 130.9,
+     "start": 164.17,
+     "end": 169.15,
      "text": "请把导盲杖的扫动范围放得比在僻静步道路段时更宽一些。"
     }
    ]
@@ -32888,6 +32953,36 @@
      "text": "Da der genaue Bodenbelag dieses Aussichtspunkts vor Ort nicht bestätigt wurde, gehen Sie mit dem Langstock im weiten Bogenschlag voran und nähern Sie sich der Wasserseite nicht, ohne sie zuvor mit der Stockspitze zu ertasten."
     }
    ]
+  },
+  "it": {
+   "duration": 19.3,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 5.53,
+     "text": "Lei si trova in un punto panoramico della pista, di fronte al Pan di Zucchero e alla baia."
+    },
+    {
+     "start": 5.53,
+     "end": 19.3,
+     "text": "Non essendo stata confermata sul campo la pavimentazione esatta di questo punto panoramico, avanzi con il bastone in ampia scansione e non si avvicini al lato dell'acqua senza prima averlo percepito con la punta del bastone."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration": 16.46,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.65,
+     "text": "您现在位于步道的一处观景台，面朝甜面包山与海湾。"
+    },
+    {
+     "start": 4.65,
+     "end": 16.46,
+     "text": "目前尚未对这处观景台的具体路面情况进行实地确认，请以大范围触扫法使用导盲杖前进，并且在用杖尖确认之前，不要靠近临水的一侧。"
+    }
+   ]
   }
  },
  "pista_p4_seguranca": {
@@ -33130,6 +33225,66 @@
      "text": "Der Hinweis bezieht sich ausschließlich auf diese spezifischen Steine: Gehen Sie nicht in ihre Nähe, und versuchen Sie nicht, dort unbegleitet ins Wasser zu gehen."
     }
    ]
+  },
+  "it": {
+   "duration": 52.44,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 7.44,
+     "text": "Questo punto si trova sul lato destro di Praia Vermelha, opposto alla Pista Cláudio Coutinho, che si trova a sinistra."
+    },
+    {
+     "start": 7.44,
+     "end": 23.45,
+     "text": "Proprio qui, vicino al punto di osservazione, la fascia di sabbia si restringe e la pavimentazione cambia in sabbia costellata di grandi pietre di granito, con punte affilate — una superficie irregolare, ruvida e abrasiva, con un rischio reale di graffi."
+    },
+    {
+     "start": 23.45,
+     "end": 31.51,
+     "text": "Le pietre provengono da distacchi della parete del Morro da Babilônia, quindi il terreno è imprevedibile da un tratto all'altro."
+    },
+    {
+     "start": 31.51,
+     "end": 42.54,
+     "text": "A pochi metri da qui, il resto della spiaggia non presenta più queste pietre, e il mare è generalmente tranquillo — è il punto dove ogni giorno si tengono le lezioni di nuoto."
+    },
+    {
+     "start": 42.54,
+     "end": 52.44,
+     "text": "L'avvertenza riguarda esclusivamente queste pietre specifiche: non si avvicini ad esse né provi a entrare in acqua in questo punto senza essere accompagnato."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration": 45.34,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 5.96,
+     "text": "这个点位于红滩的右侧，与位于左侧的克劳迪奥·科蒂尼奥步道相对。"
+    },
+    {
+     "start": 5.96,
+     "end": 20.17,
+     "text": "就在这里，靠近观景点的地方，沙滩变窄，路面也变成了散布着大块花岗岩石块的沙地，石块棱角尖锐——表面凹凸不平、粗糙且带有磨蚀性，存在被划伤的实际风险。"
+    },
+    {
+     "start": 20.17,
+     "end": 26.89,
+     "text": "这些石块来自巴比伦山岩壁的崩落，因此路段之间的地形并不规律，难以预测。"
+    },
+    {
+     "start": 26.89,
+     "end": 36.31,
+     "text": "距此几米之外，沙滩的其余部分已经没有这些石块，海面通常也比较平静——那里正是每天进行游泳课的地方。"
+    },
+    {
+     "start": 36.31,
+     "end": 45.34,
+     "text": "这里的提醒仅针对这些特定的石块：请不要靠近它们，也不要在没有同伴陪同的情况下尝试从这一带下水。"
+    }
+   ]
   }
  },
  "pista_p5_seguranca": {
@@ -33290,6 +33445,46 @@
      "start": 26.88,
      "end": 40.13,
      "text": "Das Blätterdach der Bäume schließt sich oben — der Langstock erkennt keine Äste oder Hindernisse oberhalb der Hüfte, achten Sie also auch auf einem so regelmäßigen Belagsabschnitt wie diesem auf die Kopfhöhe."
+    }
+   ]
+  },
+  "it": {
+   "duration": 40.63,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 11.89,
+     "text": "In questo punto la pavimentazione cambia in una superficie liscia e continua — asfalto, priva delle pietre irregolari dell'ingresso, ancora senza pavimentazione tattile di allerta o direzionale."
+    },
+    {
+     "start": 11.89,
+     "end": 26.78,
+     "text": "Panchine di tronco e pietra si trovano sul lato destro, vicino alla corsia di cammino, all'incirca all'altezza del ginocchio; se intende fermarsi per riposare, avanzi con il bastone a contatto fino a percepire la panchina prima di avvicinarsi."
+    },
+    {
+     "start": 26.78,
+     "end": 40.63,
+     "text": "La chioma degli alberi si chiude sopra il percorso — il bastone non rileva rami o ostacoli al di sopra della vita, quindi mantenga l'attenzione all'altezza della testa anche in un tratto di pavimentazione regolare come questo."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration": 31.25,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.01,
+     "text": "这里的路面变为平滑连续的柏油路面，不再有入口处那种不规则的石块，但仍然没有警示或导向触感铺面。"
+    },
+    {
+     "start": 9.01,
+     "end": 20.32,
+     "text": "原木与石块搭成的长椅位于右侧，靠近步行带，大约与膝盖同高；如果打算停下休息，请先用导盲杖触碰确认长椅的位置，再靠近它。"
+    },
+    {
+     "start": 20.32,
+     "end": 31.25,
+     "text": "树冠在上方合拢——导盲杖无法探测到腰部以上的树枝或障碍物，因此即使是像这样路面规整的路段，也请留意头部高度的情况。"
     }
    ]
   }
@@ -33532,6 +33727,66 @@
      "start": 26.39,
      "end": 31.58,
      "text": "Achten Sie auf Äste in Kopf- und Schulterhöhe, die der Langstock nicht erfasst."
+    }
+   ]
+  },
+  "it": {
+   "duration": 32.83,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 5.24,
+     "text": "Lei si trova in un altro punto panoramico, con il mare aperto di fronte a Lei."
+    },
+    {
+     "start": 5.24,
+     "end": 12.49,
+     "text": "Sul lato sinistro non c'è alcun delimitatore — solo vegetazione e pietre direttamente sul bordo del cammino."
+    },
+    {
+     "start": 12.49,
+     "end": 23.97,
+     "text": "Sul lato destro c'è un parapetto in tubi d'acciaio con pilastri in cemento, ma, ciononostante, la vegetazione è fitta e gli alberi avanzano sulla pista da entrambi i lati."
+    },
+    {
+     "start": 23.97,
+     "end": 26.59,
+     "text": "Utilizzi il bastone in ampia scansione."
+    },
+    {
+     "start": 26.59,
+     "end": 32.83,
+     "text": "Faccia attenzione ai rami all'altezza della testa e delle spalle, dove il bastone non arriva."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration": 26.83,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.21,
+     "text": "您现在位于另一处观景台，前方是开阔的海面。"
+    },
+    {
+     "start": 4.21,
+     "end": 10.01,
+     "text": "左侧没有任何隔离设施——只有植被和石块直接延伸到步道边缘。"
+    },
+    {
+     "start": 10.01,
+     "end": 19.42,
+     "text": "右侧设有钢管护栏，配有混凝土立柱，但即便如此，这一带植被依然茂密，两侧都有树木伸展到步道上方。"
+    },
+    {
+     "start": 19.42,
+     "end": 21.43,
+     "text": "请使用大范围触扫法。"
+    },
+    {
+     "start": 21.43,
+     "end": 26.83,
+     "text": "留意头部与肩部高度的树枝，那是导盲杖无法探测到的范围。"
     }
    ]
   }
@@ -33816,6 +34071,76 @@
      "text": "Halten Sie den Langstock im weiten Bogenschlag, um nicht von einem Stein oder einer Wurzel überrascht zu werden, der oder die in den Weg hineinragt."
     }
    ]
+  },
+  "it": {
+   "duration": 44.93,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 10.06,
+     "text": "Lei si trova in un punto della pista da cui si vede il Forte Duque de Caxias, dall'altra parte dell'acqua — una vista in lontananza, non un arrivo al forte."
+    },
+    {
+     "start": 10.06,
+     "end": 17.02,
+     "text": "Un ramo si trova vicino a questo punto di osservazione, all'altezza della testa, dove il bastone non arriva."
+    },
+    {
+     "start": 17.02,
+     "end": 21.08,
+     "text": "La pavimentazione è di asfalto piuttosto irregolare, con buche."
+    },
+    {
+     "start": 21.08,
+     "end": 28.3,
+     "text": "Sul lato del mare non c'è parapetto né alcuna barriera — verifichi il bordo con il bastone prima di avvicinarsi."
+    },
+    {
+     "start": 28.3,
+     "end": 37.45,
+     "text": "Anche sul lato sinistro non c'è alcuna barriera fisica: la vegetazione e le pietre avanzano direttamente fino al margine della pavimentazione."
+    },
+    {
+     "start": 37.45,
+     "end": 44.93,
+     "text": "Mantenga il bastone in ampia scansione per non essere sorpreso da una pietra o da una radice che avanza sul cammino."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration": 36.24,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.69,
+     "text": "您现在所在的这处步道点位，可以望见水面对岸的杜克·卡希亚斯要塞——这只是远眺，并非真正抵达要塞本身。"
+    },
+    {
+     "start": 9.69,
+     "end": 15.31,
+     "text": "这处观景点附近有一根树枝，位于头部高度，导盲杖无法探测到。"
+    },
+    {
+     "start": 15.31,
+     "end": 18.99,
+     "text": "路面为柏油路面，坑洼较多，相当不平整。"
+    },
+    {
+     "start": 18.99,
+     "end": 25.39,
+     "text": "靠海一侧没有护栏，也没有任何屏障——请先用导盲杖确认边缘，再靠近。"
+    },
+    {
+     "start": 25.39,
+     "end": 30.43,
+     "text": "左侧同样没有实体屏障：植被和石块直接延伸到路面边侧。"
+    },
+    {
+     "start": 30.43,
+     "end": 36.24,
+     "text": "请保持使用大范围触扫法，以免被伸入步道的石块或树根突然绊到。"
+    }
+   ]
   }
  },
  "pista_p8_seguranca": {
@@ -34016,6 +34341,56 @@
      "start": 38.79,
      "end": 45.17,
      "text": "Gehen Sie vorsichtig weiter, bis Sie spüren, ob sich der Weg verengt, bevor Sie das Tempo erhöhen."
+    }
+   ]
+  },
+  "it": {
+   "duration": 41.98,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 7.27,
+     "text": "Lei si trova nell'ultima curva prima dell'arrivo a Urca, con la pista che si apre sull'insenatura di Praia Vermelha."
+    },
+    {
+     "start": 7.27,
+     "end": 26.06,
+     "text": "La pavimentazione è di asfalto sconnesso, con accumulo di foglie — trattandosi di un ambiente naturale, le foglie possono coprire radici di alberi che emergono prima del parapetto, quindi utilizzi il bastone in ampia scansione per percepire cosa si trova sotto le foglie prima di appoggiare il piede."
+    },
+    {
+     "start": 26.06,
+     "end": 36.53,
+     "text": "È possibile che nella zona siano presenti animali come le scimmiette (i mico) — una presenza comune in questa regione, non un motivo di allarme, ma solo di attenzione."
+    },
+    {
+     "start": 36.53,
+     "end": 41.98,
+     "text": "Avanzi con cautela per sentire se il cammino si restringe prima di accelerare il passo."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration": 33.46,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 6.99,
+     "text": "您现在位于抵达乌尔卡之前的最后一道弯路，步道在此展开，俯瞰红滩所在的海湾。"
+    },
+    {
+     "start": 6.99,
+     "end": 21.36,
+     "text": "路面是高低不平的柏油路面，堆积着不少落叶——由于这是自然环境，落叶可能覆盖着护栏前方冒出的树根，因此请使用大范围触扫法，在踩踏之前先感受落叶下方的情况。"
+    },
+    {
+     "start": 21.36,
+     "end": 29.3,
+     "text": "附近可能有狨猴一类的小动物出没——这在本地很常见，不是需要警惕的情况，只需多加留意。"
+    },
+    {
+     "start": 29.3,
+     "end": 33.46,
+     "text": "请谨慎前行，先确认路面是否变窄，再加快脚步。"
     }
    ]
   }
@@ -36615,6 +36990,146 @@
      "text": "Wichtig ist nur, dass Sie Ihre Entscheidung in dem Wissen treffen, was vor Ihnen liegt."
     }
    ]
+  },
+  "it": {
+   "duration": 127.39,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.86,
+     "text": "Prima di proseguire verso la pista, una parola su ciò che La aspetta qui."
+    },
+    {
+     "start": 4.86,
+     "end": 7.25,
+     "text": "La Pista Cláudio Coutinho è lunga 1."
+    },
+    {
+     "start": 7.25,
+     "end": 11.91,
+     "text": "250 metri di sola andata, tra Praia Vermelha e il Pan di Zucchero — 2."
+    },
+    {
+     "start": 11.91,
+     "end": 13.7,
+     "text": "500 metri andata e ritorno."
+    },
+    {
+     "start": 13.7,
+     "end": 28.47,
+     "text": "È una pista pianeggiante, senza automobili, senza biciclette, senza skateboard: solo pedoni, che camminano in una riserva ambientale tra la parete del Morro da Urca e quella del Pan di Zucchero, con abbondante vegetazione."
+    },
+    {
+     "start": 28.47,
+     "end": 33.93,
+     "text": "Il mare si trova alla Sua destra, anch'esso con abbondante vegetazione e ostacoli."
+    },
+    {
+     "start": 33.93,
+     "end": 53.48,
+     "text": "Questo stesso cammino è l'accesso al sentiero che sale sul Morro da Urca — ma questa salita è un percorso naturale, molto diverso da questa pista pianeggiante: il tempo medio di salita è di un'ora, non è consigliabile percorrerla da soli, e lungo il cammino sono presenti rami e altri ostacoli."
+    },
+    {
+     "start": 53.48,
+     "end": 73.24,
+     "text": "Il percorso alterna tratti aperti — con vista sul Pan di Zucchero, sulla baia, sulle isole e sulle altre colline circostanti — a tratti di foresta fitta, con la chioma degli alberi che copre la pista, ombra, il suono del fogliame e, occasionalmente, la presenza di qualche animale nelle vicinanze."
+    },
+    {
+     "start": 73.24,
+     "end": 91.54,
+     "text": "Nella modalità con audiodescrizione, ogni tappa offre anche un livello di orientamento fisico — tipo di pavimentazione, assenza di pavimentazione tattile, ostacoli lungo il cammino — quindi si tratta di un'esperienza che richiede tempo e attenzione, non una camminata veloce."
+    },
+    {
+     "start": 91.54,
+     "end": 99.05,
+     "text": "Alla fine, la pista di atletica asfaltata prosegue fino a un punto di riferimento finale: un cilindro di cemento."
+    },
+    {
+     "start": 99.05,
+     "end": 103.44,
+     "text": "Da questo punto ha inizio il cammino verso una via di arrampicata."
+    },
+    {
+     "start": 103.44,
+     "end": 122.0,
+     "text": "Ora che ha un'idea reale di cosa sia questo percorso, la scelta è Sua — può proseguire verso la pista di atletica Cláudio Coutinho, oppure può impiegare il Suo tempo in altro modo: passeggiare sul lungomare, godersi la piazza, andare a Praia Vermelha o persino salire in funivia."
+    },
+    {
+     "start": 122.0,
+     "end": 123.73,
+     "text": "Sono tutte opzioni valide."
+    },
+    {
+     "start": 123.73,
+     "end": 127.39,
+     "text": "Ciò che conta è che Lei decida sapendo cosa La aspetta."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration": 113.95,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 5.65,
+     "text": "在前往步道之前，先简单说明一下这里等待着您的是什么样的体验。"
+    },
+    {
+     "start": 5.65,
+     "end": 13.56,
+     "text": "克劳迪奥·科蒂尼奥步道单程长1250米，连接红滩与甜面包山——往返全程为2500米。"
+    },
+    {
+     "start": 13.56,
+     "end": 26.56,
+     "text": "这是一条平坦的步道，没有汽车、没有自行车，也没有滑板：只供行人通行，穿行在乌尔卡山与甜面包山两侧山壁之间的一处自然保护区内，植被相当茂密。"
+    },
+    {
+     "start": 26.56,
+     "end": 30.51,
+     "text": "大海位于您的右侧，同样有不少植被与障碍物。"
+    },
+    {
+     "start": 30.51,
+     "end": 46.9,
+     "text": "这条步道同时也是通往攀登乌尔卡山那条山路的入口——不过那段上坡路是一条自然山径，与这条平坦的步道有很大不同：平均登顶时间约为一小时，不建议独自前往，沿途还有树枝等各种障碍物。"
+    },
+    {
+     "start": 46.9,
+     "end": 62.53,
+     "text": "沿途会在开阔路段与密林路段之间交替：开阔路段可以看到甜面包山、海湾，以及周围的岛屿和其他山峰；密林路段则有树冠遮盖步道，带来阴凉、树叶沙沙的声音，偶尔还会有动物出没。"
+    },
+    {
+     "start": 62.53,
+     "end": 78.54,
+     "text": "在带有音频讲解的模式下，每一站还会提供一层实地方位说明——路面类型、是否有触感铺面（没有）、沿途的障碍物——因此这是一段需要花时间、集中注意力体验的旅程，而不是一次快走。"
+    },
+    {
+     "start": 78.54,
+     "end": 85.13,
+     "text": "步道的尽头是铺有柏油的田径跑道，一直延伸到终点标志——一根混凝土圆柱。"
+    },
+    {
+     "start": 85.13,
+     "end": 89.09,
+     "text": "从这一点开始，便是通往一条攀岩路线的入口。"
+    },
+    {
+     "start": 89.09,
+     "end": 106.42,
+     "text": "现在，您已经对这条路线有了真实的了解——接下来怎么选择，由您决定：可以前往克劳迪奥·科蒂尼奥步道，也可以换一种方式度过这段时间，比如走一走滨海步道、逛一逛广场、去红滩，或者乘缆车登顶。"
+    },
+    {
+     "start": 106.42,
+     "end": 108.68,
+     "text": "这些都是同样有效的选择。"
+    },
+    {
+     "start": 108.68,
+     "end": 113.95,
+     "text": "重要的是，您做决定的时候，已经清楚前方等待着您的是什么。"
+    }
+   ]
   }
  },
  "pista_p10_aviso": {
@@ -36695,6 +37210,26 @@
      "start": 0.0,
      "end": 11.83,
      "text": "Von hier an beschreibt dieser Audioguide ein Gebiet mit realer Gefahr, in der Nähe eines Costão — einer freiliegenden Felsflanke — mit dokumentierten Unfällen, auch mit Todesfolge."
+    }
+   ]
+  },
+  "it": {
+   "duration": 12.38,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 12.38,
+     "text": "Da qui in poi, la narrazione descrive un'area di rischio reale, vicino al Costão do Pão de Açúcar, il versante roccioso del Pan di Zucchero, dove sono stati registrati incidenti mortali."
+    }
+   ]
+  },
+  "zh-cn": {
+   "duration": 8.81,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 8.81,
+     "text": "从这里开始，讲解内容将描述一处存在真实风险的区域，靠近有致命事故记录的甜面包山峭壁。"
     }
    ]
   }
