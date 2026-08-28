@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Build 2026-08-28 (Auditoria 05, achado médio M-01) — ver o mesmo comentário em pista.html. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';">
 <title>Pão de Açúcar para Você — Protótipo de Demonstração</title>
 <meta name="description" content="Audioguia multilíngue do Pão de Açúcar (Rio de Janeiro) — narração turística e audiodescrição PCD em 14 idiomas, protótipo de demonstração.">
 <meta property="og:type" content="website">
@@ -216,7 +218,7 @@
     <div class="alert alert-note" style="font-size:.76rem;">Verificação real via API do Instagram exigiria app aprovado pela Meta e login OAuth do visitante — inviável num protótipo local. O botão acima simula os dois estados para a demonstração. (Nota de bastidor — sempre em português, não faz parte da experiência do visitante.)</div>
 
     <div class="brinde-flow">
-      <a id="btn-ver-instagram" class="btn block" data-voice="btn_ver_instagram" href="https://www.instagram.com/parquebondinho/" target="_blank" rel="noopener" style="margin-bottom:10px;" data-i18n="btn_ver_instagram">📷 Ver @parquebondinho no Instagram</a>
+      <a id="btn-ver-instagram" class="btn block" data-voice="btn_ver_instagram" href="https://www.instagram.com/parquebondinho/" target="_blank" rel="noopener noreferrer" style="margin-bottom:10px;" data-i18n="btn_ver_instagram">📷 Ver @parquebondinho no Instagram</a>
       <button id="btn-verificar-seguidor" class="btn secondary block" data-voice="btn_verificar" data-i18n="btn_verificar">Verificar se já sigo</button>
       <div id="brinde-result"></div>
     </div>

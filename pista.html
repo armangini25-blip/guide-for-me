@@ -3,6 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Build 2026-08-28 (Auditoria 05, achado médio M-01): GitHub Pages não permite header HTTP
+     Content-Security-Policy custom, mas a versão via <meta> é suportada pelos navegadores pras
+     diretivas abaixo (exceção documentada: frame-ancestors, que só funciona via header real — não
+     mitigável nesta plataforma, ver achado B-04). style-src precisa de 'unsafe-inline' porque o
+     app usa muito style="" inline (não vale o risco de migrar tudo pra classes CSS só por isso);
+     script-src fica sem 'unsafe-inline' de propósito — o único onclick="" inline que existia foi
+     removido (ver pista.js). Camada extra de defesa contra o vetor de XSS já fechado em C-11/A-04,
+     não substitui a sanitização em si. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';">
 <title>Pista Cláudio Coutinho</title>
 <link rel="stylesheet" href="assets/css/app.css">
 </head>
@@ -96,7 +105,7 @@
   <section id="screen-apresentacao" class="screen">
     <p style="font-size:.78rem;color:var(--text-muted); margin:0 0 10px; display:flex; align-items:center; justify-content:space-between;">
       <span><span id="lang-current-flag" style="display:inline-flex;vertical-align:middle;"></span> <strong id="lang-current-name"></strong></span>
-      <button id="btn-trocar-idioma" class="btn secondary small" style="padding:5px 10px;">← <span data-i18n="pista_trocar_idioma">Trocar idioma</span></button>
+      <button id="btn-trocar-idioma" class="btn secondary small" style="padding:5px 10px;"><span class="ic-inline">←</span> <span data-i18n="pista_trocar_idioma">Trocar idioma</span></button>
     </p>
 
     <div id="apresentacao-media" class="vista-media">
@@ -111,6 +120,10 @@
         <button id="apresentacao-playpause" class="mini-player-btn">▶</button>
         <div id="apresentacao-track" class="mini-player-track"><div id="apresentacao-progress" class="mini-player-progress"></div></div>
       </div>
+      <!-- Build 2026-08-28 (Auditoria 05, achado A-05): trava de rede no meio do carregamento/
+           playback antes ficava sem nenhum aviso — indistinguível de "travou" ou "terminou em
+           silêncio". Ver wireAudioErrorRecovery() em pista.js. -->
+      <div id="apresentacao-audio-notice" class="alert alert-note" style="display:none; font-size:.82rem;"></div>
       <div id="apresentacao-caption-box" class="caption-box">…</div>
     </div>
   </section>
@@ -119,7 +132,7 @@
   <section id="screen-percurso" class="screen">
     <p style="font-size:.78rem;color:var(--text-muted); margin:0 0 6px; display:flex; align-items:center; justify-content:space-between;">
       <span><span id="lang-current-flag-2" style="display:inline-flex;vertical-align:middle;"></span> <strong id="lang-current-name-2"></strong></span>
-      <button class="btn secondary small" style="padding:5px 10px;" onclick="document.getElementById('btn-trocar-idioma').click()">← <span data-i18n="pista_trocar_idioma">Trocar idioma</span></button>
+      <button id="btn-trocar-idioma-percurso" class="btn secondary small" style="padding:5px 10px;"><span class="ic-inline">←</span> <span data-i18n="pista_trocar_idioma">Trocar idioma</span></button>
     </p>
     <p id="ponto-progresso" style="font-size:.7rem; color:var(--text-muted); margin:0 0 8px; text-align:center;"></p>
 

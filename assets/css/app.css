@@ -124,6 +124,20 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
 .global-footer{ flex-shrink:0; width:100%; height:42px; display:flex; border-top:1px solid var(--border); background:var(--table-head); z-index:31;}
 .footer-btn{ flex:1; background:none; border:none; color:var(--table-head-text); font-size:.76rem; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:6px;}
 .footer-btn .ic{ font-size:.95rem; }
+/* Build 2026-08-28 (Auditoria 05, achado alto A-11): ícones de navegação direcional (Voltar/Seguir/
+   Trocar idioma) não espelhavam em idiomas RTL (árabe) — o layout já inverte corretamente
+   (dir="rtl" no <html>, confirmado funcionando), mas a seta ficava apontando pro lado fisicamente
+   errado do sentido de leitura. Escopado só aos ícones de wayfinding, não aos não-direcionais
+   (🏠 Home, 🚪 Sair, ⚙️ Ajustes, 🚶 Percurso) — esses continuam iguais nos dois sentidos.
+   Mesmo padrão nos dois produtos (index.html #btn-voltar / pista.html #btn-voltar-global e
+   #btn-seguir-global), já que compartilham este arquivo de CSS. */
+[dir="rtl"] #btn-voltar-global .ic,
+[dir="rtl"] #btn-seguir-global .ic,
+[dir="rtl"] #btn-voltar .ic,
+[dir="rtl"] .ic-inline{
+  display:inline-block;
+  transform:scaleX(-1);
+}
 
 /* tela de escolha de plano */
 .plano-cards{ display:flex; flex-direction:column; gap:14px; margin-top:20px;}
