@@ -4,6 +4,12 @@
 // de plano (Básico com anúncio/Premium com pagamento simulado), e a trilha de continuação da Íris
 // em áudio no modo PCD — mesmos padrões de app.js, adaptados pra a sequência linear de paradas.
 
+// Build 2026-08-28 (Auditoria 05, achado crítico C-04) — ver o mesmo comentário em app.js:
+// captions.json/i18n.json eram buscados com cache:"no-store" (desperdício de banda numa trilha com
+// sinal instável); troca pra query string de versão, que só força novo download quando o conteúdo
+// realmente muda (bump manual deste número), aproveitando o cache HTTP normal no resto do tempo.
+const DATA_VERSION = "2026-08-28.1";
+
 const FLAG_SVG = {
   "pt-br": `<svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#009739"/><polygon points="1.5,0.22 2.82,1 1.5,1.78 0.18,1" fill="#FEDD00"/><circle cx="1.5" cy="1" r="0.5" fill="#012169"/></svg>`,
   "pt-pt": `<svg viewBox="0 0 3 2"><rect width="1.2" height="2" fill="#046A38"/><rect x="1.2" width="1.8" height="2" fill="#DA291C"/><circle cx="1.2" cy="1" r="0.42" fill="#FFCC29" stroke="#046A38" stroke-width="0.03"/></svg>`,
@@ -389,7 +395,13 @@ function buildLanguageGrid() {
   const grid = $("#lang-grid");
   grid.innerHTML = "";
   LANGS.forEach((l) => {
-    const card = document.createElement("div");
+    // Build 2026-08-28 (Auditoria 05, achado crítico C-09): <button> real em vez de <div>+onclick —
+    // sem isso, os 14 cartões de idioma (primeira tela que 100% dos usuários encontram) ficavam fora
+    // da ordem de tabulação e sem semântica pra teclado/leitor de tela. FLAG_SVG[l.code] continua indo
+    // por innerHTML porque é constante estática do próprio código-fonte (não dado de runtime — não é
+    // o mesmo vetor do achado C-11 em app.js).
+    const card = document.createElement("button");
+    card.type = "button";
     card.className = "lang-card";
     card.innerHTML = `<span class="flag">${FLAG_SVG[l.code]}</span><span class="name">${l.name}</span>`;
     card.onclick = () => selectLanguage(l);
@@ -399,7 +411,7 @@ function buildLanguageGrid() {
 
 async function loadCaptions() {
   if (state.captions) return;
-  const res = await fetch("assets/data/captions.json", { cache: "no-store" });
+  const res = await fetch(`assets/data/captions.json?v=${DATA_VERSION}`);
   state.captions = await res.json();
 }
 
@@ -410,7 +422,7 @@ async function loadCaptions() {
 // (mesma tabela pt-br→pt, en-us→en etc.), não precisa de mapeamento separado. ----------
 async function loadI18n() {
   if (state.i18n) return;
-  const res = await fetch("assets/data/i18n.json", { cache: "no-store" });
+  const res = await fetch(`assets/data/i18n.json?v=${DATA_VERSION}`);
   state.i18n = await res.json();
 }
 
@@ -533,11 +545,18 @@ function confirmarPagamento() {
 function setMediaCaption(texto) {
   const box = $("#vista-media-caption");
   if (texto) {
-    box.innerHTML = `<span class="caption-tag">${t("pista_caption_tag_iris")}</span>${texto}`;
+    // Build 2026-08-28 (Auditoria 05, achado A-04): mesma classe de furo do C-11 em app.js — antes
+    // montava por innerHTML com `texto`/`t(...)` interpolado sem escaping. Hoje os 3 call-sites só
+    // passam null (código morto), mas ficava pronto pra reintroduzir o vetor assim que reativado —
+    // corrigido preventivamente com DOM real antes de qualquer reativação.
+    const tag = document.createElement("span");
+    tag.className = "caption-tag";
+    tag.textContent = t("pista_caption_tag_iris");
+    box.replaceChildren(tag, document.createTextNode(texto));
     box.style.display = "block";
   } else {
     box.style.display = "none";
-    box.innerHTML = "";
+    box.replaceChildren();
   }
 }
 
@@ -696,6 +715,18 @@ function setVistaMediaTapAtivo(ativo) {
   const btn = $("#vista-media-tap");
   if (ativo) btn.removeAttribute("disabled");
   else btn.setAttribute("disabled", "");
+}
+
+// Build 2026-08-28 (Auditoria 05, achado crítico C-08): o card cobre a foto inteira, sem indicação
+// visual de que existe ali — um toque sem querer (mão escorregando enquanto maneja a bengala) não
+// pode cortar no meio um áudio "_seguranca_" (rampa/escada/ausência de corrimão etc.). Enquanto esse
+// áudio estiver tocando, o toque não faz nada — o rodapé "Seguir" continua funcionando normalmente,
+// é só este atalho extra que fica suspenso durante a camada mais crítica da narração.
+function tapNaFotoSeguro() {
+  const audioEl = $("#player-audio");
+  const naSeguranca = audioEl.src.includes("_seguranca_");
+  if (naSeguranca && !audioEl.paused && !audioEl.ended) return;
+  seguirGlobal();
 }
 
 // ---------- Tela de percurso (sequência de paradas, navegação pelo rodapé global) ----------
@@ -1005,6 +1036,11 @@ function voltarParaIdioma() {
   showScreen("screen-lang");
 }
 
+// Build 2026-08-28 (Auditoria 05, achado crítico C-05) — ver sw.js e o mesmo registro em app.js.
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => {}); });
+}
+
 window.addEventListener("DOMContentLoaded", () => {
   buildLanguageGrid();
   wireMiniPlayer("apresentacao-audio", "apresentacao-playpause", "apresentacao-track", "apresentacao-progress");
@@ -1017,7 +1053,7 @@ window.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".payment-option").forEach((el) => { el.onclick = confirmarPagamento; });
   $("#btn-voltar-global").onclick = voltarGlobal;
   $("#btn-seguir-global").onclick = seguirGlobal;
-  $("#vista-media-tap").onclick = seguirGlobal; // ver setVistaMediaTapAtivo — mesma função do Seguir
+  $("#vista-media-tap").onclick = tapNaFotoSeguro; // ver setVistaMediaTapAtivo/tapNaFotoSeguro
   $("#btn-sair-global").onclick = abrirConfirmSair;
   $("#confirm-sair-sim").onclick = confirmarSair;
   $("#confirm-sair-nao").onclick = fecharConfirmSair;

@@ -29,17 +29,17 @@
   <!-- TELA 2: escolha do tipo de narração (mesmo padrão do app principal, screen-modo-narracao) -->
   <section id="screen-modo" class="screen">
     <div class="plano-cards">
-      <div id="modo-turistica" class="plano-card" data-voice="modo_turistica_title">
+      <button type="button" id="modo-turistica" class="plano-card" data-voice="modo_turistica_title">
         <img class="plano-icon-img" src="assets/img/icones/pista_modo_turistica.jpg" alt="">
         <h3 data-i18n="modo_turistica_title">Narração Turística</h3>
         <p data-i18n="modo_turistica_desc">Roteiro histórico e cultural de cada ponto da trilha.</p>
-      </div>
-      <div id="modo-pcd" class="plano-card premium" data-voice="modo_pcd_title">
+      </button>
+      <button type="button" id="modo-pcd" class="plano-card premium" data-voice="modo_pcd_title">
         <img class="plano-icon-img" src="assets/img/icones/pista_modo_pcd.jpg" alt="">
         <h3 data-i18n="modo_pcd_title">Audiodescrição Detalhada — PCD (Tipo 2)</h3>
         <p data-i18n="modo_pcd_desc">A narração turística, seguida da descrição sensorial detalhada da paisagem.</p>
         <p id="modo-pcd-notice" class="lang-notice" style="display:none; margin-top:8px;" data-i18n="pista_pcd_sem_iris"></p>
-      </div>
+      </button>
     </div>
   </section>
 
@@ -48,16 +48,16 @@
     <h2 class="screen-title" data-i18n="plano_title">Escolha seu plano</h2>
     <p class="screen-sub" data-i18n="plano_sub">Toque numa opção para continuar.</p>
     <div class="plano-cards">
-      <div id="plano-basico" class="plano-card" data-voice="plano_basico_title">
+      <button type="button" id="plano-basico" class="plano-card" data-voice="plano_basico_title">
         <span class="plano-icon">📻</span>
         <h3 data-i18n="plano_basico_title">Básico</h3>
         <p data-i18n="plano_basico_desc">Gratuito, com anúncios entre as telas.</p>
-      </div>
-      <div id="plano-premium" class="plano-card premium" data-voice="plano_premium_title">
+      </button>
+      <button type="button" id="plano-premium" class="plano-card premium" data-voice="plano_premium_title">
         <span class="plano-icon">💎</span>
         <h3 data-i18n="plano_premium_title">Premium</h3>
         <p data-i18n="plano_premium_desc">Sem anúncios, com acesso a conteúdo exclusivo.</p>
-      </div>
+      </button>
     </div>
   </section>
 
@@ -78,15 +78,15 @@
       <p class="payment-kicker" data-i18n="pagamento_kicker">Formas de</p>
       <h1 class="payment-title" data-i18n="pagamento_title">pagamento</h1>
       <p class="payment-valor" data-i18n="pista_pagamento_valor">O valor deste serviço é de R$ 2,00, que será cobrado em 1 parcela.</p>
-      <div class="payment-option" data-voice="pagamento_credito" data-metodo="credito">
+      <button type="button" class="payment-option" data-voice="pagamento_credito" data-metodo="credito">
         <span class="payment-icon">💳</span><span data-i18n="pagamento_credito">Cartão de Crédito</span>
-      </div>
-      <div class="payment-option" data-voice="pagamento_debito" data-metodo="debito">
+      </button>
+      <button type="button" class="payment-option" data-voice="pagamento_debito" data-metodo="debito">
         <span class="payment-icon">💳</span><span data-i18n="pagamento_debito">Cartão de Débito</span>
-      </div>
-      <div class="payment-option" data-voice="pagamento_pix" data-metodo="pix">
+      </button>
+      <button type="button" class="payment-option" data-voice="pagamento_pix" data-metodo="pix">
         <span class="payment-icon">📱</span><span data-i18n="pagamento_pix">Pix</span>
-      </div>
+      </button>
       <p class="payment-disclaimer" data-i18n="pagamento_disclaimer">Simulação — nenhum pagamento real é processado neste protótipo.</p>
       <div id="pagamento-status" class="payment-status" style="display:none;"></div>
     </div>

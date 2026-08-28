@@ -1,6 +1,16 @@
 // Protótipo de demonstração — Pão de Açúcar para Você
 // Estado global simples, sem framework, sem build tool (roda direto no navegador).
 
+// Build 2026-08-28 (Auditoria 05, achado crítico C-04): captions.json/i18n.json são compartilhados
+// pelos dois produtos, com os 14 idiomas cada — 1,46MB/451KB gzip só o captions.json. Buscá-los com
+// `cache:"no-store"` (achado de 2026-08-02, ver loadI18N) resolvia o problema de cópia velha
+// grudada em cache, mas ao custo de baixar tudo de novo em TODO carregamento de página, mesmo sem
+// nenhuma mudança de conteúdo — desperdício real de banda numa trilha com sinal instável. Solução:
+// query string de versão em vez de desativar cache — muda a URL só quando o conteúdo muda de
+// verdade (bump manual deste número), então o navegador reaproveita o cache HTTP normal (inclusive
+// o Cache-Control:max-age=600 que o GitHub Pages já dá de graça) em vez de rebaixar tudo sempre.
+const DATA_VERSION = "2026-08-28.1";
+
 // Windows (Segoe UI Emoji) não renderiza bandeiras Unicode como imagem — mostra o código
 // de duas letras (ex.: "BR"). Testado neste protótipo via Playwright headless no Windows.
 // Solução: bandeiras próprias em SVG inline, simplificadas, sem dependência externa.
@@ -413,10 +423,9 @@ function irParaTras() {
 // ---------- i18n (interface segue o idioma escolhido; exceções: modal de stub e painel ficam sempre em PT) ----------
 async function loadI18N() {
   if (state.i18n) return;
-  // cache:"no-store" — sem isso, o navegador serve uma cópia antiga em cache indefinidamente
-  // mesmo após F5/Ctrl+Shift+R (o hard-reload não alcança fetch()s feitos depois do carregamento
-  // inicial da página). Achado durante o teste da remoção da aba "Ver Vista" (2026-08-02).
-  const res = await fetch("assets/data/i18n.json", { cache: "no-store" });
+  // Query string de versão (ver DATA_VERSION) — resolve o mesmo problema de cópia velha grudada em
+  // cache que o "no-store" resolvia (achado 2026-08-02), sem descartar o cache a cada carregamento.
+  const res = await fetch(`assets/data/i18n.json?v=${DATA_VERSION}`);
   state.i18n = await res.json();
 }
 
@@ -424,7 +433,7 @@ async function loadI18N() {
 // legenda de 14 mirantes) — carregados uma vez, cacheados, usados por renderMapaLabels().
 async function loadMapaLabels() {
   if (state.mapaLabels) return;
-  const res = await fetch("assets/data/mapa_labels_i18n.json", { cache: "no-store" });
+  const res = await fetch(`assets/data/mapa_labels_i18n.json?v=${DATA_VERSION}`);
   state.mapaLabels = await res.json();
 }
 
@@ -718,15 +727,30 @@ function renderMapaLabels() {
 
   const cover = $("#mapa-legend-cover");
   if (cover) {
-    cover.innerHTML = `<div class="mapa-legend-grid">${MIRANTES.map((m) => {
+    // Build 2026-08-28 (Auditoria 05, achado crítico C-11): antes montava o grid inteiro por
+    // template string + innerHTML, com `nome` (vindo de mapa_labels_i18n.json, buscado em runtime)
+    // interpolado sem escaping — qualquer coisa gravada nesse JSON (inclusive por engano num lote
+    // de tradução) executaria como HTML. DOM real + textContent não tem esse vetor, nunca interpreta
+    // o texto como marcação.
+    const grid = document.createElement("div");
+    grid.className = "mapa-legend-grid";
+    MIRANTES.forEach((m) => {
       const nome = pega(L.mirantes[String(m.num)]) || m.nome;
-      const visitado = state.mirantesVisitados.has(m.num) ? " visitado" : "";
-      return `<button type="button" class="mapa-legend-item${visitado}" data-num="${m.num}"><span class="legend-num">${m.num}</span><span class="legend-nome">${nome}</span></button>`;
-    }).join("")}</div>`;
-    $all(".mapa-legend-item").forEach((btn) => {
-      const m = MIRANTES.find((x) => x.num === parseInt(btn.getAttribute("data-num"), 10));
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "mapa-legend-item" + (state.mirantesVisitados.has(m.num) ? " visitado" : "");
+      btn.dataset.num = m.num;
+      const numSpan = document.createElement("span");
+      numSpan.className = "legend-num";
+      numSpan.textContent = m.num;
+      const nomeSpan = document.createElement("span");
+      nomeSpan.className = "legend-nome";
+      nomeSpan.textContent = nome;
+      btn.append(numSpan, nomeSpan);
       btn.onclick = () => mapaSelecionarMirante(m);
+      grid.appendChild(btn);
     });
+    cover.replaceChildren(grid);
   }
 }
 
@@ -803,7 +827,10 @@ function doSwitchTab(tab) {
 // ---------- Áudio + legendas ----------
 async function loadCaptions() {
   if (state.captions) return;
-  const res = await fetch("assets/data/captions.json", { cache: "no-store" });
+  // Ver DATA_VERSION — query string de versão em vez de "no-store" (Auditoria 05, C-04): este é o
+  // arquivo mais pesado do app (14 idiomas × todos os pontos dos 2 produtos), não vale rebaixar de
+  // novo em toda troca de tela sem necessidade.
+  const res = await fetch(`assets/data/captions.json?v=${DATA_VERSION}`);
   state.captions = await res.json();
 }
 
@@ -1491,6 +1518,13 @@ function verificarSeguidor() {
       <p style="font-size:.72rem;color:var(--text-muted);margin-top:10px;">${t("brinde_disclaimer")}</p>
     `;
   }, 1600);
+}
+
+// Build 2026-08-28 (Auditoria 05, achado crítico C-05) — cache oportunista mínimo (ver sw.js) pra
+// resiliência a sinal instável em campo. Path relativo, não "/sw.js": o site vive num subcaminho do
+// GitHub Pages (github.io/guide-for-me/), registrar com "/" apontaria pra fora do domínio do repo.
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => {}); });
 }
 
 window.addEventListener("DOMContentLoaded", () => {
