@@ -26592,67 +26592,52 @@
  },
  "pista_p2": {
   "pt": {
-   "duration": 160.37,
+   "duration": 88.97,
    "segments": [
     {
      "start": 0.0,
-     "end": 14.34,
-     "text": "Você está diante da Praia Vermelha, aos pés dos morros da Urca — um dos pontos mais privilegiados da entrada da Baía de Guanabara: do outro lado das águas, dá para enxergar a costa de Niterói, com a paisagem se estendendo até Itaipu."
+     "end": 10.34,
+     "text": "Você está diante da Praia Vermelha, aos pés dos morros da Urca — um dos pontos mais privilegiados da entrada da Baía de Guanabara, com vista para Niterói e Itaipu."
     },
     {
-     "start": 14.34,
-     "end": 22.53,
-     "text": "Muito antes da chegada dos portugueses, esta praia já fazia parte do cotidiano dos povos Tupinambá, que habitavam as margens da baía."
+     "start": 10.34,
+     "end": 18.09,
+     "text": "Muito antes dos portugueses, esta praia já fazia parte do cotidiano dos povos Tupinambá, que habitavam as margens da baía."
     },
     {
-     "start": 22.53,
-     "end": 27.76,
-     "text": "A urbanização desta paisagem começou no início do século XX, em duas obras distintas."
+     "start": 18.09,
+     "end": 32.87,
+     "text": "No início do século 20, ela recebeu aterro e urbanização para sediar a Exposição Nacional Comemorativa do Centenário da Abertura dos Portos do Brasil, em 1908 — evento que durou poucos meses e recebeu mais de um milhão de visitantes."
     },
     {
-     "start": 27.76,
-     "end": 45.86,
-     "text": "Em 1908, a própria Praia Vermelha recebeu aterro, contenção e urbanização para sediar a Exposição Nacional Comemorativa do Centenário da Abertura dos Portos do Brasil — um evento que durou poucos meses, mas recebeu mais de um milhão de visitantes, com construções que quase não deixaram rastro."
+     "start": 32.87,
+     "end": 45.94,
+     "text": "Foi bem aqui, em 7 de setembro de 1922, que uma estação da Western Electric transmitiu ao vivo o discurso do presidente Epitácio Pessoa: considerada a primeira grande transmissão pública de rádio do Brasil."
     },
     {
-     "start": 45.86,
-     "end": 65.87,
-     "text": "Já a criação do bairro da Urca, logo ali, veio de outro aterro: a partir de 1921, o engenheiro Oscar de Almeida Gama avançou um aterro da orla até o sopé do Morro da Urca, usando terra retirada do próprio morro, com o arruamento aprovado em 1922 e as primeiras construções erguidas entre o fim daquele ano e o início de 1923."
-    },
-    {
-     "start": 65.87,
-     "end": 75.66,
-     "text": "Foi essa obra que ergueu a muralha de contenção que os cariocas hoje chamam, com carinho, de Mureta da Urca — ponto de encontro clássico para ver o pôr do sol."
-    },
-    {
-     "start": 75.66,
-     "end": 93.76,
-     "text": "E foi bem aqui, na areia da Praia Vermelha, em 7 de setembro de 1922 — ano das comemorações do Centenário da Independência —, que uma estação de rádio da Western Electric transmitiu ao vivo o discurso do presidente Epitácio Pessoa: a primeira transmissão pública de rádio da história do Brasil."
-    },
-    {
-     "start": 93.76,
-     "end": 99.05,
+     "start": 45.94,
+     "end": 51.4,
      "text": "Foi neste trecho de areia, e não em nenhum estúdio, que nasceu a radiodifusão no país."
     },
     {
-     "start": 99.05,
-     "end": 119.74,
-     "text": "Décadas mais tarde, a praia ganhou também um lugar na música popular carioca: Tim Maia a citou nominalmente numa de suas canções mais conhecidas sobre o litoral do Rio — e conta-se, sem confirmação documental, que o próprio cantor chegou a se apresentar certa vez no Morro da Urca, o morro coberto de mata que você vê logo à sua frente."
+     "start": 51.4,
+     "end": 64.47,
+     "text": "Décadas depois, a praia entrou na música popular carioca, citada nominalmente por Tim Maia — e há relato documentado, do próprio produtor do show \"Noites Cariocas\" (1978), de que ele subiu ao Morro da Urca."
     },
     {
-     "start": 119.74,
-     "end": 135.62,
-     "text": "Hoje a Praia Vermelha vive num ritmo tranquilo: pela manhã, é comum encontrar aulas de natação; ao longo do dia, moradores e visitantes nadam, descansam e contemplam a paisagem, e no verão surgem as pranchas de stand up paddle deslizando sobre a água parada."
+     "start": 64.47,
+     "end": 72.09,
+     "text": "Hoje a praia vive num ritmo tranquilo: pela manhã tem aula de natação, e no verão surgem as pranchas de stand up paddle."
     },
     {
-     "start": 135.62,
-     "end": 151.13,
-     "text": "Quem prefere ficar na areia encontra aluguel de cadeiras e barracas, além de bebidas para esticar a tarde à beira-mar; e há quem chegue até aqui vindo do próprio mar, em barcos e lanchas, para ver esta mesma praia de um ângulo que a areia nunca mostra."
+     "start": 72.09,
+     "end": 80.4,
+     "text": "Quem fica na areia encontra aluguel de cadeiras e barracas, e há quem chegue de barco para ver esta mesma paisagem de outro ângulo."
     },
     {
-     "start": 151.13,
-     "end": 160.37,
-     "text": "Num dia de sol, dificilmente existe combinação melhor de praia, natureza, tranquilidade e uma das vistas mais bonitas da entrada da Baía de Guanabara."
+     "start": 80.4,
+     "end": 88.97,
+     "text": "Num dia de sol, dificilmente existe combinação melhor de praia, natureza e uma das vistas mais bonitas da entrada da Baía de Guanabara."
     }
    ]
   },
@@ -30251,12 +30236,12 @@
  },
  "pista_p5_iris": {
   "pt": {
-   "duration": 15.24,
+   "duration": 14.18,
    "segments": [
     {
      "start": 0.0,
-     "end": 15.24,
-     "text": "O caminho pavimentado se abre numa curva suave sob o teto verde da mata; à esquerda, bancos de tronco e pedra marcam um pequeno ponto de descanso entre samambaias e arbustos; à direita, a vegetação fecha densa até a beira do caminho."
+     "end": 14.18,
+     "text": "O caminho pavimentado se abre numa curva suave sob o teto verde da mata; à direita, bancos de tronco e pedra marcam um pequeno ponto de descanso entre arbustos; à esquerda, a vegetação fecha densa até a beira do caminho."
     }
    ]
   },
@@ -31061,26 +31046,31 @@
  },
  "pista_p1_seguranca": {
   "pt": {
-   "duration": 36.05,
+   "duration": 49.39,
    "segments": [
     {
      "start": 0.0,
-     "end": 7.73,
-     "text": "Você está exatamente na entrada da Pista Cláudio Coutinho, no ponto onde termina a subida de acesso, de inclinação moderada."
+     "end": 7.95,
+     "text": "Você está exatamente no acesso à entrada da Pista Cláudio Coutinho, no ponto onde inicia a subida de acesso, de inclinação moderada."
     },
     {
-     "start": 7.73,
-     "end": 19.52,
-     "text": "Sob a bengala, o piso muda para paralelepípedos de granito irregulares, com frestas entre eles e uma guia baixa em alguns pontos — não há piso tátil de alerta nem direcional demarcado aqui."
+     "start": 7.95,
+     "end": 20.06,
+     "text": "Sob a bengala, o piso inicia em paralelepípedos de granito irregulares, com frestas entre eles e uma guia baixa em alguns pontos — não há piso tátil de alerta nem direcional demarcando em nenhum local."
     },
     {
-     "start": 19.52,
-     "end": 33.3,
-     "text": "O caminho faz uma curva suave logo à frente; placas de sinalização em pedestal ficam a menos de um passo (cerca de meio metro) da faixa de passagem, e um murinho baixo, por volta da altura da canela, marca uma das bordas."
+     "start": 20.06,
+     "end": 26.32,
+     "text": "O caminho faz uma curva à direita logo à sua frente; há um portão que poderá estar reduzindo a passagem."
     },
     {
-     "start": 33.3,
-     "end": 36.05,
+     "start": 26.32,
+     "end": 46.74,
+     "text": "Do lado direito, o lado do mar, ficam tanto as placas de sinalização em pedestal — que não têm escrita em alto relevo — a menos de um passo, cerca de meio metro, da faixa de passagem (após a transição da pista para asfalto, inicia-se a pista de atletismo), quanto um murinho baixo, por volta da altura da canela, marcando essa mesma borda."
+    },
+    {
+     "start": 46.74,
+     "end": 49.39,
      "text": "Abra a varredura da bengala antes de seguir."
     }
    ]
@@ -31088,106 +31078,121 @@
  },
  "pista_p2_seguranca": {
   "pt": {
-   "duration": 135.6,
+   "duration": 169.85,
    "segments": [
     {
      "start": 0.0,
-     "end": 4.47,
-     "text": "Você está agora no calçadão de acesso à Praia Vermelha, no bairro da Urca."
+     "end": 8.63,
+     "text": "Você está agora no calçadão de acesso à Praia Vermelha, no bairro da Urca — chegando pela rua, de frente para o mar, único jeito de chegar aqui."
     },
     {
-     "start": 4.47,
-     "end": 11.22,
+     "start": 8.63,
+     "end": 14.56,
+     "text": "Todas as referências de direita e esquerda a seguir são sempre nesse sentido: de frente para o mar."
+    },
+    {
+     "start": 14.56,
+     "end": 21.28,
      "text": "Não é mais o trecho de pista dentro da mata: agora é um passeio pavimentado, de piso mais regular sob a bengala."
     },
     {
-     "start": 11.22,
-     "end": 18.22,
+     "start": 21.28,
+     "end": 28.23,
      "text": "Neste trecho do calçadão existem duas rampas que descem direto até o nível da areia — uma em cada lateral do trecho."
     },
     {
-     "start": 18.22,
-     "end": 21.91,
+     "start": 28.23,
+     "end": 31.88,
      "text": "Não são patamares intermediários: elas vão até a praia mesmo."
     },
     {
-     "start": 21.91,
-     "end": 28.0,
+     "start": 31.88,
+     "end": 37.94,
      "text": "Entre as duas rampas, no meio do trecho, existem três escadas separadas, também dando acesso à areia."
     },
     {
-     "start": 28.0,
-     "end": 35.18,
+     "start": 37.94,
+     "end": 45.07,
      "text": "São dois tipos de transição de piso diferentes — rampa e escada — não confunda um pelo outro pela sensação da ponteira."
     },
     {
-     "start": 35.18,
-     "end": 38.86,
+     "start": 45.07,
+     "end": 48.72,
      "text": "Use a técnica de toque e deslize ao longo de todo o calçadão."
     },
     {
-     "start": 38.86,
-     "end": 51.36,
+     "start": 48.72,
+     "end": 61.13,
      "text": "Tanto o início de uma das rampas quanto o primeiro degrau de uma das três escadas costumam se anunciar como uma mudança de inclinação ou de nível sob a ponteira, perceptível pouco antes da transição começar."
     },
     {
-     "start": 51.36,
-     "end": 54.13,
-     "text": "Reduza o ritmo assim que sentir essa variação."
+     "start": 61.13,
+     "end": 77.13,
+     "text": "Reduza o ritmo assim que sentir essa variação, pare e confirme com a bengala em posição diagonal, varrendo bem próximo do corpo: um piso contínuo que segue descendo é rampa; uma quina única e definida, seguida de um novo piso plano, é o primeiro degrau de uma escada."
     },
     {
-     "start": 54.13,
-     "end": 63.0,
+     "start": 77.13,
+     "end": 80.01,
+     "text": "Só avance depois de identificar qual das duas é."
+    },
+    {
+     "start": 80.01,
+     "end": 88.82,
      "text": "Do lado direito deste trecho, o acesso à areia é direto, sem rampa e sem escada: calçadão e praia ficam na mesma altura, sem qualquer desnível ali."
     },
     {
-     "start": 63.0,
-     "end": 70.0,
+     "start": 88.82,
+     "end": 95.77,
      "text": "Está confirmado que não existe corrimão nem guarda-corpo — nem nas duas rampas, nem nas três escadas deste calçadão."
     },
     {
-     "start": 70.0,
-     "end": 71.69,
+     "start": 95.77,
+     "end": 97.45,
      "text": "Não conte com apoio lateral."
     },
     {
-     "start": 71.69,
-     "end": 80.99,
+     "start": 97.45,
+     "end": 106.68,
      "text": "Também está confirmado que não há piso tátil de alerta ou direcional em nenhum ponto do calçadão, sinalizando a aproximação de uma rampa ou de uma escada."
     },
     {
-     "start": 80.99,
-     "end": 87.62,
+     "start": 106.68,
+     "end": 113.27,
      "text": "A bengala, com a técnica de toque e deslize, é a única forma de perceber essas mudanças antes de chegar nelas."
     },
     {
-     "start": 87.62,
-     "end": 100.54,
+     "start": 113.27,
+     "end": 126.1,
      "text": "Se preferir seguir para a esquerda, a entrada da Pista Cláudio Coutinho propriamente dita — a trilha plana dos demais pontos deste roteiro — fica no ponto mais à esquerda que você conseguir alcançar neste calçadão."
     },
     {
-     "start": 100.54,
-     "end": 109.59,
-     "text": "Não existe nenhuma sinalização tátil, visual ou sonora indicando essa entrada, mas também não existe nenhum outro caminho por ali que possa confundir."
+     "start": 126.1,
+     "end": 130.77,
+     "text": "Não existe nenhuma sinalização tátil, visual ou sonora indicando essa entrada."
     },
     {
-     "start": 109.59,
-     "end": 114.18,
-     "text": "Ao chegar no limite mais à esquerda do calçadão, só pode ser aquela entrada."
+     "start": 130.77,
+     "end": 140.06,
+     "text": "Na data deste levantamento não havia nenhum outro caminho por ali que pudesse confundir, mas esse é um calçadão de praia movimentado, que muda com o tempo."
     },
     {
-     "start": 114.18,
-     "end": 119.31,
+     "start": 140.06,
+     "end": 148.57,
+     "text": "Se sentir qualquer passagem, estrutura ou obstáculo que essa descrição não previu, pare e peça confirmação a alguém por perto antes de seguir."
+    },
+    {
+     "start": 148.57,
+     "end": 153.67,
      "text": "Ela está próxima daqui, mas é um acesso fisicamente separado deste calçadão de praia."
     },
     {
-     "start": 119.31,
-     "end": 130.47,
+     "start": 153.67,
+     "end": 164.75,
      "text": "Por ser um calçadão de acesso a praia, espere também grande circulação de pessoas e possíveis objetos temporários — cadeiras, guarda-sóis, caixas de som — invadindo a faixa de passagem."
     },
     {
-     "start": 130.47,
-     "end": 135.6,
+     "start": 164.75,
+     "end": 169.85,
      "text": "Mantenha a varredura da bengala mais ampla do que faria num trecho isolado de trilha."
     }
    ]
@@ -32570,29 +32575,24 @@
  },
  "pista_p3_seguranca": {
   "pt": {
-   "duration": 24.34,
+   "duration": 14.14,
    "segments": [
     {
      "start": 0.0,
-     "end": 4.9,
-     "text": "Você está num mirante da trilha, de frente para o Pão de Açúcar inteiro e a baía."
+     "end": 4.47,
+     "text": "Você está num mirante da trilha, de frente para o Pão de Açúcar e a baía."
     },
     {
-     "start": 4.9,
-     "end": 15.32,
-     "text": "Uma superfície de pedra inclinada aparece rente ao caminho, bem próxima de onde se fica para observar — indício de acostamento estreito ou irregular neste ponto específico."
-    },
-    {
-     "start": 15.32,
-     "end": 24.34,
-     "text": "Sem confirmação de campo do chão exato aqui, avance com a bengala em toque largo e não se aproxime do lado da água sem antes senti-lo com a ponteira."
+     "start": 4.47,
+     "end": 14.14,
+     "text": "Sem confirmação de campo do piso exato deste mirante, avance com a bengala em toque largo e não se aproxime do lado da água sem antes senti-lo com a ponteira."
     }
    ]
   }
  },
  "pista_p4_seguranca": {
   "pt": {
-   "duration": 31.73,
+   "duration": 43.82,
    "segments": [
     {
      "start": 0.0,
@@ -32601,25 +32601,30 @@
     },
     {
      "start": 6.37,
-     "end": 17.95,
-     "text": "Aqui a faixa de areia se estreita e o piso muda para areia cravejada de pedras grandes de granito, com pontas afiadas — superfície irregular, rugosa e abrasiva, com risco real de arranhões."
+     "end": 20.08,
+     "text": "Bem aqui, perto do ponto de observação, a faixa de areia se estreita e o piso muda para areia cravejada de pedras grandes de granito, com pontas afiadas — superfície irregular, rugosa e abrasiva, com risco real de arranhões."
     },
     {
-     "start": 17.95,
-     "end": 25.54,
+     "start": 20.08,
+     "end": 27.67,
      "text": "As pedras vêm de desprendimentos do paredão do Morro da Babilônia, então o terreno é imprevisível de um trecho para o outro."
     },
     {
-     "start": 25.54,
-     "end": 31.73,
-     "text": "Se for tentar chegar até aqui, vá acompanhado: há risco real de uma onda te derrubar sobre as pedras."
+     "start": 27.67,
+     "end": 36.11,
+     "text": "A poucos metros daqui, o resto da praia já não tem essas pedras, e o mar costuma ser tranquilo — é onde acontece aula de natação todo dia."
+    },
+    {
+     "start": 36.11,
+     "end": 43.82,
+     "text": "A ressalva é só sobre essas pedras específicas: não chegue perto delas nem tente entrar na água por ali sem estar acompanhado."
     }
    ]
   }
  },
  "pista_p5_seguranca": {
   "pt": {
-   "duration": 33.02,
+   "duration": 33.19,
    "segments": [
     {
      "start": 0.0,
@@ -32628,12 +32633,12 @@
     },
     {
      "start": 8.73,
-     "end": 21.83,
-     "text": "Bancos de tronco e pedra ficam nas laterais, próximos da faixa de caminhada, por volta da altura do joelho; se for parar para descansar, avance com a bengala em toque até sentir o banco antes de se aproximar dele."
+     "end": 22.01,
+     "text": "Bancos de tronco e pedra ficam do lado direito, próximos da faixa de caminhada, por volta da altura do joelho; se for parar para descansar, avance com a bengala em toque até sentir o banco antes de se aproximar dele."
     },
     {
-     "start": 21.83,
-     "end": 33.02,
+     "start": 22.01,
+     "end": 33.19,
      "text": "A copa das árvores fecha por cima — a bengala não detecta galhos ou obstáculos acima da cintura, então mantenha atenção à altura da cabeça mesmo num trecho de piso regular como este."
     }
    ]
@@ -34806,6 +34811,85 @@
      "start": 46.48,
      "end": 69.58,
      "text": "وإلى جانب الأسطوانة، مستندا إلى النباتات، يستقرّ عمود إرشادي أخضر مقوَّس الشكل فوق عمود معدني رفيع — وهو لوحة رسمية للمخاطر تابعة للوحدة المحمية، بنص ثنائي اللغة بالبرتغالية والإنجليزية، تعلو كل عمود منه مثلث تحذير أصفر ورمز تصويري لشخص على أرض منحدرة."
+    }
+   ]
+  }
+ },
+ "pista_apresentacao_cortesia": {
+  "pt": {
+   "duration": 104.3,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.19,
+     "text": "Antes de seguir para a trilha, uma palavra sobre o que te espera aqui."
+    },
+    {
+     "start": 4.19,
+     "end": 13.52,
+     "text": "A Pista Cláudio Coutinho tem mil duzentos e cinquenta metros só de ida, entre a Praia Vermelha e o Pão de Açúcar — dois mil e quinhentos metros ida e volta."
+    },
+    {
+     "start": 13.52,
+     "end": 24.36,
+     "text": "É uma pista plana, sem carro, sem bicicleta, sem skate: só pedestres, caminhando numa reserva ambiental entre a parede do Morro da Urca e a do Pão de Açúcar, com bastante vegetação."
+    },
+    {
+     "start": 24.36,
+     "end": 28.48,
+     "text": "O mar fica à sua direita, também com bastante vegetação e obstáculos."
+    },
+    {
+     "start": 28.48,
+     "end": 44.34,
+     "text": "Este mesmo caminho é o acesso à trilha que sobe o Morro da Urca — mas essa subida é um percurso natural, bem diferente desta pista plana: o tempo médio de subida é de uma hora, não se recomenda ir desacompanhado, e há galhos e outros obstáculos ao longo do caminho."
+    },
+    {
+     "start": 44.34,
+     "end": 60.02,
+     "text": "O caminho alterna trechos abertos — com vista para o Pão de Açúcar, para a baía, para ilhas e outros morros ao redor — e trechos de mata fechada, com copa de árvore cobrindo a pista, sombra, som de folhagem e, eventualmente, a presença de algum animal por perto."
+    },
+    {
+     "start": 60.02,
+     "end": 74.2,
+     "text": "No modo com audiodescrição, cada parada traz também uma camada de orientação física — tipo de piso, não há presença de piso tátil, obstáculos no caminho — então essa é uma experiência que pede tempo e atenção, não é uma caminhada rápida."
+    },
+    {
+     "start": 74.2,
+     "end": 79.95,
+     "text": "No final, a pista de atletismo asfaltada, que segue até um marco final: um cilindro de concreto."
+    },
+    {
+     "start": 79.95,
+     "end": 83.36,
+     "text": "Deste ponto inicia-se o caminho para uma via de escalada."
+    },
+    {
+     "start": 83.36,
+     "end": 99.04,
+     "text": "Agora que você tem uma ideia real do que é esse caminho, a escolha é sua — pode seguir para a pista de atletismo Cláudio Coutinho, ou pode aproveitar seu tempo de outro jeito: andar pelo calçadão, apreciar a praça, ir à Praia Vermelha ou até subir de teleférico."
+    },
+    {
+     "start": 99.04,
+     "end": 100.53,
+     "text": "Todas são opções válidas."
+    },
+    {
+     "start": 100.53,
+     "end": 104.3,
+     "text": "O que importa é que você decida sabendo o que está pela frente."
+    }
+   ]
+  }
+ },
+ "pista_p10_aviso": {
+  "pt": {
+   "duration": 7.39,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 7.39,
+     "text": "A partir daqui, a narração descreve uma área de risco real, perto de um costão com registro de acidentes fatais."
     }
    ]
   }
