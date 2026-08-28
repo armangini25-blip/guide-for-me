@@ -26912,67 +26912,52 @@
    ]
   },
   "es-ar": {
-   "duration": 173.83,
+   "duration": 98.57,
    "segments": [
     {
      "start": 0.0,
-     "end": 15.09,
-     "text": "Estás ante la Playa Roja, a los pies de los cerros de Urca —uno de los puntos más privilegiados de la entrada de la Bahía de Guanabara: del otro lado de las aguas, se distingue la costa de Niterói, con el paisaje extendiéndose hasta Itaipú."
+     "end": 11.36,
+     "text": "Estás frente a la Playa Roja, a los pies de los morros de la Urca — uno de los puntos más privilegiados de la entrada de la Bahía de Guanabara, con vista hacia Niterói y Itaipú."
     },
     {
-     "start": 15.09,
-     "end": 25.15,
-     "text": "Mucho antes de la llegada de los portugueses, esta playa ya formaba parte de la vida cotidiana de los pueblos tupinambás, que habitaban las orillas de la bahía."
+     "start": 11.36,
+     "end": 20.79,
+     "text": "Mucho antes de los portugueses, esta playa ya formaba parte de la vida cotidiana de los pueblos tupinambás, que habitaban las márgenes de la bahía."
     },
     {
-     "start": 25.15,
-     "end": 30.81,
-     "text": "La urbanización de este paisaje comenzó a principios del siglo XX, en dos obras distintas."
+     "start": 20.79,
+     "end": 36.83,
+     "text": "A principios del siglo XX, recibió relleno y urbanización para ser sede de la Exposición Nacional Conmemorativa del Centenario de la Apertura de los Puertos de Brasil, en 1908 — un evento que duró pocos meses y recibió más de un millón de visitantes."
     },
     {
-     "start": 30.81,
-     "end": 49.98,
-     "text": "En 1908, la propia Playa Roja recibió relleno, contención y urbanización para albergar la Exposición Nacional Conmemorativa del Centenario de la Apertura de los Puertos de Brasil —un evento que duró pocos meses, pero recibió a más de un millón de visitantes, con construcciones que casi no dejaron rastro."
+     "start": 36.83,
+     "end": 50.7,
+     "text": "Fue justo aquí, el 7 de septiembre de 1922, donde una estación de la Western Electric transmitió en vivo el discurso del presidente Epitácio Pessoa: considerada la primera gran transmisión pública de radio de Brasil."
     },
     {
-     "start": 49.98,
-     "end": 72.36,
-     "text": "La creación del barrio de Urca, muy cerca de acá, vino de otro relleno: a partir de 1921, el ingeniero Oscar de Almeida Gama avanzó un relleno de la costa hasta el pie del Cerro de Urca, usando tierra sacada del propio cerro, con el trazado de las calles aprobado en 1922 y las primeras construcciones levantadas entre fines de ese año y comienzos de 1923."
-    },
-    {
-     "start": 72.36,
-     "end": 82.74,
-     "text": "Fue esa obra la que levantó el murete de contención que los cariocas llaman hoy, con cariño, el Murete de Urca —punto de encuentro clásico para ver la puesta de sol."
-    },
-    {
-     "start": 82.74,
-     "end": 102.29,
-     "text": "Y fue justo acá, en la arena de la Playa Roja, el 7 de septiembre de 1922 —año de los festejos del Centenario de la Independencia—, cuando una emisora de radio de la Western Electric transmitió en vivo el discurso del presidente Epitácio Pessoa: la primera transmisión pública de radio de la historia de Brasil."
-    },
-    {
-     "start": 102.29,
-     "end": 108.07,
+     "start": 50.7,
+     "end": 56.6,
      "text": "Fue en este tramo de arena, y no en ningún estudio, donde nació la radiodifusión en el país."
     },
     {
-     "start": 108.07,
-     "end": 129.13,
-     "text": "Décadas después, la playa también se ganó un lugar en la música popular carioca: Tim Maia la nombró en una de sus canciones más conocidas sobre el litoral de Río —y se cuenta, sin confirmación documental, que el propio cantante llegó a presentarse alguna vez en el Cerro de Urca, el cerro cubierto de bosque que ves justo frente a vos."
+     "start": 56.6,
+     "end": 71.1,
+     "text": "Décadas después, la playa entró en la música popular carioca, mencionada nominalmente por Tim Maia — y hay un relato documentado, del propio productor del espectáculo \"Noites Cariocas\" (1978), de que él subió al Morro da Urca."
     },
     {
-     "start": 129.13,
-     "end": 146.23,
-     "text": "Hoy la Playa Roja vive a un ritmo tranquilo: por la mañana, es habitual encontrar clases de natación; a lo largo del día, vecinos y visitantes nadan, descansan y contemplan el paisaje, y en verano aparecen las tablas de stand up paddle deslizándose sobre el agua en calma."
+     "start": 71.1,
+     "end": 79.32,
+     "text": "Hoy la playa tiene un ritmo tranquilo: por la mañana hay clases de natación, y en verano aparecen las tablas de stand up paddle."
     },
     {
-     "start": 146.23,
-     "end": 163.46,
-     "text": "Quien prefiere quedarse en la arena encuentra alquiler de reposeras y carpas, además de bebidas para estirar la tarde junto al mar; y hay quienes llegan hasta acá desde el propio mar, en barcos y lanchas, para ver esta misma playa desde un ángulo que la arena nunca muestra."
+     "start": 79.32,
+     "end": 88.88,
+     "text": "Quienes se quedan en la arena encuentran alquiler de reposeras y carpas, y hay quienes llegan en barco para ver este mismo paisaje desde otro ángulo."
     },
     {
-     "start": 163.46,
-     "end": 173.83,
-     "text": "En un día de sol, difícilmente exista una combinación mejor de playa, naturaleza, tranquilidad y una de las vistas más lindas de la entrada de la Bahía de Guanabara."
+     "start": 88.88,
+     "end": 98.57,
+     "text": "En un día de sol, difícilmente exista una combinación mejor de playa, naturaleza y una de las vistas más lindas de la entrada de la Bahía de Guanabara."
     }
    ]
   },
@@ -30286,12 +30271,12 @@
    ]
   },
   "es-ar": {
-   "duration": 15.7,
+   "duration": 15.34,
    "segments": [
     {
      "start": 0.0,
-     "end": 15.7,
-     "text": "El camino pavimentado se abre en una curva suave bajo el techo verde del bosque; a la izquierda, bancos de tronco y piedra marcan un pequeño punto de descanso entre helechos y arbustos; a la derecha, la vegetación se cierra densa hasta el borde del camino."
+     "end": 15.34,
+     "text": "El camino pavimentado se abre en una curva suave bajo el techo verde de la selva; a la derecha, bancos de tronco y piedra marcan un pequeño punto de descanso entre arbustos; a la izquierda, la vegetación se cierra densa hasta el borde del camino."
     }
    ]
   },
@@ -31074,6 +31059,36 @@
      "text": "Abra a varredura da bengala antes de seguir."
     }
    ]
+  },
+  "es-ar": {
+   "duration": 54.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.07,
+     "text": "Estás exactamente en el acceso a la entrada de la Pista Cláudio Coutinho, en el punto donde empieza la subida de acceso, de inclinación moderada."
+    },
+    {
+     "start": 9.07,
+     "end": 21.9,
+     "text": "Bajo el bastón, el piso empieza en adoquines de granito irregulares, con ranuras entre ellos y un cordón bajo en algunos tramos — no hay piso podotáctil de alerta ni direccional demarcando en ningún punto."
+    },
+    {
+     "start": 21.9,
+     "end": 28.72,
+     "text": "El camino hace una curva a la derecha justo adelante tuyo; hay un portón que podría estar reduciendo el paso."
+    },
+    {
+     "start": 28.72,
+     "end": 51.31,
+     "text": "Del lado derecho, el lado del mar, están tanto los carteles de señalización sobre pedestal — que no tienen escritura en alto relieve — a menos de un paso, unos medio metro, de la franja de paso (después de la transición de la pista al asfalto, empieza la pista de atletismo), como un murito bajo, más o menos a la altura de la canilla, marcando ese mismo borde."
+    },
+    {
+     "start": 51.31,
+     "end": 54.0,
+     "text": "Abrí el barrido del bastón antes de seguir."
+    }
+   ]
   }
  },
  "pista_p2_seguranca": {
@@ -31723,106 +31738,121 @@
    ]
   },
   "es-ar": {
-   "duration": 148.97,
+   "duration": 189.26,
    "segments": [
     {
      "start": 0.0,
-     "end": 5.16,
-     "text": "Estás ahora en el paseo costero de acceso a la Playa Roja, en el barrio de Urca."
+     "end": 9.37,
+     "text": "Estás ahora en el paseo de acceso a la Playa Roja, en el barrio de Urca — llegando por la calle, de frente al mar, única forma de llegar hasta acá."
     },
     {
-     "start": 5.16,
-     "end": 12.39,
-     "text": "Ya no es el tramo de pista dentro del bosque: ahora es un paseo pavimentado, de piso más regular bajo el bastón."
+     "start": 9.37,
+     "end": 15.81,
+     "text": "Todas las referencias de derecha e izquierda que siguen son siempre en ese sentido: de frente al mar."
     },
     {
-     "start": 12.39,
-     "end": 20.0,
-     "text": "En este tramo del paseo hay dos rampas que bajan directamente hasta el nivel de la arena —una en cada lado del tramo—."
+     "start": 15.81,
+     "end": 23.02,
+     "text": "Ya no es el tramo de pista dentro de la selva: ahora es un paseo pavimentado, de piso más regular bajo el bastón."
     },
     {
-     "start": 20.0,
-     "end": 23.48,
-     "text": "No son rellanos intermedios: van hasta la playa misma."
+     "start": 23.02,
+     "end": 30.42,
+     "text": "En este tramo del paseo hay dos rampas que bajan directo hasta el nivel de la arena — una en cada lateral del tramo."
     },
     {
-     "start": 23.48,
-     "end": 30.52,
+     "start": 30.42,
+     "end": 34.12,
+     "text": "No son descansos intermedios: llegan hasta la playa misma."
+    },
+    {
+     "start": 34.12,
+     "end": 41.07,
      "text": "Entre las dos rampas, en el medio del tramo, hay tres escaleras separadas, que también dan acceso a la arena."
     },
     {
-     "start": 30.52,
-     "end": 38.65,
-     "text": "Son dos tipos de transición de piso distintos —rampa y escalera—: no confundas una con la otra por la sensación en la contera."
+     "start": 41.07,
+     "end": 48.97,
+     "text": "Son dos tipos de transición de piso distintos — rampa y escalera — no confundas una con otra por la sensación en la contera."
     },
     {
-     "start": 38.65,
-     "end": 43.03,
+     "start": 48.97,
+     "end": 53.31,
      "text": "Usá la técnica de toque y deslizamiento a lo largo de todo el paseo."
     },
     {
-     "start": 43.03,
-     "end": 57.35,
-     "text": "Tanto el comienzo de una de las rampas como el primer escalón de una de las tres escaleras suelen anunciarse como un cambio de inclinación o de nivel bajo la contera, perceptible un poco antes de que empiece la transición."
+     "start": 53.31,
+     "end": 67.15,
+     "text": "Tanto el inicio de una de las rampas como el primer escalón de una de las tres escaleras suelen anunciarse como un cambio de inclinación o de nivel bajo la contera, perceptible poco antes de que empiece la transición."
     },
     {
-     "start": 57.35,
-     "end": 60.32,
-     "text": "Reducí el ritmo en cuanto notes esa variación."
+     "start": 67.15,
+     "end": 85.39,
+     "text": "Reducí el ritmo apenas sientas esa variación, parate y confirmá con el bastón en posición diagonal, haciendo un barrido bien cerca del cuerpo: un piso continuo que sigue bajando es rampa; una arista única y definida, seguida de un piso plano nuevo, es el primer escalón de una escalera."
     },
     {
-     "start": 60.32,
-     "end": 71.29,
-     "text": "Del lado derecho de este tramo, el acceso a la arena es directo, sin rampa y sin escalera: el paseo y la playa quedan a la misma altura, sin ningún desnivel en ese punto."
+     "start": 85.39,
+     "end": 88.96,
+     "text": "Avanzá recién después de identificar cuál de las dos es."
     },
     {
-     "start": 71.29,
-     "end": 78.45,
-     "text": "Está confirmado que no hay pasamanos ni baranda —ni en las dos rampas, ni en las tres escaleras de este paseo—."
+     "start": 88.96,
+     "end": 99.22,
+     "text": "Del lado derecho de este tramo, el acceso a la arena es directo, sin rampa y sin escalera: el paseo y la playa quedan a la misma altura, sin ningún desnivel ahí."
     },
     {
-     "start": 78.45,
-     "end": 80.32,
+     "start": 99.22,
+     "end": 107.19,
+     "text": "Está confirmado que no hay pasamanos ni baranda de protección — ni en las dos rampas, ni en las tres escaleras de este paseo."
+    },
+    {
+     "start": 107.19,
+     "end": 109.04,
      "text": "No cuentes con apoyo lateral."
     },
     {
-     "start": 80.32,
-     "end": 90.19,
-     "text": "También está confirmado que no hay piso táctil de alerta ni direccional en ningún punto del paseo que indique la cercanía de una rampa o de una escalera."
+     "start": 109.04,
+     "end": 119.31,
+     "text": "También está confirmado que no hay piso podotáctil de alerta ni direccional en ningún punto del paseo, que anticipe la proximidad de una rampa o de una escalera."
     },
     {
-     "start": 90.19,
-     "end": 97.94,
+     "start": 119.31,
+     "end": 126.96,
      "text": "El bastón, con la técnica de toque y deslizamiento, es la única forma de percibir estos cambios antes de llegar a ellos."
     },
     {
-     "start": 97.94,
-     "end": 112.45,
-     "text": "Si preferís seguir hacia la izquierda, la entrada de la Pista Cláudio Coutinho propiamente dicha —el sendero llano de los demás puntos de este recorrido— está en el punto más a la izquierda al que puedas llegar en este paseo."
+     "start": 126.96,
+     "end": 141.5,
+     "text": "Si preferís seguir hacia la izquierda, la entrada de la Pista Cláudio Coutinho propiamente dicha — el sendero plano de los demás puntos de este recorrido — queda en el punto más a la izquierda al que puedas llegar en este paseo."
     },
     {
-     "start": 112.45,
-     "end": 121.61,
-     "text": "No hay ninguna señalización táctil, visual ni sonora que indique esa entrada, pero tampoco hay ningún otro camino por ahí que pueda confundir."
+     "start": 141.5,
+     "end": 146.41,
+     "text": "No hay ninguna señalización táctil, visual ni sonora que indique esa entrada."
     },
     {
-     "start": 121.61,
-     "end": 126.58,
-     "text": "Al llegar al límite más a la izquierda del paseo, solo puede ser esa entrada."
+     "start": 146.41,
+     "end": 157.38,
+     "text": "En la fecha de este relevamiento no había ningún otro camino por ahí que pudiera generar confusión, pero este es un paseo de playa muy transitado, que cambia con el tiempo."
     },
     {
-     "start": 126.58,
-     "end": 131.81,
-     "text": "Está cerca de acá, pero es un acceso físicamente separado de este paseo de playa."
+     "start": 157.38,
+     "end": 167.01,
+     "text": "Si sentís cualquier pasaje, estructura u obstáculo que esta descripción no haya previsto, parate y pedí confirmación a alguien cercano antes de seguir."
     },
     {
-     "start": 131.81,
-     "end": 143.23,
-     "text": "Por ser un paseo de acceso a la playa, esperá también gran circulación de personas y posibles objetos temporales —reposeras, sombrillas, parlantes— invadiendo la franja de paso."
+     "start": 167.01,
+     "end": 172.49,
+     "text": "Ella está cerca de acá, pero es un acceso físicamente separado de este paseo de playa."
     },
     {
-     "start": 143.23,
-     "end": 148.97,
+     "start": 172.49,
+     "end": 183.59,
+     "text": "Por ser un paseo de acceso a playa, esperá también gran circulación de gente y posibles objetos temporarios — reposeras, sombrillas, parlantes — invadiendo la franja de paso."
+    },
+    {
+     "start": 183.59,
+     "end": 189.26,
      "text": "Mantené el barrido del bastón más amplio de lo que harías en un tramo aislado de sendero."
     }
    ]
@@ -32588,6 +32618,21 @@
      "text": "Sem confirmação de campo do piso exato deste mirante, avance com a bengala em toque largo e não se aproxime do lado da água sem antes senti-lo com a ponteira."
     }
    ]
+  },
+  "es-ar": {
+   "duration": 14.88,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.49,
+     "text": "Estás en un mirador del sendero, de frente al Pan de Azúcar y a la bahía."
+    },
+    {
+     "start": 4.49,
+     "end": 14.88,
+     "text": "Sin confirmación de campo sobre el piso exacto de este mirador, avanzá con el bastón en toque amplio y no te acerques al lado del agua sin antes sentirlo con la contera."
+    }
+   ]
   }
  },
  "pista_p4_seguranca": {
@@ -32620,6 +32665,36 @@
      "text": "A ressalva é só sobre essas pedras específicas: não chegue perto delas nem tente entrar na água por ali sem estar acompanhado."
     }
    ]
+  },
+  "es-ar": {
+   "duration": 48.02,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 7.3,
+     "text": "Este punto queda del lado derecho de la Playa Roja, opuesto a la Pista Cláudio Coutinho, que queda a la izquierda."
+    },
+    {
+     "start": 7.3,
+     "end": 21.96,
+     "text": "Justo acá, cerca del punto de observación, la franja de arena se angosta y el piso cambia a arena tachonada de piedras grandes de granito, con puntas filosas — superficie irregular, rugosa y abrasiva, con riesgo real de raspones."
+    },
+    {
+     "start": 21.96,
+     "end": 30.22,
+     "text": "Las piedras vienen de desprendimientos del paredón del Morro da Babilônia, así que el terreno es impredecible de un tramo a otro."
+    },
+    {
+     "start": 30.22,
+     "end": 39.64,
+     "text": "A pocos metros de acá, el resto de la playa ya no tiene esas piedras, y el mar suele ser tranquilo — es donde hay clase de natación todos los días."
+    },
+    {
+     "start": 39.64,
+     "end": 48.02,
+     "text": "La salvedad es solo sobre esas piedras específicas: no te acerques a ellas ni intentes entrar al agua por ahí sin estar acompañado."
+    }
+   ]
   }
  },
  "pista_p5_seguranca": {
@@ -32640,6 +32715,26 @@
      "start": 22.01,
      "end": 33.19,
      "text": "A copa das árvores fecha por cima — a bengala não detecta galhos ou obstáculos acima da cintura, então mantenha atenção à altura da cabeça mesmo num trecho de piso regular como este."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration": 36.14,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.47,
+     "text": "El piso cambia acá a pavimento liso y continuo — asfalto, sin las piedras irregulares de la entrada, todavía sin piso podotáctil de alerta ni direccional."
+    },
+    {
+     "start": 9.47,
+     "end": 23.36,
+     "text": "Los bancos de tronco y piedra quedan del lado derecho, cerca de la franja de paso, más o menos a la altura de la rodilla; si vas a parar a descansar, avanzá con el bastón en toque hasta sentir el banco antes de acercarte a él."
+    },
+    {
+     "start": 23.36,
+     "end": 36.14,
+     "text": "La copa de los árboles se cierra por arriba — el bastón no detecta ramas ni obstáculos por encima de la cintura, así que mantené la atención a la altura de la cabeza aun en un tramo de piso regular como este."
     }
    ]
   }
@@ -32672,6 +32767,36 @@
      "start": 21.08,
      "end": 26.26,
      "text": "Fique atento a galhos na altura da cabeça e dos ombros, onde a bengala não alcança."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration": 30.84,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 3.43,
+     "text": "Estás en otro mirador, con el mar abierto al frente."
+    },
+    {
+     "start": 3.43,
+     "end": 10.28,
+     "text": "Del lado izquierdo no hay ningún delimitador — solo vegetación y piedras directo en el borde del camino."
+    },
+    {
+     "start": 10.28,
+     "end": 22.54,
+     "text": "Del lado derecho hay una baranda de protección de caños de acero con pilares de hormigón, pero, aun así, la vegetación es densa y hay árboles que avanzan sobre la pista de los dos lados."
+    },
+    {
+     "start": 22.54,
+     "end": 24.51,
+     "text": "Usá el bastón en toque amplio."
+    },
+    {
+     "start": 24.51,
+     "end": 30.84,
+     "text": "Prestá atención a las ramas a la altura de la cabeza y de los hombros, donde el bastón no llega."
     }
    ]
   }
@@ -32711,6 +32836,41 @@
      "text": "Mantenha a bengala em toque largo para não ser surpreendido por uma pedra ou raiz avançando sobre o caminho."
     }
    ]
+  },
+  "es-ar": {
+   "duration": 42.07,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.46,
+     "text": "Estás en un punto del sendero desde donde se ve el Fuerte Duque de Caxias, del otro lado del agua — una vista distante, no una llegada al fuerte."
+    },
+    {
+     "start": 9.46,
+     "end": 16.24,
+     "text": "Aparece una rama cerca de este punto de observación, a la altura de la cabeza, donde el bastón no llega."
+    },
+    {
+     "start": 16.24,
+     "end": 19.7,
+     "text": "El piso es de asfalto bastante irregular, con baches."
+    },
+    {
+     "start": 19.7,
+     "end": 27.4,
+     "text": "Del lado del mar no hay baranda de protección ni ninguna barrera — confirmá el borde con el bastón antes de acercarte."
+    },
+    {
+     "start": 27.4,
+     "end": 35.03,
+     "text": "Del lado izquierdo tampoco hay barrera física: la vegetación y las piedras avanzan directo hasta el costado del piso."
+    },
+    {
+     "start": 35.03,
+     "end": 42.07,
+     "text": "Mantené el bastón en toque amplio para no sorprenderte con una piedra o una raíz que avance sobre el camino."
+    }
+   ]
   }
  },
  "pista_p8_seguranca": {
@@ -32736,6 +32896,31 @@
      "start": 27.83,
      "end": 32.74,
      "text": "Avance com cautela até sentir se o caminho se estreita antes de acelerar o passo."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration": 35.74,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 6.87,
+     "text": "Estás en la última curva antes de llegar a Urca, con el sendero abriéndose sobre la ensenada de la Playa Roja."
+    },
+    {
+     "start": 6.87,
+     "end": 23.8,
+     "text": "El piso es de asfalto desnivelado, con acumulación de hojas — por ser un ambiente natural, las hojas pueden cubrir raíces de árboles que nacen antes de la baranda de protección, así que usá el bastón en toque amplio para sentir qué hay debajo de las hojas antes de pisar."
+    },
+    {
+     "start": 23.8,
+     "end": 30.61,
+     "text": "Puede haber animales como micos cerca — presencia común en la zona, no es motivo de alarma, solo de atención."
+    },
+    {
+     "start": 30.61,
+     "end": 35.74,
+     "text": "Avanzá con cautela hasta sentir si el camino se angosta antes de acelerar el paso."
     }
    ]
   }
@@ -34880,6 +35065,71 @@
      "text": "O que importa é que você decida sabendo o que está pela frente."
     }
    ]
+  },
+  "es-ar": {
+   "duration": 117.07,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.8,
+     "text": "Antes de avanzar hacia el sendero, una palabra sobre lo que te espera acá."
+    },
+    {
+     "start": 4.8,
+     "end": 14.98,
+     "text": "La Pista Cláudio Coutinho tiene mil doscientos cincuenta metros solo de ida, entre la Playa Roja y el Pan de Azúcar — dos mil quinientos metros ida y vuelta."
+    },
+    {
+     "start": 14.98,
+     "end": 27.31,
+     "text": "Es una pista plana, sin autos, sin bicicletas, sin skate: solo peatones, caminando por una reserva ambiental entre la pared del Morro da Urca y la del Pan de Azúcar, con bastante vegetación."
+    },
+    {
+     "start": 27.31,
+     "end": 31.98,
+     "text": "El mar queda a tu derecha, también con bastante vegetación y obstáculos."
+    },
+    {
+     "start": 31.98,
+     "end": 50.01,
+     "text": "Este mismo camino es el acceso al sendero que sube el Morro da Urca — pero esa subida es un recorrido natural, bien distinto de esta pista plana: el tiempo promedio de subida es de una hora, no se recomienda ir sin compañía, y hay ramas y otros obstáculos a lo largo del camino."
+    },
+    {
+     "start": 50.01,
+     "end": 66.87,
+     "text": "El camino alterna tramos abiertos — con vista al Pan de Azúcar, a la bahía, a islas y a otros morros alrededor — y tramos de selva cerrada, con copas de árboles cubriendo la pista, sombra, sonido de follaje y, eventualmente, la presencia de algún animal cerca."
+    },
+    {
+     "start": 66.87,
+     "end": 83.02,
+     "text": "En el modo con audiodescripción, cada parada trae también una capa de orientación física — tipo de piso, la ausencia de piso podotáctil, obstáculos en el camino — así que esta es una experiencia que pide tiempo y atención, no es una caminata rápida."
+    },
+    {
+     "start": 83.02,
+     "end": 89.38,
+     "text": "Al final, la pista de atletismo asfaltada, que sigue hasta un hito final: un cilindro de hormigón."
+    },
+    {
+     "start": 89.38,
+     "end": 93.33,
+     "text": "Desde este punto empieza el camino hacia una vía de escalada."
+    },
+    {
+     "start": 93.33,
+     "end": 111.23,
+     "text": "Ahora que tenés una idea real de lo que es este camino, la elección es tuya — podés seguir hacia la pista de atletismo Cláudio Coutinho, o podés aprovechar tu tiempo de otra manera: caminar por el paseo, disfrutar de la plaza, ir a la Playa Roja o incluso subir en teleférico."
+    },
+    {
+     "start": 111.23,
+     "end": 112.99,
+     "text": "Todas son opciones válidas."
+    },
+    {
+     "start": 112.99,
+     "end": 117.07,
+     "text": "Lo importante es que decidas sabiendo lo que tenés por delante."
+    }
+   ]
   }
  },
  "pista_p10_aviso": {
@@ -34890,6 +35140,16 @@
      "start": 0.0,
      "end": 7.39,
      "text": "A partir daqui, a narração descreve uma área de risco real, perto de um costão com registro de acidentes fatais."
+    }
+   ]
+  },
+  "es-ar": {
+   "duration": 8.11,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 8.11,
+     "text": "A partir de acá, la narración describe una zona de riesgo real, cerca de un costado con antecedentes de accidentes fatales."
     }
    ]
   }
