@@ -1,0 +1,93 @@
+{
+ "ponto_id": "pista_p4",
+ "base_image": "assets/img/pista_storyboards/pista_p4/00_planogeral.jpg",
+ "image_size": [
+  4000,
+  1848
+ ],
+ "audio_lang_reference": "pt",
+ "duration_total": 19.08,
+ "timing_nota": "Todos os crops (crop_px) sao calibrados sobre a imagem ja normalizada por EXIF (ImageOps.exif_transpose) — mesma orientacao que o navegador exibe. Tempo (start/end) vem do timing real do audio pt-br (captions.json), com marcos citados na mesma frase divididos proporcionalmente por numero de caracteres do trecho (mesma tecnica do motor de gerar_legendas_*.py, um nivel mais fundo). So pt-br por enquanto — as outras 13 linguas da trilha Iris ainda nao foram gravadas para este produto.",
+ "shots": [
+  {
+   "seq": 1,
+   "id": "agua",
+   "marco": "Água em gradiente (dourado às pedras, turquesa mar adentro)",
+   "secao_roteiro": "Íris — PCD",
+   "start": 0.0,
+   "end": 4.09,
+   "file": "agua.jpg",
+   "crop_px": [
+    0,
+    1150,
+    4000,
+    1848
+   ],
+   "pan": "rtl",
+   "confidence": "alta",
+   "nota": "Faixa horizontal com transição de cor — varredura acompanha a mudança descrita no texto."
+  },
+  {
+   "seq": 2,
+   "id": "transicao_agua_pessoas",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 4.09,
+   "end": 7.09,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 3,
+   "id": "pessoas",
+   "marco": "Cinco pessoas nadando/observando a vida marinha",
+   "secao_roteiro": "Íris — PCD",
+   "start": 7.09,
+   "end": 9.99,
+   "file": "pessoas.jpg",
+   "crop_px": [
+    0,
+    1030,
+    3400,
+    1480
+   ],
+   "pan": "micro",
+   "confidence": "alta",
+   "nota": "Cinco figuras confirmadas na foto, dispersas — cluster sem linearidade forte, varredura discreta."
+  },
+  {
+   "seq": 4,
+   "id": "transicao_pessoas_paredaobarcos",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 9.99,
+   "end": 12.99,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 5,
+   "id": "paredaobarcos",
+   "marco": "Paredão do Pão de Açúcar e barcos brancos ancorados",
+   "secao_roteiro": "Íris — PCD",
+   "start": 12.99,
+   "end": 19.08,
+   "file": "paredaobarcos.jpg",
+   "crop_px": [
+    0,
+    100,
+    3700,
+    1150
+   ],
+   "pan": "rtl",
+   "confidence": "média",
+   "nota": "Barcos brancos dispersos na água — contagem exata não confirmável nesta resolução/distância."
+  }
+ ]
+}

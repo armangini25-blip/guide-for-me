@@ -1,0 +1,155 @@
+{
+ "ponto_id": "pista_p10",
+ "base_image": "assets/img/pista_storyboards/pista_p10/00_planogeral.jpg",
+ "image_size": [
+  1848,
+  4000
+ ],
+ "audio_lang_reference": "pt",
+ "duration_total": 58.9,
+ "timing_nota": "Todos os crops (crop_px) sao calibrados sobre a imagem ja normalizada por EXIF (ImageOps.exif_transpose) — mesma orientacao que o navegador exibe (retrato, 1848x4000, diferente da maioria dos outros pontos que sao paisagem — cuidado ja aplicado nos eixos de crop). Tempo (start/end) vem do timing real do audio pt-br (captions.json, chave pista_p10_iris.pt, duracao 58.9s). O segmento 1 (0.0-23.42s) cita 3 marcos na mesma frase (caminho/arco de galhos; mureta a direita; vegetacao/trepadeiras a esquerda) — dividido proporcionalmente por numero de caracteres de cada oracao (129/137/134 caracteres, mesma tecnica do motor de gerar_legendas_*.py, um nivel mais fundo). Os segmentos 2 (cilindro, 23.42-40.16s) e 3 (totem, 40.16-58.9s) sao marco unico = segmento inteiro. Sobre esse split proporcional foi aplicada a norma de transicao de 3s entre todo par de shots vizinhos (Core Principle 8): 1.5s tirados do fim do shot anterior + 1.5s tirados do inicio do proximo, nunca somados por fora dos 58.9s reais — 4 transicoes inseridas entre os 5 shots de conteudo, soma final conferida = 58.9s exatos.",
+ "shots": [
+  {
+   "seq": 1,
+   "id": "arcogalhos",
+   "marco": "Caminho de asfalto sob arco denso de galhos (plano geral de abertura)",
+   "secao_roteiro": "Íris — Pista Cláudio Coutinho, Ponto 10",
+   "start": 0.0,
+   "end": 6.05,
+   "file": "arcogalhos.jpg",
+   "crop_px": [
+    0,
+    0,
+    1848,
+    3200
+   ],
+   "pan": "rtl",
+   "confidence": "alta",
+   "nota": "Copa arqueada bem visível cobrindo toda a largura do quadro sobre o caminho — o texto descreve os galhos se estendendo 'de um lado ao outro da trilha', varredura rtl reforça essa leitura lateral."
+  },
+  {
+   "seq": 2,
+   "id": "transicao_arco_mureta",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 6.05,
+   "end": 9.05,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 3,
+   "id": "muretaconcreto",
+   "marco": "Mureta baixa de concreto à direita, com folhas secas acumuladas na base",
+   "secao_roteiro": "Íris — Pista Cláudio Coutinho, Ponto 10",
+   "start": 9.05,
+   "end": 14.07,
+   "file": "muretaconcreto.jpg",
+   "crop_px": [
+    900,
+    1150,
+    1848,
+    3900
+   ],
+   "pan": "ttb",
+   "confidence": "alta",
+   "nota": "Mureta claramente visível acompanhando o percurso, com serrapilheira acumulada junto à base — elemento recua em profundidade (de perto/baixo até longe/alto no quadro), varredura ttb acompanha esse recuo em vez de um corte lateral que não existe na cena."
+  },
+  {
+   "seq": 4,
+   "id": "transicao_mureta_vegetacao",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 14.07,
+   "end": 17.07,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 5,
+   "id": "vegetacaotrepadeiras",
+   "marco": "Vegetação sem barreira à esquerda, trepadeiras subindo pelo tronco da árvore inclinada",
+   "secao_roteiro": "Íris — Pista Cláudio Coutinho, Ponto 10",
+   "start": 17.07,
+   "end": 21.92,
+   "file": "vegetacaotrepadeiras.jpg",
+   "crop_px": [
+    0,
+    300,
+    950,
+    1450
+   ],
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Tronco inclinado com trepadeiras subindo claramente visível e identificável — elemento pontual sendo nomeado em detalhe no áudio nesse instante, shot fica parado para não deslocar o assunto do centro."
+  },
+  {
+   "seq": 6,
+   "id": "transicao_vegetacao_cilindro",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 21.92,
+   "end": 24.92,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 7,
+   "id": "cilindroconcreto",
+   "marco": "Grande cilindro de concreto com placa branca de aviso",
+   "secao_roteiro": "Íris — Pista Cláudio Coutinho, Ponto 10",
+   "start": 24.92,
+   "end": 38.66,
+   "file": "cilindroconcreto.jpg",
+   "crop_px": [
+    480,
+    880,
+    1180,
+    2400
+   ],
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Estrutura cilíndrica e a placa branca afixada estão claramente identificáveis na foto; o texto da placa em si não é legível nesta resolução/distância (mesmo hedge que se aplicaria no roteiro-fonte). Elemento pontual sendo descrito em detalhe — shot fica parado."
+  },
+  {
+   "seq": 8,
+   "id": "transicao_cilindro_totem",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 38.66,
+   "end": 41.66,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 9,
+   "id": "totemaviso",
+   "marco": "Totem verde arqueado com painel oficial de risco (texto bilíngue, triângulo de alerta, pictograma)",
+   "secao_roteiro": "Íris — Pista Cláudio Coutinho, Ponto 10",
+   "start": 41.66,
+   "end": 58.9,
+   "file": "totemaviso.jpg",
+   "crop_px": [
+    350,
+    1950,
+    850,
+    2450
+   ],
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Totem verde e o poste metálico fino claramente identificáveis, com triângulos amarelos de alerta visíveis no topo de cada coluna; o texto bilíngue detalhado não é legível nesta resolução (mesmo hedge que se aplicaria no roteiro-fonte). Elemento pontual sendo descrito em detalhe — shot fica parado."
+  }
+ ]
+}

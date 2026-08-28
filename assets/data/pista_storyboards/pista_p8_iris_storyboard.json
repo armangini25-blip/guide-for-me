@@ -1,0 +1,62 @@
+{
+ "ponto_id": "pista_p8",
+ "base_image": "assets/img/pista_storyboards/pista_p8/00_planogeral.jpg",
+ "image_size": [
+  1848,
+  4000
+ ],
+ "audio_lang_reference": "pt",
+ "duration_total": 14.74,
+ "timing_nota": "Todos os crops (crop_px) sao calibrados sobre a imagem ja normalizada por EXIF (ImageOps.exif_transpose) — mesma orientacao que o navegador exibe. Tempo (start/end) vem do timing real do audio pt-br (captions.json), com marcos citados na mesma frase divididos proporcionalmente por numero de caracteres do trecho (mesma tecnica do motor de gerar_legendas_*.py, um nivel mais fundo). So pt-br por enquanto — as outras 13 linguas da trilha Iris ainda nao foram gravadas para este produto.",
+ "shots": [
+  {
+   "seq": 1,
+   "id": "areiabarracas",
+   "marco": "Areia com barracas de sol e banhistas ao longe",
+   "secao_roteiro": "Íris — PCD",
+   "start": 0.0,
+   "end": 5.37,
+   "file": "areiabarracas.jpg",
+   "crop_px": [
+    1250,
+    1900,
+    1848,
+    2200
+   ],
+   "pan": "rtl",
+   "confidence": "média",
+   "nota": "Banhistas 'ao longe' aparecem como figuras muito pequenas/borradas nesta resolução — presença confirmada, detalhe individual não."
+  },
+  {
+   "seq": 2,
+   "id": "transicao_areiabarracas_morrospredios",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 5.37,
+   "end": 8.37,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 3,
+   "id": "morrospredios",
+   "marco": "Morros dos dois lados e prédios brancos/hotel ao fundo",
+   "secao_roteiro": "Íris — PCD",
+   "start": 8.37,
+   "end": 14.74,
+   "file": "morrospredios.jpg",
+   "crop_px": [
+    0,
+    1300,
+    1848,
+    2350
+   ],
+   "pan": "rtl",
+   "confidence": "alta",
+   "nota": "Foto em orientação retrato (EXIF corrigido) — dois morros e o conjunto de prédios brancos/hotel claramente visíveis."
+  }
+ ]
+}

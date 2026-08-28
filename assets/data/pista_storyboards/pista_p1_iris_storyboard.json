@@ -1,0 +1,93 @@
+{
+ "ponto_id": "pista_p1",
+ "base_image": "assets/img/pista_storyboards/pista_p1/00_planogeral.jpg",
+ "image_size": [
+  4000,
+  1848
+ ],
+ "audio_lang_reference": "pt",
+ "duration_total": 21.07,
+ "timing_nota": "Todos os crops (crop_px) sao calibrados sobre a imagem ja normalizada por EXIF (ImageOps.exif_transpose) — mesma orientacao que o navegador exibe. Tempo (start/end) vem do timing real do audio pt-br (captions.json), com marcos citados na mesma frase divididos proporcionalmente por numero de caracteres do trecho (mesma tecnica do motor de gerar_legendas_*.py, um nivel mais fundo). So pt-br por enquanto — as outras 13 linguas da trilha Iris ainda nao foram gravadas para este produto.",
+ "shots": [
+  {
+   "seq": 1,
+   "id": "placaprincipal",
+   "marco": "Placa principal (Pista Claudio Coutinho)",
+   "secao_roteiro": "Íris — PCD",
+   "start": 0.0,
+   "end": 8.59,
+   "file": "placaprincipal.jpg",
+   "crop_px": [
+    1850,
+    400,
+    2933,
+    1567
+   ],
+   "pan": "none",
+   "confidence": "alta",
+   "nota": ""
+  },
+  {
+   "seq": 2,
+   "id": "transicao_placaprincipal_placaicones",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 8.59,
+   "end": 11.59,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 3,
+   "id": "placaicones",
+   "marco": "Placa menor de ícones (regras de uso)",
+   "secao_roteiro": "Íris — PCD",
+   "start": 11.59,
+   "end": 12.41,
+   "file": "placaicones.jpg",
+   "crop_px": [
+    966,
+    850,
+    1316,
+    1384
+   ],
+   "pan": "none",
+   "confidence": "alta",
+   "nota": ""
+  },
+  {
+   "seq": 4,
+   "id": "transicao_placaicones_caminhopedras",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 12.41,
+   "end": 15.41,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 5,
+   "id": "caminhopedras",
+   "marco": "Caminho de pedras portuguesas / muro e mata",
+   "secao_roteiro": "Íris — PCD",
+   "start": 15.41,
+   "end": 21.07,
+   "file": "caminhopedras.jpg",
+   "crop_px": [
+    0,
+    480,
+    1950,
+    1848
+   ],
+   "pan": "rtl",
+   "confidence": "alta",
+   "nota": "Caminho estruturalmente alongado entre o muro branco e a mata — varredura reforça a extensão do caminho."
+  }
+ ]
+}

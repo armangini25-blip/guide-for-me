@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pista Cláudio Coutinho</title>
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+
+<div id="app">
+
+  <div class="topbar">
+    <span class="brand">🥾 Pista Cláudio Coutinho - Praia Vermelha</span>
+  </div>
+
+  <!-- #app-screens é quem rola dentro da moldura de celular (#app tem altura fixa e overflow:hidden,
+       igual ao app principal) — sem este wrapper, telas mais altas que a moldura ficam com o
+       rodapé inacessível, sem nenhuma forma de rolar até ele. -->
+  <div id="app-screens">
+
+  <!-- TELA 1: idioma -->
+  <section id="screen-lang" class="screen active">
+    <h2 class="screen-title" data-i18n="pista_lang_titulo">Escolha seu idioma</h2>
+    <div id="lang-grid" class="lang-grid"></div>
+    <div id="lang-notice" class="lang-notice" style="display:none;"></div>
+  </section>
+
+  <!-- TELA 2: escolha do tipo de narração (mesmo padrão do app principal, screen-modo-narracao) -->
+  <section id="screen-modo" class="screen">
+    <div class="plano-cards">
+      <div id="modo-turistica" class="plano-card" data-voice="modo_turistica_title">
+        <img class="plano-icon-img" src="assets/img/icones/pista_modo_turistica.jpg" alt="">
+        <h3 data-i18n="modo_turistica_title">Narração Turística</h3>
+        <p data-i18n="modo_turistica_desc">Roteiro histórico e cultural de cada ponto da trilha.</p>
+      </div>
+      <div id="modo-pcd" class="plano-card premium" data-voice="modo_pcd_title">
+        <img class="plano-icon-img" src="assets/img/icones/pista_modo_pcd.jpg" alt="">
+        <h3 data-i18n="modo_pcd_title">Audiodescrição Detalhada — PCD (Tipo 2)</h3>
+        <p data-i18n="modo_pcd_desc">A narração turística, seguida da descrição sensorial detalhada da paisagem.</p>
+        <p id="modo-pcd-notice" class="lang-notice" style="display:none; margin-top:8px;" data-i18n="pista_pcd_sem_iris"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TELA 3: escolha de plano (mesmo padrão do app principal, screen-plano) -->
+  <section id="screen-plano" class="screen">
+    <h2 class="screen-title" data-i18n="plano_title">Escolha seu plano</h2>
+    <p class="screen-sub" data-i18n="plano_sub">Toque numa opção para continuar.</p>
+    <div class="plano-cards">
+      <div id="plano-basico" class="plano-card" data-voice="plano_basico_title">
+        <span class="plano-icon">📻</span>
+        <h3 data-i18n="plano_basico_title">Básico</h3>
+        <p data-i18n="plano_basico_desc">Gratuito, com anúncios entre as telas.</p>
+      </div>
+      <div id="plano-premium" class="plano-card premium" data-voice="plano_premium_title">
+        <span class="plano-icon">💎</span>
+        <h3 data-i18n="plano_premium_title">Premium</h3>
+        <p data-i18n="plano_premium_desc">Sem anúncios, com acesso a conteúdo exclusivo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TELA: espaço comercial (plano Básico, repete a cada troca de tela) -->
+  <section id="screen-anuncio" class="screen">
+    <div class="hero-entry anuncio-entry">
+      <div style="font-size:2.4rem;">📢</div>
+      <h1 data-i18n="anuncio_title">Espaço Comercial</h1>
+      <p data-i18n="anuncio_sub">No plano Básico, este espaço aparece a cada troca de tela — no plano Premium, ele não existe.</p>
+      <div id="anuncio-timer" class="ad-timer">5</div>
+      <img class="anuncio-imagem" src="assets/img/marketing/pista_anuncio_caneca.jpg" alt="Caneca Guide for me">
+    </div>
+  </section>
+
+  <!-- TELA: pagamento simulado (plano Premium) -->
+  <section id="screen-pagamento" class="screen">
+    <div class="payment-card">
+      <p class="payment-kicker" data-i18n="pagamento_kicker">Formas de</p>
+      <h1 class="payment-title" data-i18n="pagamento_title">pagamento</h1>
+      <p class="payment-valor" data-i18n="pista_pagamento_valor">O valor deste serviço é de R$ 2,00, que será cobrado em 1 parcela.</p>
+      <div class="payment-option" data-voice="pagamento_credito" data-metodo="credito">
+        <span class="payment-icon">💳</span><span data-i18n="pagamento_credito">Cartão de Crédito</span>
+      </div>
+      <div class="payment-option" data-voice="pagamento_debito" data-metodo="debito">
+        <span class="payment-icon">💳</span><span data-i18n="pagamento_debito">Cartão de Débito</span>
+      </div>
+      <div class="payment-option" data-voice="pagamento_pix" data-metodo="pix">
+        <span class="payment-icon">📱</span><span data-i18n="pagamento_pix">Pix</span>
+      </div>
+      <p class="payment-disclaimer" data-i18n="pagamento_disclaimer">Simulação — nenhum pagamento real é processado neste protótipo.</p>
+      <div id="pagamento-status" class="payment-status" style="display:none;"></div>
+    </div>
+  </section>
+
+  <!-- TELA: apresentação (toca uma vez, ao chegar) -->
+  <section id="screen-apresentacao" class="screen">
+    <p style="font-size:.78rem;color:var(--text-muted); margin:0 0 10px; display:flex; align-items:center; justify-content:space-between;">
+      <span><span id="lang-current-flag" style="display:inline-flex;vertical-align:middle;"></span> <strong id="lang-current-name"></strong></span>
+      <button id="btn-trocar-idioma" class="btn secondary small" style="padding:5px 10px;">← <span data-i18n="pista_trocar_idioma">Trocar idioma</span></button>
+    </p>
+
+    <div id="apresentacao-media" class="vista-media">
+      <img id="apresentacao-foto" src="" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:inherit; z-index:0;">
+      <span class="label" data-i18n="pista_apresentacao_label">Você chegou à Pista Cláudio Coutinho</span>
+    </div>
+
+    <div class="vista-lower">
+      <strong style="font-size:.86rem;" data-i18n="pista_apresentacao_titulo">Apresentação da trilha</strong>
+      <audio id="apresentacao-audio" style="display:none;"></audio>
+      <div class="mini-player">
+        <button id="apresentacao-playpause" class="mini-player-btn">▶</button>
+        <div id="apresentacao-track" class="mini-player-track"><div id="apresentacao-progress" class="mini-player-progress"></div></div>
+      </div>
+      <div id="apresentacao-caption-box" class="caption-box">…</div>
+    </div>
+  </section>
+
+  <!-- TELA: sequência de paradas + parada final "convite" (navegação pelo rodapé global Voltar/Seguir) -->
+  <section id="screen-percurso" class="screen">
+    <p style="font-size:.78rem;color:var(--text-muted); margin:0 0 6px; display:flex; align-items:center; justify-content:space-between;">
+      <span><span id="lang-current-flag-2" style="display:inline-flex;vertical-align:middle;"></span> <strong id="lang-current-name-2"></strong></span>
+      <button class="btn secondary small" style="padding:5px 10px;" onclick="document.getElementById('btn-trocar-idioma').click()">← <span data-i18n="pista_trocar_idioma">Trocar idioma</span></button>
+    </p>
+    <p id="ponto-progresso" style="font-size:.7rem; color:var(--text-muted); margin:0 0 8px; text-align:center;"></p>
+
+    <div id="vista-media" class="vista-media">
+      <img id="vista-media-photo" src="" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:inherit; z-index:0;">
+      <span id="vista-media-label" class="label">Você não está lá. Ainda.</span>
+      <!-- Build 2026-08-28 (pedido do CEO): card invisível sobre a foto, só nas Paradas 1-9 (ativado/
+           desativado em renderPonto()/renderPontoBonus()/renderConvite()) — tocar na paisagem faz
+           exatamente o que o botão "Seguir" do rodapé faz, nenhuma lógica nova. Sem label/foco de
+           teclado de propósito: é um atalho de toque a mais, não substitui o rodapé (sempre visível,
+           anunciado por voz) como controle principal — invisível também pra leitor de tela. -->
+      <button id="vista-media-tap" class="vista-media-tap" tabindex="-1" aria-hidden="true" disabled></button>
+    </div>
+    <div id="vista-media-caption" class="vista-media-caption" style="display:none;"></div>
+
+    <div class="vista-lower">
+      <div id="audio-pendente-notice" class="alert alert-note" style="display:none; font-size:.82rem;"></div>
+      <audio id="player-audio" style="display:none;"></audio>
+      <div id="player-mini" class="mini-player" style="display:none;">
+        <button id="player-playpause" class="mini-player-btn">▶</button>
+        <div id="player-track" class="mini-player-track"><div id="player-progress" class="mini-player-progress"></div></div>
+      </div>
+      <div id="caption-box" class="caption-box" style="display:none;">…</div>
+    </div>
+  </section>
+
+  </div>
+
+  <!-- Modal de confirmação de saída -->
+  <div id="confirm-sair-modal" class="modal-overlay">
+    <div class="modal-box">
+      <div class="big">🚪</div>
+      <h4 data-i18n="confirm_sair_msg">Você confirma que deseja encerrar a sessão?</h4>
+      <div style="display:flex; gap:10px; margin-top:6px;">
+        <button id="confirm-sair-nao" class="btn secondary small" style="flex:1;" data-i18n="confirm_sair_nao">Não</button>
+        <button id="confirm-sair-sim" class="btn small" style="flex:1;" data-i18n="confirm_sair_sim">Sim</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé global — Voltar / Seguir / Sair, sempre visível. "Seguir" no lugar de "Home": a
+       trilha é linear, não tem "início do app" pra voltar — o botão avança (mesmo papel que
+       "Continuar"/"Próximo"/"Concluir trilha" faziam antes, agora centralizados aqui). -->
+  <div id="global-footer" class="global-footer">
+    <button id="btn-voltar-global" class="footer-btn" data-voice="footer_voltar"><span class="ic">←</span><span data-i18n="footer_voltar">Voltar</span></button>
+    <button id="btn-seguir-global" class="footer-btn" data-voice="footer_seguir"><span class="ic">→</span><span data-i18n="footer_seguir">Seguir</span></button>
+    <button id="btn-sair-global" class="footer-btn" data-voice="footer_sair"><span class="ic">🚪</span><span data-i18n="footer_sair">Sair</span></button>
+  </div>
+
+  <audio id="ui-voice-audio" style="display:none;"></audio>
+
+</div>
+
+<script src="assets/js/pista.js"></script>
+</body>
+</html>

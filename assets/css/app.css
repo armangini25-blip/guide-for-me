@@ -28,6 +28,15 @@ body{
    app de celular de verdade. */
 body{ display:flex; align-items:center; justify-content:center; padding:24px 12px; }
 #app{ height:min(844px, 92vh); max-width:92vw; aspect-ratio:9/16; margin:0 auto; background:var(--surface); box-shadow:var(--shadow); border-radius:40px; border:10px solid #131313; display:flex; flex-direction:column; position:relative; overflow:hidden; }
+/* Achado de auditoria 26/08: a moldura acima é pra simular a experiência de app quando vista num
+   desktop/tablet (pedido original do CEO) — mas ela também renderiza dentro de um celular de
+   verdade (o único jeito real de abrir a Pista, via QR code na trilha), virando uma "moldura de
+   celular" desenhada com margem sobrando dentro do próprio celular do visitante. Abaixo do breakpoint
+   a tela real já É o "aparelho", então a moldura desliga e #app ocupa a viewport inteira. */
+@media (max-width:480px){
+  body{ padding:0; }
+  #app{ width:100%; max-width:none; height:100vh; height:100dvh; aspect-ratio:auto; border:none; border-radius:0; box-shadow:none; margin:0; }
+}
 #app-screens{ flex:1; min-height:0; overflow-y:auto; position:relative; display:flex; flex-direction:column; }
 .screen{ display:none; flex:1; flex-direction:column; padding:20px 18px 20px; }
 .screen.active{ display:flex; }
@@ -82,7 +91,7 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
 .lang-grid{ display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-top:12px;}
 /* Build 2026-08-17 (pedido do CEO): card em coluna, altura dobrada — proporção fixa 2/3 bandeira,
    1/3 nome abaixo (flex 2:1 dentro da altura fixa do card). */
-.lang-card{ height:84px; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:6px 8px; text-align:center; cursor:pointer; box-shadow:var(--shadow); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; }
+.lang-card{ height:69px; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:6px 8px; text-align:center; cursor:pointer; box-shadow:var(--shadow); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; }
 .lang-card .flag{ display:flex; align-items:center; justify-content:center; flex:2; min-height:0; }
 .lang-card .flag svg{ height:100%; width:auto; max-width:100%; border-radius:3px; box-shadow:0 0 0 1px rgba(0,0,0,.12); }
 #lang-current-flag{ display:inline-flex; vertical-align:middle; }
@@ -124,8 +133,28 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
 #screen-modo-narracao{ justify-content:center; }
 #screen-modo-narracao .plano-cards{ display:grid; grid-template-rows:1fr 1fr; }
 
+/* Build 2026-08-28 (pedido do CEO, troca cirúrgica): só na tela de escolha de narração da PISTA
+   (#screen-modo — não confundir com #screen-modo-narracao acima, que é do app principal, nem com
+   #screen-plano, que reaproveita o mesmo .plano-card pros cartões de Básico/Premium). Ícone de
+   emoji virou <img> (assets/img/icones/pista_modo_*.jpg). Altura dos cards: dobrada primeiro
+   (317px/368px, 2x a altura natural medida no navegador: 158,7px/183,9px), depois reduzida em 1/3
+   a pedido do CEO — 317×2/3=211px, 368×2/3=245px (medido/confirmado no navegador). Ícone reduzido
+   de 110px pra 80px junto — com 110px o conteúdo (ícone+título+texto) ultrapassava o min-height
+   reduzido e o card ficava mais alto que o alvo (min-height só "segura" se o conteúdo natural for
+   menor). Cada card mantém sua diferença de altura original (PCD tem texto mais longo), nunca
+   forçados iguais. */
+#screen-modo .plano-icon-img{ height:80px; width:auto; display:block; margin:0 auto 10px; }
+#screen-modo #modo-turistica{ min-height:211px; }
+#screen-modo #modo-pcd{ min-height:245px; }
+
 /* tela de espaço comercial (anúncio simulado) */
 .ad-timer{ width:56px; height:56px; border-radius:50%; border:3px solid var(--accent); display:flex; align-items:center; justify-content:center; font-size:1.4rem; font-weight:800; color:var(--accent-dark);}
+/* Build 2026-08-28 (pedido do CEO): imagem de anúncio (caneca "Guide for me") embaixo do texto —
+   .hero-entry por padrão centraliza tudo verticalmente (usado também em telas de index.html, não
+   mexer nela); aqui, escopado só a #screen-anuncio, o bloco de texto sobe pro topo e a imagem ocupa
+   o espaço abaixo. */
+#screen-anuncio .anuncio-entry{ justify-content:flex-start; padding-top:32px; }
+#screen-anuncio .anuncio-imagem{ width:100%; max-width:280px; border-radius:14px; box-shadow:var(--shadow); margin-top:6px; }
 
 /* tela de pagamento simulado */
 .payment-card{ flex:1; display:flex; flex-direction:column; background:linear-gradient(160deg, var(--accent-2), #1fa088); color:#fff; border-radius:16px; padding:28px 22px; margin:6px 0;}
@@ -142,6 +171,11 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
 .vista-media .icon{ font-size:3rem;}
 .vista-media .label{ font-size:.92rem; margin-top:8px; font-weight:700; position:relative; z-index:1; text-shadow:0 1px 4px rgba(0,0,0,.55);}
 .vista-media .note{ position:absolute; bottom:8px; left:8px; right:8px; font-size:.6rem; opacity:.9; background:rgba(0,0,0,.35); border-radius:6px; padding:5px 8px;}
+/* Build 2026-08-28 (pedido do CEO): card invisível sobre a foto da Parada (Paradas 1-9 só) — tocar
+   funciona como o botão "Seguir" do rodapé. Desativado (via atributo disabled) fora das Paradas
+   1-9, ver renderPonto()/renderPontoBonus()/renderConvite() em pista.js. */
+.vista-media-tap{ position:absolute; inset:0; z-index:2; width:100%; height:100%; background:transparent; border:none; padding:0; margin:0; cursor:pointer; -webkit-tap-highlight-color:transparent; }
+.vista-media-tap[disabled]{ cursor:default; pointer-events:none; }
 .vista-lower{ background:#14181f; color:#f1eee6; border-radius:12px; padding:16px;}
 .vista-lower audio{ width:100%; margin-top:8px;}
 
@@ -214,6 +248,20 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
 .badge.sim{ background:var(--note-bg); color:var(--note-text); border:1px solid var(--note-border);}
 
 .caption-box{ background:rgba(0,0,0,.55); color:#fff; border-radius:8px; padding:10px 12px; margin-top:10px; font-size:.86rem; min-height:44px; display:flex; align-items:center;}
+
+/* Tocador de áudio compacto (Pista Cláudio Coutinho) — substitui os controles nativos do <audio>
+   (altura fixa do navegador, sempre com o menu de "⋮" que não dá pra tirar via CSS) por play/pause
+   + barra de progresso próprios, mesma paleta do app, ~metade da altura dos controles nativos. */
+.mini-player{ display:flex; align-items:center; gap:10px; background:#fff; border-radius:999px; padding:6px 14px; min-height:0; }
+.mini-player-btn{ flex-shrink:0; width:26px; height:26px; border-radius:50%; border:none; background:var(--accent); color:#fff; font-size:.72rem; display:flex; align-items:center; justify-content:center; cursor:pointer; padding:0; }
+/* Achado de auditoria 26/08: quando o autoplay é bloqueado pelo navegador (comum logo após o
+   anúncio, sem gesto direto do visitante), o catch mudo deixava o áudio simplesmente não tocar,
+   sem nenhum sinal do porquê. Pulsa o botão de play até o visitante tocar nele. */
+.mini-player-btn.autoplay-blocked{ animation:mini-player-pulse 1.1s ease-in-out infinite; }
+@keyframes mini-player-pulse{ 0%,100%{ box-shadow:0 0 0 0 rgba(201,130,42,.55);} 50%{ box-shadow:0 0 0 7px rgba(201,130,42,0);} }
+@media (prefers-reduced-motion: reduce){ .mini-player-btn.autoplay-blocked{ animation:none; outline:2px solid var(--accent); outline-offset:2px; } }
+.mini-player-track{ flex:1; height:4px; border-radius:999px; background:var(--border); cursor:pointer; position:relative; }
+.mini-player-progress{ position:absolute; left:0; top:0; height:100%; width:0%; border-radius:999px; background:var(--accent); }
 
 .view-list{ list-style:none; padding:0; margin:0; }
 .view-list li{ background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:11px 14px; margin-bottom:8px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; font-size:.88rem;}

@@ -1,0 +1,93 @@
+{
+ "ponto_id": "pista_p5",
+ "base_image": "assets/img/pista_storyboards/pista_p5/00_planogeral.jpg",
+ "image_size": [
+  4000,
+  1848
+ ],
+ "audio_lang_reference": "pt",
+ "duration_total": 15.24,
+ "timing_nota": "Todos os crops (crop_px) sao calibrados sobre a imagem ja normalizada por EXIF (ImageOps.exif_transpose) — mesma orientacao que o navegador exibe. Tempo (start/end) vem do timing real do audio pt-br (captions.json), com marcos citados na mesma frase divididos proporcionalmente por numero de caracteres do trecho (mesma tecnica do motor de gerar_legendas_*.py, um nivel mais fundo). So pt-br por enquanto — as outras 13 linguas da trilha Iris ainda nao foram gravadas para este produto.",
+ "shots": [
+  {
+   "seq": 1,
+   "id": "caminho",
+   "marco": "Caminho pavimentado em curva sob a mata",
+   "secao_roteiro": "Íris — PCD",
+   "start": 0.0,
+   "end": 3.21,
+   "file": "caminho.jpg",
+   "crop_px": [
+    1750,
+    250,
+    4000,
+    1848
+   ],
+   "pan": "rtl",
+   "confidence": "alta",
+   "nota": ""
+  },
+  {
+   "seq": 2,
+   "id": "transicao_caminho_bancos",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 3.21,
+   "end": 6.21,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 3,
+   "id": "bancos",
+   "marco": "Bancos de tronco e pedra (ponto de descanso)",
+   "secao_roteiro": "Íris — PCD",
+   "start": 6.21,
+   "end": 9.88,
+   "file": "bancos.jpg",
+   "crop_px": [
+    0,
+    750,
+    2250,
+    1600
+   ],
+   "pan": "micro",
+   "confidence": "alta",
+   "nota": "Três bancos confirmados na foto — cluster sem linearidade forte."
+  },
+  {
+   "seq": 4,
+   "id": "transicao_bancos_vegetacaodireita",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 9.88,
+   "end": 12.88,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 5,
+   "id": "vegetacaodireita",
+   "marco": "Vegetação densa à direita do caminho",
+   "secao_roteiro": "Íris — PCD",
+   "start": 12.88,
+   "end": 15.24,
+   "file": "vegetacaodireita.jpg",
+   "crop_px": [
+    3100,
+    0,
+    4000,
+    1848
+   ],
+   "pan": "ttb",
+   "confidence": "alta",
+   "nota": "Faixa verticalmente alongada, do topo até a beira do caminho — varredura de cima para baixo."
+  }
+ ]
+}

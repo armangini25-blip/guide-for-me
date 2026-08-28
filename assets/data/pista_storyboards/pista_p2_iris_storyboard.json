@@ -1,0 +1,124 @@
+{
+ "ponto_id": "pista_p2",
+ "base_image": "assets/img/pista_storyboards/pista_p2/00_planogeral.jpg",
+ "image_size": [
+  1846,
+  852
+ ],
+ "audio_lang_reference": "pt",
+ "duration_total": 25.97,
+ "timing_nota": "Vista reformulada em 2026-08-28 (novo nome Praia Vermelha, nova foto gerada por IA — substitui o storyboard antigo do 'Paredão Visto da Enseada', completamente descartado). Todos os crops (crop_px) sao calibrados sobre a imagem-fonte 1846x852px, ja normalizada (sem EXIF pendente). O roteiro inteiro cai num unico segmento de captions.json (0.0-25.97s, sem quebras internas), entao os marcos foram divididos proporcionalmente por numero de caracteres do trecho dentro do texto total (mesma tecnica do motor de gerar_legendas_*.py, um nivel mais fundo — igual ao pista_p4). Depois da divisao proporcional bruta, entrou a norma de transicao de 3s entre shots vizinhos (Core Principle 8): 1,5s tirados do fim do shot anterior + 1,5s do inicio do proximo. Os marcos 'paredao' e 'mata' vem de uma clausula muito compacta do roteiro (poucos caracteres) e nao tinham orcamento de tempo bruto suficiente para ceder 1,5s+1,5s sem ficar negativos — foi aplicado um piso minimo explicito de 1,0s de duracao residual por shot (decisao editorial deste storyboard, nao uma constante do motor) e as transicoes T2 (agua-paredao), T3 (paredao-mata) e T4 (mata-bondinho) encolheram abaixo dos 3,0s padrao só nesses pontos, exatamente como previsto na regra ('a transicao encolhe so naquele ponto, nunca deixa um shot com duracao zero/negativa') — nenhum shot ficou com duracao zero ou negativa. FUSAO (2026-08-28, veredito de @audiodescricao/Iris): os shots 'paredao' e 'mata' e a transicao T3 entre eles foram fundidos num unico shot 'paredao_mata' (16.03-19.87s, 3.84s = soma exata dos tres trechos substituidos) — o roteiro ja descreve os dois marcos como uma relacao espacial unica ('o paredao... se ergue sobre a mata que cobre a base do morro'), entao a transicao intermediaria deixou de fazer sentido. Arquivos antigos paredao.jpg e mata.jpg removidos (sem outras referencias no app); novo arquivo paredao_mata.jpg mostra deliberadamente os dois elementos na mesma composicao. Cobertura de tempo conferida apos a fusao: soma de shots+transicoes = 25.97s exatos, sem buraco nem sobreposicao (agora 7 shots em vez de 9). So pt-br por enquanto — as outras 13 linguas da trilha Iris ainda nao foram gravadas para este produto; ao recalcular, manter os mesmos crop_px e so re-rodar o motor de tempo com a duracao real do MP3 daquele idioma.",
+ "shots": [
+  {
+   "seq": 1,
+   "id": "praia",
+   "marco": "Guarda-sóis coloridos e banhistas na Praia Vermelha",
+   "secao_roteiro": "Íris — PCD",
+   "start": 0.0,
+   "end": 7.46,
+   "file": "praia.jpg",
+   "crop_px": [
+    0,
+    560,
+    1846,
+    852
+   ],
+   "pan": "rtl",
+   "confidence": "alta",
+   "nota": "Faixa de areia lotada de guarda-sóis (azuis, vermelhos, verdes) e banhistas, claramente visível de ponta a ponta — varredura acompanha o 'lado a lado' descrito no texto. Duração acima do piso de 3,5s para auto-sweep."
+  },
+  {
+   "seq": 2,
+   "id": "transicao_praia_agua",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 7.46,
+   "end": 10.46,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR. Transição cheia (3,0s) — ambos os shots vizinhos tinham orçamento de sobra."
+  },
+  {
+   "seq": 3,
+   "id": "agua",
+   "marco": "Água em gradiente (verde-esmeralda raso para azul mais fechado mar adentro)",
+   "secao_roteiro": "Íris — PCD",
+   "start": 10.46,
+   "end": 13.33,
+   "file": "agua.jpg",
+   "crop_px": [
+    480,
+    430,
+    1846,
+    620
+   ],
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Gradiente de cor bem visível na foto (turquesa junto à faixa de areia, azul mais fechado mar adentro). Sem varredura: duração residual (2,87s) caiu abaixo do piso de 3,5s do Core Principle 10 depois da carga de transição — não é decisão de composição, é o piso de duração que bloqueia o pan aqui."
+  },
+  {
+   "seq": 4,
+   "id": "transicao_agua_paredao",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 13.33,
+   "end": 16.03,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Transição encolhida para 2,70s (1,5s do lado da água + 1,20s do lado do paredão) — o paredão só tinha orçamento bruto de 3,39s e precisa ceder dos dois lados (ver shot 'paredao'). Encolhimento avisado explicitamente, nenhum shot ficou negativo."
+  },
+  {
+   "seq": 5,
+   "id": "paredao_mata",
+   "marco": "Paredão de granito se erguendo sobre a mata da base do morro",
+   "secao_roteiro": "Íris — PCD",
+   "start": 16.03,
+   "end": 19.87,
+   "file": "paredao_mata.jpg",
+   "crop_px": [
+    600,
+    0,
+    1150,
+    500
+   ],
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Shot fundido em 2026-08-28 por veredito de @audiodescricao (Íris): os antigos shots 'paredao' (16.03-17.03s) e 'mata' (18.87-19.87s), separados pela transição T3 (17.03-18.87s), foram unidos num único recorte porque o roteiro já descreve a relação como uma composição espacial única ('o paredão... se ergue sobre a mata que cobre a base do morro'), não dois marcos laterais distintos — a transição intermediária deixou de fazer sentido e foi eliminada. Duração (3,84s) é a soma exata dos três trechos substituídos (1,0s + 1,84s + 1,0s), preservando a cobertura total de 25,97s sem furo nem sobreposição. Recorte único mostra deliberadamente o granito do Pão de Açúcar E a mata na base na mesma composição (não é um crop qualquer). Sem varredura: mesmo passando do piso de 3,5s, não há movimento lateral real a descrever — a composição já é a resposta ao texto. Confiança alta: composição intencional, não mais um vazamento acidental de enquadramento."
+  },
+  {
+   "seq": 6,
+   "id": "transicao_mata_bondinho",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 19.87,
+   "end": 22.02,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Transição encolhida para 2,15s (0,65s do lado do paredao_mata + 1,5s do lado do bondinho) — o shot fundido só tinha orçamento residual para ceder um lado parcial (herdado do antigo shot 'mata'). Encolhimento avisado explicitamente, nenhum shot ficou negativo."
+  },
+  {
+   "seq": 7,
+   "id": "bondinho",
+   "marco": "Estação do bondinho no alto do morro",
+   "secao_roteiro": "Íris — PCD",
+   "start": 22.02,
+   "end": 25.97,
+   "file": "bondinho.jpg",
+   "crop_px": [
+    730,
+    0,
+    910,
+    100
+   ],
+   "pan": "none",
+   "confidence": "média",
+   "nota": "Estrutura branca no topo do morro confirmada visualmente e recortada contra o céu limpo (bate com o texto), mas em resolução/distância baixas demais para confirmar detalhes arquitetônicos — mesmo grau de cautela do hedge típico do roteiro-fonte. Elemento pontual nomeado durante o shot: sem varredura."
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "ponto_id": "pista_p6",
+ "base_image": "assets/img/pista_storyboards/pista_p6/00_planogeral.jpg",
+ "image_size": [
+  4000,
+  3000
+ ],
+ "audio_lang_reference": "pt",
+ "duration_total": 16.03,
+ "timing_nota": "Todos os crops (crop_px) sao calibrados sobre a imagem ja normalizada por EXIF (ImageOps.exif_transpose) — mesma orientacao que o navegador exibe. Tempo (start/end) vem do timing real do audio pt-br (captions.json), com marcos citados na mesma frase divididos proporcionalmente por numero de caracteres do trecho (mesma tecnica do motor de gerar_legendas_*.py, um nivel mais fundo). So pt-br por enquanto — as outras 13 linguas da trilha Iris ainda nao foram gravadas para este produto.",
+ "shots": [
+  {
+   "seq": 1,
+   "id": "marilhote",
+   "marco": "Mar em azul profundo até o ilhote no horizonte",
+   "secao_roteiro": "Íris — PCD",
+   "start": 0.0,
+   "end": 5.66,
+   "file": "marilhote.jpg",
+   "crop_px": [
+    1900,
+    1100,
+    4000,
+    1750
+   ],
+   "pan": "rtl",
+   "confidence": "alta",
+   "nota": ""
+  },
+  {
+   "seq": 2,
+   "id": "transicao_marilhote_caiaque",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 5.66,
+   "end": 8.66,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 3,
+   "id": "caiaque",
+   "marco": "Caiaque solitário ao centro",
+   "secao_roteiro": "Íris — PCD",
+   "start": 8.66,
+   "end": 9.46,
+   "file": "caiaque.jpg",
+   "crop_px": [
+    3200,
+    1850,
+    3750,
+    2150
+   ],
+   "pan": "none",
+   "confidence": "baixa",
+   "nota": "Elemento minúsculo e distante — identificação como caiaque (vs. prancha/SUP) não confirmável com nitidez nesta resolução; locado pela posição central descrita no roteiro."
+  },
+  {
+   "seq": 4,
+   "id": "transicao_caiaque_galhosesquerda",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 9.46,
+   "end": 12.46,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 5,
+   "id": "galhosesquerda",
+   "marco": "Galhos escuros emoldurando o canto esquerdo",
+   "secao_roteiro": "Íris — PCD",
+   "start": 12.46,
+   "end": 16.03,
+   "file": "galhosesquerda.jpg",
+   "crop_px": [
+    0,
+    450,
+    1250,
+    3000
+   ],
+   "pan": "ttb",
+   "confidence": "alta",
+   "nota": "Moldura vertical de galhos — varredura de cima para baixo acompanha a árvore."
+  }
+ ]
+}

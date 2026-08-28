@@ -1,0 +1,93 @@
+{
+ "ponto_id": "pista_p3",
+ "base_image": "assets/img/pista_storyboards/pista_p3/00_planogeral.jpg",
+ "image_size": [
+  8160,
+  3768
+ ],
+ "audio_lang_reference": "pt",
+ "duration_total": 16.75,
+ "timing_nota": "Todos os crops (crop_px) sao calibrados sobre a imagem ja normalizada por EXIF (ImageOps.exif_transpose) — mesma orientacao que o navegador exibe. Tempo (start/end) vem do timing real do audio pt-br (captions.json), com marcos citados na mesma frase divididos proporcionalmente por numero de caracteres do trecho (mesma tecnica do motor de gerar_legendas_*.py, um nivel mais fundo). So pt-br por enquanto — as outras 13 linguas da trilha Iris ainda nao foram gravadas para este produto.",
+ "shots": [
+  {
+   "seq": 1,
+   "id": "paodeacucar",
+   "marco": "Pão de Açúcar inteiro (sopé à estação do teleférico)",
+   "secao_roteiro": "Íris — PCD",
+   "start": 0.0,
+   "end": 6.25,
+   "file": "paodeacucar.jpg",
+   "crop_px": [
+    700,
+    150,
+    4450,
+    2950
+   ],
+   "pan": "ttb",
+   "confidence": "alta",
+   "nota": "Texto descreve explicitamente 'do sopé arborizado ao topo rochoso' — varredura de baixo para cima (ttb) reforça o movimento do próprio texto."
+  },
+  {
+   "seq": 2,
+   "id": "transicao_paodeacucar_baianavio",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 6.25,
+   "end": 9.25,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 3,
+   "id": "baianavio",
+   "marco": "Baía com navio ao fundo",
+   "secao_roteiro": "Íris — PCD",
+   "start": 9.25,
+   "end": 11.34,
+   "file": "baianavio.jpg",
+   "crop_px": [
+    4300,
+    1900,
+    7300,
+    2750
+   ],
+   "pan": "none",
+   "confidence": "média",
+   "nota": "Navio visível com clareza, mas classificação exata (tipo/porte real vs. 'pequeno' relativo à distância) não confirmável — elemento pontual nomeado, sem varredura enquanto é descrito."
+  },
+  {
+   "seq": 4,
+   "id": "transicao_baianavio_morrosneblina",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 11.34,
+   "end": 14.34,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 5,
+   "id": "morrosneblina",
+   "marco": "Morros sucessivos até a neblina do horizonte",
+   "secao_roteiro": "Íris — PCD",
+   "start": 14.34,
+   "end": 16.75,
+   "file": "morrosneblina.jpg",
+   "crop_px": [
+    4700,
+    1950,
+    8160,
+    2550
+   ],
+   "pan": "rtl",
+   "confidence": "média",
+   "nota": "Neblina reduz nitidez de contorno dos morros mais distantes — cadeia estruturalmente alongada, varredura reforça a extensão até o horizonte."
+  }
+ ]
+}

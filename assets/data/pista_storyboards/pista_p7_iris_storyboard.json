@@ -1,0 +1,93 @@
+{
+ "ponto_id": "pista_p7",
+ "base_image": "assets/img/pista_storyboards/pista_p7/00_planogeral.jpg",
+ "image_size": [
+  4000,
+  1848
+ ],
+ "audio_lang_reference": "pt",
+ "duration_total": 15.72,
+ "timing_nota": "Todos os crops (crop_px) sao calibrados sobre a imagem ja normalizada por EXIF (ImageOps.exif_transpose) — mesma orientacao que o navegador exibe. Tempo (start/end) vem do timing real do audio pt-br (captions.json), com marcos citados na mesma frase divididos proporcionalmente por numero de caracteres do trecho (mesma tecnica do motor de gerar_legendas_*.py, um nivel mais fundo). So pt-br por enquanto — as outras 13 linguas da trilha Iris ainda nao foram gravadas para este produto.",
+ "shots": [
+  {
+   "seq": 1,
+   "id": "fortificacao",
+   "marco": "Restos de fortificação com bandeira do Brasil",
+   "secao_roteiro": "Íris — PCD",
+   "start": 0.0,
+   "end": 7.49,
+   "file": "fortificacao.jpg",
+   "crop_px": [
+    1100,
+    750,
+    2250,
+    1250
+   ],
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Muros baixos, construção branca e bandeira claramente visíveis."
+  },
+  {
+   "seq": 2,
+   "id": "transicao_fortificacao_segundomorro",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 7.49,
+   "end": 10.49,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 3,
+   "id": "segundomorro",
+   "marco": "Segundo morro, sem construção",
+   "secao_roteiro": "Íris — PCD",
+   "start": 10.49,
+   "end": 11.64,
+   "file": "segundomorro.jpg",
+   "crop_px": [
+    2050,
+    700,
+    3350,
+    1400
+   ],
+   "pan": "none",
+   "confidence": "média",
+   "nota": "Parcialmente ocluído por galhos de árvore em primeiro plano — morro em si é identificável."
+  },
+  {
+   "seq": 4,
+   "id": "transicao_segundomorro_mar",
+   "marco": "Transição (plano geral)",
+   "secao_roteiro": "Transição",
+   "start": 11.64,
+   "end": 14.64,
+   "file": "00_planogeral.jpg",
+   "crop_px": null,
+   "pan": "none",
+   "confidence": "alta",
+   "nota": "Corte para o plano geral completo entre dois shots vizinhos — norma adotada em 2026-07-26 para todas as vistas do storyboard AR."
+  },
+  {
+   "seq": 5,
+   "id": "mar",
+   "marco": "Mar azul-claro na base do quadro",
+   "secao_roteiro": "Íris — PCD",
+   "start": 14.64,
+   "end": 15.72,
+   "file": "mar.jpg",
+   "crop_px": [
+    0,
+    1400,
+    4000,
+    1848
+   ],
+   "pan": "rtl",
+   "confidence": "alta",
+   "nota": "Faixa horizontal de água na base — varredura acompanha a extensão."
+  }
+ ]
+}

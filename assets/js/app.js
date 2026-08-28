@@ -49,6 +49,27 @@ const LANGS = [
   { code: "ar-ma", i18nKey: "ar-ma", audioKey: "ar-ma", entryAudioKey: "ar", name: "العربية", dir: "rtl" },
 ];
 
+// Mensagem de falha de rede em selectLanguage() (achado T-01 da auditoria de 26/08 na Pista,
+// replicado aqui) — precisa ficar FORA de i18n.json de propósito: é exibida exatamente no cenário em
+// que aquele arquivo falhou ao carregar, então não há tradução vinda da rede pra usar. Tabela local,
+// independente de qualquer fetch, cobrindo os 14 idiomas do roster com l.code.
+const NETWORK_ERROR_MSG = {
+  "pt-br": ["Sem conexão — não foi possível carregar o conteúdo.", "Tentar novamente"],
+  "pt-pt": ["Sem ligação — não foi possível carregar o conteúdo.", "Tentar novamente"],
+  "en-us": ["No connection — couldn't load the content.", "Try again"],
+  "en-gb": ["No connection — couldn't load the content.", "Try again"],
+  "es-es": ["Sin conexión — no se pudo cargar el contenido.", "Intentar de nuevo"],
+  "es-ar": ["Sin conexión — no se pudo cargar el contenido.", "Intentar de nuevo"],
+  "fr-fr": ["Pas de connexion — le contenu n'a pas pu être chargé.", "Réessayer"],
+  "de-de": ["Keine Verbindung — Inhalt konnte nicht geladen werden.", "Erneut versuchen"],
+  "it-it": ["Nessuna connessione — impossibile caricare il contenuto.", "Riprova"],
+  "zh-cn": ["无网络连接——内容加载失败。", "重试"],
+  "zh-tw": ["無網路連線——內容載入失敗。", "重試"],
+  "ja-jp": ["接続がありません——コンテンツを読み込めませんでした。", "再試行"],
+  "ru-ru": ["Нет соединения — не удалось загрузить контент.", "Повторить попытку"],
+  "ar-ma": ["لا يوجد اتصال — تعذّر تحميل المحتوى.", "إعادة المحاولة"],
+};
+
 // Build 2026-08-02 — os dois índices "a definir" que ganharam foto real nesta leva (10 e 15)
 // foram renomeados com o nome descritivo dado pelo Lente ao analisar a foto (relatorio-fotos.md);
 // os 3 "Vista Urca — a definir" seguem sem foto própria (não há candidata do lote de 28 que não
@@ -67,7 +88,7 @@ const VIEWS_18 = [
 const FUNCTIONAL_VIEWS = {
   6: { tipo: "mirante06" }, // era "Enseada de Botafogo (candidata)" — renomeado para Mirante Guardião da Pedra, mesmo conteúdo do hotspot nº 6 do mapa. Áudio TTS + legenda já gerados para os 14 idiomas (traducoes/mirante06/) — restrição de idioma removida.
   11: { tipo: "tipo1" }, // "Topo Pão de Açúcar — Pôr do Sol"
-  16: { tipo: "pista_convite", langs: ["pt-br"] }, // "Pista Cláudio Coutinho — início" — peça promocional nova (Produto 4), roteiro de @lente, 2026-07-26. Só PT nesta fase, sem tradução ainda.
+  16: { tipo: "pista_convite" }, // "Pista Cláudio Coutinho — início" — peça promocional (Produto 4), roteiro de @lente, 2026-07-26. Build 2026-08-27: áudio+legenda dos 14 idiomas já gerados (auditoria pós-achado do Ponto 10, ver PENDENCIAS.md do prototipo) — restrição de idioma removida, mesmo padrão do mirante06 acima. Esta função (buildViewList) está sem ponto de entrada na UI desde 02/08 — a restrição estava sem efeito prático, corrigida por consistência.
 };
 
 // Build 2026-08-02 — itens de VIEWS_18 com foto real + descrição da Íris, mas ainda SEM áudio
@@ -187,6 +208,14 @@ const HISTORIA_FOTO = {
   // técnica da trilha da Íris de video_seguranca (ver iniciarSlideshowFotos), não depende de
   // pcdProfile nem de idioma localizado, roda sempre que a narração de tipo2 tocar.
   slidesNarracao: Array.from({ length: 36 }, (_, i) => `assets/img/historia_bondinho/${String(i + 1).padStart(3, "0")}.jpg`),
+  // Build 2026-08-25 (pedido do CEO): trilha da Iris (PCD) desta tela ganha 3 fotos historicas de
+  // 1908 (Exposicao Nacional, acervo Brasiliana Fotografica/BN — credito "Augusto Malta, 1908"
+  // já gravado no proprio arquivo, canto inferior), 60s cada — mesmo mecanismo de video_seguranca.
+  slidesIris: [
+    "assets/img/historia_bondinho_iris/1908-01.jpg",
+    "assets/img/historia_bondinho_iris/1908-02.jpg",
+    "assets/img/historia_bondinho_iris/1908-03.jpg",
+  ],
 };
 
 // Mapa dos 14 mirantes (aba Percurso) — coordenadas medidas por inspeção visual direta da
@@ -524,10 +553,12 @@ function confirmarSair() {
   stopAllAudio();
   // window.close() só funciona se a aba foi aberta via script (window.open) — navegador bloqueia
   // silenciosamente pra abas normais, sem lançar erro. Tenta mesmo assim (funciona em modo kiosk/
-  // app de alguns navegadores) e usa about:blank como garantia de que a sessão termina de verdade
-  // (sai do HTML do protótipo) mesmo quando o close silencioso falha.
+  // app de alguns navegadores) e usa encerrado.html como garantia de que a sessão termina de verdade
+  // (sai do HTML do protótipo) mesmo quando o close silencioso falha — página estática própria, sem
+  // navegação nenhuma, em vez de about:blank (achado de auditoria 26/08: tela branca vazia parece
+  // o app ter travado, em vez de comunicar que a sessão terminou de propósito).
   window.close();
-  setTimeout(() => { window.location.href = "about:blank"; }, 60);
+  setTimeout(() => { window.location.href = "encerrado.html"; }, 60);
 }
 
 function showStub(title, whatWorks) {
@@ -559,22 +590,44 @@ function buildLanguageGrid() {
     const card = document.createElement("div");
     card.className = "lang-card";
     card.innerHTML = `<span class="flag">${FLAG_SVG[l.code]}</span><span class="name">${l.name}</span>`;
-    card.onclick = () => selectLanguage(l);
+    // Build 2026-08-25 — pedido do CEO: card de zh-tw (中文·繁體) fica só ilustrativo por ora,
+    // sem clique — nenhuma outra propriedade tocada (aparência idêntica). Restaurar quando pedido.
+    if (l.code !== "zh-tw") card.onclick = () => selectLanguage(l);
     grid.appendChild(card);
   });
 }
 
+// Achado de auditoria 26/08 (feito originalmente na Pista, replicado aqui por ser o mesmo bug):
+// sem try/catch, uma falha de rede deixava a exceção subir sem tratamento — o visitante tocava no
+// idioma e nada acontecia, sem nenhuma mensagem. Agora mostra aviso + botão de tentar de novo.
 async function selectLanguage(l) {
   state.lang = l;
   document.documentElement.setAttribute("dir", l.dir || "ltr"); // árabe (ar-ma) é a única variante RTL do roster
   document.documentElement.setAttribute("lang", l.code); // leitor de tela deve pronunciar no idioma certo, não travado em pt-BR
-  await loadI18N();
-  applyLanguage(l);
-  $("#lang-current-flag").innerHTML = FLAG_SVG[l.code];
-  $("#lang-current-name").textContent = l.name;
-  await loadMapaLabels();
-  renderMapaLabels();
-  await loadCaptions();
+  const notice = $("#lang-notice");
+  notice.innerHTML = "";
+  try {
+    await loadI18N();
+    applyLanguage(l);
+    $("#lang-current-flag").innerHTML = FLAG_SVG[l.code];
+    $("#lang-current-name").textContent = l.name;
+    await loadMapaLabels();
+    renderMapaLabels();
+    await loadCaptions();
+  } catch (err) {
+    const [msgTexto, retryTexto] = NETWORK_ERROR_MSG[l.code] || NETWORK_ERROR_MSG["pt-br"];
+    const msg = document.createElement("span");
+    msg.textContent = msgTexto + " ";
+    const retry = document.createElement("button");
+    retry.className = "btn small";
+    retry.style.marginTop = "8px";
+    retry.textContent = retryTexto;
+    retry.onclick = () => selectLanguage(l);
+    notice.appendChild(msg);
+    notice.appendChild(document.createElement("br"));
+    notice.appendChild(retry);
+    return;
+  }
   attachHoverVoice(); // cobre os elementos [data-voice] recém-traduzidos/renderizados
   navigateTo("screen-modo-narracao");
 }
@@ -869,6 +922,9 @@ function tocarTrilhaIrisSeAplicavel() {
   // outras vistas (mirantes, tipo2) continuam com o sweep de sempre, sem mudança.
   if (tipo === "video_seguranca" && SEGURANCA_FOTO.slidesIris && SEGURANCA_FOTO.slidesIris.length) {
     iniciarSlideshowFotos(fotoEl, audioEl, SEGURANCA_FOTO.slidesIris, 10);
+  } else if (tipo === "tipo2" && HISTORIA_FOTO.slidesIris && HISTORIA_FOTO.slidesIris.length) {
+    // Build 2026-08-25 (pedido do CEO): mesma logica, 3 fotos historicas de 1908, 60s cada.
+    iniciarSlideshowFotos(fotoEl, audioEl, HISTORIA_FOTO.slidesIris, 60);
   } else {
     pararSlideshowFotos(); // tipo2 pode vir de um carrossel de 36 fotos ainda rodando (narração principal) — encerra antes do sweep de foto única
     const fotoOriginalSrc = tipo === "tipo2" ? HISTORIA_FOTO.foto : (m && m.fotoOriginal);
