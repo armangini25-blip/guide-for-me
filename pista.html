@@ -13,7 +13,7 @@
      não substitui a sanitização em si. -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';">
 <title>Pista Cláudio Coutinho</title>
-<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.11">
+<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.12">
 </head>
 <body>
 
@@ -34,10 +34,16 @@
   <!-- TELA 0: capa (QR da placa na trilha) — pedido do CEO 2026-08-29: primeira tela antes do
        idioma, só cabeçalho (já fixo, fora daqui) + rodapé (idem) + a imagem. Tocar na imagem ou em
        "Seguir" leva pra escolha de idioma (ver capa-media-tap/seguirGlobal em pista.js). Sem
-       título, sem áudio — é só a peça de abertura. -->
+       título visível, sem áudio — pedido explícito do CEO, mantido. -->
   <section id="screen-capa" class="screen active">
+    <!-- Build 2026-08-29 (Auditoria 8, achado crítico de @advogado-do-diabo): antes desta linha,
+         um usuário de leitor de tela chegando aqui não tinha NENHUM elemento anunciável — nem
+         texto, nem instrução, nada. sr-only não muda nada pra quem enxerga (sem título visível,
+         sem áudio, como pedido) — só dá ao leitor de tela nativo algo pra ler. Fica sempre em
+         português porque nenhum idioma foi escolhido ainda nesta tela (é a própria função dela). -->
+    <h2 class="screen-title sr-only">Toque em qualquer parte da tela para continuar.</h2>
     <div id="capa-media" class="vista-media">
-      <img id="capa-foto" src="assets/img/pista_coutinho/capa_qr_code.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:inherit; z-index:0;">
+      <img id="capa-foto" src="assets/img/pista_coutinho/capa_qr_code.jpg" alt="Código QR da Pista Cláudio Coutinho" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:inherit; z-index:0;">
       <button id="capa-media-tap" class="vista-media-tap" tabindex="-1" aria-hidden="true"></button>
     </div>
   </section>
@@ -179,11 +185,15 @@
        baixo é equivalente ao "Sair" do rodapé (mesmo modal de confirmação, ver #final-fim). -->
   <section id="screen-final" class="screen">
     <div class="plano-cards">
-      <a href="https://www.monapaodeacucar.com/guiadovisitante" target="_blank" rel="noopener noreferrer" class="plano-card">
+      <!-- Build 2026-08-29 (Auditoria 8, achado de @advogado-do-diabo): o site externo é só em
+           português, sem seletor de idioma — avisa isso antes de abrir, já que o resto da
+           experiência é cuidadosamente multilíngue até este exato toque. -->
+      <a href="https://www.monapaodeacucar.com/guiadovisitante" target="_blank" rel="noopener noreferrer" class="plano-card" data-voice="pista_final_guia">
         <span class="plano-icon">🧭</span>
         <h3 data-i18n="pista_final_guia">Guia do Visitante</h3>
+        <p data-i18n="pista_final_guia_nota">Abre em português</p>
       </a>
-      <button type="button" id="final-fim" class="plano-card">
+      <button type="button" id="final-fim" class="plano-card" data-voice="pista_final_fim">
         <span class="plano-icon">🏁</span>
         <h3 data-i18n="pista_final_fim">Fim</h3>
       </button>
@@ -228,6 +238,6 @@
 
 </div>
 
-<script src="assets/js/pista.js?v=2026-08-29.11"></script>
+<script src="assets/js/pista.js?v=2026-08-29.12"></script>
 </body>
 </html>

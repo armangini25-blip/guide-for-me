@@ -111,7 +111,10 @@
     "pista_p7_nome": "A Fortaleza no Alto do Morro",
     "pista_p8_nome": "Chegada à Urca",
     "pista_p9_nome": "Mapa da Trilha",
-    "pista_p10_nome": "Final da Pista"
+    "pista_p10_nome": "Final da Pista",
+    "pista_final_guia_nota": "Abre em português",
+    "pista_cabecalho_alt": "Guide For Me - Praia Vermelha - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "Toque em Guia do Visitante ou em Fim."
   },
   "es": {
     "idioma_label": "Idioma:",
@@ -225,7 +228,10 @@
     "pista_p7_nome": "La Fortaleza en lo Alto del Monte",
     "pista_p8_nome": "Llegada a Urca",
     "pista_p9_nome": "Mapa del Sendero",
-    "pista_p10_nome": "Final del Sendero"
+    "pista_p10_nome": "Final del Sendero",
+    "pista_final_guia_nota": "Se abre en portugués",
+    "pista_cabecalho_alt": "Guide For Me - Playa Roja - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "Toque en Guía del Visitante o en Fin."
   },
   "en": {
     "idioma_label": "Language:",
@@ -339,7 +345,10 @@
     "pista_p7_nome": "The Fortress atop the Hill",
     "pista_p8_nome": "Arriving in Urca",
     "pista_p9_nome": "Trail Map",
-    "pista_p10_nome": "End of the Trail"
+    "pista_p10_nome": "End of the Trail",
+    "pista_final_guia_nota": "Opens in Portuguese",
+    "pista_cabecalho_alt": "Guide For Me - Red Beach - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "Tap Visitor Guide or End."
   },
   "fr": {
     "idioma_label": "Langue :",
@@ -453,7 +462,10 @@
     "pista_p7_nome": "La Forteresse au Sommet de la Colline",
     "pista_p8_nome": "Arrivée à Urca",
     "pista_p9_nome": "Carte du Sentier",
-    "pista_p10_nome": "Fin du Sentier"
+    "pista_p10_nome": "Fin du Sentier",
+    "pista_final_guia_nota": "S'ouvre en portugais",
+    "pista_cabecalho_alt": "Guide For Me - La Plage Rouge - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "Appuyez sur Guide du Visiteur ou sur Fin."
   },
   "it": {
     "idioma_label": "Lingua:",
@@ -567,7 +579,10 @@
     "pista_p7_nome": "La Fortezza in Cima alla Collina",
     "pista_p8_nome": "L'Arrivo a Urca",
     "pista_p9_nome": "Mappa del Sentiero",
-    "pista_p10_nome": "La Fine del Sentiero"
+    "pista_p10_nome": "La Fine del Sentiero",
+    "pista_final_guia_nota": "Si apre in portoghese",
+    "pista_cabecalho_alt": "Guide For Me - La Spiaggia Rossa - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "Tocchi su Guida del Visitatore o su Fine."
   },
   "pt-pt": {
     "idioma_label": "Idioma:",
@@ -681,7 +696,10 @@
     "pista_p7_nome": "O Forte no Alto do Morro",
     "pista_p8_nome": "Chegada à Urca",
     "pista_p9_nome": "Mapa do Trilho",
-    "pista_p10_nome": "Final da Pista"
+    "pista_p10_nome": "Final da Pista",
+    "pista_final_guia_nota": "Abre em português",
+    "pista_cabecalho_alt": "Guide For Me - Praia Vermelha - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "Toque em Guia do Visitante ou em Fim."
   },
   "en-gb": {
     "idioma_label": "Language:",
@@ -795,7 +813,10 @@
     "pista_p7_nome": "The Fort on the Hilltop",
     "pista_p8_nome": "Arriving in Urca",
     "pista_p9_nome": "Trail Map",
-    "pista_p10_nome": "The End of the Trail"
+    "pista_p10_nome": "The End of the Trail",
+    "pista_final_guia_nota": "Opens in Portuguese",
+    "pista_cabecalho_alt": "Guide For Me - Red Beach - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "Tap Visitor Guide or End."
   },
   "es-ar": {
     "idioma_label": "Idioma:",
@@ -909,7 +930,10 @@
     "pista_p7_nome": "La Fortaleza en lo Alto del Cerro",
     "pista_p8_nome": "Llegada a Urca",
     "pista_p9_nome": "Mapa del Sendero",
-    "pista_p10_nome": "Final del Sendero"
+    "pista_p10_nome": "Final del Sendero",
+    "pista_final_guia_nota": "Se abre en portugués",
+    "pista_cabecalho_alt": "Guide For Me - Playa Roja - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "Tocá Guía del Visitante o Fin."
   },
   "de-de": {
     "idioma_label": "Sprache:",
@@ -1023,7 +1047,10 @@
     "pista_p7_nome": "Die Festung auf dem Gipfel",
     "pista_p8_nome": "Ankunft in Urca",
     "pista_p9_nome": "Wanderkarte",
-    "pista_p10_nome": "Hier endet der Weg"
+    "pista_p10_nome": "Hier endet der Weg",
+    "pista_final_guia_nota": "Öffnet auf Portugiesisch",
+    "pista_cabecalho_alt": "Guide For Me - Der Rote Strand - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "Tippen Sie auf Besucherführer oder auf Ende."
   },
   "zh-cn": {
     "idioma_label": "语言：",
@@ -1137,7 +1164,10 @@
     "pista_p7_nome": "山巅堡垒",
     "pista_p8_nome": "抵达乌尔卡",
     "pista_p9_nome": "步道地图",
-    "pista_p10_nome": "步道终点"
+    "pista_p10_nome": "步道终点",
+    "pista_final_guia_nota": "以葡萄牙语打开",
+    "pista_cabecalho_alt": "Guide For Me - 红滩 - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "请点击\"游客指南\"或\"结束\"。"
   },
   "zh-tw": {
     "idioma_label": "語言:",
@@ -1251,7 +1281,10 @@
     "pista_p7_nome": "山頂上的堡壘",
     "pista_p8_nome": "抵達烏爾卡",
     "pista_p9_nome": "步道地圖",
-    "pista_p10_nome": "步道，至此結束"
+    "pista_p10_nome": "步道，至此結束",
+    "pista_final_guia_nota": "以葡萄牙語開啟",
+    "pista_cabecalho_alt": "Guide For Me - 紅灘 - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "請點擊「遊客指南」或「結束」。"
   },
   "ja-jp": {
     "idioma_label": "言語:",
@@ -1365,7 +1398,10 @@
     "pista_p7_nome": "山頂の要塞",
     "pista_p8_nome": "ウルカに到着",
     "pista_p9_nome": "遊歩道の地図",
-    "pista_p10_nome": "遊歩道の終点"
+    "pista_p10_nome": "遊歩道の終点",
+    "pista_final_guia_nota": "ポルトガル語で開きます",
+    "pista_cabecalho_alt": "Guide For Me - ヴェルメーリャ浜 - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "「ビジターガイド」または「終わり」をタップしてください。"
   },
   "ru-ru": {
     "idioma_label": "Язык:",
@@ -1479,7 +1515,10 @@
     "pista_p7_nome": "Крепость на вершине холма",
     "pista_p8_nome": "Прибытие в Урку",
     "pista_p9_nome": "Карта маршрута",
-    "pista_p10_nome": "Конец тропы"
+    "pista_p10_nome": "Конец тропы",
+    "pista_final_guia_nota": "Открывается на португальском",
+    "pista_cabecalho_alt": "Guide For Me - Прайя-Вермелья - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "Нажмите «Гид для посетителей» или «Конец»."
   },
   "ar-ma": {
     "idioma_label": "اللغة:",
@@ -1593,6 +1632,9 @@
     "pista_p7_nome": "الحصن أعلى التلة",
     "pista_p8_nome": "الوصول إلى أوركا",
     "pista_p9_nome": "خريطة المسار",
-    "pista_p10_nome": "نهاية المسار"
+    "pista_p10_nome": "نهاية المسار",
+    "pista_final_guia_nota": "يفتح باللغة البرتغالية",
+    "pista_cabecalho_alt": "Guide For Me - الشاطئ الأحمر - Pista Cláudio Coutinho",
+    "pista_final_instrucao": "انقر على «دليل الزائر» أو «نهاية»."
   }
 }
