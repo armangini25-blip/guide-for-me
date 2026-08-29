@@ -13,7 +13,7 @@
      não substitui a sanitização em si. -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';">
 <title>Pista Cláudio Coutinho</title>
-<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.6">
+<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.7">
 </head>
 <body>
 
@@ -28,8 +28,19 @@
        rodapé inacessível, sem nenhuma forma de rolar até ele. -->
   <div id="app-screens">
 
+  <!-- TELA 0: capa (QR da placa na trilha) — pedido do CEO 2026-08-29: primeira tela antes do
+       idioma, só cabeçalho (já fixo, fora daqui) + rodapé (idem) + a imagem. Tocar na imagem ou em
+       "Seguir" leva pra escolha de idioma (ver capa-media-tap/seguirGlobal em pista.js). Sem
+       título, sem áudio — é só a peça de abertura. -->
+  <section id="screen-capa" class="screen active">
+    <div id="capa-media" class="vista-media">
+      <img id="capa-foto" src="assets/img/pista_coutinho/capa_qr_code.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:inherit; z-index:0;">
+      <button id="capa-media-tap" class="vista-media-tap" tabindex="-1" aria-hidden="true"></button>
+    </div>
+  </section>
+
   <!-- TELA 1: idioma -->
-  <section id="screen-lang" class="screen active">
+  <section id="screen-lang" class="screen">
     <!-- Build 2026-08-28 (pedido do CEO): título visível removido — substituído por um loop de
          áudio "escolha seu idioma" nas 14 línguas em sequência (ver iniciarLoopMultilingue() em
          pista.js). sr-only mantém o texto disponível pra leitor de tela nativo. -->
@@ -197,6 +208,6 @@
 
 </div>
 
-<script src="assets/js/pista.js?v=2026-08-29.6"></script>
+<script src="assets/js/pista.js?v=2026-08-29.7"></script>
 </body>
 </html>
