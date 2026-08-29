@@ -13,7 +13,7 @@
      não substitui a sanitização em si. -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';">
 <title>Pista Cláudio Coutinho</title>
-<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.12">
+<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.13">
 </head>
 <body>
 
@@ -126,10 +126,10 @@
 
   <!-- TELA: apresentação (toca uma vez, ao chegar) -->
   <section id="screen-apresentacao" class="screen">
-    <p style="font-size:.78rem;color:var(--text-muted); margin:0 0 10px; display:flex; align-items:center; justify-content:space-between;">
-      <span><span id="lang-current-flag" style="display:inline-flex;vertical-align:middle;"></span> <strong id="lang-current-name"></strong></span>
-      <button id="btn-trocar-idioma" class="btn secondary small" style="padding:5px 10px;"><span class="ic-inline">←</span> <span data-i18n="pista_trocar_idioma">Trocar idioma</span></button>
-    </p>
+    <!-- Build 2026-08-29 (pedido do CEO): removido o cabeçalho "idioma selecionado" + card "Trocar
+         idioma" desta tela — mesmo espírito da limpeza já feita em screen-percurso. A função
+         voltarParaIdioma() continua definida (usada só se algum outro ponto de entrada reaproveitar
+         essa lógica de retomar posição na trilha), só perdeu este único acionador de UI. -->
 
     <div id="apresentacao-media" class="vista-media">
       <img id="apresentacao-foto" src="" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:inherit; z-index:0;">
@@ -238,6 +238,6 @@
 
 </div>
 
-<script src="assets/js/pista.js?v=2026-08-29.12"></script>
+<script src="assets/js/pista.js?v=2026-08-29.13"></script>
 </body>
 </html>
