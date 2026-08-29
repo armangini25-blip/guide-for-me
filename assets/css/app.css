@@ -80,6 +80,13 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
 .topbar .brand{ font-weight:700; font-size:.92rem; color:var(--accent-dark);}
 .topbar .presenter-toggle{ font-size:.7rem; color:var(--text-muted); cursor:pointer; border:1px solid var(--border); border-radius:999px; padding:3px 10px; background:transparent;}
 
+/* Build 2026-08-29 (pedido do CEO): cabeçalho da Pista Cláudio Coutinho vira uma imagem própria
+   (texto já embutido nela) em vez do texto escrito — escopado por #topbar-pista (id só existe em
+   pista.html) pra não afetar o cabeçalho de texto do index.html, que compartilha este mesmo
+   arquivo CSS. Padding zerado aqui: a imagem já tem a margem/moldura embutida no próprio design. */
+#topbar-pista{ padding:0; overflow:hidden; }
+.topbar-pista-img{ display:block; width:100%; height:auto; }
+
 .hero-entry{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:18px; padding:20px;}
 .hero-entry h1{ font-size:1.5rem; margin:0;}
 .hero-entry p{ color:var(--text-muted); font-size:.92rem; max-width:320px;}
@@ -124,6 +131,11 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
 .global-footer{ flex-shrink:0; width:100%; height:42px; display:flex; border-top:1px solid var(--border); background:var(--table-head); z-index:31;}
 .footer-btn{ flex:1; background:none; border:none; color:var(--table-head-text); font-size:.76rem; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:6px;}
 .footer-btn .ic{ font-size:.95rem; }
+/* Build 2026-08-29 (pedido do CEO): fundo do rodapé da Pista vira imagem, texto/ícones em branco —
+   escopado por #global-footer (id só existe em pista.html) pra não afetar o rodapé do index.html,
+   que compartilha .global-footer/.footer-btn. */
+#global-footer{ background:url("../img/pista_coutinho/rodape_fundo.jpg") center / cover no-repeat; border-top:none; }
+#global-footer .footer-btn{ color:#fff; }
 /* Build 2026-08-28 (Auditoria 05, achado alto A-11): ícones de navegação direcional (Voltar/Seguir/
    Trocar idioma) não espelhavam em idiomas RTL (árabe) — o layout já inverte corretamente
    (dir="rtl" no <html>, confirmado funcionando), mas a seta ficava apontando pro lado fisicamente

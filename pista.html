@@ -13,14 +13,17 @@
      não substitui a sanitização em si. -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';">
 <title>Pista Cláudio Coutinho</title>
-<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.7">
+<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.8">
 </head>
 <body>
 
 <div id="app">
 
-  <div class="topbar">
-    <span class="brand">Guide For Me - Praia Vermelha - Pista Cláudio Coutinho</span>
+  <!-- Build 2026-08-29 (pedido do CEO): imagem no lugar do texto — o id="topbar-pista" escopa o
+       CSS só pra esta página (assets/css/app.css é compartilhado com index.html, que continua com
+       o cabeçalho de texto de sempre). -->
+  <div id="topbar-pista" class="topbar">
+    <img class="topbar-pista-img" src="assets/img/pista_coutinho/cabecalho_capa.jpg" alt="Guide For Me - Praia Vermelha - Pista Cláudio Coutinho">
   </div>
 
   <!-- #app-screens é quem rola dentro da moldura de celular (#app tem altura fixa e overflow:hidden,
@@ -208,6 +211,6 @@
 
 </div>
 
-<script src="assets/js/pista.js?v=2026-08-29.7"></script>
+<script src="assets/js/pista.js?v=2026-08-29.8"></script>
 </body>
 </html>
