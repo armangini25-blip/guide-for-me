@@ -24,6 +24,10 @@
 button.lang-card, button.plano-card, button.payment-option{
   font:inherit; color:inherit; width:100%; margin:0; -webkit-appearance:none; appearance:none;
 }
+/* Build 2026-08-29 (pedido do CEO): card "Guia do Visitante" da tela final é um <a> de verdade
+   (abre site externo numa aba nova) reaproveitando .plano-card — reset do sublinhado/azul nativo
+   de link, mesmo espírito do reset de <button> acima. */
+a.plano-card{ text-decoration:none; color:inherit; }
 html,body{height:100%;}
 body{
   margin:0; background:var(--bg); color:var(--text);

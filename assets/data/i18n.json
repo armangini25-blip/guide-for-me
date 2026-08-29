@@ -99,7 +99,9 @@
     "pista_entrada_alt_sufixo": "caminho de entrada",
     "pista_descricao_iris_label": "Descrição sensorial (Íris)",
     "pista_seguranca_iris_label": "Orientação de segurança (Íris)",
-    "pista_caption_tag_iris": "Descrição (Íris) — texto em revisão, só em português"
+    "pista_caption_tag_iris": "Descrição (Íris) — texto em revisão, só em português",
+    "pista_final_guia": "Guia do Visitante",
+    "pista_final_fim": "Fim"
   },
   "es": {
     "idioma_label": "Idioma:",
@@ -201,7 +203,9 @@
     "pista_entrada_alt_sufixo": "camino de entrada",
     "pista_descricao_iris_label": "Descripción sensorial (Íris)",
     "pista_seguranca_iris_label": "Orientación de seguridad (Íris)",
-    "pista_caption_tag_iris": "Descripción (Íris) — texto en revisión, solo en portugués"
+    "pista_caption_tag_iris": "Descripción (Íris) — texto en revisión, solo en portugués",
+    "pista_final_guia": "Guía del Visitante",
+    "pista_final_fim": "Fin"
   },
   "en": {
     "idioma_label": "Language:",
@@ -303,7 +307,9 @@
     "pista_entrada_alt_sufixo": "entrance path",
     "pista_descricao_iris_label": "Sensory description (Íris)",
     "pista_seguranca_iris_label": "Safety guidance (Íris)",
-    "pista_caption_tag_iris": "Description (Íris) — text under review, Portuguese only"
+    "pista_caption_tag_iris": "Description (Íris) — text under review, Portuguese only",
+    "pista_final_guia": "Visitor Guide",
+    "pista_final_fim": "End"
   },
   "fr": {
     "idioma_label": "Langue :",
@@ -405,7 +411,9 @@
     "pista_entrada_alt_sufixo": "chemin d'entrée",
     "pista_descricao_iris_label": "Description sensorielle (Íris)",
     "pista_seguranca_iris_label": "Consignes de sécurité (Íris)",
-    "pista_caption_tag_iris": "Description (Íris) — texte en cours de révision, en portugais uniquement"
+    "pista_caption_tag_iris": "Description (Íris) — texte en cours de révision, en portugais uniquement",
+    "pista_final_guia": "Guide du Visiteur",
+    "pista_final_fim": "Fin"
   },
   "it": {
     "idioma_label": "Lingua:",
@@ -507,7 +515,9 @@
     "pista_entrada_alt_sufixo": "sentiero d'ingresso",
     "pista_descricao_iris_label": "Descrizione sensoriale (Íris)",
     "pista_seguranca_iris_label": "Indicazioni di sicurezza (Íris)",
-    "pista_caption_tag_iris": "Descrizione (Íris) — testo in revisione, solo in portoghese"
+    "pista_caption_tag_iris": "Descrizione (Íris) — testo in revisione, solo in portoghese",
+    "pista_final_guia": "Guida del Visitatore",
+    "pista_final_fim": "Fine"
   },
   "pt-pt": {
     "idioma_label": "Idioma:",
@@ -609,7 +619,9 @@
     "pista_entrada_alt_sufixo": "caminho de entrada",
     "pista_descricao_iris_label": "Descrição sensorial (Íris)",
     "pista_seguranca_iris_label": "Orientação de segurança (Íris)",
-    "pista_caption_tag_iris": "Descrição (Íris) — texto em revisão, só em português"
+    "pista_caption_tag_iris": "Descrição (Íris) — texto em revisão, só em português",
+    "pista_final_guia": "Guia do Visitante",
+    "pista_final_fim": "Fim"
   },
   "en-gb": {
     "idioma_label": "Language:",
@@ -711,7 +723,9 @@
     "pista_entrada_alt_sufixo": "entrance path",
     "pista_descricao_iris_label": "Sensory description (Íris)",
     "pista_seguranca_iris_label": "Safety guidance (Íris)",
-    "pista_caption_tag_iris": "Description (Íris) — text under review, Portuguese only"
+    "pista_caption_tag_iris": "Description (Íris) — text under review, Portuguese only",
+    "pista_final_guia": "Visitor Guide",
+    "pista_final_fim": "End"
   },
   "es-ar": {
     "idioma_label": "Idioma:",
@@ -813,7 +827,9 @@
     "pista_entrada_alt_sufixo": "camino de entrada",
     "pista_descricao_iris_label": "Descripción sensorial (Íris)",
     "pista_seguranca_iris_label": "Orientación de seguridad (Íris)",
-    "pista_caption_tag_iris": "Descripción (Íris) — texto en revisión, solo en portugués"
+    "pista_caption_tag_iris": "Descripción (Íris) — texto en revisión, solo en portugués",
+    "pista_final_guia": "Guía del Visitante",
+    "pista_final_fim": "Fin"
   },
   "de-de": {
     "idioma_label": "Sprache:",
@@ -915,7 +931,9 @@
     "pista_entrada_alt_sufixo": "Eingangsweg",
     "pista_descricao_iris_label": "Sinnliche Beschreibung (Íris)",
     "pista_seguranca_iris_label": "Sicherheitshinweise (Íris)",
-    "pista_caption_tag_iris": "Beschreibung (Íris) — Text in Überarbeitung, nur auf Portugiesisch"
+    "pista_caption_tag_iris": "Beschreibung (Íris) — Text in Überarbeitung, nur auf Portugiesisch",
+    "pista_final_guia": "Besucherführer",
+    "pista_final_fim": "Ende"
   },
   "zh-cn": {
     "idioma_label": "语言：",
@@ -1017,7 +1035,9 @@
     "pista_entrada_alt_sufixo": "入口小径",
     "pista_descricao_iris_label": "感官描述（Íris）",
     "pista_seguranca_iris_label": "安全指引（Íris）",
-    "pista_caption_tag_iris": "描述（Íris）——文本尚在校订中，仅提供葡萄牙语"
+    "pista_caption_tag_iris": "描述（Íris）——文本尚在校订中，仅提供葡萄牙语",
+    "pista_final_guia": "游客指南",
+    "pista_final_fim": "结束"
   },
   "zh-tw": {
     "idioma_label": "語言:",
@@ -1119,7 +1139,9 @@
     "pista_entrada_alt_sufixo": "入口小徑",
     "pista_descricao_iris_label": "感官描述（Íris）",
     "pista_seguranca_iris_label": "安全指引（Íris）",
-    "pista_caption_tag_iris": "描述（Íris）——文字尚在校訂中，僅提供葡萄牙語"
+    "pista_caption_tag_iris": "描述（Íris）——文字尚在校訂中，僅提供葡萄牙語",
+    "pista_final_guia": "遊客指南",
+    "pista_final_fim": "結束"
   },
   "ja-jp": {
     "idioma_label": "言語:",
@@ -1221,7 +1243,9 @@
     "pista_entrada_alt_sufixo": "入口の小道",
     "pista_descricao_iris_label": "感覚的描写（Íris）",
     "pista_seguranca_iris_label": "安全ガイド（Íris）",
-    "pista_caption_tag_iris": "説明（Íris）——テキストは校正中、ポルトガル語のみ"
+    "pista_caption_tag_iris": "説明（Íris）——テキストは校正中、ポルトガル語のみ",
+    "pista_final_guia": "ビジターガイド",
+    "pista_final_fim": "終わり"
   },
   "ru-ru": {
     "idioma_label": "Язык:",
@@ -1323,7 +1347,9 @@
     "pista_entrada_alt_sufixo": "тропа у входа",
     "pista_descricao_iris_label": "Сенсорное описание (Íris)",
     "pista_seguranca_iris_label": "Инструктаж по безопасности (Íris)",
-    "pista_caption_tag_iris": "Описание (Íris) — текст на доработке, только на португальском"
+    "pista_caption_tag_iris": "Описание (Íris) — текст на доработке, только на португальском",
+    "pista_final_guia": "Гид для посетителей",
+    "pista_final_fim": "Конец"
   },
   "ar-ma": {
     "idioma_label": "اللغة:",
@@ -1425,6 +1451,8 @@
     "pista_entrada_alt_sufixo": "ممر المدخل",
     "pista_descricao_iris_label": "وصف حسي (Íris)",
     "pista_seguranca_iris_label": "إرشادات السلامة (Íris)",
-    "pista_caption_tag_iris": "الوصف (Íris) — النص قيد المراجعة، بالبرتغالية فقط"
+    "pista_caption_tag_iris": "الوصف (Íris) — النص قيد المراجعة، بالبرتغالية فقط",
+    "pista_final_guia": "دليل الزائر",
+    "pista_final_fim": "نهاية"
   }
 }

@@ -13,7 +13,7 @@
      não substitui a sanitização em si. -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';">
 <title>Pista Cláudio Coutinho</title>
-<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.8">
+<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.9">
 </head>
 <body>
 
@@ -173,6 +173,23 @@
     </div>
   </section>
 
+  <!-- TELA FINAL: guia externo + fim — pedido do CEO 2026-08-29, última tela do produto, chegada
+       ao tocar "Seguir" a partir do convite (fim da trilha, ver seguirGlobal). 2 cards: o de cima
+       abre o site externo do guia do visitante numa aba nova (não navega pra fora do app); o de
+       baixo é equivalente ao "Sair" do rodapé (mesmo modal de confirmação, ver #final-fim). -->
+  <section id="screen-final" class="screen">
+    <div class="plano-cards">
+      <a href="https://www.monapaodeacucar.com/guiadovisitante" target="_blank" rel="noopener noreferrer" class="plano-card">
+        <span class="plano-icon">🧭</span>
+        <h3 data-i18n="pista_final_guia">Guia do Visitante</h3>
+      </a>
+      <button type="button" id="final-fim" class="plano-card">
+        <span class="plano-icon">🏁</span>
+        <h3 data-i18n="pista_final_fim">Fim</h3>
+      </button>
+    </div>
+  </section>
+
   </div>
 
   <!-- Modal de confirmação de saída -->
@@ -211,6 +228,6 @@
 
 </div>
 
-<script src="assets/js/pista.js?v=2026-08-29.8"></script>
+<script src="assets/js/pista.js?v=2026-08-29.9"></script>
 </body>
 </html>
