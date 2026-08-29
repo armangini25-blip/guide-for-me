@@ -30512,157 +30512,212 @@
  },
  "pista_p8_iris": {
   "pt": {
-   "duration": 14.74,
+   "duration": 14.81,
    "segments": [
     {
      "start": 0.0,
-     "end": 14.74,
-     "text": "A trilha se abre numa última curva sobre uma enseada onde a areia recebe barracas de sol e banhistas ao longe; morros de pedra nua descem dos dois lados até a água calma, e ao fundo, prédios brancos e um hotel se acomodam junto à praia."
+     "end": 7.5,
+     "text": "A trilha se abre numa última curva sobre uma enseada onde a areia recebe, ao longe, uma faixa indistinta de ocupação;"
+    },
+    {
+     "start": 7.5,
+     "end": 14.81,
+     "text": "morros de pedra nua descem dos dois lados até a água calma, e ao fundo, prédios brancos se acomodam junto à praia."
     }
    ]
   },
   "pt-pt": {
-   "duration": 13.9,
+   "duration": 13.82,
    "segments": [
     {
      "start": 0.0,
-     "end": 13.9,
-     "text": "O trilho abre-se numa última curva sobre uma enseada onde a areia recebe guarda-sóis e banhistas ao longe; morros de pedra nua descem de ambos os lados até à água calma e, ao fundo, prédios brancos e um hotel acomodam-se junto à praia."
+     "end": 6.91,
+     "text": "O trilho abre-se numa última curva sobre uma enseada onde a areia recebe, ao longe, uma faixa indistinta de ocupação;"
+    },
+    {
+     "start": 6.91,
+     "end": 13.82,
+     "text": "morros de pedra nua descem de ambos os lados até à água calma e, ao fundo, prédios brancos acomodam-se junto à praia."
     }
    ]
   },
   "en": {
-   "duration": 15.19,
-   "segments": [
-    {
-     "start": 0.0,
-     "end": 15.19,
-     "text": "The trail opens into one last curve above a cove, where the sand holds beach umbrellas and sunbathers in the distance; hills of bare rock slope down on both sides to the calm water, and in the background, white buildings and a hotel sit close to the beach."
-    }
-   ]
-  },
-  "en-gb": {
    "duration": 14.38,
    "segments": [
     {
      "start": 0.0,
+     "end": 7.01,
+     "text": "The trail opens into one last curve above a cove, where the sand holds an indistinct strip of activity in the distance;"
+    },
+    {
+     "start": 7.01,
      "end": 14.38,
-     "text": "The trail opens into a final bend above a cove, where the sand is dotted with beach sunshades and bathers in the distance; bare rocky hills slope down on both sides to the calm water, and in the background, white buildings and a hotel sit close to the beach."
+     "text": "hills of bare rock slope down on both sides to the calm water, and in the background, white buildings sit close to the beach."
+    }
+   ]
+  },
+  "en-gb": {
+   "duration": 13.7,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 6.74,
+     "text": "The trail opens into a final bend above a cove, where the sand shows an indistinct strip of occupation in the distance;"
+    },
+    {
+     "start": 6.74,
+     "end": 13.7,
+     "text": "bare rocky hills slope down on both sides to the calm water, and in the background, white buildings sit close to the beach."
     }
    ]
   },
   "es": {
-   "duration": 14.86,
+   "duration": 15.41,
    "segments": [
     {
      "start": 0.0,
-     "end": 14.86,
-     "text": "El sendero se abre en una última curva sobre una ensenada donde la arena recibe sombrillas y bañistas a lo lejos; montes de piedra desnuda descienden a ambos lados hasta el agua tranquila, y al fondo, edificios blancos y un hotel se acomodan junto a la playa."
+     "end": 7.53,
+     "text": "El sendero se abre en una última curva sobre una ensenada donde la arena recibe, a lo lejos, una franja indistinta de ocupación;"
+    },
+    {
+     "start": 7.53,
+     "end": 15.41,
+     "text": "montes de piedra desnuda descienden a ambos lados hasta el agua tranquila, y al fondo, edificios blancos se acomodan junto a la playa."
     }
    ]
   },
   "es-ar": {
-   "duration": 15.62,
+   "duration": 16.18,
    "segments": [
     {
      "start": 0.0,
-     "end": 15.62,
-     "text": "El sendero se abre en una última curva sobre una ensenada donde la arena recibe carpas de playa y bañistas a lo lejos; cerros de piedra desnuda bajan de los dos lados hasta el agua calma, y al fondo, edificios blancos y un hotel se acomodan junto a la playa."
+     "end": 8.09,
+     "text": "El sendero se abre en una última curva sobre una ensenada donde la arena recibe, a lo lejos, una franja indistinta de ocupación;"
+    },
+    {
+     "start": 8.09,
+     "end": 16.18,
+     "text": "cerros de piedra desnuda bajan de los dos lados hasta el agua calma, y al fondo, edificios blancos se acomodan junto a la playa."
     }
    ]
   },
   "fr": {
-   "duration": 16.66,
+   "duration": 16.32,
    "segments": [
     {
      "start": 0.0,
-     "end": 7.41,
-     "text": "Le sentier s'ouvre sur un dernier virage, au-dessus d'une anse où le sable accueille, au loin, des parasols et des baigneurs."
+     "end": 7.74,
+     "text": "Le sentier s'ouvre sur un dernier virage, au-dessus d'une anse où le sable accueille, au loin, une bande indistincte d'occupation."
     },
     {
-     "start": 7.41,
-     "end": 11.74,
+     "start": 7.74,
+     "end": 12.09,
      "text": "Des collines de pierre nue descendent des deux côtés jusqu'à l'eau calme."
     },
     {
-     "start": 11.74,
-     "end": 16.66,
-     "text": "À l'arrière-plan, des immeubles blancs et un hôtel se blottissent près de la plage."
+     "start": 12.09,
+     "end": 16.32,
+     "text": "À l'arrière-plan, des immeubles blancs se blottissent près de la plage."
     }
    ]
   },
   "de-de": {
-   "duration": 16.51,
+   "duration": 16.54,
    "segments": [
     {
      "start": 0.0,
-     "end": 16.51,
-     "text": "Die Strecke öffnet sich in einer letzten Kurve über eine Bucht, wo der Sand in der Ferne Sonnenschirme und Badende empfängt; nackte Felshügel fallen von beiden Seiten zum ruhigen Wasser hin ab, und im Hintergrund reihen sich weiße Gebäude und ein Hotel dicht am Strand."
+     "end": 8.42,
+     "text": "Die Strecke öffnet sich in einer letzten Kurve über eine Bucht, wo der Sand in der Ferne einen unklaren Streifen von Bebauung empfängt;"
+    },
+    {
+     "start": 8.42,
+     "end": 16.54,
+     "text": "nackte Felshügel fallen von beiden Seiten zum ruhigen Wasser hin ab, und im Hintergrund reihen sich weiße Gebäude dicht am Strand."
     }
    ]
   },
   "it": {
-   "duration": 15.29,
+   "duration": 16.46,
    "segments": [
     {
      "start": 0.0,
-     "end": 15.29,
-     "text": "Il sentiero si apre in un'ultima curva su un'insenatura dove la sabbia accoglie ombrelloni e bagnanti in lontananza; monti di roccia nuda scendono da entrambi i lati fino all'acqua calma, e sullo sfondo, edifici bianchi e un hotel si affacciano sulla spiaggia."
+     "end": 8.26,
+     "text": "Il sentiero si apre in un'ultima curva su un'insenatura dove la sabbia accoglie, in lontananza, una fascia indistinta di occupazione;"
+    },
+    {
+     "start": 8.26,
+     "end": 16.46,
+     "text": "monti di roccia nuda scendono da entrambi i lati fino all'acqua calma, e sullo sfondo, edifici bianchi si affacciano sulla spiaggia."
     }
    ]
   },
   "zh-cn": {
-   "duration": 16.63,
+   "duration": 15.79,
    "segments": [
     {
      "start": 0.0,
-     "end": 16.63,
-     "text": "步道在最后一道弯处豁然开朗，俯瞰着一片海湾——沙滩上远远地散布着遮阳伞与戏水的人们；裸露岩石的山丘从两侧一直延伸到平静的海面，远处，白色的建筑与一座酒店沿着海滩错落分布。"
+     "end": 8.2,
+     "text": "步道在最后一道弯处豁然开朗，俯瞰着一片海湾——沙滩上远远地留有一片模糊难辨的痕迹；"
+    },
+    {
+     "start": 8.2,
+     "end": 15.79,
+     "text": "裸露岩石的山丘从两侧一直延伸到平静的海面，远处，白色的建筑沿着海滩错落分布。"
     }
    ]
   },
   "zh-tw": {
-   "duration": 17.38,
+   "duration": 16.3,
    "segments": [
     {
      "start": 0.0,
-     "end": 17.38,
-     "text": "步道在最後一個彎道處展開視野，俯瞰著一處海灣——沙灘上遠遠可見遮陽傘與戲水的人群；兩側裸岩山丘一路向下延伸至平靜的海面，遠處則有白色樓房與一間飯店，靜靜坐落在海灘旁。"
+     "end": 8.57,
+     "text": "步道在最後一個彎道處展開視野，俯瞰著一處海灣——沙灘上遠遠可見一片模糊難辨的痕跡；"
+    },
+    {
+     "start": 8.57,
+     "end": 16.3,
+     "text": "兩側裸岩山丘一路向下延伸至平靜的海面，遠處則有白色樓房，靜靜坐落在海灘旁。"
     }
    ]
   },
   "ja-jp": {
-   "duration": 15.31,
+   "duration": 15.79,
    "segments": [
     {
      "start": 0.0,
-     "end": 7.41,
-     "text": "トレイルは最後の曲がり角で開け、遠くに日除けのパラソルや海水浴客が見える入り江を見渡せます。"
+     "end": 8.39,
+     "text": "トレイルは最後の曲がり角で開け、遠くに、輪郭のはっきりしない何かの気配がうかがえる入り江を見渡せます。"
     },
     {
-     "start": 7.41,
-     "end": 15.31,
-     "text": "むき出しの岩の山が両側から穏やかな水際まで下り、奥には白い建物やホテルが浜辺に沿って並んでいます。"
+     "start": 8.39,
+     "end": 15.79,
+     "text": "むき出しの岩の山が両側から穏やかな水際まで下り、奥には白い建物が浜辺に沿って並んでいます。"
     }
    ]
   },
   "ru-ru": {
-   "duration": 14.02,
+   "duration": 13.3,
    "segments": [
     {
      "start": 0.0,
-     "end": 14.02,
-     "text": "Тропа открывается последним поворотом над бухтой, где вдали на песке видны зонтики от солнца и купающиеся; голые каменные горы спускаются с обеих сторон к спокойной воде, а на заднем плане у самой кромки пляжа стоят белые здания и отель."
+     "end": 5.99,
+     "text": "Тропа открывается последним поворотом над бухтой, где вдали на песке видна неясная полоса застройки;"
+    },
+    {
+     "start": 5.99,
+     "end": 13.3,
+     "text": "голые каменные горы спускаются с обеих сторон к спокойной воде, а на заднем плане у самой кромки пляжа стоят белые здания."
     }
    ]
   },
   "ar-ma": {
-   "duration": 17.95,
+   "duration": 17.02,
    "segments": [
     {
      "start": 0.0,
-     "end": 17.95,
-     "text": "ينفتح المسار في منعطف أخير فوق خليج صغير حيث تحتضن الرمال مظلات شمسية ومصطافين من بعيد؛ وتنحدر تلال من الصخور العارية من الجانبين حتى الماء الهادئ، وفي الخلفية، تصطف مبانٍ بيضاء وفندق بجانب الشاطئ."
+     "end": 17.02,
+     "text": "ينفتح المسار في منعطف أخير فوق خليج صغير حيث تحتضن الرمال من بعيد شريطاً غامضاً من الوجود؛ وتنحدر تلال من الصخور العارية من الجانبين حتى الماء الهادئ، وفي الخلفية، تصطف مبانٍ بيضاء بجانب الشاطئ."
     }
    ]
   }
