@@ -30,7 +30,10 @@
 
   <!-- TELA 1: idioma -->
   <section id="screen-lang" class="screen active">
-    <h2 class="screen-title" data-i18n="pista_lang_titulo">Escolha seu idioma</h2>
+    <!-- Build 2026-08-28 (pedido do CEO): título visível removido — substituído por um loop de
+         áudio "escolha seu idioma" nas 14 línguas em sequência (ver iniciarLoopMultilingue() em
+         pista.js). sr-only mantém o texto disponível pra leitor de tela nativo. -->
+    <h2 class="screen-title sr-only" data-i18n="pista_lang_titulo">Escolha seu idioma</h2>
     <div id="lang-grid" class="lang-grid"></div>
     <div id="lang-notice" class="lang-notice" style="display:none;"></div>
   </section>
@@ -183,6 +186,10 @@
   </div>
 
   <audio id="ui-voice-audio" style="display:none;"></audio>
+
+  <!-- Build 2026-08-28 (pedido do CEO): loop de instrução multilíngue das telas de configuração
+       (idioma/modo/plano/pagamento) — ver AUDIO_LOOP_TELA e atualizarLoopMultilingue() em pista.js. -->
+  <audio id="loop-multilang-audio" loop style="display:none;"></audio>
 
 </div>
 

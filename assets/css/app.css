@@ -311,3 +311,9 @@ h2.screen-title{ font-size:1.1rem; margin:0 0 4px;}
 p.screen-sub{ font-size:.8rem; color:var(--text-muted); margin:0 0 14px;}
 
 [dir="rtl"]{ direction:rtl; }
+
+/* Build 2026-08-28 (pedido do CEO): esconde visualmente sem remover do DOM — mantém disponível
+   pra leitor de tela nativo (NVDA/VoiceOver/TalkBack), que é independente do sistema de áudio
+   próprio do produto. Usado no título "Escolha seu idioma" da Pista, que virou um loop de áudio
+   multilíngue em vez de texto visível na tela (ver AUDIO_LOOP_TELA em pista.js). */
+.sr-only{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
