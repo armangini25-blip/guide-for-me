@@ -92,7 +92,11 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
 /* Build 2026-08-29 (Auditoria 8, achado de @streaming-infra-architect): aspect-ratio explícito —
    sem isso a caixa do cabeçalho fica com altura zero até a imagem decodificar, empurrando o
    conteúdo abaixo quando ela chega (layout shift), mais perceptível em sinal fraco na trilha. */
-.topbar-pista-img{ display:block; width:100%; height:auto; aspect-ratio:955/155; }
+/* Build 2026-08-29 (pedido do CEO): nova imagem de cabeçalho (gerada por IA, fundo verde já no
+   tom certo #6d7b57 + texto com contorno preto embutido) — proporção bem mais larga/baixa que a
+   anterior (955/155 → 1500/189), aspect-ratio atualizado junto pra não voltar o layout shift que
+   o valor antigo evitava (ver Auditoria 8). */
+.topbar-pista-img{ display:block; width:100%; height:auto; aspect-ratio:1500/189; }
 
 .hero-entry{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:18px; padding:20px;}
 .hero-entry h1{ font-size:1.5rem; margin:0;}
@@ -214,6 +218,22 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
 .vista-media{ width:100%; aspect-ratio:1/1; max-height:42vh; border-radius:14px; overflow:hidden; background:linear-gradient(160deg, #2e5266 0%, #c9822a 100%); display:flex; flex-direction:column; align-items:center; justify-content:center; color:#fff; text-align:center; margin-bottom:14px; position:relative; padding:16px;}
 .vista-media .icon{ font-size:3rem;}
 .vista-media .label{ font-size:.92rem; margin-top:8px; font-weight:700; position:relative; z-index:1; text-shadow:0 1px 4px rgba(0,0,0,.55);}
+/* Build 2026-08-29 (pedido do CEO): na Pista, o nome do ponto/mensagem central some do meio da
+   foto e desce pra uma tarja preta na base — só nos primeiros 5s de cada exibição (ver
+   mostrarLabelTemporario() em pista.js), com fade suave em vez de sumir seco. Escopado por
+   #screen-percurso/#screen-apresentacao (ids só existem em pista.html) pra não afetar os 14
+   mirantes do index.html, que reaproveitam a mesma .vista-media/.label sem essa regra. */
+#screen-percurso .vista-media .label,
+#screen-apresentacao .vista-media .label{
+  position:absolute; left:0; right:0; bottom:0; margin-top:0;
+  background:rgba(0,0,0,.7);
+  padding:10px 14px;
+  text-shadow:none;
+  opacity:1;
+  transition:opacity .5s ease;
+}
+#screen-percurso .vista-media .label.label-oculto,
+#screen-apresentacao .vista-media .label.label-oculto{ opacity:0; }
 .vista-media .note{ position:absolute; bottom:8px; left:8px; right:8px; font-size:.6rem; opacity:.9; background:rgba(0,0,0,.35); border-radius:6px; padding:5px 8px;}
 /* Build 2026-08-28 (pedido do CEO): card invisível sobre a foto da Parada (Paradas 1-9 só) — tocar
    funciona como o botão "Seguir" do rodapé. Desativado (via atributo disabled) fora das Paradas
