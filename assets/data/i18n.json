@@ -101,7 +101,17 @@
     "pista_seguranca_iris_label": "Orientação de segurança (Íris)",
     "pista_caption_tag_iris": "Descrição (Íris) — texto em revisão, só em português",
     "pista_final_guia": "Guia do Visitante",
-    "pista_final_fim": "Fim"
+    "pista_final_fim": "Fim",
+    "pista_p1_nome": "Aqui Começa a Pista",
+    "pista_p2_nome": "Praia Vermelha",
+    "pista_p3_nome": "O Gigante e a Baía",
+    "pista_p4_nome": "A Enseada dos Mergulhadores",
+    "pista_p5_nome": "O Caminho Sob as Árvores",
+    "pista_p6_nome": "Mar Aberto, Manhã Calma",
+    "pista_p7_nome": "A Fortaleza no Alto do Morro",
+    "pista_p8_nome": "Chegada à Urca",
+    "pista_p9_nome": "Mapa da Trilha",
+    "pista_p10_nome": "Final da Pista"
   },
   "es": {
     "idioma_label": "Idioma:",
@@ -205,7 +215,17 @@
     "pista_seguranca_iris_label": "Orientación de seguridad (Íris)",
     "pista_caption_tag_iris": "Descripción (Íris) — texto en revisión, solo en portugués",
     "pista_final_guia": "Guía del Visitante",
-    "pista_final_fim": "Fin"
+    "pista_final_fim": "Fin",
+    "pista_p1_nome": "Aquí Empieza el Sendero",
+    "pista_p2_nome": "Praia Vermelha",
+    "pista_p3_nome": "El Gigante y la Bahía",
+    "pista_p4_nome": "La Ensenada de los Buceadores",
+    "pista_p5_nome": "El Camino Bajo los Árboles",
+    "pista_p6_nome": "Mar Abierto, Mañana Tranquila",
+    "pista_p7_nome": "La Fortaleza en lo Alto del Monte",
+    "pista_p8_nome": "Llegada a Urca",
+    "pista_p9_nome": "Mapa del Sendero",
+    "pista_p10_nome": "Final del Sendero"
   },
   "en": {
     "idioma_label": "Language:",
@@ -309,7 +329,17 @@
     "pista_seguranca_iris_label": "Safety guidance (Íris)",
     "pista_caption_tag_iris": "Description (Íris) — text under review, Portuguese only",
     "pista_final_guia": "Visitor Guide",
-    "pista_final_fim": "End"
+    "pista_final_fim": "End",
+    "pista_p1_nome": "The Trail Begins Here",
+    "pista_p2_nome": "Praia Vermelha",
+    "pista_p3_nome": "The Giant and the Bay",
+    "pista_p4_nome": "Divers' Cove",
+    "pista_p5_nome": "The Path Beneath the Trees",
+    "pista_p6_nome": "Open Sea, Calm Morning",
+    "pista_p7_nome": "The Fortress atop the Hill",
+    "pista_p8_nome": "Arriving in Urca",
+    "pista_p9_nome": "Trail Map",
+    "pista_p10_nome": "End of the Trail"
   },
   "fr": {
     "idioma_label": "Langue :",
@@ -413,7 +443,17 @@
     "pista_seguranca_iris_label": "Consignes de sécurité (Íris)",
     "pista_caption_tag_iris": "Description (Íris) — texte en cours de révision, en portugais uniquement",
     "pista_final_guia": "Guide du Visiteur",
-    "pista_final_fim": "Fin"
+    "pista_final_fim": "Fin",
+    "pista_p1_nome": "Ici commence le sentier",
+    "pista_p2_nome": "Praia Vermelha",
+    "pista_p3_nome": "Le Géant et la Baie",
+    "pista_p4_nome": "La Crique des Plongeurs",
+    "pista_p5_nome": "Le Chemin sous les Arbres",
+    "pista_p6_nome": "Le Large, Matin Paisible",
+    "pista_p7_nome": "La Forteresse au Sommet de la Colline",
+    "pista_p8_nome": "Arrivée à Urca",
+    "pista_p9_nome": "Carte du Sentier",
+    "pista_p10_nome": "Fin du Sentier"
   },
   "it": {
     "idioma_label": "Lingua:",
@@ -517,7 +557,17 @@
     "pista_seguranca_iris_label": "Indicazioni di sicurezza (Íris)",
     "pista_caption_tag_iris": "Descrizione (Íris) — testo in revisione, solo in portoghese",
     "pista_final_guia": "Guida del Visitatore",
-    "pista_final_fim": "Fine"
+    "pista_final_fim": "Fine",
+    "pista_p1_nome": "Qui Inizia il Sentiero",
+    "pista_p2_nome": "Praia Vermelha",
+    "pista_p3_nome": "Il Gigante e la Baia",
+    "pista_p4_nome": "L'Insenatura dei Tuffatori",
+    "pista_p5_nome": "Il Sentiero sotto gli Alberi",
+    "pista_p6_nome": "Mare Aperto, Mattina Calma",
+    "pista_p7_nome": "La Fortezza in Cima alla Collina",
+    "pista_p8_nome": "L'Arrivo a Urca",
+    "pista_p9_nome": "Mappa del Sentiero",
+    "pista_p10_nome": "La Fine del Sentiero"
   },
   "pt-pt": {
     "idioma_label": "Idioma:",
@@ -621,7 +671,17 @@
     "pista_seguranca_iris_label": "Orientação de segurança (Íris)",
     "pista_caption_tag_iris": "Descrição (Íris) — texto em revisão, só em português",
     "pista_final_guia": "Guia do Visitante",
-    "pista_final_fim": "Fim"
+    "pista_final_fim": "Fim",
+    "pista_p1_nome": "Aqui Começa a Pista",
+    "pista_p2_nome": "Praia Vermelha",
+    "pista_p3_nome": "O Gigante e a Baía",
+    "pista_p4_nome": "A Enseada dos Mergulhadores",
+    "pista_p5_nome": "O Caminho Sob as Árvores",
+    "pista_p6_nome": "Mar Aberto, Manhã Calma",
+    "pista_p7_nome": "O Forte no Alto do Morro",
+    "pista_p8_nome": "Chegada à Urca",
+    "pista_p9_nome": "Mapa do Trilho",
+    "pista_p10_nome": "Final da Pista"
   },
   "en-gb": {
     "idioma_label": "Language:",
@@ -725,7 +785,17 @@
     "pista_seguranca_iris_label": "Safety guidance (Íris)",
     "pista_caption_tag_iris": "Description (Íris) — text under review, Portuguese only",
     "pista_final_guia": "Visitor Guide",
-    "pista_final_fim": "End"
+    "pista_final_fim": "End",
+    "pista_p1_nome": "Where the Trail Begins",
+    "pista_p2_nome": "Praia Vermelha",
+    "pista_p3_nome": "The Giant and the Bay",
+    "pista_p4_nome": "Divers' Cove",
+    "pista_p5_nome": "The Path Beneath the Trees",
+    "pista_p6_nome": "Open Sea, Calm Morning",
+    "pista_p7_nome": "The Fort on the Hilltop",
+    "pista_p8_nome": "Arriving in Urca",
+    "pista_p9_nome": "Trail Map",
+    "pista_p10_nome": "The End of the Trail"
   },
   "es-ar": {
     "idioma_label": "Idioma:",
@@ -829,7 +899,17 @@
     "pista_seguranca_iris_label": "Orientación de seguridad (Íris)",
     "pista_caption_tag_iris": "Descripción (Íris) — texto en revisión, solo en portugués",
     "pista_final_guia": "Guía del Visitante",
-    "pista_final_fim": "Fin"
+    "pista_final_fim": "Fin",
+    "pista_p1_nome": "Acá Empieza el Sendero",
+    "pista_p2_nome": "Praia Vermelha",
+    "pista_p3_nome": "El Gigante y la Bahía",
+    "pista_p4_nome": "La Ensenada de los Buceadores",
+    "pista_p5_nome": "El Camino Bajo los Árboles",
+    "pista_p6_nome": "Mar Abierto, Mañana Calma",
+    "pista_p7_nome": "La Fortaleza en lo Alto del Cerro",
+    "pista_p8_nome": "Llegada a Urca",
+    "pista_p9_nome": "Mapa del Sendero",
+    "pista_p10_nome": "Final del Sendero"
   },
   "de-de": {
     "idioma_label": "Sprache:",
@@ -933,7 +1013,17 @@
     "pista_seguranca_iris_label": "Sicherheitshinweise (Íris)",
     "pista_caption_tag_iris": "Beschreibung (Íris) — Text in Überarbeitung, nur auf Portugiesisch",
     "pista_final_guia": "Besucherführer",
-    "pista_final_fim": "Ende"
+    "pista_final_fim": "Ende",
+    "pista_p1_nome": "Hier beginnt der Weg",
+    "pista_p2_nome": "Praia Vermelha",
+    "pista_p3_nome": "Der Gigant und die Bucht",
+    "pista_p4_nome": "Die Taucherbucht",
+    "pista_p5_nome": "Der Weg unter den Bäumen",
+    "pista_p6_nome": "Offenes Meer, ruhiger Morgen",
+    "pista_p7_nome": "Die Festung auf dem Gipfel",
+    "pista_p8_nome": "Ankunft in Urca",
+    "pista_p9_nome": "Wanderkarte",
+    "pista_p10_nome": "Hier endet der Weg"
   },
   "zh-cn": {
     "idioma_label": "语言：",
@@ -1037,7 +1127,17 @@
     "pista_seguranca_iris_label": "安全指引（Íris）",
     "pista_caption_tag_iris": "描述（Íris）——文本尚在校订中，仅提供葡萄牙语",
     "pista_final_guia": "游客指南",
-    "pista_final_fim": "结束"
+    "pista_final_fim": "结束",
+    "pista_p1_nome": "步道起点",
+    "pista_p2_nome": "红滩",
+    "pista_p3_nome": "巨人与海湾",
+    "pista_p4_nome": "潜水者之湾",
+    "pista_p5_nome": "树荫小径",
+    "pista_p6_nome": "碧海无波，晨光正好",
+    "pista_p7_nome": "山巅堡垒",
+    "pista_p8_nome": "抵达乌尔卡",
+    "pista_p9_nome": "步道地图",
+    "pista_p10_nome": "步道终点"
   },
   "zh-tw": {
     "idioma_label": "語言:",
@@ -1141,7 +1241,17 @@
     "pista_seguranca_iris_label": "安全指引（Íris）",
     "pista_caption_tag_iris": "描述（Íris）——文字尚在校訂中，僅提供葡萄牙語",
     "pista_final_guia": "遊客指南",
-    "pista_final_fim": "結束"
+    "pista_final_fim": "結束",
+    "pista_p1_nome": "步道，由此開始",
+    "pista_p2_nome": "紅灘",
+    "pista_p3_nome": "巨人與海灣",
+    "pista_p4_nome": "潛水者之灣",
+    "pista_p5_nome": "樹蔭下的小徑",
+    "pista_p6_nome": "遼闊大海，寧靜清晨",
+    "pista_p7_nome": "山頂上的堡壘",
+    "pista_p8_nome": "抵達烏爾卡",
+    "pista_p9_nome": "步道地圖",
+    "pista_p10_nome": "步道，至此結束"
   },
   "ja-jp": {
     "idioma_label": "言語:",
@@ -1245,7 +1355,17 @@
     "pista_seguranca_iris_label": "安全ガイド（Íris）",
     "pista_caption_tag_iris": "説明（Íris）——テキストは校正中、ポルトガル語のみ",
     "pista_final_guia": "ビジターガイド",
-    "pista_final_fim": "終わり"
+    "pista_final_fim": "終わり",
+    "pista_p1_nome": "ここから、遊歩道が始まる",
+    "pista_p2_nome": "プライア・ヴェルメーリャ",
+    "pista_p3_nome": "巨人とグアナバラ湾",
+    "pista_p4_nome": "ダイバーたちの入り江",
+    "pista_p5_nome": "木々の下の小道",
+    "pista_p6_nome": "大海原、静かな朝",
+    "pista_p7_nome": "山頂の要塞",
+    "pista_p8_nome": "ウルカに到着",
+    "pista_p9_nome": "遊歩道の地図",
+    "pista_p10_nome": "遊歩道の終点"
   },
   "ru-ru": {
     "idioma_label": "Язык:",
@@ -1349,7 +1469,17 @@
     "pista_seguranca_iris_label": "Инструктаж по безопасности (Íris)",
     "pista_caption_tag_iris": "Описание (Íris) — текст на доработке, только на португальском",
     "pista_final_guia": "Гид для посетителей",
-    "pista_final_fim": "Конец"
+    "pista_final_fim": "Конец",
+    "pista_p1_nome": "Здесь начинается тропа",
+    "pista_p2_nome": "Прая-Вермелья",
+    "pista_p3_nome": "Великан и залив",
+    "pista_p4_nome": "Бухта ныряльщиков",
+    "pista_p5_nome": "Тропа под сенью деревьев",
+    "pista_p6_nome": "Открытое море, тихое утро",
+    "pista_p7_nome": "Крепость на вершине холма",
+    "pista_p8_nome": "Прибытие в Урку",
+    "pista_p9_nome": "Карта маршрута",
+    "pista_p10_nome": "Конец тропы"
   },
   "ar-ma": {
     "idioma_label": "اللغة:",
@@ -1453,6 +1583,16 @@
     "pista_seguranca_iris_label": "إرشادات السلامة (Íris)",
     "pista_caption_tag_iris": "الوصف (Íris) — النص قيد المراجعة، بالبرتغالية فقط",
     "pista_final_guia": "دليل الزائر",
-    "pista_final_fim": "نهاية"
+    "pista_final_fim": "نهاية",
+    "pista_p1_nome": "هنا يبدأ المسار",
+    "pista_p2_nome": "الشاطئ الأحمر",
+    "pista_p3_nome": "العملاق والخليج",
+    "pista_p4_nome": "خور الغواصين",
+    "pista_p5_nome": "الدرب تحت الأشجار",
+    "pista_p6_nome": "بحر مفتوح، صباح هادئ",
+    "pista_p7_nome": "الحصن أعلى التلة",
+    "pista_p8_nome": "الوصول إلى أوركا",
+    "pista_p9_nome": "خريطة المسار",
+    "pista_p10_nome": "نهاية المسار"
   }
 }
