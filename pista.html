@@ -187,9 +187,11 @@
 
   <audio id="ui-voice-audio" style="display:none;"></audio>
 
-  <!-- Build 2026-08-28 (pedido do CEO): loop de instrução multilíngue das telas de configuração
-       (idioma/modo/plano/pagamento) — ver AUDIO_LOOP_TELA e atualizarLoopMultilingue() em pista.js. -->
-  <audio id="loop-multilang-audio" loop style="display:none;"></audio>
+  <!-- Build 2026-08-28 (pedido do CEO, lógica revista no mesmo dia): áudio de instrução das telas
+       de configuração — só screen-lang toca em loop nas 14 línguas (ninguém escolheu idioma
+       ainda); as outras 3 tocam uma vez, só no idioma selecionado. "loop" fica sem atributo fixo
+       aqui — controlado dinamicamente por atualizarLoopMultilingue() em pista.js. -->
+  <audio id="loop-multilang-audio" style="display:none;"></audio>
 
 </div>
 
