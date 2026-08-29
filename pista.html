@@ -114,6 +114,9 @@
     <div id="apresentacao-media" class="vista-media">
       <img id="apresentacao-foto" src="" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:inherit; z-index:0;">
       <span class="label" data-i18n="pista_apresentacao_label">Você chegou à Pista Cláudio Coutinho</span>
+      <!-- Build 2026-08-29 (pedido do CEO): mesmo toque-na-foto das Paradas, agora também aqui —
+           ver tapNaFotoApresentacaoSeguro() em pista.js. -->
+      <button id="apresentacao-media-tap" class="vista-media-tap" tabindex="-1" aria-hidden="true"></button>
     </div>
 
     <div class="vista-lower">
@@ -192,6 +195,11 @@
        ainda); as outras 3 tocam uma vez, só no idioma selecionado. "loop" fica sem atributo fixo
        aqui — controlado dinamicamente por atualizarLoopMultilingue() em pista.js. -->
   <audio id="loop-multilang-audio" style="display:none;"></audio>
+
+  <!-- Build 2026-08-29 (pedido do CEO): dica curta "toque em Seguir ou na foto", tocada uma vez, no
+       idioma já selecionado, ao final de qualquer narração que espera o toque do visitante — ver
+       tocarDicaSeguirFoto() em pista.js. -->
+  <audio id="dica-audio" style="display:none;"></audio>
 
 </div>
 
