@@ -89,7 +89,10 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
    pista.html) pra não afetar o cabeçalho de texto do index.html, que compartilha este mesmo
    arquivo CSS. Padding zerado aqui: a imagem já tem a margem/moldura embutida no próprio design. */
 #topbar-pista{ padding:0; overflow:hidden; }
-.topbar-pista-img{ display:block; width:100%; height:auto; }
+/* Build 2026-08-29 (Auditoria 8, achado de @streaming-infra-architect): aspect-ratio explícito —
+   sem isso a caixa do cabeçalho fica com altura zero até a imagem decodificar, empurrando o
+   conteúdo abaixo quando ela chega (layout shift), mais perceptível em sinal fraco na trilha. */
+.topbar-pista-img{ display:block; width:100%; height:auto; aspect-ratio:955/155; }
 
 .hero-entry{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:18px; padding:20px;}
 .hero-entry h1{ font-size:1.5rem; margin:0;}
@@ -140,6 +143,10 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
    que compartilha .global-footer/.footer-btn. */
 #global-footer{ background:url("../img/pista_coutinho/rodape_fundo.jpg") center / cover no-repeat; border-top:none; }
 #global-footer .footer-btn{ color:#fff; }
+/* Build 2026-08-29 (Auditoria 8, achado de @advogado-do-diabo): sinalização visual de que
+   "Voltar" não faz nada em screen-capa/screen-lang (ver showScreen() em pista.js) — opacidade
+   reduzida, sem cursor de clicável; não desabilita de verdade (tocar continua inofensivo). */
+.footer-btn-inerte{ opacity:.4; cursor:default; }
 /* Build 2026-08-28 (Auditoria 05, achado alto A-11): ícones de navegação direcional (Voltar/Seguir/
    Trocar idioma) não espelhavam em idiomas RTL (árabe) — o layout já inverte corretamente
    (dir="rtl" no <html>, confirmado funcionando), mas a seta ficava apontando pro lado fisicamente

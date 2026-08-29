@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Build 2026-08-29 (Auditoria 8, achado baixo de @security-auditor): consistência com
+     pista.html/index.html, que já têm essa política — página estática sem JS/recurso externo, o
+     risco prático era mínimo, mas não custa nada fechar por completo. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self';">
 <title>Sessão encerrada</title>
 <style>
   :root{ --bg:#faf7f2; --text:#20242b; --text-muted:#5b6270; --accent:#c9822a; }
