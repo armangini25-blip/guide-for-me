@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder plano geral de fecho: fim de tarde numa varanda olhando o vale de vinhedos, cadeiras de vime, clima de descanso e convite">
+  <defs>
+    <linearGradient id="ap09sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c98f"/><stop offset="0.5" stop-color="#e8a074"/><stop offset="1" stop-color="#c07f77"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#ap09sky)"/>
+  <circle cx="600" cy="330" r="60" fill="#ffe7c0" opacity="0.9"/>
+  <path d="M0 380 L280 280 L560 370 L860 270 L1200 360 L1200 560 L0 560 Z" fill="#8a6d6a" opacity="0.5"/>
+  <rect y="470" width="1200" height="330" fill="#7c8a55"/>
+  <g fill="none" stroke="#5f7440" stroke-width="7" stroke-linecap="round" opacity="0.8">
+    <path d="M0 520 C 300 495, 700 560, 1200 515"/>
+    <path d="M0 580 C 300 555, 700 620, 1200 575"/>
+  </g>
+  <!-- varanda em primeiro plano -->
+  <rect y="640" width="1200" height="160" fill="#c9bda6"/>
+  <rect y="640" width="1200" height="16" fill="#a99a7c"/>
+  <rect y="590" width="1200" height="16" fill="#a99a7c"/>
+  <g fill="#a99a7c"><rect x="90" y="606" width="22" height="40"/><rect x="1090" y="606" width="22" height="40"/></g>
+  <!-- cadeira de vime -->
+  <g transform="translate(150,540)" fill="none" stroke="#8a6b3e" stroke-width="7" stroke-linecap="round">
+    <path d="M20 120 L10 40 Q60 0 110 40 L100 120"/>
+    <path d="M14 78 H106 M18 56 H102"/>
+    <line x1="20" y1="120" x2="20" y2="150"/><line x1="100" y1="120" x2="100" y2="150"/>
+  </g>
+  <!-- duas tacas na mureta -->
+  <g fill="#e9dcbf" opacity="0.9">
+    <path d="M980 560 l14 0 -3 24 -8 0 z"/><rect x="985" y="584" width="4" height="18"/>
+    <path d="M1010 560 l14 0 -3 24 -8 0 z"/><rect x="1015" y="584" width="4" height="18"/>
+  </g>
+  <text x="30" y="770" font-family="sans-serif" font-size="26" fill="#4a3b2b" opacity="0.8">PLACEHOLDER 09 - convite / fecho (plano geral)</text>
+</svg>

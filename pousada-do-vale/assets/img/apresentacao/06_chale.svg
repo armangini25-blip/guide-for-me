@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder plano medio: chale proprio da familia ao entardecer, varanda, luz acesa na janela, montanhas ao fundo">
+  <defs>
+    <linearGradient id="ap06sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0cfa6"/><stop offset="0.6" stop-color="#d9a98c"/><stop offset="1" stop-color="#b98a86"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#ap06sky)"/>
+  <circle cx="240" cy="230" r="46" fill="#fbe6c5" opacity="0.8"/>
+  <path d="M0 330 L260 240 L520 330 L820 230 L1200 320 L1200 520 L0 520 Z" fill="#7c6f78" opacity="0.55"/>
+  <rect y="470" width="1200" height="330" fill="#7f8f57"/>
+  <!-- chale -->
+  <g transform="translate(430,300)">
+    <polygon points="-30,140 370,140 320,40 20,40" fill="#7c4a2c"/>
+    <rect x="20" y="140" width="300" height="200" fill="#e7d6bd"/>
+    <rect x="0" y="140" width="340" height="18" fill="#5c3f27"/>
+    <!-- varanda -->
+    <rect x="-30" y="330" width="400" height="16" fill="#6b4a2f"/>
+    <rect x="-20" y="200" width="16" height="140" fill="#6b4a2f"/><rect x="330" y="200" width="16" height="140" fill="#6b4a2f"/>
+    <!-- porta + janela iluminada -->
+    <rect x="150" y="210" width="52" height="130" fill="#4a331f"/>
+    <rect x="240" y="210" width="60" height="60" fill="#ffdf9c"/>
+    <rect x="40" y="210" width="60" height="60" fill="#ffdf9c"/>
+  </g>
+  <text x="30" y="770" font-family="sans-serif" font-size="26" fill="#3f2f26" opacity="0.8">PLACEHOLDER 06 - chale + servicos (plano medio)</text>
+</svg>

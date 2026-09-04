@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder plano de detalhe: mini fazenda com galinhas, vaca, patos no lago e deque de pesque-pague">
+  <rect width="1200" height="800" fill="#e7dcc0"/>
+  <rect y="470" width="1200" height="330" fill="#8fa25c"/>
+  <!-- lago -->
+  <ellipse cx="850" cy="640" rx="320" ry="110" fill="#9cc0cb"/>
+  <ellipse cx="850" cy="640" rx="320" ry="110" fill="none" stroke="#7ba1ad" stroke-width="4"/>
+  <!-- deque pesque-pague -->
+  <rect x="700" y="600" width="130" height="24" fill="#8a6b3e"/>
+  <rect x="812" y="600" width="10" height="70" fill="#6b4a2f"/>
+  <!-- galinheiro -->
+  <g transform="translate(120,380)">
+    <polygon points="-10,60 150,60 130,20 10,20" fill="#a8532e"/>
+    <rect x="10" y="60" width="120" height="80" fill="#c9a878"/>
+    <rect x="55" y="95" width="34" height="45" fill="#5c3f27"/>
+  </g>
+  <!-- galinhas -->
+  <g fill="#d8b46a"><circle cx="130" cy="560" r="12"/><circle cx="180" cy="590" r="12"/><circle cx="90" cy="600" r="12"/></g>
+  <g fill="#c1442d"><circle cx="130" cy="548" r="5"/><circle cx="180" cy="578" r="5"/><circle cx="90" cy="588" r="5"/></g>
+  <!-- vaca -->
+  <g transform="translate(360,520)">
+    <ellipse cx="70" cy="40" rx="70" ry="42" fill="#f2ede4"/>
+    <ellipse cx="40" cy="30" rx="18" ry="14" fill="#4a4038"/>
+    <ellipse cx="95" cy="55" rx="20" ry="16" fill="#4a4038"/>
+    <rect x="20" y="72" width="10" height="34" fill="#c9c0b2"/><rect x="110" y="72" width="10" height="34" fill="#c9c0b2"/>
+    <circle cx="140" cy="28" r="14" fill="#f2ede4"/>
+  </g>
+  <!-- patos -->
+  <g fill="#efe7d5"><ellipse cx="760" cy="640" rx="18" ry="12"/><ellipse cx="830" cy="665" rx="18" ry="12"/><ellipse cx="900" cy="630" rx="18" ry="12"/></g>
+  <g fill="#e0a53c"><circle cx="746" cy="632" r="5"/><circle cx="816" cy="657" r="5"/><circle cx="886" cy="622" r="5"/></g>
+  <text x="30" y="770" font-family="sans-serif" font-size="26" fill="#3c3320" opacity="0.8">PLACEHOLDER 03 - mini fazenda (plano de detalhe)</text>
+</svg>

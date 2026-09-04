@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';">
+<title>Pousada do Vale — audioguia</title>
+<link rel="stylesheet" href="assets/css/guia.css?v=0.6.3">
+</head>
+<body>
+<div id="app">
+
+  <div id="topbar" class="topbar">
+    <span class="brand" data-i18n="app_brand">Guide For Me</span>
+  </div>
+
+  <div id="app-screens">
+
+    <!-- TELA 1: QR / capa — toque em qualquer lugar → idioma. Sem título visível, sem áudio. -->
+    <section id="screen-capa" class="screen active">
+      <h2 class="screen-title sr-only" data-i18n="capa_sr">Toque em qualquer parte da tela para continuar.</h2>
+      <div id="capa-media" class="vista-media">
+        <img id="capa-foto" src="assets/img/capa_qr.svg" alt="" class="media-fill">
+        <button id="capa-media-tap" class="vista-media-tap" tabindex="-1" aria-hidden="true"></button>
+      </div>
+    </section>
+
+    <!-- TELA 2: 14 bandeiras -->
+    <section id="screen-lang" class="screen">
+      <h2 class="screen-title sr-only" data-i18n="lang_titulo">Escolha o seu idioma</h2>
+      <div id="lang-grid" class="lang-grid"></div>
+      <div id="lang-notice" class="lang-notice" hidden></div>
+    </section>
+
+    <!-- TELA 2b: pitch institucional do produto Guide For Me (mostra o que o produto faz) -->
+    <section id="screen-produto" class="screen">
+      <div id="produto-media" class="vista-media">
+        <img id="produto-foto" src="assets/img/apresentacao.jpg" alt="" class="media-fill produto-pan">
+        <button id="produto-media-tap" class="vista-media-tap" tabindex="-1" aria-hidden="true"></button>
+      </div>
+      <div class="vista-lower">
+        <strong class="vista-titulo" data-i18n="produto_titulo">Guide For Me</strong>
+        <audio id="produto-audio" hidden></audio>
+        <div class="mini-player">
+          <button id="produto-playpause" class="mini-player-btn">▶</button>
+          <div class="mini-player-track"><div id="produto-progress" class="mini-player-progress"></div></div>
+        </div>
+        <div id="produto-caption-box" class="caption-box">…</div>
+      </div>
+    </section>
+
+    <!-- TELA 3: modo — PCD (audiodescrição) ou Turística -->
+    <section id="screen-modo" class="screen">
+      <div class="cards">
+        <button type="button" id="modo-turistica" class="card" data-voice="modo_turistica_title">
+          <span class="card-icon">🗺️</span>
+          <h3 data-i18n="modo_turistica_title">Narração Turística</h3>
+          <p data-i18n="modo_turistica_desc">Roteiro histórico e cultural de cada ponto.</p>
+        </button>
+        <button type="button" id="modo-pcd" class="card destaque" data-voice="modo_pcd_title">
+          <span class="card-icon">🦯</span>
+          <h3 data-i18n="modo_pcd_title">Audiodescrição Detalhada (PCD)</h3>
+          <p data-i18n="modo_pcd_desc">A narração turística, seguida da orientação de segurança do local e da descrição sensorial da paisagem.</p>
+        </button>
+      </div>
+    </section>
+
+    <!-- TELA 4: plano -->
+    <section id="screen-plano" class="screen">
+      <h2 class="screen-title" data-i18n="plano_title">Escolha o seu plano</h2>
+      <p class="screen-sub" data-i18n="plano_sub">Toque numa opção para continuar.</p>
+      <div class="cards">
+        <button type="button" id="plano-basico" class="card" data-voice="plano_basico_title">
+          <span class="card-icon">📻</span>
+          <h3 data-i18n="plano_basico_title">Básico</h3>
+          <p data-i18n="plano_basico_desc">Gratuito, com anúncios entre as telas.</p>
+        </button>
+        <button type="button" id="plano-premium" class="card premium" data-voice="plano_premium_title">
+          <span class="card-icon">💎</span>
+          <h3 data-i18n="plano_premium_title">Premium</h3>
+          <p data-i18n="plano_premium_desc">Sem anúncios, com acesso a conteúdo exclusivo.</p>
+        </button>
+      </div>
+    </section>
+
+    <!-- TELA: anúncio intersticial (só plano Básico, a cada troca de tela) -->
+    <section id="screen-anuncio" class="screen">
+      <div class="hero-entry">
+        <div class="hero-emoji">📢</div>
+        <h1 data-i18n="anuncio_title">Espaço Comercial</h1>
+        <p data-i18n="anuncio_sub">No plano Básico, este espaço aparece a cada troca de tela.</p>
+        <div id="anuncio-timer" class="ad-timer">5</div>
+        <img class="anuncio-imagem" src="assets/img/anuncio.svg" alt="">
+      </div>
+    </section>
+
+    <!-- TELA 5: pagamento — só aparece com Premium -->
+    <section id="screen-pagamento" class="screen">
+      <div class="payment-card">
+        <p class="payment-kicker" data-i18n="pagamento_kicker">Formas de</p>
+        <h1 class="payment-title" data-i18n="pagamento_title">pagamento</h1>
+        <p class="payment-valor" data-i18n="pagamento_valor">Simulação — nenhum pagamento real é processado neste protótipo.</p>
+        <button type="button" class="payment-option" data-voice="pagamento_credito" data-metodo="credito">
+          <span class="payment-icon">💳</span><span data-i18n="pagamento_credito">Cartão de Crédito</span>
+        </button>
+        <button type="button" class="payment-option" data-voice="pagamento_debito" data-metodo="debito">
+          <span class="payment-icon">💳</span><span data-i18n="pagamento_debito">Cartão de Débito</span>
+        </button>
+        <button type="button" class="payment-option" data-voice="pagamento_pix" data-metodo="pix">
+          <span class="payment-icon">📱</span><span data-i18n="pagamento_pix">Pix</span>
+        </button>
+        <div id="pagamento-status" class="payment-status" hidden></div>
+      </div>
+    </section>
+
+    <!-- TELA: apresentação (toca uma vez ao chegar) -->
+    <section id="screen-apresentacao" class="screen">
+      <div id="apresentacao-media" class="vista-media">
+        <img id="apresentacao-foto" src="" alt="" class="media-fill">
+        <span id="apresentacao-label" class="label" data-i18n="apresentacao_label">Bem-vindo</span>
+        <span id="tarja-vista-aumentada" class="tarja-vista tarja-oculta" aria-hidden="true" data-i18n="tarja_vista_aumentada">Vista aumentada</span>
+        <button id="apresentacao-media-tap" class="vista-media-tap" tabindex="-1" aria-hidden="true"></button>
+      </div>
+      <div class="vista-lower">
+        <strong class="vista-titulo" data-i18n="apresentacao_titulo">Apresentação</strong>
+        <audio id="apresentacao-audio" hidden></audio>
+        <div class="mini-player">
+          <button id="apresentacao-playpause" class="mini-player-btn">▶</button>
+          <div class="mini-player-track"><div id="apresentacao-progress" class="mini-player-progress"></div></div>
+        </div>
+        <div id="apresentacao-caption-box" class="caption-box">…</div>
+      </div>
+    </section>
+
+    <!-- TELA 6/7: sequência de pontos (1–10), navegação pelo rodapé global -->
+    <section id="screen-percurso" class="screen">
+      <div id="vista-media" class="vista-media">
+        <img id="vista-media-photo" src="" alt="" class="media-fill">
+        <span id="vista-media-label" class="label"></span>
+        <span id="tarja-iris" class="tarja-iris tarja-oculta" aria-live="polite" data-i18n="tarja_iris">Audiodescrição</span>
+        <span id="tarja-seguranca" class="tarja-seg tarja-oculta" aria-live="polite" data-i18n="tarja_seguranca">Áudio de segurança</span>
+        <button id="vista-media-tap" class="vista-media-tap" tabindex="-1" aria-hidden="true" disabled></button>
+      </div>
+      <div class="vista-lower">
+        <audio id="player-audio" hidden></audio>
+        <div id="player-mini" class="mini-player" hidden>
+          <button id="player-playpause" class="mini-player-btn">▶</button>
+          <div class="mini-player-track"><div id="player-progress" class="mini-player-progress"></div></div>
+        </div>
+        <div id="caption-box" class="caption-box" hidden>…</div>
+        <p id="ponto-descricao" class="ponto-descricao"></p>
+      </div>
+    </section>
+
+    <!-- TELA 8: final — Sair -->
+    <section id="screen-final" class="screen">
+      <div class="cards">
+        <button type="button" id="final-fim" class="card" data-voice="final_fim">
+          <span class="card-icon">🏁</span>
+          <h3 data-i18n="final_fim">Fim</h3>
+          <p data-i18n="final_fim_nota">Obrigado pela visita.</p>
+        </button>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Modal de confirmação de saída -->
+  <div id="confirm-sair-modal" class="modal-overlay" hidden>
+    <div class="modal-box">
+      <div class="big">🚪</div>
+      <h4 data-i18n="confirm_sair_msg">Confirma que deseja encerrar a sessão?</h4>
+      <div class="modal-row">
+        <button id="confirm-sair-nao" class="btn secondary small" data-i18n="confirm_sair_nao">Não</button>
+        <button id="confirm-sair-sim" class="btn small" data-i18n="confirm_sair_sim">Sim</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé global fixo -->
+  <div id="global-footer" class="global-footer">
+    <button id="btn-voltar-global" class="footer-btn" data-voice="footer_voltar"><span class="ic">←</span><span data-i18n="footer_voltar">Voltar</span></button>
+    <button id="btn-seguir-global" class="footer-btn" data-voice="footer_seguir"><span class="ic">→</span><span data-i18n="footer_seguir">Seguir</span></button>
+    <button id="btn-sair-global" class="footer-btn" data-voice="footer_sair"><span class="ic">🚪</span><span data-i18n="footer_sair">Sair</span></button>
+  </div>
+
+  <audio id="ui-voice-audio" hidden></audio>
+  <audio id="loop-multilang-audio" hidden></audio>
+  <audio id="dica-audio" hidden></audio>
+
+</div>
+<script src="assets/js/guia.js?v=0.6.3"></script>
+</body>
+</html>

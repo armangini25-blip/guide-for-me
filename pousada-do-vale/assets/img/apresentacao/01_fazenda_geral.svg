@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder plano geral: chegada à Pousada do Vale, casa da fazenda no vale de vinhedos ao amanhecer">
+  <defs>
+    <linearGradient id="ap01sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ddc0"/><stop offset="0.55" stop-color="#e9c9a6"/><stop offset="1" stop-color="#d8c3a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#ap01sky)"/>
+  <circle cx="600" cy="300" r="70" fill="#fff2d8" opacity="0.85"/>
+  <path d="M0 420 L240 300 L480 400 L720 280 L980 380 L1200 300 L1200 800 L0 800 Z" fill="#9a8378" opacity="0.5"/>
+  <path d="M0 480 L300 380 L620 460 L940 360 L1200 450 L1200 800 L0 800 Z" fill="#7d6a62" opacity="0.6"/>
+  <rect y="500" width="1200" height="300" fill="#8a9d5e"/>
+  <g fill="none" stroke="#607441" stroke-width="7" stroke-linecap="round" opacity="0.8">
+    <path d="M0 560 C 300 530, 700 600, 1200 550"/>
+    <path d="M0 620 C 300 590, 700 660, 1200 610"/>
+    <path d="M0 690 C 300 660, 700 730, 1200 680"/>
+  </g>
+  <g transform="translate(760,410)">
+    <polygon points="-15,10 175,10 150,-40 10,-40" fill="#a8532e"/>
+    <rect x="10" y="10" width="150" height="90" fill="#f3e8d7"/>
+    <rect x="70" y="45" width="30" height="55" fill="#6b4a2f"/>
+    <rect x="30" y="30" width="24" height="26" fill="#f6d98a"/><rect x="116" y="30" width="24" height="26" fill="#f6d98a"/>
+  </g>
+  <ellipse cx="500" cy="530" rx="620" ry="40" fill="#ffffff" opacity="0.4"/>
+  <text x="30" y="770" font-family="sans-serif" font-size="26" fill="#4a3b2b" opacity="0.75">PLACEHOLDER 01 - fazenda (plano geral)</text>
+</svg>

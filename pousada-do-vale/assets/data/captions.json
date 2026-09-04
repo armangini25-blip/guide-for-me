@@ -1,0 +1,1606 @@
+{
+ "p1": {
+  "pt": {
+   "duration": 39.85,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.08,
+     "text": "Bem-vindo à Pousada do Vale."
+    },
+    {
+     "start": 3.98,
+     "end": 8.4,
+     "text": "A recepção que você vê à frente ocupa a antiga casa grande da fazenda,"
+    },
+    {
+     "start": 8.78,
+     "end": 9.78,
+     "text": "erguida em mil oitocentos e setenta e dois."
+    },
+    {
+     "start": 12.9,
+     "end": 17.96,
+     "text": "O alpendre de madeira, encerado à mão toda semana, guarda o mesmo cheiro de sempre."
+    },
+    {
+     "start": 20.02,
+     "end": 25.0,
+     "text": "No jardim, os canteiros de lavanda foram plantados pela avó da atual proprietária;"
+    },
+    {
+     "start": 26.3,
+     "end": 31.08,
+     "text": "ao entardecer, quando o sol baixa atrás da serra, o perfume fica mais forte."
+    },
+    {
+     "start": 32.88,
+     "end": 35.36,
+     "text": "Fique um instante aqui antes de subir:"
+    },
+    {
+     "start": 36.48,
+     "end": 38.86,
+     "text": "a pressa não combina com este lugar."
+    }
+   ]
+  },
+  "en": {
+   "duration": 36.86,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.1400000000000001,
+     "text": "Welcome to Pousada do Vale."
+    },
+    {
+     "start": 3.94,
+     "end": 7.58,
+     "text": "The reception you see ahead occupies the old main house,"
+    },
+    {
+     "start": 7.88,
+     "end": 8.88,
+     "text": "built in eighteen seventy-two."
+    },
+    {
+     "start": 11.52,
+     "end": 16.76,
+     "text": "The wooden porch, hand-waxed every week, still holds the same scent it always has."
+    },
+    {
+     "start": 18.9,
+     "end": 23.34,
+     "text": "In the garden, the lavender beds were planted by the current owner's grandmother;"
+    },
+    {
+     "start": 24.74,
+     "end": 28.78,
+     "text": "at dusk, when the sun drops behind the ridge, the fragrance grows stronger."
+    },
+    {
+     "start": 30.9,
+     "end": 32.98,
+     "text": "Stay here a moment before you go up:"
+    },
+    {
+     "start": 34.26,
+     "end": 35.84,
+     "text": "haste does not suit this place."
+    }
+   ]
+  }
+ },
+ "p2": {
+  "pt": {
+   "duration": 34.49,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.44,
+     "text": "Você chegou à varanda panorâmica."
+    },
+    {
+     "start": 5.06,
+     "end": 7.2,
+     "text": "Daqui o vale inteiro se abre diante de você:"
+    },
+    {
+     "start": 8.48,
+     "end": 11.0,
+     "text": "os vinhedos descem em curvas de nível até o rio,"
+    },
+    {
+     "start": 11.08,
+     "end": 13.2,
+     "text": "e a serra fecha o horizonte ao fundo."
+    },
+    {
+     "start": 15.1,
+     "end": 19.3,
+     "text": "De manhã cedo, uma névoa fina sobe da água e cobre as videiras por uma hora,"
+    },
+    {
+     "start": 19.52,
+     "end": 20.52,
+     "text": "depois se desfaz."
+    },
+    {
+     "start": 22.48,
+     "end": 25.96,
+     "text": "As cadeiras de vime ficam à disposição o dia todo."
+    },
+    {
+     "start": 27.98,
+     "end": 31.48,
+     "text": "Muitos hóspedes tomam aqui o café da manhã, sem pressa,"
+    },
+    {
+     "start": 31.56,
+     "end": 33.46,
+     "text": "enquanto a luz muda sobre as encostas."
+    }
+   ]
+  },
+  "en": {
+   "duration": 33.7,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.12,
+     "text": "You have reached the panoramic veranda."
+    },
+    {
+     "start": 4.16,
+     "end": 6.68,
+     "text": "From here the whole valley opens before you:"
+    },
+    {
+     "start": 8.02,
+     "end": 10.7,
+     "text": "the vineyards drop in contour lines down to the river,"
+    },
+    {
+     "start": 10.98,
+     "end": 13.38,
+     "text": "and the mountains close the horizon behind."
+    },
+    {
+     "start": 15.78,
+     "end": 16.9,
+     "text": "Early in the morning,"
+    },
+    {
+     "start": 17.32,
+     "end": 21.64,
+     "text": "a thin mist rises off the water and covers the vines for an hour, then clears."
+    },
+    {
+     "start": 23.92,
+     "end": 26.14,
+     "text": "The wicker chairs are available all day."
+    },
+    {
+     "start": 28.04,
+     "end": 30.6,
+     "text": "Many guests have breakfast here, unhurried,"
+    },
+    {
+     "start": 31.04,
+     "end": 32.62,
+     "text": "while the light shifts across the slopes."
+    }
+   ]
+  }
+ },
+ "p3": {
+  "pt": {
+   "duration": 39.23,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 5.22,
+     "text": "Esta é a adega da pousada, escavada diretamente na rocha há mais de cem anos."
+    },
+    {
+     "start": 7.4,
+     "end": 9.28,
+     "text": "Desça os degraus com calma:"
+    },
+    {
+     "start": 10.62,
+     "end": 13.36,
+     "text": "a pedra é irregular e a luz é baixa, de propósito."
+    },
+    {
+     "start": 15.08,
+     "end": 19.06,
+     "text": "Lá dentro, a temperatura se mantém em torno de treze graus o ano inteiro,"
+    },
+    {
+     "start": 19.56,
+     "end": 23.28,
+     "text": "sem nenhum equipamento — foi assim que os primeiros donos guardaram o vinho,"
+    },
+    {
+     "start": 23.36,
+     "end": 25.02,
+     "text": "e continua funcionando."
+    },
+    {
+     "start": 26.8,
+     "end": 30.44,
+     "text": "Os barris de carvalho à direita são da última safra."
+    },
+    {
+     "start": 32.52,
+     "end": 34.42,
+     "text": "O silêncio aqui é quase completo;"
+    },
+    {
+     "start": 36.0,
+     "end": 38.16,
+     "text": "muita gente baixa a voz sem perceber."
+    }
+   ]
+  },
+  "en": {
+   "duration": 38.63,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.2,
+     "text": "This is the inn's wine cellar,"
+    },
+    {
+     "start": 2.5,
+     "end": 5.08,
+     "text": "cut straight into the rock more than a hundred years ago."
+    },
+    {
+     "start": 7.12,
+     "end": 8.52,
+     "text": "Take the steps slowly:"
+    },
+    {
+     "start": 9.86,
+     "end": 12.86,
+     "text": "the stone is uneven and the light is low, on purpose."
+    },
+    {
+     "start": 15.38,
+     "end": 18.92,
+     "text": "Inside, the temperature stays around thirteen degrees all year,"
+    },
+    {
+     "start": 19.28,
+     "end": 23.26,
+     "text": "with no equipment at all — that is how the first owners kept their wine,"
+    },
+    {
+     "start": 23.58,
+     "end": 24.58,
+     "text": "and it still works."
+    },
+    {
+     "start": 26.38,
+     "end": 29.56,
+     "text": "The oak barrels to your right are from the latest harvest."
+    },
+    {
+     "start": 31.48,
+     "end": 33.68,
+     "text": "The silence here is almost total;"
+    },
+    {
+     "start": 35.02,
+     "end": 37.56,
+     "text": "many people lower their voice without noticing."
+    }
+   ]
+  }
+ },
+ "dica_seguir": {
+  "pt": {
+   "duration": 6.65,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.94,
+     "text": "Toque em Seguir, no rodapé,"
+    },
+    {
+     "start": 2.02,
+     "end": 5.68,
+     "text": "ou diretamente na ilustração para continuar para o próximo ponto."
+    }
+   ]
+  },
+  "en": {
+   "duration": 6.03,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 5.02,
+     "text": "Tap Next at the bottom, or the illustration itself, to continue to the next stop."
+    }
+   ]
+  }
+ },
+ "p1_seguranca": {
+  "pt": {
+   "duration": 58.41,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.56,
+     "text": "Áudio de segurança."
+    },
+    {
+     "start": 4.04,
+     "end": 7.34,
+     "text": "Você está no jardim, de frente para a casa grande."
+    },
+    {
+     "start": 9.62,
+     "end": 15.02,
+     "text": "O caminho até a recepção é reto, de piso firme de pedra, com cerca de doze passos."
+    },
+    {
+     "start": 16.74,
+     "end": 20.9,
+     "text": "Dos dois lados há canteiros baixos de lavanda, na altura dos joelhos;"
+    },
+    {
+     "start": 22.8,
+     "end": 26.26,
+     "text": "a bengala vai tocar a borda de pedra que cerca cada canteiro,"
+    },
+    {
+     "start": 26.34,
+     "end": 28.62,
+     "text": "e ela serve de guia até o fim do caminho."
+    },
+    {
+     "start": 31.0,
+     "end": 34.08,
+     "text": "Ali, o alpendre de madeira tem um degrau único para subir,"
+    },
+    {
+     "start": 34.16,
+     "end": 37.52,
+     "text": "de mais ou menos quinze centímetros, sem corrimão."
+    },
+    {
+     "start": 39.28,
+     "end": 44.04,
+     "text": "Logo depois do degrau, à frente, fica a porta da recepção, que abre para dentro."
+    },
+    {
+     "start": 45.94,
+     "end": 49.26,
+     "text": "Não há piso tátil em nenhum trecho deste percurso."
+    },
+    {
+     "start": 51.42,
+     "end": 53.56,
+     "text": "Para seguir aos próximos pontos,"
+    },
+    {
+     "start": 54.04,
+     "end": 57.44,
+     "text": "o caminho sobe numa rampa suave que começa à direita do alpendre."
+    }
+   ]
+  },
+  "en": {
+   "duration": 55.37,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.22,
+     "text": "Safety audio."
+    },
+    {
+     "start": 3.54,
+     "end": 6.2,
+     "text": "You are in the garden, facing the main house."
+    },
+    {
+     "start": 8.5,
+     "end": 12.24,
+     "text": "The path to the reception is straight, on firm stone paving,"
+    },
+    {
+     "start": 12.58,
+     "end": 13.86,
+     "text": "about twelve paces long."
+    },
+    {
+     "start": 16.26,
+     "end": 19.62,
+     "text": "On both sides there are low lavender beds at knee height;"
+    },
+    {
+     "start": 21.2,
+     "end": 24.1,
+     "text": "your cane will meet the stone edge that borders each bed,"
+    },
+    {
+     "start": 24.48,
+     "end": 26.68,
+     "text": "and that edge guides you to the end of the path."
+    },
+    {
+     "start": 29.14,
+     "end": 33.06,
+     "text": "There, the wooden porch has a single step up, about fifteen centimeters,"
+    },
+    {
+     "start": 33.6,
+     "end": 34.6,
+     "text": "with no handrail."
+    },
+    {
+     "start": 36.62,
+     "end": 40.94,
+     "text": "Just past the step, straight ahead, is the reception door, which opens inward."
+    },
+    {
+     "start": 43.32,
+     "end": 46.46,
+     "text": "There is no tactile paving anywhere along this route."
+    },
+    {
+     "start": 48.28,
+     "end": 50.16,
+     "text": "To continue to the next stops,"
+    },
+    {
+     "start": 50.66,
+     "end": 54.28,
+     "text": "the path climbs a gentle ramp that begins to the right of the porch."
+    }
+   ]
+  }
+ },
+ "p1_iris": {
+  "pt": {
+   "duration": 64.31,
+   "segments": [
+    {
+     "start": 0.6,
+     "end": 2.7,
+     "text": "À frente, uma casa térrea e comprida,"
+    },
+    {
+     "start": 3.04,
+     "end": 7.0,
+     "text": "de paredes caiadas de branco e telhado de telhas de barro cor de tijolo."
+    },
+    {
+     "start": 9.68,
+     "end": 12.8,
+     "text": "Ao longo de toda a frente corre o alpendre de madeira,"
+    },
+    {
+     "start": 13.18,
+     "end": 15.42,
+     "text": "encerada até brilhar num tom de mel escuro,"
+    },
+    {
+     "start": 15.8,
+     "end": 18.38,
+     "text": "sustentado por seis pilares sob um beiral largo."
+    },
+    {
+     "start": 20.76,
+     "end": 24.02,
+     "text": "Três janelas de folhas azuis se alinham na fachada."
+    },
+    {
+     "start": 27.5,
+     "end": 29.5,
+     "text": "À frente e à esquerda fica o jardim:"
+    },
+    {
+     "start": 31.7,
+     "end": 34.88,
+     "text": "canteiros retangulares de lavanda em fileiras baixas,"
+    },
+    {
+     "start": 35.24,
+     "end": 37.54,
+     "text": "de um roxo empoeirado sobre folhagem verde-acinzentada,"
+    },
+    {
+     "start": 38.8,
+     "end": 41.06,
+     "text": "cortados por um caminho de pedras irregulares."
+    },
+    {
+     "start": 43.8,
+     "end": 47.36,
+     "text": "Mais além, o terreno sobe em pastos verdes até a serra,"
+    },
+    {
+     "start": 47.68,
+     "end": 49.76,
+     "text": "uma linha escura e ondulada no horizonte."
+    },
+    {
+     "start": 51.88,
+     "end": 53.98,
+     "text": "A luz é morna e dourada."
+    },
+    {
+     "start": 56.7,
+     "end": 60.52,
+     "text": "No ar, cera, terra úmida e o perfume adocicado da lavanda,"
+    },
+    {
+     "start": 60.86,
+     "end": 62.88,
+     "text": "com o zumbido de abelhas baixo e constante."
+    }
+   ]
+  },
+  "en": {
+   "duration": 62.22,
+   "segments": [
+    {
+     "start": 0.8,
+     "end": 1.8,
+     "text": "Ahead stands a low,"
+    },
+    {
+     "start": 1.6400000000000001,
+     "end": 5.5600000000000005,
+     "text": "long house with whitewashed walls and a roof of brick-red clay tiles."
+    },
+    {
+     "start": 8.5,
+     "end": 11.12,
+     "text": "Along the whole front runs the wooden porch,"
+    },
+    {
+     "start": 11.68,
+     "end": 13.7,
+     "text": "waxed to a shine the colour of dark honey,"
+    },
+    {
+     "start": 13.78,
+     "end": 17.36,
+     "text": "held up by six posts under a wide overhanging eave."
+    },
+    {
+     "start": 20.34,
+     "end": 23.08,
+     "text": "Three windows with blue shutters line the facade."
+    },
+    {
+     "start": 26.18,
+     "end": 28.64,
+     "text": "To the front and left lies the garden:"
+    },
+    {
+     "start": 31.16,
+     "end": 36.1,
+     "text": "rectangular beds of lavender in low rows, a dusty purple over grey-green foliage,"
+    },
+    {
+     "start": 36.62,
+     "end": 38.62,
+     "text": "crossed by a path of uneven stones."
+    },
+    {
+     "start": 41.98,
+     "end": 45.5,
+     "text": "Beyond it the ground rises through green pasture to the mountains,"
+    },
+    {
+     "start": 46.14,
+     "end": 48.42,
+     "text": "a dark rippled line along the horizon."
+    },
+    {
+     "start": 51.28,
+     "end": 53.08,
+     "text": "The light is warm and golden."
+    },
+    {
+     "start": 55.48,
+     "end": 58.92,
+     "text": "The air carries wax, damp earth and the sweet scent of lavender,"
+    },
+    {
+     "start": 59.0,
+     "end": 60.92,
+     "text": "with the low steady hum of bees."
+    }
+   ]
+  }
+ },
+ "p2_seguranca": {
+  "pt": {
+   "duration": 60.95,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.56,
+     "text": "Áudio de segurança."
+    },
+    {
+     "start": 4.12,
+     "end": 8.4,
+     "text": "Você está na entrada da varanda panorâmica, que fica elevada sobre o vale."
+    },
+    {
+     "start": 11.12,
+     "end": 12.24,
+     "text": "Atenção à borda:"
+    },
+    {
+     "start": 14.4,
+     "end": 17.76,
+     "text": "à sua frente e à sua esquerda, a cerca de seis passos,"
+    },
+    {
+     "start": 17.96,
+     "end": 20.1,
+     "text": "há um parapeito de madeira na altura da cintura;"
+    },
+    {
+     "start": 21.34,
+     "end": 24.16,
+     "text": "além dele o terreno cai de forma acentuada."
+    },
+    {
+     "start": 25.86,
+     "end": 29.52,
+     "text": "Não se apoie no parapeito sem antes encontrá-lo com a mão."
+    },
+    {
+     "start": 31.72,
+     "end": 36.0,
+     "text": "O piso é de tábuas de madeira e pode ter um pequeno desnível entre elas,"
+    },
+    {
+     "start": 36.08,
+     "end": 37.94,
+     "text": "de dois ou três centímetros."
+    },
+    {
+     "start": 39.72,
+     "end": 44.72,
+     "text": "As cadeiras de vime não são fixas e podem estar em qualquer ponto da varanda;"
+    },
+    {
+     "start": 46.0,
+     "end": 48.74,
+     "text": "avance com a bengala em varredura larga."
+    },
+    {
+     "start": 50.66,
+     "end": 54.6,
+     "text": "A parede da casa fica à sua direita e serve de guia firme."
+    },
+    {
+     "start": 56.76,
+     "end": 59.86,
+     "text": "Aqui você fica exposto ao sol e a vento forte."
+    }
+   ]
+  },
+  "en": {
+   "duration": 57.82,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.24,
+     "text": "Safety audio."
+    },
+    {
+     "start": 3.54,
+     "end": 6.16,
+     "text": "You are at the entrance to the panoramic veranda,"
+    },
+    {
+     "start": 6.46,
+     "end": 8.16,
+     "text": "which sits raised above the valley."
+    },
+    {
+     "start": 10.58,
+     "end": 11.7,
+     "text": "Mind the edge:"
+    },
+    {
+     "start": 13.34,
+     "end": 16.06,
+     "text": "ahead of you and to your left, about six paces away,"
+    },
+    {
+     "start": 16.52,
+     "end": 18.4,
+     "text": "there is a waist-high wooden railing;"
+    },
+    {
+     "start": 19.58,
+     "end": 21.82,
+     "text": "beyond it the ground drops off sharply."
+    },
+    {
+     "start": 24.28,
+     "end": 27.82,
+     "text": "Do not lean on the railing before you have found it with your hand."
+    },
+    {
+     "start": 30.2,
+     "end": 34.84,
+     "text": "The floor is wooden planking and may have a small change in level between boards,"
+    },
+    {
+     "start": 35.34,
+     "end": 36.34,
+     "text": "two or three centimeters."
+    },
+    {
+     "start": 38.54,
+     "end": 42.3,
+     "text": "The wicker chairs are not fixed and may be anywhere on the veranda;"
+    },
+    {
+     "start": 43.68,
+     "end": 45.94,
+     "text": "move forward sweeping wide with your cane."
+    },
+    {
+     "start": 48.42,
+     "end": 52.14,
+     "text": "The wall of the house is on your right and serves as a firm guide."
+    },
+    {
+     "start": 54.06,
+     "end": 56.74,
+     "text": "Here you are exposed to sun and to strong wind."
+    }
+   ]
+  }
+ },
+ "p2_iris": {
+  "pt": {
+   "duration": 60.41,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.08,
+     "text": "A varanda é um espaço coberto,"
+    },
+    {
+     "start": 2.3,
+     "end": 5.88,
+     "text": "com piso de tábuas de madeira e um guarda-corpo baixo na borda."
+    },
+    {
+     "start": 8.94,
+     "end": 12.46,
+     "text": "Encostadas a ele, meia dúzia de cadeiras de vime cor de palha,"
+    },
+    {
+     "start": 12.54,
+     "end": 14.18,
+     "text": "com almofadas de tecido cru."
+    },
+    {
+     "start": 17.12,
+     "end": 19.84,
+     "text": "Daí para diante o terreno cai em declive."
+    },
+    {
+     "start": 21.98,
+     "end": 25.94,
+     "text": "As videiras cobrem toda a encosta em faixas verdes paralelas,"
+    },
+    {
+     "start": 26.28,
+     "end": 29.1,
+     "text": "que acompanham as curvas do morro como as linhas de um mapa."
+    },
+    {
+     "start": 31.92,
+     "end": 36.4,
+     "text": "No fundo do vale, o rio aparece como uma fita estreita, parda e reluzente."
+    },
+    {
+     "start": 38.7,
+     "end": 42.76,
+     "text": "Do outro lado, a serra se ergue em camadas de azul cada vez mais claro,"
+    },
+    {
+     "start": 42.84,
+     "end": 43.96,
+     "text": "até tocar o céu."
+    },
+    {
+     "start": 46.64,
+     "end": 47.64,
+     "text": "De manhã,"
+    },
+    {
+     "start": 47.72,
+     "end": 52.06,
+     "text": "uma névoa branca e rasa se deita sobre as parreiras e apaga o verde por uma hora."
+    },
+    {
+     "start": 54.86,
+     "end": 59.28,
+     "text": "O ar traz vento nas folhas, pássaros dispersos e cheiro de mato úmido."
+    }
+   ]
+  },
+  "en": {
+   "duration": 62.9,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.94,
+     "text": "The veranda is a covered space,"
+    },
+    {
+     "start": 2.02,
+     "end": 5.82,
+     "text": "with a floor of wooden boards and a low railing along the edge."
+    },
+    {
+     "start": 8.7,
+     "end": 12.02,
+     "text": "Against it stand half a dozen wicker chairs the colour of straw,"
+    },
+    {
+     "start": 12.1,
+     "end": 14.34,
+     "text": "with cushions of undyed cloth."
+    },
+    {
+     "start": 17.77,
+     "end": 19.7,
+     "text": "From there the ground falls away downhill."
+    },
+    {
+     "start": 23.12,
+     "end": 29.82,
+     "text": "Vines cover the whole slope in parallel green bands that follow the curves of the hill like the lines of a map."
+    },
+    {
+     "start": 32.66,
+     "end": 37.6,
+     "text": "At the bottom of the valley the river shows as a narrow ribbon, brown and glinting."
+    },
+    {
+     "start": 40.2,
+     "end": 46.04,
+     "text": "On the far side the mountains rise in layers of paler and paler blue until they meet the sky."
+    },
+    {
+     "start": 49.18,
+     "end": 54.8,
+     "text": "In the morning a shallow white mist settles over the vines and erases the green for an hour."
+    },
+    {
+     "start": 57.04,
+     "end": 61.58,
+     "text": "The air brings wind in the leaves, scattered birds and the smell of damp grass."
+    }
+   ]
+  }
+ },
+ "p3_seguranca": {
+  "pt": {
+   "duration": 63.81,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.58,
+     "text": "Áudio de segurança."
+    },
+    {
+     "start": 3.94,
+     "end": 7.74,
+     "text": "Você está diante da entrada da adega, escavada na rocha."
+    },
+    {
+     "start": 10.54,
+     "end": 14.5,
+     "text": "À frente, uma escada desce com cerca de dez degraus de pedra irregulares:"
+    },
+    {
+     "start": 15.8,
+     "end": 18.92,
+     "text": "a altura e a profundidade mudam a cada passo."
+    },
+    {
+     "start": 20.7,
+     "end": 24.0,
+     "text": "Há um corrimão de ferro fixo na parede à sua direita;"
+    },
+    {
+     "start": 25.32,
+     "end": 29.68,
+     "text": "segure firme nele durante toda a descida e desça um degrau de cada vez."
+    },
+    {
+     "start": 32.02,
+     "end": 36.0,
+     "text": "O teto é baixo e, em vários trechos, fica abaixo da sua cabeça;"
+    },
+    {
+     "start": 37.58,
+     "end": 42.06,
+     "text": "desça com o corpo curvado para a frente e a mão livre erguida à frente da testa."
+    },
+    {
+     "start": 43.76,
+     "end": 48.4,
+     "text": "No fim da escada, o piso é de pedra e costuma estar úmido e escorregadio."
+    },
+    {
+     "start": 50.44,
+     "end": 54.54,
+     "text": "À direita, barris de carvalho se projetam para dentro da passagem,"
+    },
+    {
+     "start": 54.82,
+     "end": 56.22,
+     "text": "na altura do ombro e do quadril."
+    },
+    {
+     "start": 58.46,
+     "end": 62.82,
+     "text": "Lá dentro, a temperatura cai de repente para cerca de treze graus."
+    }
+   ]
+  },
+  "en": {
+   "duration": 60.84,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.24,
+     "text": "Safety audio."
+    },
+    {
+     "start": 3.54,
+     "end": 6.96,
+     "text": "You are at the entrance to the wine cellar, cut into the rock."
+    },
+    {
+     "start": 9.42,
+     "end": 13.34,
+     "text": "Ahead, a staircase goes down, about ten uneven stone steps:"
+    },
+    {
+     "start": 14.87,
+     "end": 17.28,
+     "text": "the height and the depth change with every step."
+    },
+    {
+     "start": 19.48,
+     "end": 22.7,
+     "text": "There is an iron handrail fixed to the wall on your right;"
+    },
+    {
+     "start": 23.94,
+     "end": 27.88,
+     "text": "hold it firmly all the way down and take one step at a time."
+    },
+    {
+     "start": 30.46,
+     "end": 34.2,
+     "text": "The ceiling is low and in several places drops below head height;"
+    },
+    {
+     "start": 35.36,
+     "end": 40.2,
+     "text": "go down with your body bent forward and your free hand raised in front of your forehead."
+    },
+    {
+     "start": 42.38,
+     "end": 46.84,
+     "text": "At the foot of the stairs, the floor is stone and is usually damp and slippery."
+    },
+    {
+     "start": 49.4,
+     "end": 53.78,
+     "text": "On your right, oak barrels jut into the passage at shoulder and hip height."
+    },
+    {
+     "start": 55.74,
+     "end": 59.58,
+     "text": "Inside, the temperature drops suddenly to around thirteen degrees."
+    }
+   ]
+  }
+ },
+ "p3_iris": {
+  "pt": {
+   "duration": 62.26,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.3,
+     "text": "O ambiente é pequeno e fechado, de teto baixo em forma de abóbada."
+    },
+    {
+     "start": 6.98,
+     "end": 10.4,
+     "text": "As paredes são de rocha nua, escavada à picareta,"
+    },
+    {
+     "start": 10.72,
+     "end": 15.48,
+     "text": "com as marcas das ferramentas ainda visíveis e uma umidade escura que escorre pela pedra."
+    },
+    {
+     "start": 17.54,
+     "end": 22.66,
+     "text": "A luz vem de poucas lâmpadas amarelas e fracas, e deixa os cantos na penumbra."
+    },
+    {
+     "start": 26.12,
+     "end": 30.1,
+     "text": "À direita, sobre cavaletes de madeira, alinham-se os barris de carvalho:"
+    },
+    {
+     "start": 32.16,
+     "end": 36.34,
+     "text": "peças bojudas da altura de uma criança, de um castanho-avermelhado escuro,"
+    },
+    {
+     "start": 36.98,
+     "end": 37.98,
+     "text": "cintadas por aros de metal."
+    },
+    {
+     "start": 40.58,
+     "end": 44.1,
+     "text": "O chão é de laje irregular, com poças rasas aqui e ali."
+    },
+    {
+     "start": 46.34,
+     "end": 50.64,
+     "text": "O ar é frio e parado, em torno de treze graus, e cheira a terra molhada,"
+    },
+    {
+     "start": 50.76,
+     "end": 51.76,
+     "text": "madeira velha e vinho."
+    },
+    {
+     "start": 54.58,
+     "end": 56.56,
+     "text": "O silêncio é quase total;"
+    },
+    {
+     "start": 58.44,
+     "end": 61.06,
+     "text": "de vez em quando, ouve-se o pingar de água."
+    }
+   ]
+  },
+  "en": {
+   "duration": 59.18,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 3.52,
+     "text": "The room is small and enclosed, with a low vaulted ceiling."
+    },
+    {
+     "start": 6.4,
+     "end": 9.14,
+     "text": "The walls are bare rock, dug out by pick,"
+    },
+    {
+     "start": 9.64,
+     "end": 13.18,
+     "text": "the tool marks still visible and a dark dampness running down the stone."
+    },
+    {
+     "start": 16.24,
+     "end": 20.66,
+     "text": "The light comes from a few weak yellow bulbs and leaves the corners in shadow."
+    },
+    {
+     "start": 23.78,
+     "end": 27.08,
+     "text": "To the right, on wooden trestles, stand the oak barrels:"
+    },
+    {
+     "start": 28.96,
+     "end": 32.74,
+     "text": "rounded pieces about the height of a child, a dark reddish brown,"
+    },
+    {
+     "start": 32.82,
+     "end": 34.44,
+     "text": "bound with metal hoops."
+    },
+    {
+     "start": 37.4,
+     "end": 41.44,
+     "text": "The floor is uneven flagstone, with shallow puddles here and there."
+    },
+    {
+     "start": 44.08,
+     "end": 48.94,
+     "text": "The air is cold and still, around thirteen degrees, and smells of wet earth,"
+    },
+    {
+     "start": 49.16,
+     "end": 50.16,
+     "text": "old wood and wine."
+    },
+    {
+     "start": 52.3,
+     "end": 54.22,
+     "text": "The silence is almost total;"
+    },
+    {
+     "start": 56.0,
+     "end": 57.96,
+     "text": "now and then you hear water drip."
+    }
+   ]
+  }
+ },
+ "apresentacao": {
+  "pt": {
+   "duration": 127.29,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.92,
+     "text": "Boas-vindas à Pousada do Vale, um lugar único."
+    },
+    {
+     "start": 4.72,
+     "end": 6.76,
+     "text": "A proposta aqui é simples:"
+    },
+    {
+     "start": 8.62,
+     "end": 12.46,
+     "text": "viver o dia a dia de uma fazenda, em contato próximo com a natureza,"
+    },
+    {
+     "start": 12.54,
+     "end": 14.82,
+     "text": "durante a sua visita ou a sua estadia."
+    },
+    {
+     "start": 16.72,
+     "end": 20.16,
+     "text": "Nos campos de videiras, você colhe as próprias uvas."
+    },
+    {
+     "start": 23.18,
+     "end": 26.44,
+     "text": "Há cavalos dóceis para passeios curtos, com acompanhamento experiente."
+    },
+    {
+     "start": 27.94,
+     "end": 33.2,
+     "text": "Na mini fazenda vivem galinhas que põem ovos, vacas que dão leite e patos no lago,"
+    },
+    {
+     "start": 33.54,
+     "end": 34.94,
+     "text": "onde também há pesque-pague."
+    },
+    {
+     "start": 37.1,
+     "end": 41.46,
+     "text": "Na casa grande servimos café da manhã, almoço e jantar sob reserva."
+    },
+    {
+     "start": 43.1,
+     "end": 47.0,
+     "text": "A mesa é posta na varanda, com pão quentinho e frutas da estação."
+    },
+    {
+     "start": 49.6,
+     "end": 52.14,
+     "text": "Às sextas-feiras, à noite, há um encontro festivo,"
+    },
+    {
+     "start": 52.22,
+     "end": 54.28,
+     "text": "com música ao vivo ou festa temática."
+    },
+    {
+     "start": 56.44,
+     "end": 60.56,
+     "text": "As luzes do pátio se acendem aos poucos, e a noite ganha um clima só dela."
+    },
+    {
+     "start": 62.28,
+     "end": 65.74,
+     "text": "Para conhecer a região, há parceiros que organizam passeios."
+    },
+    {
+     "start": 68.1,
+     "end": 72.88,
+     "text": "O Wi-Fi é gratuito na casa grande, e cada família se hospeda em um chalé próprio,"
+    },
+    {
+     "start": 73.14,
+     "end": 77.22,
+     "text": "com quarto, banheiro, ar-condicionado, frigobar e uma pequena cozinha."
+    },
+    {
+     "start": 78.7,
+     "end": 82.54,
+     "text": "Este audioguia acompanha você por três pontos da propriedade:"
+    },
+    {
+     "start": 83.46,
+     "end": 88.16,
+     "text": "a recepção e o jardim, a varanda panorâmica e a adega escavada na rocha."
+    },
+    {
+     "start": 89.98,
+     "end": 93.9,
+     "text": "Em cada ponto, a narração começa sozinha assim que a tela abre."
+    },
+    {
+     "start": 95.78,
+     "end": 100.48,
+     "text": "Para seguir adiante, toque no botão Seguir, no rodapé, ou na própria ilustração;"
+    },
+    {
+     "start": 102.0,
+     "end": 104.26,
+     "text": "para retornar, use o botão Voltar."
+    },
+    {
+     "start": 106.24,
+     "end": 107.24,
+     "text": "Não há pressa:"
+    },
+    {
+     "start": 108.3,
+     "end": 110.9,
+     "text": "fique em cada lugar o tempo que quiser."
+    },
+    {
+     "start": 112.66,
+     "end": 114.38,
+     "text": "O convite é este:"
+    },
+    {
+     "start": 115.68,
+     "end": 118.7,
+     "text": "desligue-se do mundo e se dê o presente deste tempo,"
+    },
+    {
+     "start": 118.98,
+     "end": 122.42,
+     "text": "para descansar com a sua família ou para viver experiências novas."
+    },
+    {
+     "start": 125.2,
+     "end": 126.28,
+     "text": "Sejam muito bem-vindos."
+    }
+   ]
+  },
+  "en": {
+   "duration": 128.79,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 3.24,
+     "text": "Welcome to Pousada do Vale, a place of its own."
+    },
+    {
+     "start": 5.18,
+     "end": 6.82,
+     "text": "The idea here is simple:"
+    },
+    {
+     "start": 8.2,
+     "end": 12.86,
+     "text": "to live the daily life of a farm, close to nature, during your visit or your stay."
+    },
+    {
+     "start": 15.0,
+     "end": 17.3,
+     "text": "In the vineyards, you can pick your own grapes."
+    },
+    {
+     "start": 19.46,
+     "end": 24.26,
+     "text": "There are gentle horses for short rides, with experienced guides along the way."
+    },
+    {
+     "start": 26.38,
+     "end": 30.86,
+     "text": "On the small farm you will find hens that lay eggs, cows that give milk,"
+    },
+    {
+     "start": 31.08,
+     "end": 33.88,
+     "text": "and ducks on the lake, which also has a fishing pond."
+    },
+    {
+     "start": 36.1,
+     "end": 40.48,
+     "text": "In the main farmhouse we serve breakfast, lunch, and dinner by reservation."
+    },
+    {
+     "start": 42.66,
+     "end": 46.84,
+     "text": "The table is set on the veranda, with warm bread and seasonal fruit."
+    },
+    {
+     "start": 49.02,
+     "end": 54.1,
+     "text": "On Friday evenings there is a celebration, with live music or a themed party."
+    },
+    {
+     "start": 56.26,
+     "end": 60.88,
+     "text": "The courtyard lights come on little by little, giving the night a mood all its own."
+    },
+    {
+     "start": 62.9,
+     "end": 67.02,
+     "text": "To explore the region, local partners can arrange guided tours."
+    },
+    {
+     "start": 69.12,
+     "end": 73.56,
+     "text": "Wi-Fi is free in the main house, and each family stays in its own chalet,"
+    },
+    {
+     "start": 73.64,
+     "end": 78.48,
+     "text": "with a bedroom, a bathroom, air conditioning, a minibar, and a small kitchen."
+    },
+    {
+     "start": 80.52,
+     "end": 83.96,
+     "text": "This audio guide takes you to three points on the property:"
+    },
+    {
+     "start": 85.1,
+     "end": 88.46,
+     "text": "the reception and the garden, the panoramic veranda,"
+    },
+    {
+     "start": 88.68,
+     "end": 90.44,
+     "text": "and the cellar carved into the rock."
+    },
+    {
+     "start": 92.26,
+     "end": 97.06,
+     "text": "At each point, the narration begins on its own as soon as the screen opens."
+    },
+    {
+     "start": 98.72,
+     "end": 103.16,
+     "text": "To move ahead, tap the Next button at the bottom, or the illustration itself;"
+    },
+    {
+     "start": 104.82,
+     "end": 106.78,
+     "text": "to go back, use the Back button."
+    },
+    {
+     "start": 109.12,
+     "end": 110.34,
+     "text": "There is no rush:"
+    },
+    {
+     "start": 111.68,
+     "end": 113.72,
+     "text": "stay in each place as long as you like."
+    },
+    {
+     "start": 115.82,
+     "end": 117.1,
+     "text": "Here is our invitation:"
+    },
+    {
+     "start": 118.52,
+     "end": 121.18,
+     "text": "switch off from the world and give yourself this time,"
+    },
+    {
+     "start": 121.26,
+     "end": 124.58,
+     "text": "to rest with your family or to try new experiences."
+    },
+    {
+     "start": 126.14,
+     "end": 127.72,
+     "text": "You are very welcome."
+    }
+   ]
+  }
+ },
+ "produto": {
+  "pt": {
+   "duration": 70.87,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 3.64,
+     "text": "Esta é uma das formas de apresentar o nosso produto, o Guide For Me:"
+    },
+    {
+     "start": 5.92,
+     "end": 9.48,
+     "text": "um audioguia, um guia de apresentação para o seu empreendimento."
+    },
+    {
+     "start": 11.6,
+     "end": 16.32,
+     "text": "Serve para a sua instalação industrial, a sua pousada, o seu Airbnb, a sua loja,"
+    },
+    {
+     "start": 16.64,
+     "end": 18.48,
+     "text": "ou o seu produto à venda em um site."
+    },
+    {
+     "start": 20.84,
+     "end": 24.48,
+     "text": "Nossa arquitetura já suporta catorze idiomas, com narração,"
+    },
+    {
+     "start": 24.98,
+     "end": 27.74,
+     "text": "audiodescrição e suporte a pessoas com deficiência."
+    },
+    {
+     "start": 29.26,
+     "end": 32.14,
+     "text": "Hoje, português e inglês já estão em produção;"
+    },
+    {
+     "start": 33.66,
+     "end": 36.26,
+     "text": "os demais idiomas entram sob demanda."
+    },
+    {
+     "start": 38.46,
+     "end": 42.02,
+     "text": "Cada guia tem áudio nos idiomas escolhidos pelo visitante,"
+    },
+    {
+     "start": 42.48,
+     "end": 46.7,
+     "text": "legendas em alto contraste sincronizadas com a fala, avisos de segurança,"
+    },
+    {
+     "start": 46.78,
+     "end": 49.44,
+     "text": "e audiodescrição de cada trecho da foto."
+    },
+    {
+     "start": 51.5,
+     "end": 53.46,
+     "text": "Recomendamos uma sequência de dez fotos,"
+    },
+    {
+     "start": 53.54,
+     "end": 56.68,
+     "text": "com os idiomas mais convenientes para o seu público."
+    },
+    {
+     "start": 58.94,
+     "end": 60.78,
+     "text": "Consulte-nos com a sua demanda."
+    },
+    {
+     "start": 63.08,
+     "end": 67.78,
+     "text": "Teremos todo o prazer em ajudar a desenvolver essa solução feita só para você:"
+    },
+    {
+     "start": 69.02,
+     "end": 70.02,
+     "text": "o seu guia."
+    }
+   ]
+  },
+  "en": {
+   "duration": 67.58,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 3.76,
+     "text": "This is one of the ways we present our product, Guide For Me:"
+    },
+    {
+     "start": 5.58,
+     "end": 8.54,
+     "text": "an audioguide, a presentation guide for your venue."
+    },
+    {
+     "start": 10.7,
+     "end": 15.28,
+     "text": "It works for your industrial facility, your inn, your Airbnb, your store,"
+    },
+    {
+     "start": 15.62,
+     "end": 17.44,
+     "text": "or your product for sale on a website."
+    },
+    {
+     "start": 19.68,
+     "end": 24.08,
+     "text": "Our architecture already supports fourteen languages, with narration,"
+    },
+    {
+     "start": 24.6,
+     "end": 26.84,
+     "text": "audio description, and accessibility support."
+    },
+    {
+     "start": 28.94,
+     "end": 31.92,
+     "text": "Today, Portuguese and English are already live;"
+    },
+    {
+     "start": 33.36,
+     "end": 35.12,
+     "text": "the other languages come on demand."
+    },
+    {
+     "start": 37.46,
+     "end": 41.34,
+     "text": "Each guide has audio in the languages chosen by the visitor,"
+    },
+    {
+     "start": 41.74,
+     "end": 45.72,
+     "text": "high-contrast captions synced with the speech, safety warnings,"
+    },
+    {
+     "start": 46.14,
+     "end": 48.44,
+     "text": "and audio description of each part of the photo."
+    },
+    {
+     "start": 50.24,
+     "end": 52.74,
+     "text": "We recommend a sequence of ten photos,"
+    },
+    {
+     "start": 52.82,
+     "end": 55.62,
+     "text": "in the languages that suit your audience best."
+    },
+    {
+     "start": 57.86,
+     "end": 59.44,
+     "text": "Reach out with your needs."
+    },
+    {
+     "start": 61.7,
+     "end": 64.62,
+     "text": "We'll be glad to help develop this solution made just for you:"
+    },
+    {
+     "start": 65.94,
+     "end": 66.94,
+     "text": "your guide."
+    }
+   ]
+  }
+ }
+}

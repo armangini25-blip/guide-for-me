@@ -1,0 +1,154 @@
+:root{
+  --bg:#faf7f2; --surface:#ffffff; --text:#20242b; --text-muted:#5b6270;
+  --accent:#c9822a; --accent-dark:#9c5f18; --accent-2:#2e5266; --border:#e7e1d8;
+  --note-bg:#eef4f6; --note-border:#4f7f95; --note-text:#20424f;
+  --seg-bg:rgba(176,42,42,.82);
+  --iris-bg:rgba(34,120,60,.82);
+  --vista-bg:rgba(24,92,168,.78);
+  --shadow: 0 1px 3px rgba(30,20,5,0.08), 0 8px 24px rgba(30,20,5,0.06);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#171512; --surface:#211e1a; --text:#efe9de; --text-muted:#b3aa9c;
+    --accent:#e2a24f; --accent-dark:#f0b96e; --accent-2:#7fb2c9; --border:#3a352c;
+    --note-bg:#132a33; --note-border:#4f95ae; --note-text:#bfe3ef;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.35);
+  }
+}
+*{box-sizing:border-box;}
+html,body{height:100%;}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:"Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  line-height:1.5;
+  display:flex; align-items:center; justify-content:center; padding:24px 12px;
+}
+img{max-width:100%;}
+[hidden]{display:none !important;}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;}
+
+#app{
+  height:min(844px, 92vh); max-width:92vw; aspect-ratio:9/16; margin:0 auto;
+  background:var(--surface); box-shadow:var(--shadow); border-radius:40px; border:10px solid #131313;
+  display:flex; flex-direction:column; position:relative; overflow:hidden;
+}
+@media (max-width:480px){
+  body{ padding:0; }
+  #app{ width:100%; max-width:none; height:100vh; height:100dvh; aspect-ratio:auto; border:none; border-radius:0; box-shadow:none; margin:0; }
+}
+/* celular deitado (achado @advogado-do-diabo): max-width:480px só pega retrato — sem
+   isto, girar o telefone encolhia o app numa faixa estreita flutuando no meio da tela. */
+@media (max-height:500px) and (orientation:landscape){
+  body{ padding:0; }
+  #app{ width:100%; max-width:none; height:100vh; height:100dvh; aspect-ratio:auto; border:none; border-radius:0; box-shadow:none; margin:0; }
+}
+#app-screens{ flex:1; min-height:0; overflow-y:auto; position:relative; display:flex; flex-direction:column; }
+.screen{ display:none; flex:1; flex-direction:column; padding:20px 18px; }
+.screen.active{ display:flex; }
+
+@media (hover:hover) and (pointer:fine){
+  .btn:hover{ filter:brightness(1.06); }
+  .lang-card:hover{ border-color:var(--accent); }
+  .footer-btn:hover{ background:rgba(255,255,255,.08); }
+  .card:hover{ border-color:var(--accent);}
+  .card.premium:hover, .card.destaque:hover{ border-color:var(--accent-2);}
+  .payment-option:hover{ background:rgba(0,0,0,.06);}
+}
+
+/* topbar */
+.topbar{ display:flex; align-items:center; justify-content:center; padding:12px 16px; border-bottom:1px solid var(--border); background:var(--surface); position:sticky; top:0; z-index:20; }
+.topbar .brand{ font-weight:700; font-size:.95rem; color:var(--accent-dark); letter-spacing:.02em; }
+
+/* hero (anúncio) */
+.hero-entry{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:16px; padding:20px; }
+.hero-emoji{ font-size:2.4rem; }
+.hero-entry h1{ font-size:1.4rem; margin:0; }
+.hero-entry p{ color:var(--text-muted); font-size:.9rem; max-width:300px; }
+.anuncio-imagem{ width:min(220px,60%); border-radius:12px; }
+.ad-timer{ font-weight:700; font-size:1.1rem; color:var(--accent-dark); }
+
+/* botões base */
+.btn{ display:inline-flex; align-items:center; justify-content:center; gap:8px; border:none; border-radius:10px; padding:13px 20px; font-size:.95rem; font-weight:600; cursor:pointer; background:var(--accent); color:#241505; box-shadow:var(--shadow); }
+.btn.secondary{ background:var(--surface); color:var(--text); border:1px solid var(--border); }
+.btn.small{ padding:8px 14px; font-size:.82rem; }
+
+/* telas de config: título + subtítulo */
+.screen-title{ font-size:1.15rem; margin:0 0 4px; text-align:center; }
+.screen-sub{ color:var(--text-muted); font-size:.85rem; margin:0 0 14px; text-align:center; }
+
+/* grade de idiomas */
+#screen-lang{ justify-content:center; }
+.lang-grid{ display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-top:12px; }
+.lang-card{ height:69px; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:6px 8px; text-align:center; cursor:pointer; box-shadow:var(--shadow); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; font:inherit; color:inherit; width:100%; }
+.lang-card.selected{ border-color:var(--accent); border-width:2px; }
+.lang-card .flag{ flex:2; display:flex; align-items:center; justify-content:center; min-height:0; }
+.lang-card .flag svg{ width:40px; height:27px; border:1px solid rgba(0,0,0,.12); border-radius:2px; display:block; }
+.lang-card .name{ font-size:.66rem; color:var(--text-muted); flex:1; line-height:1.15; }
+.lang-notice{ background:var(--note-bg); border:1px solid var(--note-border); color:var(--note-text); border-radius:8px; padding:8px 10px; font-size:.78rem; margin-top:10px; }
+
+/* cards (modo / plano / final) */
+.cards{ flex:1; display:flex; flex-direction:column; justify-content:center; gap:12px; }
+.card{ background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:18px 16px; text-align:left; cursor:pointer; box-shadow:var(--shadow); font:inherit; color:inherit; width:100%; }
+.card.selected{ border-color:var(--accent); border-width:2px; }
+.card.premium.selected, .card.destaque.selected{ border-color:var(--accent-2); }
+.card-icon{ font-size:1.6rem; display:block; margin-bottom:6px; }
+.card h3{ margin:0 0 4px; font-size:1rem; }
+.card p{ margin:0; color:var(--text-muted); font-size:.84rem; }
+
+/* pagamento */
+.payment-card{ flex:1; display:flex; flex-direction:column; justify-content:center; gap:10px; max-width:340px; margin:0 auto; width:100%; }
+.payment-kicker{ margin:0; color:var(--text-muted); font-size:.8rem; }
+.payment-title{ margin:0 0 8px; font-size:1.5rem; text-transform:lowercase; }
+.payment-valor{ margin:0 0 10px; color:var(--text-muted); font-size:.8rem; }
+.payment-option{ display:flex; align-items:center; gap:10px; border:1px solid var(--border); border-radius:10px; padding:12px 14px; background:var(--surface); font:inherit; color:inherit; width:100%; cursor:pointer; box-shadow:var(--shadow); }
+.payment-icon{ font-size:1.1rem; }
+.payment-status{ background:var(--note-bg); border:1px solid var(--note-border); color:var(--note-text); border-radius:8px; padding:10px; font-size:.85rem; text-align:center; }
+
+/* vista-media (foto do ponto) */
+.vista-media{ position:relative; width:100%; aspect-ratio:4/3; border-radius:16px; overflow:hidden; background:#0002; box-shadow:var(--shadow); }
+.media-fill{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:inherit; z-index:0; }
+.vista-media .label{ position:absolute; left:10px; bottom:10px; z-index:2; background:rgba(0,0,0,.55); color:#fff; font-size:.8rem; padding:4px 9px; border-radius:8px; max-width:75%; transition:opacity .4s; }
+.vista-media .label.oculto{ opacity:0; }
+.tarja-seg{ position:absolute; left:0; right:0; bottom:0; z-index:3; background:var(--seg-bg); color:#fff; font-size:.82rem; font-weight:600; text-align:center; padding:7px 10px; transition:transform .35s, opacity .35s; }
+.tarja-seg.tarja-oculta{ transform:translateY(100%); opacity:0; }
+/* tarja verde — toca durante a camada iris (audiodescrição), 10s (ver mostrarTarjaIris em guia.js) */
+.tarja-iris{ position:absolute; left:0; right:0; bottom:0; z-index:3; background:var(--iris-bg); color:#fff; font-size:.82rem; font-weight:600; text-align:center; padding:7px 10px; transition:transform .35s, opacity .35s; }
+.tarja-iris.tarja-oculta{ transform:translateY(100%); opacity:0; }
+/* tarja azul — "vista aumentada", no rodapé do quadro da sequência de storyboard (@foco) */
+.tarja-vista{ position:absolute; left:0; right:0; bottom:0; z-index:3; background:var(--vista-bg); color:#fff; font-size:.82rem; font-weight:600; text-align:center; padding:7px 10px; transition:transform .35s, opacity .35s; }
+.tarja-vista.tarja-oculta{ transform:translateY(100%); opacity:0; }
+.vista-media-tap{ position:absolute; inset:0; z-index:4; background:transparent; border:0; cursor:pointer; }
+.vista-media-tap:disabled{ cursor:default; }
+
+/* área inferior: player + legenda + descrição */
+.vista-lower{ display:flex; flex-direction:column; gap:10px; padding-top:14px; }
+.vista-titulo{ font-size:.86rem; }
+.mini-player{ display:flex; align-items:center; gap:10px; }
+.mini-player-btn{ width:36px; height:36px; border-radius:50%; border:1px solid var(--border); background:var(--surface); font-size:.9rem; cursor:pointer; flex-shrink:0; }
+.mini-player-btn.autoplay-blocked{ border-color:var(--accent); color:var(--accent-dark); }
+.mini-player-track{ flex:1; height:5px; background:var(--border); border-radius:3px; overflow:hidden; }
+.mini-player-progress{ height:100%; width:0; background:var(--accent); }
+.caption-box{ min-height:2.6em; background:#000; color:#fff; border-radius:10px; padding:10px 12px; font-size:.9rem; line-height:1.35; text-align:center; }
+.ponto-descricao{ margin:0; color:var(--text-muted); font-size:.86rem; white-space:pre-wrap; }
+.alert{ border-radius:8px; padding:9px 11px; font-size:.82rem; }
+.alert-note{ background:var(--note-bg); border:1px solid var(--note-border); color:var(--note-text); }
+
+/* modal */
+.modal-overlay{ position:absolute; inset:0; z-index:50; background:rgba(0,0,0,.5); display:flex; align-items:center; justify-content:center; padding:24px; }
+.modal-box{ background:var(--surface); border-radius:16px; padding:22px 20px; max-width:300px; text-align:center; display:flex; flex-direction:column; gap:8px; box-shadow:var(--shadow); }
+.modal-box .big{ font-size:2rem; }
+.modal-box h4{ margin:0; font-size:.95rem; }
+.modal-row{ display:flex; gap:10px; margin-top:6px; }
+.modal-row .btn{ flex:1; }
+
+/* rodapé global */
+.global-footer{ display:flex; border-top:1px solid var(--border); background:var(--surface); flex-shrink:0; }
+.footer-btn{ flex:1; display:flex; flex-direction:column; align-items:center; gap:2px; padding:9px 4px; background:transparent; border:0; color:var(--text-muted); font-size:.72rem; cursor:pointer; }
+.footer-btn .ic{ font-size:1rem; }
+.footer-btn:disabled{ opacity:.35; cursor:default; }
+
+/* tela produto: pan horizontal infinito em vaivém (direita→esquerda→direita…),
+   para até a tela sair de vista (troca de .screen para display:none). */
+@keyframes produto-pan{ from{ object-position:100% 50%; } to{ object-position:0% 50%; } }
+.produto-pan{ animation:produto-pan 22s ease-in-out infinite alternate; }
+@media (prefers-reduced-motion: reduce){ .produto-pan{ animation:none; object-position:50% 50%; } }

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Ilustração: varanda de pedra sobre um vale de vinhedos em curvas de nível, serra ao fundo, névoa da manhã">
+  <defs>
+    <linearGradient id="p2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe0e6"/><stop offset="0.55" stop-color="#e7ecdf"/><stop offset="1" stop-color="#f2eee0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#p2sky)"/>
+  <!-- serra ao fundo -->
+  <path d="M0 300 L220 180 L430 290 L660 160 L900 280 L1200 190 L1200 520 L0 520 Z" fill="#7f96a6" opacity="0.45"/>
+  <path d="M0 360 L300 250 L620 350 L940 240 L1200 340 L1200 540 L0 540 Z" fill="#657f8f" opacity="0.55"/>
+  <!-- vale -->
+  <rect y="340" width="1200" height="460" fill="#8a9d5e"/>
+  <!-- rio -->
+  <path d="M480 800 C 540 640, 700 600, 760 460 C 790 400, 740 360, 780 340 L 860 340 C 830 380, 880 430, 850 480 C 800 600, 660 660, 640 800 Z" fill="#a9c3cf" opacity="0.9"/>
+  <!-- vinhedos em curvas de nível -->
+  <g fill="none" stroke="#5f7440" stroke-width="6" stroke-linecap="round" opacity="0.85">
+    <path d="M0 430 C 300 400, 700 470, 1200 420"/>
+    <path d="M0 480 C 300 450, 700 520, 1200 470"/>
+    <path d="M0 535 C 300 505, 700 575, 1200 525"/>
+    <path d="M0 595 C 300 565, 700 635, 1200 585"/>
+    <path d="M0 660 C 300 630, 700 700, 1200 650"/>
+  </g>
+  <!-- névoa -->
+  <ellipse cx="600" cy="410" rx="720" ry="46" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="820" cy="470" rx="500" ry="34" fill="#ffffff" opacity="0.35"/>
+  <!-- varanda: piso + guarda-corpo de pedra + cadeira de vime -->
+  <rect y="690" width="1200" height="110" fill="#c9bda6"/>
+  <rect y="690" width="1200" height="14" fill="#b3a686"/>
+  <g fill="#a99a7c">
+    <rect x="0" y="620" width="1200" height="20"/>
+    <rect x="60" y="640" width="26" height="52"/><rect x="300" y="640" width="26" height="52"/><rect x="540" y="640" width="26" height="52"/>
+    <rect x="780" y="640" width="26" height="52"/><rect x="1020" y="640" width="26" height="52"/>
+  </g>
+  <g transform="translate(880,600)" fill="none" stroke="#8a6b3e" stroke-width="7" stroke-linecap="round">
+    <path d="M20 120 L10 40 Q60 0 110 40 L100 120"/>
+    <path d="M14 78 H106 M18 56 H102"/>
+    <line x1="20" y1="120" x2="20" y2="150"/><line x1="100" y1="120" x2="100" y2="150"/>
+  </g>
+</svg>

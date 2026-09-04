@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder plano medio: campos de videiras carregadas de uvas, cavalos mansos num caminho ao lado">
+  <defs>
+    <linearGradient id="ap02sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe0bf"/><stop offset="1" stop-color="#dccfa2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#ap02sky)"/>
+  <path d="M0 250 L300 170 L650 250 L1000 160 L1200 240 L1200 420 L0 420 Z" fill="#8a9a86" opacity="0.5"/>
+  <rect y="330" width="1200" height="470" fill="#7f9550"/>
+  <g fill="none" stroke="#4e6535" stroke-width="10" stroke-linecap="round">
+    <path d="M-20 400 C 300 370, 700 440, 1220 390"/>
+    <path d="M-20 460 C 300 430, 700 500, 1220 450"/>
+    <path d="M-20 530 C 300 500, 700 570, 1220 520"/>
+    <path d="M-20 610 C 300 580, 700 650, 1220 600"/>
+  </g>
+  <g fill="#5b3f8c" opacity="0.8">
+    <circle cx="180" cy="405" r="9"/><circle cx="420" cy="430" r="9"/><circle cx="720" cy="470" r="9"/><circle cx="980" cy="440" r="9"/>
+  </g>
+  <!-- caminho de terra + cavalos -->
+  <path d="M0 720 C 350 690, 800 760, 1200 700 L1200 800 L0 800 Z" fill="#b79a6d"/>
+  <g fill="#5a3d28">
+    <path d="M250 690 h70 v-34 h-12 l-8 -20 h-14 l-6 20 h-10 z"/>
+    <rect x="256" y="690" width="8" height="26"/><rect x="308" y="690" width="8" height="26"/>
+    <path d="M243 662 l-14 -10 l6 16 z"/>
+  </g>
+  <g fill="#6b4a30">
+    <path d="M360 700 h64 v-32 h-11 l-7 -18 h-13 l-6 18 h-8 z"/>
+    <rect x="366" y="700" width="7" height="24"/><rect x="410" y="700" width="7" height="24"/>
+  </g>
+  <text x="30" y="770" font-family="sans-serif" font-size="26" fill="#3c3320" opacity="0.8">PLACEHOLDER 02 - videiras + cavalos (plano medio)</text>
+</svg>

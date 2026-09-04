@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder plano medio: os tres pontos da visita - recepcao e jardim, varanda panoramica, adega na rocha">
+  <rect width="1200" height="800" fill="#e7dcc2"/>
+  <!-- tres faixas -->
+  <g>
+    <rect x="0" y="0" width="400" height="800" fill="#e2b58d"/>
+    <rect x="400" y="0" width="400" height="800" fill="#cfd8c4"/>
+    <rect x="800" y="0" width="400" height="800" fill="#3a2d20"/>
+  </g>
+  <!-- 1: recepcao + lavanda -->
+  <g transform="translate(70,300)">
+    <polygon points="0,120 260,120 230,60 30,60" fill="#a8532e"/>
+    <rect x="30" y="120" width="200" height="150" fill="#f3e8d7"/>
+    <rect x="115" y="180" width="40" height="90" fill="#6b4a2f"/>
+    <g stroke="#7c5aa6" stroke-width="9" stroke-linecap="round"><line x1="10" y1="320" x2="16" y2="292"/><line x1="70" y1="330" x2="76" y2="302"/><line x1="140" y1="330" x2="146" y2="302"/><line x1="210" y1="322" x2="216" y2="294"/></g>
+  </g>
+  <!-- 2: varanda panoramica -->
+  <g transform="translate(430,330)">
+    <rect x="0" y="230" width="340" height="60" fill="#c9bda6"/>
+    <rect x="0" y="210" width="340" height="14" fill="#a99a7c"/>
+    <g fill="none" stroke="#5f7440" stroke-width="6" stroke-linecap="round" opacity="0.85">
+      <path d="M0 120 C 90 100, 250 150, 340 110"/>
+      <path d="M0 160 C 90 140, 250 190, 340 150"/>
+    </g>
+    <path d="M0 60 L110 20 L230 60 L340 25 L340 120 L0 120 Z" fill="#7f96a6" opacity="0.5"/>
+  </g>
+  <!-- 3: adega na rocha -->
+  <g transform="translate(830,330)">
+    <path d="M40 300 L40 120 Q170 40 300 120 L300 300 Z" fill="none" stroke="#5a4632" stroke-width="10"/>
+    <g transform="translate(120,170)"><ellipse cx="50" cy="70" rx="52" ry="66" fill="#6b3f22"/><ellipse cx="50" cy="70" rx="36" ry="66" fill="#834e2b"/><rect x="0" y="30" width="100" height="10" fill="#3a2412"/><rect x="0" y="100" width="100" height="10" fill="#3a2412"/></g>
+  </g>
+  <text x="30" y="770" font-family="sans-serif" font-size="24" fill="#f3ead9" opacity="0.9">PLACEHOLDER 07 - tres pontos da visita (plano medio)</text>
+</svg>

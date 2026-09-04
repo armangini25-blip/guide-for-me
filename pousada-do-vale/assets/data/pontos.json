@@ -1,0 +1,128 @@
+[
+ {
+  "id": "p1",
+  "nome": {
+   "pt-br": "Recepção e Jardim",
+   "pt-pt": "Recepção e Jardim",
+   "en-us": "Reception and Garden",
+   "en-gb": "Reception and Garden",
+   "es-es": "Recepção e Jardim",
+   "es-ar": "Recepção e Jardim",
+   "fr-fr": "Recepção e Jardim",
+   "de-de": "Recepção e Jardim",
+   "it-it": "Recepção e Jardim",
+   "zh-cn": "Recepção e Jardim",
+   "zh-tw": "Recepção e Jardim",
+   "ja-jp": "Recepção e Jardim",
+   "ru-ru": "Recepção e Jardim",
+   "ar-ma": "Recepção e Jardim"
+  },
+  "foto": "assets/img/p1.svg",
+  "descricao": {
+   "pt-br": "A recepção fica na antiga casa grande da fazenda. Sinta o cheiro da lavanda do jardim e da madeira encerada do alpendre.",
+   "pt-pt": "",
+   "en-us": "The reception sits in the farm's old main house. Take in the scent of lavender from the garden and the waxed wood of the porch.",
+   "en-gb": "",
+   "es-es": "",
+   "es-ar": "",
+   "fr-fr": "",
+   "de-de": "",
+   "it-it": "",
+   "zh-cn": "",
+   "zh-tw": "",
+   "ja-jp": "",
+   "ru-ru": "",
+   "ar-ma": ""
+  },
+  "camadas": {
+   "turistica": true,
+   "seguranca": true,
+   "iris": true
+  },
+  "foto_prompt": "casa colonial de fazenda restaurada, alpendre de madeira, jardim de lavanda ao entardecer, luz dourada, fotografia arquitetônica realista"
+ },
+ {
+  "id": "p2",
+  "nome": {
+   "pt-br": "Varanda Panorâmica",
+   "pt-pt": "Varanda Panorâmica",
+   "en-us": "Panoramic Veranda",
+   "en-gb": "Panoramic Veranda",
+   "es-es": "Varanda Panorâmica",
+   "es-ar": "Varanda Panorâmica",
+   "fr-fr": "Varanda Panorâmica",
+   "de-de": "Varanda Panorâmica",
+   "it-it": "Varanda Panorâmica",
+   "zh-cn": "Varanda Panorâmica",
+   "zh-tw": "Varanda Panorâmica",
+   "ja-jp": "Varanda Panorâmica",
+   "ru-ru": "Varanda Panorâmica",
+   "ar-ma": "Varanda Panorâmica"
+  },
+  "foto": "assets/img/p2.svg",
+  "descricao": {
+   "pt-br": "Da varanda o vale inteiro se abre: os vinhedos em curvas de nível, a serra ao fundo e, de manhã, a névoa que sobe do rio.",
+   "pt-pt": "",
+   "en-us": "From the veranda the whole valley opens up: vineyards in contour lines, the mountains behind, and in the morning, mist rising from the river.",
+   "en-gb": "",
+   "es-es": "",
+   "es-ar": "",
+   "fr-fr": "",
+   "de-de": "",
+   "it-it": "",
+   "zh-cn": "",
+   "zh-tw": "",
+   "ja-jp": "",
+   "ru-ru": "",
+   "ar-ma": ""
+  },
+  "camadas": {
+   "turistica": true,
+   "seguranca": true,
+   "iris": true
+  },
+  "foto_prompt": "varanda de pedra sobre um vale de vinhedos, cadeiras de vime, montanhas ao fundo, névoa da manhã, luz suave"
+ },
+ {
+  "id": "p3",
+  "nome": {
+   "pt-br": "Adega",
+   "pt-pt": "Adega",
+   "en-us": "Wine Cellar",
+   "en-gb": "Wine Cellar",
+   "es-es": "Adega",
+   "es-ar": "Adega",
+   "fr-fr": "Adega",
+   "de-de": "Adega",
+   "it-it": "Adega",
+   "zh-cn": "Adega",
+   "zh-tw": "Adega",
+   "ja-jp": "Adega",
+   "ru-ru": "Adega",
+   "ar-ma": "Adega"
+  },
+  "foto": "assets/img/p3.svg",
+  "descricao": {
+   "pt-br": "A adega foi escavada na rocha há mais de cem anos. A temperatura é constante o ano todo e o silêncio é quase total.",
+   "pt-pt": "",
+   "en-us": "The wine cellar was cut into the rock over a hundred years ago. The temperature stays constant year-round, and the silence is almost complete.",
+   "en-gb": "",
+   "es-es": "",
+   "es-ar": "",
+   "fr-fr": "",
+   "de-de": "",
+   "it-it": "",
+   "zh-cn": "",
+   "zh-tw": "",
+   "ja-jp": "",
+   "ru-ru": "",
+   "ar-ma": ""
+  },
+  "camadas": {
+   "turistica": true,
+   "seguranca": true,
+   "iris": true
+  },
+  "foto_prompt": "adega subterrânea abobadada, barris de carvalho, luz de vela quente, paredes de pedra úmida"
+ }
+]
