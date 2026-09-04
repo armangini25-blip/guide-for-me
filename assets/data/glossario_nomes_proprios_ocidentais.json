@@ -1,0 +1,115 @@
+{
+  "_nota": "Build 2026-08-17 (pedido do CEO) — glossário de nomes próprios/pontos turísticos do Rio para os 7 idiomas de escrita OCIDENTAL (en, en-gb, es, es-ar, fr, de-de, it). Reverte a instrução anterior de MANTER esses nomes em português nos roteiros — agora usa a forma como cada país de origem do idioma realmente chama o lugar (mesmo princípio do glossário usado para os idiomas de escrita não-ocidental, ver C:\\Users\\europ\\Downloads\\pontos_turisticos_rio.pdf, que cobre só japonês/russo/árabe/cantonês — este arquivo é o equivalente pesquisado para os idiomas ocidentais, que não estavam nesse PDF). Pesquisado via WebSearch (fontes turísticas/Wikipedia em cada idioma) em 17/08/2026. NÃO mexe nos arquivos de idioma não-ocidental (zh-cn, zh-tw, ja-jp, ru-ru, ar-ma) nem em nenhum arquivo de áudio — só texto das 7 variantes ocidentais.",
+  "pontos": [
+    {
+      "pt": "Pão de Açúcar",
+      "en": "Sugarloaf Mountain",
+      "en-gb": "Sugarloaf Mountain",
+      "es": "Pan de Azúcar",
+      "es-ar": "Pan de Azúcar",
+      "fr": "le Pain de Sucre",
+      "de-de": "der Zuckerhut",
+      "it": "il Pan di Zucchero",
+      "nota": "Nome consagrado em turismo internacional nos 5 idiomas — confirmado via busca cruzada (Wikipedia/sites de turismo). ATENÇÃO: não confundir com o nome histórico da empresa \"Companhia Caminho Aéreo Pão de Açúcar\" (mirante01) — esse nome próprio de empresa NÃO se traduz, fica em português em qualquer idioma."
+    },
+    {
+      "pt": "Morro da Urca",
+      "en": "Urca Hill",
+      "en-gb": "Urca Hill",
+      "es": "Cerro de Urca",
+      "es-ar": "Cerro de Urca",
+      "fr": "la colline de l'Urca",
+      "de-de": "der Urca-Hügel",
+      "it": "la collina di Urca",
+      "nota": "\"Urca\" é nome de bairro/local, não traduz — confirmado \"Urca Hill\" como nome oficial em inglês via \"Sugarloaf Mountain and Urca Hill Natural Monument\" (unidade de conservação). Só a parte genérica (morro/hill/cerro/colline/Hügel/collina) traduz."
+    },
+    {
+      "pt": "Cristo Redentor",
+      "en": "Christ the Redeemer",
+      "en-gb": "Christ the Redeemer",
+      "es": "Cristo Redentor",
+      "es-ar": "Cristo Redentor",
+      "fr": "le Christ Rédempteur",
+      "de-de": "Christus der Erlöser",
+      "it": "il Cristo Redentore",
+      "nota": "Espanhol já usa a mesma forma do português (cognato direto), sem mudança."
+    },
+    {
+      "pt": "Baía de Guanabara",
+      "en": "Guanabara Bay",
+      "en-gb": "Guanabara Bay",
+      "es": "Bahía de Guanabara",
+      "es-ar": "Bahía de Guanabara",
+      "fr": "la baie de Guanabara",
+      "de-de": "die Guanabara-Bucht",
+      "it": "la baia di Guanabara",
+      "nota": "\"Guanabara\" não traduz (nome tupi); só a parte genérica (baía/bay/bahía/baie/Bucht/baia) traduz."
+    },
+    {
+      "pt": "Praia de Copacabana",
+      "en": "Copacabana Beach",
+      "en-gb": "Copacabana Beach",
+      "es": "Playa de Copacabana",
+      "es-ar": "Playa de Copacabana",
+      "fr": "la plage de Copacabana",
+      "de-de": "der Copacabana-Strand",
+      "it": "la spiaggia di Copacabana",
+      "nota": "\"Copacabana\" não traduz; usar também quando o roteiro citar só \"Copacabana\" sem a palavra praia."
+    },
+    {
+      "pt": "Praia Vermelha",
+      "en": "Red Beach",
+      "en-gb": "Red Beach",
+      "es": "Playa Roja",
+      "es-ar": "Playa Roja",
+      "fr": "la plage Rouge",
+      "de-de": "der Rote Strand",
+      "it": "la spiaggia Rossa",
+      "nota": "\"Red Beach\" é o nome usado em fontes turísticas em inglês (Lonely Planet, Tripadvisor) — confirmado via busca. Em espanhol também circula \"Playa Vermelha\" (forma híbrida) em alguns sites, mas \"Playa Roja\" é a tradução direta e mais clara para o roteiro."
+    },
+    {
+      "pt": "Pedra da Gávea",
+      "en": "Pedra da Gávea",
+      "en-gb": "Pedra da Gávea",
+      "es": "Pedra da Gávea",
+      "es-ar": "Pedra da Gávea",
+      "fr": "Pedra da Gávea",
+      "de-de": "Pedra da Gávea",
+      "it": "Pedra da Gávea",
+      "nota": "MANTIDO em todos os idiomas — não existe forma traduzida consagrada em nenhuma fonte turística/enciclopédica consultada (nem em inglês); o próprio PDF de referência para idiomas não-ocidentais transliterou em vez de traduzir. Consistente com o padrão: nome próprio geográfico sem tradução internacional estabelecida."
+    },
+    {
+      "pt": "Morro Cara de Cão",
+      "en": "Morro Cara de Cão",
+      "en-gb": "Morro Cara de Cão",
+      "es": "Morro Cara de Cão",
+      "es-ar": "Morro Cara de Cão",
+      "fr": "Morro Cara de Cão",
+      "de-de": "Morro Cara de Cão",
+      "it": "Morro Cara de Cão",
+      "nota": "MANTIDO — mesmo raciocínio de Pedra da Gávea: sem forma traduzida consagrada em uso real (fontes em inglês mantêm o nome português mesmo explicando o significado \"Dog's Face\")."
+    },
+    {
+      "pt": "Enseada de Botafogo",
+      "en": "Botafogo Cove",
+      "en-gb": "Botafogo Cove",
+      "es": "Ensenada de Botafogo",
+      "es-ar": "Ensenada de Botafogo",
+      "fr": "l'anse de Botafogo",
+      "de-de": "die Botafogo-Bucht",
+      "it": "l'insenatura di Botafogo",
+      "nota": "\"Botafogo\" é bairro, não traduz; só a parte genérica (enseada/cove/ensenada/anse/Bucht/insenatura) traduz."
+    },
+    {
+      "pt": "Morro da Babilônia",
+      "en": "Babylon Hill",
+      "en-gb": "Babylon Hill",
+      "es": "Cerro de Babilonia",
+      "es-ar": "Cerro de Babilonia",
+      "fr": "la colline de Babylone",
+      "de-de": "der Babylon-Hügel",
+      "it": "la collina di Babilonia",
+      "nota": "\"Babilônia\"/\"Babylon\" tem forma consagrada em todo idioma ocidental (a cidade histórica) — segue o padrão de tradução completa, diferente de Urca/Botafogo/Cara de Cão/Gávea, que são nomes sem tradução internacional."
+    }
+  ]
+}

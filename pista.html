@@ -13,7 +13,7 @@
      não substitui a sanitização em si. -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';">
 <title>Pista Cláudio Coutinho</title>
-<link rel="stylesheet" href="assets/css/app.css?v=2026-08-29.16">
+<link rel="stylesheet" href="assets/css/app.css?v=2026-09-03.4">
 </head>
 <body>
 
@@ -159,6 +159,10 @@
     <div id="vista-media" class="vista-media">
       <img id="vista-media-photo" src="" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:inherit; z-index:0;">
       <span id="vista-media-label" class="label">Você não está lá. Ainda.</span>
+      <!-- Build 2026-09-02 (pedido do CEO): tarja vermelha translúcida com "Áudio de segurança"
+           (letra branca) na base da foto por 5s, sempre que uma narração de segurança/aviso começa
+           a tocar — nos dois modos. Mesmo lugar/mecânica do rótulo do nome do lugar, só muda a cor. -->
+      <span id="tarja-seguranca" class="tarja-seg tarja-oculta" aria-live="polite">Áudio de segurança</span>
       <!-- Build 2026-08-28 (pedido do CEO): card invisível sobre a foto, só nas Paradas 1-9 (ativado/
            desativado em renderPonto()/renderPontoBonus()/renderConvite()) — tocar na paisagem faz
            exatamente o que o botão "Seguir" do rodapé faz, nenhuma lógica nova. Sem label/foco de
@@ -238,6 +242,6 @@
 
 </div>
 
-<script src="assets/js/pista.js?v=2026-08-29.16"></script>
+<script src="assets/js/pista.js?v=2026-09-03.4"></script>
 </body>
 </html>

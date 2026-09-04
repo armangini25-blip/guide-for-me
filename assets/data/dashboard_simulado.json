@@ -1,0 +1,52 @@
+{
+  "aviso": "DADOS SIMULADOS — histórico fabricado de 5 dias para demonstração do protótipo. Nenhum valor abaixo vem de uso real do sistema.",
+  "periodo": "2026-07-17 a 2026-07-21",
+  "dias": [
+    {
+      "data": "2026-07-17",
+      "visitantes_total": 1842,
+      "idiomas": {"Português": 812, "Inglês": 431, "Espanhol": 268, "Francês": 96, "Alemão": 71, "Italiano": 58, "Mandarim": 44, "Japonês": 31, "Russo": 19, "Árabe": 12},
+      "circuitos_visitas": {"1 - Entrada": 1842, "2 - Morro da Urca": 1701, "3 - Pão de Açúcar": 1622, "4 - Pista Cláudio Coutinho": 588},
+      "tempo_medio_permanencia_min": 94,
+      "adesao_produto": {"1 - Locado": 0, "2 - Grátis": 1301, "3 - Premium": 187, "4 - Pista sem bilhete": 354},
+      "engajamento_brinde_pct": 22.4
+    },
+    {
+      "data": "2026-07-18",
+      "visitantes_total": 1968,
+      "idiomas": {"Português": 855, "Inglês": 468, "Espanhol": 279, "Francês": 104, "Alemão": 79, "Italiano": 61, "Mandarim": 51, "Japonês": 35, "Russo": 22, "Árabe": 14},
+      "circuitos_visitas": {"1 - Entrada": 1968, "2 - Morro da Urca": 1834, "3 - Pão de Açúcar": 1755, "4 - Pista Cláudio Coutinho": 601},
+      "tempo_medio_permanencia_min": 97,
+      "adesao_produto": {"1 - Locado": 0, "2 - Grátis": 1389, "3 - Premium": 204, "4 - Pista sem bilhete": 375},
+      "engajamento_brinde_pct": 24.1
+    },
+    {
+      "data": "2026-07-19",
+      "visitantes_total": 2415,
+      "idiomas": {"Português": 998, "Inglês": 589, "Espanhol": 341, "Francês": 138, "Alemão": 96, "Italiano": 79, "Mandarim": 68, "Japonês": 46, "Russo": 33, "Árabe": 27},
+      "circuitos_visitas": {"1 - Entrada": 2415, "2 - Morro da Urca": 2288, "3 - Pão de Açúcar": 2190, "4 - Pista Cláudio Coutinho": 742},
+      "tempo_medio_permanencia_min": 102,
+      "adesao_produto": {"1 - Locado": 0, "2 - Grátis": 1712, "3 - Premium": 265, "4 - Pista sem bilhete": 438},
+      "engajamento_brinde_pct": 27.8
+    },
+    {
+      "data": "2026-07-20",
+      "visitantes_total": 2201,
+      "idiomas": {"Português": 921, "Inglês": 542, "Espanhol": 312, "Francês": 121, "Alemão": 89, "Italiano": 70, "Mandarim": 61, "Japonês": 41, "Russo": 28, "Árabe": 16},
+      "circuitos_visitas": {"1 - Entrada": 2201, "2 - Morro da Urca": 2079, "3 - Pão de Açúcar": 1986, "4 - Pista Cláudio Coutinho": 695},
+      "tempo_medio_permanencia_min": 99,
+      "adesao_produto": {"1 - Locado": 0, "2 - Grátis": 1558, "3 - Premium": 241, "4 - Pista sem bilhete": 402},
+      "engajamento_brinde_pct": 25.6
+    },
+    {
+      "data": "2026-07-21",
+      "visitantes_total": 1755,
+      "idiomas": {"Português": 749, "Inglês": 402, "Espanhol": 246, "Francês": 91, "Alemão": 63, "Italiano": 52, "Mandarim": 39, "Japonês": 28, "Russo": 17, "Árabe": 10},
+      "circuitos_visitas": {"1 - Entrada": 1755, "2 - Morro da Urca": 1633, "3 - Pão de Açúcar": 1549, "4 - Pista Cláudio Coutinho": 561},
+      "tempo_medio_permanencia_min": 91,
+      "adesao_produto": {"1 - Locado": 0, "2 - Grátis": 1244, "3 - Premium": 173, "4 - Pista sem bilhete": 338},
+      "engajamento_brinde_pct": 21.2
+    }
+  ],
+  "nota_produto_1": "Adesão do Produto 1 (Locado) simulada em 0 porque, na v1.0 do roadmap (seção 1.4 do plano), o aparelho físico ainda não foi lançado — só entra na v2.0. Não é bug do painel, é fidelidade ao roadmap."
+}

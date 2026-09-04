@@ -234,6 +234,17 @@ body{ display:flex; align-items:center; justify-content:center; padding:24px 12p
 }
 #screen-percurso .vista-media .label.label-oculto,
 #screen-apresentacao .vista-media .label.label-oculto{ opacity:0; }
+/* Build 2026-09-02 (pedido do CEO): tarja vermelha translúcida, letra branca, na base da foto por
+   5s quando toca uma narração de segurança/aviso — mesmo lugar do rótulo do nome do lugar, cor
+   diferente. z-index acima do rótulo pra vencer se os 5s se sobrepuserem. */
+#screen-percurso .vista-media .tarja-seg{
+  position:absolute; left:0; right:0; bottom:0; z-index:3;
+  background:rgba(200,32,32,.74);
+  color:#fff; font-weight:700; font-size:.92rem; text-align:center;
+  padding:10px 14px; text-shadow:none;
+  opacity:1; transition:opacity .5s ease;
+}
+#screen-percurso .vista-media .tarja-seg.tarja-oculta{ opacity:0; pointer-events:none; }
 .vista-media .note{ position:absolute; bottom:8px; left:8px; right:8px; font-size:.6rem; opacity:.9; background:rgba(0,0,0,.35); border-radius:6px; padding:5px 8px;}
 /* Build 2026-08-28 (pedido do CEO): card invisível sobre a foto da Parada (Paradas 1-9 só) — tocar
    funciona como o botão "Seguir" do rodapé. Desativado (via atributo disabled) fora das Paradas
