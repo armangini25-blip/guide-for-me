@@ -16,7 +16,7 @@
 // HTTP comum do navegador (não o service worker — esse já tinha sido corrigido) pode segurar uma
 // cópia velha de pista.js/app.js mesmo com o HTML novo sendo servido, e o JS velho tenta mexer em
 // elementos que o HTML novo já removeu → TypeError, app trava inteiro depois da tela de idioma.
-const DATA_VERSION = "2026-09-03.4";
+const DATA_VERSION = "2026-09-06.1";
 
 const FLAG_SVG = {
   "pt-br": `<svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#009739"/><polygon points="1.5,0.22 2.82,1 1.5,1.78 0.18,1" fill="#FEDD00"/><circle cx="1.5" cy="1" r="0.5" fill="#012169"/></svg>`,
