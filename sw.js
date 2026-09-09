@@ -9,7 +9,7 @@
 // Versionar CACHE_NAME junto com DATA_VERSION (app.js/pista.js) sempre que um deploy mudar
 // conteúdo de forma que o cache antigo devesse ser descartado — caches com nome antigo são
 // apagados automaticamente no "activate".
-const CACHE_NAME = "guide-for-me-v2026-08-29.16";
+const CACHE_NAME = "guide-for-me-v2026-09-08.1";
 
 self.addEventListener("install", () => {
   self.skipWaiting();

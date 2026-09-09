@@ -15,7 +15,7 @@
 // `<link href="assets/css/app.css?v=...">` em index.html a cada deploy — sem isso, o cache HTTP
 // comum do navegador pode segurar JS velho mesmo com HTML novo, causando TypeError em elemento que
 // o HTML já não tem mais.
-const DATA_VERSION = "2026-08-29.16";
+const DATA_VERSION = "2026-09-08.1";
 
 // Windows (Segoe UI Emoji) não renderiza bandeiras Unicode como imagem — mostra o código
 // de duas letras (ex.: "BR"). Testado neste protótipo via Playwright headless no Windows.
